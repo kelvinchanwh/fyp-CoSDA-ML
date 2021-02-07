@@ -34,7 +34,7 @@ Multi-lingual contextualized embeddings, such as multilingual-BERT (mBERT), have
 > + torch==1.1.0
 > + numpy==1.17.2
 > + tqdm==4.36.1
-> + transformer==2.3.0
+> + transformers==2.3.0
 > + pytorch_transformers==1.2.0
 
 Please note that because we finished the BERT and XLM experiments at different time, the version of transformers used is different.
