@@ -112,7 +112,6 @@ class Model(model.MLDoc.base.Model):
         broken = findFullSVO(x)
         random.shuffle(broken)
         x = ' '.join(broken)
-        print (x)
         raw = x.lower().split(" ")
         out = ""
         for xx in raw:
@@ -126,9 +125,6 @@ class Model(model.MLDoc.base.Model):
 
     def forward(self, batch):
         crossed_list = self.cross_list(util.tool.in_each(batch, lambda x : x[0]))
-        print ("\n----- START OF EPOCH -----")
-        print (crossed_list)
-        print ("----- END OF EPOCH _____\n")
         _, utt = self.bert(*util.convert.List.to_bert_info(crossed_list, self.tokener, self.pad, self.cls, self.device, 128)[0])
         out = self.P(utt)
         loss = torch.Tensor([0])
