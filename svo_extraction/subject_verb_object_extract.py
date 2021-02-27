@@ -338,43 +338,39 @@ def _get_svos(tokens, removepunctuation=False):
 
     return svos
 
-def findFullSVO(in_str)
-       nlp =  get_spacy_nlp_sm_model()
-       svos = findSVOs(nlp, in_str, removepunctuation=True, uncontracttext=True)
-       print (svos)
-       for (sub, ver, obj) in svos:
-              if obj == '':
-                     sorted = [['S', in_str.find(sub), 999], ['V', in_str.find(ver), 999]]
-                     # Insert arr[1] 
-                     if (sorted[1][1] < sorted[0][1]): 
-                            sorted[0], sorted[1] = sorted[1], sorted[0] 
-                     sorted[0][1]=0
-                     sorted[0][2]=sorted[1][1]-1
-                     sorted[1][2]=len(in_str)
-              else:
-                     sorted = [['S', in_str.find(sub), 999], ['V', in_str.find(ver), 999], ['O', in_str.find(obj), 999]]
-                     # Insert arr[1] 
-                     if (sorted[1][1] < sorted[0][1]): 
-                            sorted[0], sorted[1] = sorted[1], sorted[0] 
-                            
-                     # Insert arr[2] 
-                     if (sorted[2][1] < sorted[1][1]): 
-                            sorted[1], sorted[2] = sorted[2], sorted[1] 
-                            if (sorted[1][1] < sorted[0][1]): 
-                                   sorted[1], sorted[0] = sorted[0], sorted[1] 
-                     sorted[0][1]=0
-                     sorted[0][2]=sorted[1][1]-1
-                     sorted[1][2]=sorted[2][1]-1
-                     sorted[2][2]=len(in_str)
-              
-              print (sorted)
-              for sentence in sorted:
-                     if sentence[0]=='S':
-                            sub = in_str[sentence[1]:sentence[2]]
-                     elif sentence[0]=='V':
-                            ver = in_str[sentence[1]:sentence[2]]
-                     elif sentence[0]=='O':
-                            obj = in_str[sentence[1]:sentence[2]]
-       full_svo = [sub, ver, obj]
-
+def findFullSVO(in_str):
+    nlp =  get_spacy_nlp_sm_model()
+    svos = findSVOs(nlp, in_str, removepunctuation=True, uncontracttext=True)
+    for (sub, ver, obj) in svos:
+            if obj == '':
+                    sorted = [['S', in_str.find(sub), 999], ['V', in_str.find(ver), 999]]
+                    # Insert arr[1] 
+                    if (sorted[1][1] < sorted[0][1]): 
+                        sorted[0], sorted[1] = sorted[1], sorted[0] 
+                    sorted[0][1]=0
+                    sorted[0][2]=sorted[1][1]-1
+                    sorted[1][2]=len(in_str)
+            else:
+                    sorted = [['S', in_str.find(sub), 999], ['V', in_str.find(ver), 999], ['O', in_str.find(obj), 999]]
+                    # Insert arr[1] 
+                    if (sorted[1][1] < sorted[0][1]): 
+                        sorted[0], sorted[1] = sorted[1], sorted[0] 
+                        
+                    # Insert arr[2] 
+                    if (sorted[2][1] < sorted[1][1]): 
+                        sorted[1], sorted[2] = sorted[2], sorted[1] 
+                        if (sorted[1][1] < sorted[0][1]): 
+                                sorted[1], sorted[0] = sorted[0], sorted[1] 
+                    sorted[0][1]=0
+                    sorted[0][2]=sorted[1][1]-1
+                    sorted[1][2]=sorted[2][1]-1
+                    sorted[2][2]=len(in_str)
+            for sentence in sorted:
+                    if sentence[0]=='S':
+                        sub = in_str[sentence[1]:sentence[2]]
+                    elif sentence[0]=='V':
+                        ver = in_str[sentence[1]:sentence[2]]
+                    elif sentence[0]=='O':
+                        obj = in_str[sentence[1]:sentence[2]]
+    full_svo = [sub, ver, obj]
     return full_svo
