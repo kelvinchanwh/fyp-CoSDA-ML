@@ -14,6 +14,8 @@ from pytorch_transformers import BertTokenizer, BertModel, BertForMaskedLM, Adam
 
 from torch.nn import functional as F
 
+from svo_extraction.subject_verb_object_extract import findSVOs, get_spacy_nlp_sm_model, findFullSVO
+
 class BERTTool(object):
     def init(args):
         BERTTool.multi_bert = BertModel.from_pretrained(args.multi_bert.location)
@@ -107,6 +109,10 @@ class Model(model.MLDoc.base.Model):
             return x
 
     def cross_str(self, x, disable=False):
+        broken = findFullSVO(x)
+        random.shuffle(broken)
+        x = ' '.join(broken)
+        print (x)
         raw = x.lower().split(" ")
         out = ""
         for xx in raw:
@@ -119,7 +125,11 @@ class Model(model.MLDoc.base.Model):
         return [self.cross_str(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in x]
 
     def forward(self, batch):
-        _, utt = self.bert(*util.convert.List.to_bert_info(self.cross_list(util.tool.in_each(batch, lambda x : x[0])), self.tokener, self.pad, self.cls, self.device, 128)[0])
+        crossed_list = self.cross_list(util.tool.in_each(batch, lambda x : x[0]))
+        print ("\n----- START OF EPOCH -----")
+        print (crossed_list)
+        print ("----- END OF EPOCH _____\n")
+        _, utt = self.bert(*util.convert.List.to_bert_info(crossed_list, self.tokener, self.pad, self.cls, self.device, 128)[0])
         out = self.P(utt)
         loss = torch.Tensor([0])
         if self.training:
