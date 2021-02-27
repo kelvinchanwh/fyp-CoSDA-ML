@@ -15,6 +15,7 @@
 import en_core_web_sm
 from collections.abc import Iterable
 from .contractions import ContractText
+import random
 # use spacy small model
 
 # dependency markers for subjects
@@ -341,6 +342,8 @@ def _get_svos(tokens, removepunctuation=False):
 def invertSentence(in_str):
     nlp =  get_spacy_nlp_sm_model()
     svos = findSVOs(nlp, in_str, removepunctuation=True, uncontracttext=True)
+    if svos == []:
+        return (in_str)
     for (sub, ver, obj) in svos:
         if obj == '':
                 sorted = [['S', in_str.find(sub), 999], ['V', in_str.find(ver), 999]]
@@ -374,5 +377,5 @@ def invertSentence(in_str):
                     obj = in_str[sentence[1]:sentence[2]]
         full_svo = [sub, ver, obj]
         random.shuffle(full_svo)
-        full_sentence = ' '.join(broken)
+        full_sentence = ' '.join(full_svo)
         return full_sentence
