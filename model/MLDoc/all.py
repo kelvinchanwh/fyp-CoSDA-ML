@@ -14,7 +14,7 @@ from pytorch_transformers import BertTokenizer, BertModel, BertForMaskedLM, Adam
 
 from torch.nn import functional as F
 
-from svo_extraction.subject_verb_object_extract import findSVOs, get_spacy_nlp_sm_model, findFullSVO
+from svo_extraction.subject_verb_object_extract import findSVOs, get_spacy_nlp_sm_model, invertSentence
 
 class BERTTool(object):
     def init(args):
