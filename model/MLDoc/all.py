@@ -109,9 +109,7 @@ class Model(model.MLDoc.base.Model):
             return x
 
     def cross_str(self, x, disable=False):
-        broken = findFullSVO(x)
-        random.shuffle(broken)
-        x = ' '.join(broken)
+        x = invertSentence(x)
         raw = x.lower().split(" ")
         out = ""
         for xx in raw:

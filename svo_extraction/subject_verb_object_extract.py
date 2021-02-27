@@ -338,7 +338,7 @@ def _get_svos(tokens, removepunctuation=False):
 
     return svos
 
-def findFullSVO(in_str):
+def invertSentence(in_str):
     nlp =  get_spacy_nlp_sm_model()
     svos = findSVOs(nlp, in_str, removepunctuation=True, uncontracttext=True)
     for (sub, ver, obj) in svos:
@@ -373,4 +373,6 @@ def findFullSVO(in_str):
                 elif sentence[0]=='O':
                     obj = in_str[sentence[1]:sentence[2]]
         full_svo = [sub, ver, obj]
-    return full_svo
+        random.shuffle(full_svo)
+        full_sentence = ' '.join(broken)
+        return full_sentence
