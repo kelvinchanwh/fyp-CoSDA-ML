@@ -341,7 +341,7 @@ def _get_svos(tokens, removepunctuation=False):
 
 def invertSentence(in_str):
     nlp =  get_spacy_nlp_sm_model()
-    svos = findSVOs(nlp, in_str, removepunctuation=True, uncontracttext=True)
+    svos = findSVOs(nlp, in_str, removepunctuation=False, uncontracttext=False)
     if svos == []:
         return (in_str)
     for (sub, ver, obj) in svos:
