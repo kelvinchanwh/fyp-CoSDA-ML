@@ -372,5 +372,5 @@ def findFullSVO(in_str):
                         ver = in_str[sentence[1]:sentence[2]]
                     elif sentence[0]=='O':
                         obj = in_str[sentence[1]:sentence[2]]
-    full_svo = [sub, ver, obj]
+        full_svo = [sub, ver, obj]
     return full_svo
