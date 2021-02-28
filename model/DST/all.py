@@ -16,6 +16,8 @@ import numpy as np
 
 from pytorch_transformers import BertTokenizer, BertModel, BertForMaskedLM, AdamW
 
+from svo_extraction.subject_verb_object_extract import findSVOs, get_spacy_nlp_sm_model, invertSentence
+
 from torch.nn import functional as F
 
 class BERTTool(object):
@@ -132,6 +134,7 @@ class Model(model.DST.base.Model):
             return x
 
     def cross_str(self, x, disable=False):
+        x = invertSentence(x)
         raw = x.lower().split(" ")
         out = ""
         for xx in raw:
