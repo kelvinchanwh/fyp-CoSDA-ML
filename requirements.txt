@@ -8,4 +8,7 @@ sklearn
 matplotlib
 textsearch
 
+textsearch
+networkx
+
 #python==3.7.4
