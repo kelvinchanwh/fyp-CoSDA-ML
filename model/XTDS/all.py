@@ -13,6 +13,8 @@ from pytorch_transformers import BertTokenizer, BertModel, BertForMaskedLM, Adam
 
 from torch.nn import functional as F
 
+from svo_extraction.subject_verb_object_extract import findSVOs, get_spacy_nlp_sm_model, invertSentence
+
 class BERTTool(object):
     def init(args):
         BERTTool.multi_bert = BertModel.from_pretrained(args.multi_bert.location)
@@ -101,8 +103,14 @@ class Model(model.XTDS.base.Model):
         else:
             return x
 
+    # TO CHECK CODE FOR XTDS INVERT_STR AND CROSS_LIST
+    def invert_str(self, x, disable=False):
+        return invertSentence(x)
+
     def cross_list(self, x):
-        return [self.cross(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in x["utterance"]]
+        # TO ADD ARG FOR RATIO
+        tmp = [self.invert_str(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in x["utterance"]]
+        return [self.cross(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in tmp["utterance"]]
 
     def get_info(self, x):
         token_ids = []

@@ -134,7 +134,6 @@ class Model(model.DST.base.Model):
             return x
 
     def cross_str(self, x, disable=False):
-        x = invertSentence(x)
         raw = x.lower().split(" ")
         out = ""
         for xx in raw:
@@ -142,8 +141,14 @@ class Model(model.DST.base.Model):
             out += " "
         return out
 
+    def invert_str(self, x, disable=False):
+        return invertSentence(x)
+
+
     def cross_list(self, x):
-        return [self.cross_str(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in x]
+        # TO ADD ARG FOR RATIO
+        tmp = [self.invert_str(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in x]
+        return [self.cross_str(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in tmp]
 
     def cross_value(self, s, x):
         if isinstance(x, list):

@@ -16,6 +16,7 @@ import en_core_web_sm
 from collections.abc import Iterable
 from .contractions import ContractText
 import random
+
 # use spacy small model
 
 # dependency markers for subjects
@@ -28,6 +29,8 @@ BREAKER_POS = {"CCONJ", "VERB"}
 NEGATIONS = {"no", "not", "n't", "never", "none"}
 def get_spacy_nlp_sm_model():
     return en_core_web_sm.load()
+
+spacy_nlp_model = get_spacy_nlp_sm_model()
 
 # does dependency set contain any coordinating conjunctions?
 def contains_conj(depSet):
@@ -340,8 +343,7 @@ def _get_svos(tokens, removepunctuation=False):
     return svos
 
 def invertSentence(in_str):
-    nlp =  get_spacy_nlp_sm_model()
-    svos = findSVOs(nlp, in_str, removepunctuation=False, uncontracttext=False)
+    svos = findSVOs(spacy_nlp_model, in_str, removepunctuation=False, uncontracttext=False)
     if svos == []:
         return (in_str)
     for (sub, ver, obj) in svos:
