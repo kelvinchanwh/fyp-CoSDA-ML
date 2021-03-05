@@ -109,7 +109,7 @@ class Model(model.XTDS.base.Model):
 
     def cross_list(self, x):
         # TO ADD ARG FOR RATIO
-        tmp = [self.invert_str(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in x["utterance"]]
+        tmp = [self.invert_str(xx, not (self.training and self.args.train.invratio >= random.random())) for xx in x["utterance"]]
         return [self.cross(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in tmp["utterance"]]
 
     def get_info(self, x):
