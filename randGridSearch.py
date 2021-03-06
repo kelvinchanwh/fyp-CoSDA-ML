@@ -2,7 +2,6 @@ import logging
 import numpy as np
 import random
 import torch
-import util.dataToGoogle as Google
 import util.tool
 import pandas as pd
 from util.configue import Configure
@@ -39,9 +38,7 @@ def start(x, y):
     if args.train.gpu:
         model.cuda()
 
-    model.start(inputs)
-
-    return df[x*10][y*10]
+    return model.start(inputs)
 
 # if __name__ == "__main__":
 #     start()
