@@ -9,9 +9,9 @@ from util.configue import Configure
 from bayes_opt import BayesianOptimization
 
 # Bounded region of parameter space
-pbounds = {'x': (0, 1.0), 'y': (0, 1.0)}
+pbounds = {'x': (0, 1.0), 'y': (0, 1.0), 'z':(0, 1.0)}
 
-def start(x, y):
+def start(x, y, z):
 
     logging.basicConfig(level = logging.INFO)
 
@@ -31,6 +31,7 @@ def start(x, y):
     #Insert variables to Grid Search
     args.train.ratio = x
     args.train.cross = y
+    args.train.invratio = z
 
     inputs = DatasetTool.get(args)
 
@@ -51,8 +52,8 @@ optimizer = BayesianOptimization(
 )
     
 optimizer.maximize(
-    init_points=2,
-    n_iter=3,
+    init_points=5,
+    n_iter=25,
 )
 
 print(optimizer.max)
