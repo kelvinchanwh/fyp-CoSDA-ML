@@ -119,6 +119,7 @@ class Model(model.DST.base.Model):
             logging.info(pprint.pformat(best))
             logging.info(pprint.pformat(summary))
         self.visualize(self.args.train.epoch)
+        return best["loss"]
     
     def to_glad(self, raw):
         self.bert.eval()
@@ -235,6 +236,7 @@ class Model(model.DST.base.Model):
         if self.args.model.resume is not None:
             self.load(self.args.model.resume)
         if not self.args.model.test:
-            self.run_train(train, dev, (test_it, test_de))
+            loss = self.run_train(train, dev, (test_it, test_de))
+            return loss
         if self.args.model.resume is not None:
             self.run_eval(train, dev, (test_it, test_de))

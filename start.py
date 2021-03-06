@@ -34,7 +34,7 @@ def start():
     if args.train.gpu:
         model.cuda()
 
-    model.start(inputs)
+    return model.start(inputs)
 
 if __name__ == "__main__":
     start()

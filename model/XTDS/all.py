@@ -92,6 +92,7 @@ class Model(model.XTDS.base.Model):
             best = self.update_best(best, summary, epoch)
             logging.info(pprint.pformat(best))
             logging.info(pprint.pformat(summary))
+        return best["loss"]
 
     def cross(self, x, disable=False):
         if not disable and self.training and (self.args.train.cross >= random.random()):
@@ -174,6 +175,7 @@ class Model(model.XTDS.base.Model):
         if self.args.model.resume is not None:
             self.load(self.args.model.resume)
         if not self.args.model.test:
-            self.run_train(train, dev, test)
+            loss = self.run_train(train, dev, test)
+            return loss
         if self.args.model.resume is not None:
             self.run_eval(train, dev, test)
