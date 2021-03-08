@@ -10,7 +10,7 @@ from util.convert import String
 DEFAULT_CONFIGURE_DIR = "configure"
 DEFAULT_DATASET_DIR = "dataset"
 DEFAULT_MODEL_DIR = "model"
-DEFAULT_EXP_DIR = "/content/drive/CoSDA-ML/exp"
+DEFAULT_EXP_DIR = "/content/drive/MyDrive/CoSDA-ML/exp"
 DEFAULT_CONSOLE_ARGS_LABEL_FILE = "__console__.cfg"
 
 class Configure(object):
