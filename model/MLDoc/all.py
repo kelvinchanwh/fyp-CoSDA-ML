@@ -97,7 +97,7 @@ class Model(model.MLDoc.base.Model):
             best = self.update_best(best, summary, epoch)
             logging.info(pprint.pformat(best))
             logging.info(pprint.pformat(summary))
-        return best["loss"]
+        return best
 
     def cross(self, x, disable=False):
         if not disable and self.training and (self.args.train.cross >= random.random()):
@@ -146,8 +146,8 @@ class Model(model.MLDoc.base.Model):
         if self.args.model.w is not None:
             self.load_w(self.args.model.w)
         if not self.args.model.test:
-            loss = self.run_train(train, dev, test)
-            return loss
+            best = self.run_train(train, dev, test)
+            return (best["eval_MIXSC/ca/opener_sents_f1"] + best["eval_MIXSC/es/opener_sents_f1"] + best["eval_MIXSC/eu/opener_sents_f1"])/3
         if self.args.model.resume is not None:
             self.run_eval(train, dev, test)
 
