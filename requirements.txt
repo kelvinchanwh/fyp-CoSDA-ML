@@ -1,8 +1,13 @@
-torch==1.1.0
-numpy==1.17.2
-tqdm==4.36.1
-transformers==2.3.0
-pytorch_transformers==1.2.0
+torch==1.7.1
+# ==1.1.0
+numpy
+# ==1.17.2
+tqdm
+# ==4.36.1
+transformers
+# ==2.3.0
+pytorch_transformers
+# ==1.2.0
 
 bayesian-optimization
 
