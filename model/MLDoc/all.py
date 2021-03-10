@@ -147,11 +147,7 @@ class Model(model.MLDoc.base.Model):
             self.load_w(self.args.model.w)
         if not self.args.model.test:
             best = self.run_train(train, dev, test)
-            stop_key = 'eval_dev_{}'.format(self.args.train.stop)
-            print (stop_key)
-            train_key = 'eval_train_{}'.format(self.args.train.stop)
-            return best[stop_key]
-            # return (best["eval_MIXSC/ca/opener_sents_f1"] + best["eval_MIXSC/es/opener_sents_f1"] + best["eval_MIXSC/eu/opener_sents_f1"])/3
+            return (best["eval_MIXSC/ca/opener_sents_f1"] + best["eval_MIXSC/es/opener_sents_f1"] + best["eval_MIXSC/eu/opener_sents_f1"])/3
         if self.args.model.resume is not None:
             self.run_eval(train, dev, test)
 

@@ -5,21 +5,13 @@ import torch
 import util.tool
 import pandas as pd
 from util.configue import Configure
-import os.path
 
 from bayes_opt import BayesianOptimization
-from bayes_opt.logger import JSONLogger
-from bayes_opt.event import Events
-from bayes_opt.util import load_logs
-
-PATH = "./exp"
-#PATH = "/content/drive/MyDrive/CoSDA-ML/"
-filename = "DST_bert.json"
 
 # Bounded region of parameter space
-pbounds = {'ratio': (0, 1.0), 'cross': (0, 1.0), 'invratio':(0, 1.0)}
+pbounds = {'x': (0, 1.0), 'y': (0, 1.0), 'z':(0, 1.0)}
 
-def start(ratio, cross, invratio):
+def start(x, y, z):
 
     logging.basicConfig(level = logging.INFO)
 
@@ -37,9 +29,9 @@ def start(ratio, cross, invratio):
     Model, DatasetTool = util.tool.load_module(args.model.name, args.dataset.tool)
 
     #Insert variables to Grid Search
-    args.train.ratio = ratio
-    args.train.cross = cross
-    args.train.invratio = invratio
+    args.train.ratio = x
+    args.train.cross = y
+    args.train.invratio = z
 
     inputs = DatasetTool.get(args)
 
@@ -52,38 +44,18 @@ def start(ratio, cross, invratio):
 # if __name__ == "__main__":
 #     start()
 
-if os.path.isfile(PATH + filename):
-    #Load Previous JSON Logs
-    optimizer = BayesianOptimization(
-        f=start,
-        pbounds=pbounds,
-        verbose=2, # verbose = 1 prints only when a maximum is observed, verbose = 0 is silent
-        random_state=1,
-    )
-    load_logs(optimizer, logs=[PATH + filename])
-    print ("Optimizer has loaded {} points from previous JSON".format(len(optimizer.space)))
+optimizer = BayesianOptimization(
+    f=start,
+    pbounds=pbounds,
+    verbose=2, # verbose = 1 prints only when a maximum is observed, verbose = 0 is silent
+    random_state=1,
+)
+    
+optimizer.maximize(
+    init_points=5,
+    n_iter=25,
+)
 
-    optimizer.maximize(
-        init_points=1,
-        n_iter=5,
-    )
-else:
-    #Do new logs
-    optimizer = BayesianOptimization(
-        f=start,
-        pbounds=pbounds,
-        verbose=2, # verbose = 1 prints only when a maximum is observed, verbose = 0 is silent
-        random_state=1,
-    )
-
-    logger = JSONLogger(path="/content/drive/MyDrive/CoSDA-ML/logs.json")
-    optimizer.subscribe(Events.OPTIMIZATION_STEP, logger)
-
-    optimizer.maximize(
-        init_points=1,
-        n_iter=5,
-    )
-
-# print(optimizer.max)
-# for i, res in enumerate(optimizer.res):
-#     print("Iteration {}: \n\t{}".format(i, res))
+print(optimizer.max)
+for i, res in enumerate(optimizer.res):
+    print("Iteration {}: \n\t{}".format(i, res))
