@@ -27,6 +27,8 @@ def start(ratio, cross, invratio):
 
     logging.basicConfig(level = logging.INFO)
 
+    args = Configure.Get()
+
     np.random.seed(args.train.seed)
     random.seed(args.train.seed)
     if torch.cuda.is_available():
