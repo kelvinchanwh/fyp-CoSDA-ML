@@ -9,7 +9,8 @@ transformers
 pytorch_transformers
 # ==1.2.0
 
-bayesian-optimization
+git+https://github.com/fmfn/BayesianOptimization.git
+#bayesian-optimization
 
 sklearn
 matplotlib
