@@ -21,7 +21,42 @@ PATH = "/content/drive/MyDrive/CoSDA-ML/"
 pbounds = {'ratio': (0, 1.0), 'cross': (0, 1.0), 'invratio':(0, 1.0)}
 
 filename = "SC2_bert.json"
-timestr = time.strftime("%Y%m%d-%H%M%S")
+stop_key = 'eval_test_de_joint_goal'
+
+# # DST
+# 'eval_test_de_joint_goal'
+# 'eval_test_de_turn_area' 
+# 'eval_test_de_turn_food' 
+# 'eval_test_de_turn_inform'
+# 'eval_test_de_turn_price'
+# 'eval_test_de_turn_request'
+# 'eval_test_it_joint_goal'
+# 'eval_test_it_turn_area'
+# 'eval_test_it_turn_food'
+# 'eval_test_it_turn_inform'
+# 'eval_test_it_turn_price'
+# 'eval_test_it_turn_request'
+
+# # MLDoc
+# 'eval_MLDoc/chinese.test_accuracy'
+# 'eval_MLDoc/english.test_accuracy'
+# 'eval_MLDoc/french.test_accuracy'
+# 'eval_MLDoc/german.test_accuracy'
+# 'eval_MLDoc/italian.test_accuracy'
+# 'eval_MLDoc/japanese.test_accuracy'
+# 'eval_MLDoc/russian.test_accuracy'
+# 'eval_MLDoc/spanish.test_accuracy'
+
+# # SC2 / SC4
+# 'eval_MIXSC/ca/opener_sents_f1'
+# 'eval_MIXSC/es/opener_sents_f1'
+# 'eval_MIXSC/eu/opener_sents_f1'
+
+# # XTDS
+# 'eval_XTDS/es/test-es.conllu_intent_accuracy'
+# 'eval_XTDS/es/test-es.conllu_slot_f1'
+# 'eval_XTDS/th/test-th_TH.conllu_intent_accuracy'
+# 'eval_XTDS/th/test-th_TH.conllu_slot_f1'
 
 def start(ratio, cross, invratio):
 
@@ -39,6 +74,8 @@ def start(ratio, cross, invratio):
     torch.random.manual_seed(args.train.seed)
 
     Model, DatasetTool = util.tool.load_module(args.model.name, args.dataset.tool)
+
+    args.train.stop_key = stop_key
 
     #Insert variables to Grid Search
     args.train.ratio = ratio
