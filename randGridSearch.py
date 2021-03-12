@@ -80,8 +80,8 @@ logger = JSONLogger(path=PATH+filename, reset=False)
 optimizer.subscribe(Events.OPTIMIZATION_STEP, logger)
 
 optimizer.maximize(
-    init_points=1,
-    n_iter=5,
+    init_points=5,
+    n_iter=25,
 )
 
 # print(optimizer.max)
