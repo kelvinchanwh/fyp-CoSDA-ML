@@ -104,14 +104,16 @@ class Model(model.XTDS.base.Model):
         else:
             return x
 
-    # TO CHECK CODE FOR XTDS INVERT_STR AND CROSS_LIST
     def invert_str(self, x, disable=False):
-        return invertSentence(x)
+        x = " ".join(x)
+        return invertSentence(x).split()
 
     def cross_list(self, x):
-        # TO ADD ARG FOR RATIO
-        tmp = [self.invert_str(xx, not (self.training and self.args.train.invratio >= random.random())) for xx in x["utterance"]]
-        return [self.cross(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in tmp["utterance"]]
+        length = len(x["utterance"])
+        utter = self.invert_str(x["utterance"], not (self.training and self.args.train.invratio >= random.random()))
+        if len(utter) == length:
+            x["utterance"] = utter
+        return [self.cross(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in x["utterance"]]
 
     def get_info(self, x):
         token_ids = []
