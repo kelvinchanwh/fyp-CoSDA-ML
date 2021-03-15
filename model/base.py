@@ -104,7 +104,7 @@ class Model(torch.nn.Module):
         iteration = 0
         best = {}
         for epoch in range(self.args.train.epoch):
-            self.train()
+            self.train().to(self.device)
             logging.info("Starting training epoch {}".format(epoch))
             summary = self.get_summary(epoch, iteration)
             loss, iter = self.run_batches(train, epoch)

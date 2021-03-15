@@ -74,7 +74,7 @@ class Model(model.XTDS.base.Model):
         best = {}
         for epoch in range(self.args.train.epoch):
             self.ontology = self.ontology
-            self.train()
+            self.train().to(self.device)
             logging.info("Starting training epoch {}".format(epoch))
             summary = self.get_summary(epoch, iteration)
             loss, iter = self.run_batches(train, epoch)
