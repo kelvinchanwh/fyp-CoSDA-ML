@@ -8,6 +8,10 @@ from tqdm import tqdm
 
 import util.tool
 
+import torch_xla.core.xla_model as xm
+import torch_xla.distributed.parallel_loader as pl
+import torch_xla.distributed.xla_multiprocessing as xmp
+
 from util.tool import Batch
 
 class Model(torch.nn.Module):
@@ -19,10 +23,12 @@ class Model(torch.nn.Module):
     
     @property
     def device(self):
-        if self.args.train.gpu:
-            return torch.device('cuda')
+        if self.args.train.tpu:
+            device = xm.xla_device()
+            mp_device_loader = pl.MpDeviceLoader(train_loader, device)
+            return device
         else:
-            return torch.device('cpu')
+            return torch.device('cuda')
 
     def forward(self, batch):
         raise NotImplementedError

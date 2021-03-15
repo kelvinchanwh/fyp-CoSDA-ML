@@ -31,8 +31,8 @@ def start():
     
 
     model = Model(args, DatasetTool, inputs)
-    if args.train.gpu:
-        model.cuda()
+    if args.train.tpu:
+        torch.set_default_tensor_type('torch.FloatTensor')
 
     return model.start(inputs)
 
