@@ -25,7 +25,7 @@ class Model(torch.nn.Module):
     def device(self):
         if self.args.train.tpu:
             device = xm.xla_device()
-            mp_device_loader = pl.MpDeviceLoader(train_loader, device)
+            mp_device_loader = pl.MpDeviceLoader(self.trainLoader, device)
             return device
         else:
             return torch.device('cuda')
@@ -60,7 +60,8 @@ class Model(torch.nn.Module):
         all_loss = 0
         all_size = 0
         iteration = 0
-        for batch in tqdm(Batch.to_list(dataset, self.args.train.batch)[0 : self.get_max_train(dataset)]):
+        self.trainLoader=tqdm(Batch.to_list(dataset, self.args.train.batch)[0 : self.get_max_train(dataset)])
+        for batch in self.trainLoader:
             loss, _ = self.forward(batch)
             self.zero_grad()
             loss.backward()
