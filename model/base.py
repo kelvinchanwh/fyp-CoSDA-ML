@@ -35,7 +35,7 @@ class Model(torch.nn.Module):
     def set_optimizer(self):
         all_params = set(self.parameters())
         params = [{"params": list(all_params), "lr": self.args.lr.default}]
-        self.optimizer = torch.optim.Adam(params)
+        self.optimizer = xm.optim.Adam(params)
 
     def get_pred(self, out):
         raise NotImplementedError
