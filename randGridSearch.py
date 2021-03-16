@@ -14,6 +14,10 @@ from bayes_opt.logger import JSONLogger
 from bayes_opt.event import Events
 from bayes_opt.util import load_logs
 
+import torch_xla.core.xla_model as xm
+import torch_xla.distributed.parallel_loader as pl
+import torch_xla.distributed.xla_multiprocessing as xmp
+
 # PATH = "./exp"
 PATH = "/content/drive/MyDrive/CoSDA-ML/"
 
@@ -88,7 +92,9 @@ def start(ratio, cross, invratio):
     if args.train.tpu:
         torch.set_default_tensor_type('torch.FloatTensor')
 
-    return model.start(inputs)
+    toReturn = xmp.spawn(model.start, args=(inputs), nprocs=8)
+
+    return toReturn
 
 # if __name__ == "__main__":
 #     start()
