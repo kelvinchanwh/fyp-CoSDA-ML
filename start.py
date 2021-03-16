@@ -34,7 +34,9 @@ def start():
     if args.train.tpu:
         torch.set_default_tensor_type('torch.FloatTensor')
 
-    return model.start(inputs)
+    toReturn = xmp.spawn(model.start, args=(inputs), nprocs=8)
+
+    return toReturn
 
 if __name__ == "__main__":
     start()
