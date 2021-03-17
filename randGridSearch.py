@@ -92,7 +92,7 @@ def start(ratio, cross, invratio):
     if args.train.tpu:
         torch.set_default_tensor_type('torch.FloatTensor')
 
-    toReturn = xmp.spawn(model.start, args=(inputs,), nprocs=8, start_method='fork')
+    # toReturn = xmp.spawn(model.start, args=(inputs,), nprocs=8, start_method='fork')
 
     return toReturn
 

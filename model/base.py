@@ -57,7 +57,7 @@ class Model(torch.nn.Module):
             all_out += self.get_pred(out)
         return self.DatasetTool.evaluate(all_out, dataset, self.args), all_out
 
-    def run_batches(self, dataset, epoch):
+    def run_batches(self, index, dataset, epoch):
         all_loss = 0
         all_size = 0
         iteration = 0

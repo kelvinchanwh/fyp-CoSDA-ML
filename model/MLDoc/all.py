@@ -83,7 +83,8 @@ class Model(model.MLDoc.base.Model):
             self.train().to(self.device)
             logging.info("Starting training epoch {}".format(epoch))
             summary = self.get_summary(epoch, iteration)
-            loss, iter = self.run_batches(train, epoch)
+            loss, iter = xmp.spawn(self.run_batches, args=(train, epoch,), nprocs=8, start_method='fork')
+            # loss, iter = self.run_batches(train, epoch)
             iteration += iter
             summary.update({"loss": loss})
             if not self.args.train.not_eval:
