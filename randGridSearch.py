@@ -94,7 +94,7 @@ def start(ratio, cross, invratio):
 
     # toReturn = xmp.spawn(model.start, args=(inputs,), nprocs=8, start_method='fork')
 
-    return toReturn
+    return model.start(inputs)
 
 # if __name__ == "__main__":
 #     start()
