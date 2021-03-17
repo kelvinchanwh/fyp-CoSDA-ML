@@ -50,7 +50,9 @@ class Model(torch.nn.Module):
     def run_test(self, dataset):
         self.eval()
         all_out = []
-        for batch in tqdm(Batch.to_list(dataset, self.args.train.batch)[0 : self.get_max_train(dataset)]):
+        self.trainLoader = tqdm(Batch.to_list(dataset, self.args.train.batch)[0 : self.get_max_train(dataset)])
+        mp_device_loader = pl.MpDeviceLoader(self.trainLoader, self.device)
+        for batch in mp_device_loader:
             loss, out = self.forward(batch)
             all_out += self.get_pred(out)
         return self.DatasetTool.evaluate(all_out, dataset, self.args), all_out
@@ -59,7 +61,9 @@ class Model(torch.nn.Module):
         all_loss = 0
         all_size = 0
         iteration = 0
-        for batch in tqdm(Batch.to_list(dataset, self.args.train.batch)[0 : self.get_max_train(dataset)]):
+        self.trainLoader = tqdm(Batch.to_list(dataset, self.args.train.batch)[0 : self.get_max_train(dataset)])
+        mp_device_loader = pl.MpDeviceLoader(self.trainLoader, self.device)
+        for batch in mp_device_loader:
             loss, _ = self.forward(batch)
             self.zero_grad()
             loss.backward()
