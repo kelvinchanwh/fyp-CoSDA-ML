@@ -1,4 +1,5 @@
 import warnings
+import numpy as np
 
 from .target_space import TargetSpace
 from .event import Events, DEFAULT_EVENTS
@@ -175,7 +176,8 @@ class BayesianOptimization(Observable):
         # we don't really need to see them here.
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
-            self._gp.fit(self._space.params, self._space.target)
+            target_array = np.array([dictionary[self._space.target_key] for dictionary in self._space.target])
+            self._gp.fit(self._space.params, target_array)
 
         # Finding argmax of the acquisition function.
         suggestion = acq_max(

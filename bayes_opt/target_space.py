@@ -1,4 +1,5 @@
 import numpy as np
+from operator import itemgetter
 from .util import ensure_rng
 
 
@@ -222,7 +223,7 @@ class TargetSpace(object):
         """Get maximum target value found and corresponding parametes."""
         try:
             res = {
-                'target': self.target.max(),
+                'target': max(self.target,key=itemgetter(self.target_key)),
                 'params': dict(
                     zip(self.keys, self.params[self.target.argmax()])
                 )
