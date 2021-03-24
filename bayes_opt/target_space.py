@@ -192,7 +192,7 @@ class TargetSpace(object):
         except KeyError:
             params = dict(zip(self._keys, x))
             target = self.target_func(**params)
-            self.register(x, target)
+            self.register(x, target[self.target_key])
         return target
 
     def random_sample(self):
@@ -222,7 +222,7 @@ class TargetSpace(object):
         """Get maximum target value found and corresponding parametes."""
         try:
             res = {
-                'target': self.target[self.target_key].max(),
+                'target': self.target.max(),
                 'params': dict(
                     zip(self.keys, self.params[self.target.argmax()])
                 )
