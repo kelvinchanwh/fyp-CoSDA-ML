@@ -157,7 +157,7 @@ def load_logs(optimizer, logs):
                 try:
                     optimizer.register(
                         params=iteration["params"],
-                        target=iteration["target"],
+                        target=iteration["target"][optimizer.target],
                     )
                 except KeyError:
                     pass
