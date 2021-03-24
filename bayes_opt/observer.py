@@ -26,8 +26,8 @@ class _Tracker(object):
 
             current_max = instance.max
             if (self._previous_max is None or
-                current_max["target"] > self._previous_max):
-                self._previous_max = current_max["target"]
+                current_max["target"].get(instance._space.target_key) > self._previous_max):
+                self._previous_max = current_max["target"].get(instance._space.target_key)
                 self._previous_max_params = current_max["params"]
 
     def _time_metrics(self):
