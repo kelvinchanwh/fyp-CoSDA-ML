@@ -9,6 +9,7 @@ from .util import UtilityFunction, acq_max, ensure_rng
 from sklearn.gaussian_process.kernels import Matern
 from sklearn.gaussian_process import GaussianProcessRegressor
 
+from operator import itemgetter
 
 class Queue:
     def __init__(self):
@@ -183,7 +184,7 @@ class BayesianOptimization(Observable):
         suggestion = acq_max(
             ac=utility_function.utility,
             gp=self._gp,
-            y_max=self._space.target.max(),
+            y_max=max(self._space.target, key=itemgetter(self._space.target_key)).get(self._space.target_key),
             bounds=self._space.bounds,
             random_state=self._random_state
         )
