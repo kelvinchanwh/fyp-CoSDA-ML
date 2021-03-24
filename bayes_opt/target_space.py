@@ -222,10 +222,11 @@ class TargetSpace(object):
     def max(self):
         """Get maximum target value found and corresponding parametes."""
         try:
+            target_row = max(self.target, key=itemgetter(self.target_key))
             res = {
-                'target': max(self.target,key=itemgetter(self.target_key)),
+                'target': target_row,
                 'params': dict(
-                    zip(self.keys, self.params[self.target.argmax()])
+                    zip(self.keys, self.params[np.where(self.target == target_row)])
                 )
             }
         except ValueError:
