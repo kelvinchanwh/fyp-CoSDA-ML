@@ -22,7 +22,7 @@ class TargetSpace(object):
     >>> y = space.register_point(x)
     >>> assert self.max_point()['max_val'] == y
     """
-    def __init__(self, target_func, pbounds, random_state=None):
+    def __init__(self, target_func, pbounds, target_key, random_state=None):
         """
         Parameters
         ----------
@@ -37,7 +37,7 @@ class TargetSpace(object):
             optionally specify a seed for a random number generator
         """
         self.random_state = ensure_rng(random_state)
-
+        self.target_key = target_key
         # The function to be optimized
         self.target_func = target_func
 
@@ -222,7 +222,7 @@ class TargetSpace(object):
         """Get maximum target value found and corresponding parametes."""
         try:
             res = {
-                'target': self.target.max(),
+                'target': self.target[self.target_key].max(),
                 'params': dict(
                     zip(self.keys, self.params[self.target.argmax()])
                 )
