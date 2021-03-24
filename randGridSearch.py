@@ -105,7 +105,7 @@ if os.path.isfile(PATH + filename):
     optimizer = BayesianOptimization(
         f=start,
         pbounds=pbounds,
-        target=target,
+        target_key=target,
         verbose=2, # verbose = 1 prints only when a maximum is observed, verbose = 0 is silent
         random_state=1,
     )
@@ -117,7 +117,7 @@ else:
     optimizer = BayesianOptimization(
         f=start,
         pbounds=pbounds,
-        target = target,
+        target_key = target,
         verbose=2, # verbose = 1 prints only when a maximum is observed, verbose = 0 is silent
         random_state=1,
     )
