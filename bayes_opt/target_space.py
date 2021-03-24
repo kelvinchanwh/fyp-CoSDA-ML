@@ -192,7 +192,7 @@ class TargetSpace(object):
         except KeyError:
             params = dict(zip(self._keys, x))
             target = self.target_func(**params)
-            self.register(x, target[self.target_key])
+            self.register(x, target)
         return target
 
     def random_sample(self):
