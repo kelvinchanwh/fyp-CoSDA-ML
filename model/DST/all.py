@@ -237,7 +237,6 @@ class Model(model.DST.base.Model):
             self.load(self.args.model.resume)
         if not self.args.model.test:
             best = self.run_train(train, dev, (test_it, test_de))
-            stop_key = self.args.train.stop_key
-            return best[stop_key]
+            return best
         if self.args.model.resume is not None:
             self.run_eval(train, dev, (test_it, test_de))

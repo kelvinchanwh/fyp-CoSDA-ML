@@ -101,10 +101,10 @@ class BayesianOptimization(Observable):
     set_bounds()
         Allows changing the lower and upper searching bounds
     """
-    def __init__(self, f, pbounds, random_state=None, verbose=2,
+    def __init__(self, f, pbounds, target, random_state=None, verbose=2,
                  bounds_transformer=None):
         self._random_state = ensure_rng(random_state)
-
+        self.target = target
         # Data structure containing the function to be optimized, the bounds of
         # its domain, and a record of the evaluations we have done so far
         self._space = TargetSpace(f, pbounds, random_state)
@@ -262,7 +262,7 @@ class BayesianOptimization(Observable):
         iteration = 0
         while not self._queue.empty or iteration < n_iter:
             try:
-                x_probe = next(self._queue)
+                x_probe = next(self._queue)[self.target]
             except StopIteration:
                 util.update_params()
                 x_probe = self.suggest(util)

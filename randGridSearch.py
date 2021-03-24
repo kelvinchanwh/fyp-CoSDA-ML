@@ -14,14 +14,21 @@ from bayes_opt.logger import JSONLogger
 from bayes_opt.event import Events
 from bayes_opt.util import load_logs
 
+#SETTINGS
+
 # PATH = "./exp"
 PATH = "/content/drive/MyDrive/CoSDA-ML/"
 
 # Bounded region of parameter space
 pbounds = {'ratio': (0, 1.0), 'cross': (0, 1.0), 'invratio':(0, 1.0)}
 
+#Output Filename
 filename = "SC2_bert.json"
-stop_key = 'eval_test_de_joint_goal'
+target = 'eval_test_de_joint_goal'
+init_points = 5
+n_iter = 25
+
+#CHOICES
 
 # # DST
 # 'eval_test_de_joint_goal'
@@ -75,7 +82,7 @@ def start(ratio, cross, invratio):
 
     Model, DatasetTool = util.tool.load_module(args.model.name, args.dataset.tool)
 
-    args.train.stop_key = stop_key
+    # args.train.stop_key = stop_key
 
     #Insert variables to Grid Search
     args.train.ratio = ratio
@@ -98,6 +105,7 @@ if os.path.isfile(PATH + filename):
     optimizer = BayesianOptimization(
         f=start,
         pbounds=pbounds,
+        target=target,
         verbose=2, # verbose = 1 prints only when a maximum is observed, verbose = 0 is silent
         random_state=1,
     )
@@ -109,6 +117,7 @@ else:
     optimizer = BayesianOptimization(
         f=start,
         pbounds=pbounds,
+        target = target,
         verbose=2, # verbose = 1 prints only when a maximum is observed, verbose = 0 is silent
         random_state=1,
     )
@@ -117,8 +126,8 @@ logger = JSONLogger(path=PATH+filename, reset=False)
 optimizer.subscribe(Events.OPTIMIZATION_STEP, logger)
 
 optimizer.maximize(
-    init_points=5,
-    n_iter=25,
+    init_points=init_points,
+    n_iter=n_iter,
 )
 
 # print(optimizer.max)
