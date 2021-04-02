@@ -1,3 +1,4 @@
 .DS_Store
 exp/*
 __pycache__
+results/*
