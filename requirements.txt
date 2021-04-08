@@ -9,7 +9,7 @@ transformers
 pytorch_transformers
 # ==1.2.0
 
-git+https://github.com/fmfn/BayesianOptimization.git
+# git+https://github.com/fmfn/BayesianOptimization.git
 #bayesian-optimization
 
 sklearn
@@ -20,3 +20,10 @@ textsearch
 networkx
 
 #python==3.7.4
+
+
+#RASA
+rasa
+rasa-x --extra-index-url https://pypi.rasa.com/simple
+
+pyyaml
