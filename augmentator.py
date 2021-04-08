@@ -7,12 +7,12 @@ import util.convert
 from svo_extraction.subject_verb_object_extract import findSVOs, get_spacy_nlp_sm_model, invertSentence
 
 class Augmentator():
-    def __init__(self):
-        self.ratio_val = 1.0
-        self.invratio_val = 1.0
-        self.cross_val = 1.0
+    def __init__(self, ratio_val, invratio_val, cross_val):
+        self.ratio_val = ratio_val
+        self.invratio_val = invratio_val
+        self.cross_val = cross_val
         self.min_inv_len = 3
-        self.dict_list_val = ['./dataset/Panlex/dict/th2.txt', './dataset/Panlex/dict/es2.txt']
+        self.dict_list_val = ['./dataset/Panlex/dict/zh2.txt', './dataset/Panlex/dict/es2.txt']
 
         idx_dict = util.convert.Common.to_args({"src2tgt": []})
         for dict_file in self.dict_list_val:
@@ -49,28 +49,28 @@ class Augmentator():
             return x
         else:
             x = " ".join(x)
-            return invertSentence(x).split(" ")
+            return invertSentence(x).split()
 
     def cross_list(self, x):
+        x = x.split()
         length = len(x)
         utter = self.invert_str(x, not (self.invratio_val >= random.random()))
         if len(utter) == length:
             x = utter
         else:
             x = x
-        return [self.cross(xx, not (self.ratio_val >= random.random())) for xx in x]
+        return " ".join([self.cross(xx, not (self.ratio_val >= random.random())) for xx in x])
 
 
 with open("./rasa/data/in_nlu.yml") as read_file:
-    augmentator = Augmentator()
+    augmentator = Augmentator(0.5, 0.5, 0.5)
     documents = yaml.full_load(read_file)
-    # print (documents)
     nlu = []
     for entry in documents.get('nlu'):
         intent = entry.get('intent')
         examples = entry.get('examples')
         examples = re.split('\n- |- |\n',examples)[1:-1]
-        examples_list = augmentator.cross_list(examples)
+        examples_list = [augmentator.cross_list(example) for example in examples]
         examples_list = "- " + "\n- ".join(examples_list) + "\n"
         nlu.append({'intent': intent, 'examples': examples_list})
     output_dict = {'version': '2.0', 'nlu': nlu}
