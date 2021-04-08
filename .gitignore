@@ -3,3 +3,4 @@ exp/*
 __pycache__
 results/*
 rasa/*.db
+rasa/models/*
