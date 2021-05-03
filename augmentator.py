@@ -12,7 +12,7 @@ class Augmentator():
         self.invratio_val = invratio_val
         self.cross_val = cross_val
         self.min_inv_len = 3
-        self.dict_list_val = ['./dataset/Panlex/dict/zh2.txt', './dataset/Panlex/dict/es2.txt']
+        self.dict_list_val = ['./dataset/Panlex/dict/zh2.txt', './dataset/Panlex/dict/ms2.txt']
 
         idx_dict = util.convert.Common.to_args({"src2tgt": []})
         for dict_file in self.dict_list_val:
