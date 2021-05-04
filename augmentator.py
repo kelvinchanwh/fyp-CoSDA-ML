@@ -63,7 +63,7 @@ class Augmentator():
 
 
 with open("./rasa/data/in_nlu.yml") as read_file:
-    augmentator = Augmentator(0.5, 0.5, 0.5)
+    augmentator = Augmentator(0.75, 0.75, 0.75)
     documents = yaml.full_load(read_file)
     nlu = []
     for entry in documents.get('nlu'):
