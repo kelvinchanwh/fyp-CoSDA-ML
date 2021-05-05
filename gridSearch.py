@@ -92,7 +92,8 @@ values = [x*0.1 for x in range (0,11)]
 ratio = 1.0
 cross = 1.0
 invratio = 1.0
-with open(PATH+filename, 'w+') as write_file:
-    for invratio in values:
+
+for invratio in values:
+    with open(PATH+filename, 'w+') as write_file:
         out = start(ratio, cross, invratio)
         write_file.write(out)
