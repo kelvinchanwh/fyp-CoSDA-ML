@@ -94,6 +94,6 @@ cross = 1.0
 invratio = 1.0
 
 for invratio in values:
-    with open(PATH+filename, 'w+') as write_file:
+    with open(PATH+filename, 'a') as write_file:
         out = start(ratio, cross, invratio)
-        write_file.write(out)
+        write_file.write(str(out))
