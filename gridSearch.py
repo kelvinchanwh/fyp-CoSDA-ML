@@ -96,4 +96,4 @@ invratio = 1.0
 for invratio in values:
     with open(PATH+filename, 'a') as write_file:
         out = start(ratio, cross, invratio)
-        write_file.write(str(out))
+        write_file.write(str(invratio)+str(out)+"\n")
