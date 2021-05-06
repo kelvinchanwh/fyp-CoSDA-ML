@@ -23,7 +23,7 @@ PATH = "/content/drive/MyDrive/CoSDA-ML/"
 pbounds = {'ratio': (0, 1.0), 'cross': (0, 1.0), 'invratio':(0, 1.0)}
 
 #Output Filename
-filename = "SC2_bert.json"
+filename = "DST_bert.json"
 
 def start(ratio, cross, invratio):
 
