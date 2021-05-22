@@ -1,0 +1,384 @@
+version: "2.0"
+
+nlu:
+
+- intent: latest_numbers
+  examples: |
+    - quiero que me digas con exactitud cuántos muertos en total hay a día de hoy en francia
+    - quisiera saber el número de casos  en estados unidos a fecha de hoy
+    - me puedes decir cuál es el número de muertos de corona virus a fecha de hoy
+    - cuántos casos de coronavirus hay en méxico por estado
+    - cuántos casos hay a nivel mundial
+    - ya cuántos casos van de coronavirus en el mundo
+    - casos en américa latina a la fecha
+    - casos actualizados de covid en europa
+    - podrías mostrarme la cantidad de casos actualizados a hoy
+    - me mostrás, por favor, la cantidad de enfermos de corona en chile
+    - cuántos contagiados de covid tiene colombia
+    - sabés qué país tiene más infectados
+    - decime cuántos infectados tiene europa
+    - hubo muchos casos nuevos hoy en el mundo
+    - número de muertes por coronavirus
+    - cuántas muertes nuevas hubo hoy por el virus
+    - cuál es el número de sobrevivientes del virus
+
+- intent: protect_yourself
+  examples: |
+    - debo usar guantes cuando salga siempre de casa para prevenir contagio
+    - quisiera información de qué debo usar al salir a la calle para no contagiarme de corona virus
+    - qué puedo hacer para prevenir una infección por covid
+    - los cubrebocas funcionan para prevenir covid-19
+    - cómo evito el contagio en el transporte público
+    - cómo evito contagiarme de corona virus
+    - es posible prevenir el corona virus
+    - debería sacarme los zapatos antes de entrar a mi casa
+    - cómo debe hacerse el lavado de manos para prevenir el coronavirus
+    - con lavarse las manos alcanza para no contagiarse
+    - qué medidas útiles de higiene puedo tomar para estar prevenida
+    - realmente tengo que usar guantes para salir de casa y evitar el contagio
+    - decime medidas de seguridad para evitar el coronavirus
+    - cuánto tiempo debo esperar antes de tocar un paquete recibido por amazon
+    - debo usar mascarilla al estar en espacios públicos al aire libre
+    - qué medidas debo tener en cuenta a la hora de lidiar con personas inmunodeficientes
+    - qué directivas se dan para no contraer la enfermedad
+
+- intent: what_is_corona
+  examples: |
+    - quisiera toda la información que tengas sobre el corona virus
+    - dame información sobre qué es el corona virus, por favor
+    - covid-19 y coronavirus son lo mismo
+    - por favor, dime los síntomas del coronavirus
+    - qué tipo de virus es el corona virus
+    - dame información sobre las características de covid 19
+    - qué significa covid-19
+    - quiero entender el coronavirus
+    - qué significa que el coronavirus sea una pandemia
+    - profundiza en este postulado, gracias
+    - significado de coronavirus
+    - infórmame sobre el coronavirus
+
+- intent: what_are_symptoms
+  examples: |
+    - tienes idea de si la asfixia es un síntoma de corona virus
+    - cómo saber si alguien está infectado de covid
+    - síntomas del covid-19
+    - el dolor de cabeza es un síntoma del coronavirus
+    - qué empiezas a sentir si te da coronavirus
+    - primer síntoma de covid-19
+    - cómo sé si estoy contagiado de coronavirus
+    - dime qué afecciones provoca el coronavirus
+    - todos los pacientes de coronavirus tienen los mismos síntomas
+    - cuánto tiempo duran los síntomas
+    - el dolor de estómago es un síntoma del nuevo virus
+    - qué sentiría si tuviera corona virus
+    - es verdad que se pierde el olfato con el coronavirus
+    - señales de que una persona tiene coronavirus
+    - cómo me doy cuenta de que mi papá no tiene coronavirus
+    - si tuviera coronavirus, ¿tendría tos
+    - si tengo el virus, ¿cómo lo sé
+    - cuáles son los síntomas más comunes
+
+- intent: how_does_corona_spread
+  examples: |
+    - mira dime si me puedes decir los medios de contagio del corona virus
+    - necesito urgentemente que me digas cómo se contagia el corona virus
+    - el covid se transmite por el aire
+    - contagio de coronavirus
+    - la comida que alguien prepara contagia el virus
+    - cómo se transmite el coronavirus
+    - cómo se contagia el virus
+    - el coronavirus viaje por el aire
+    - los perros pueden pegarme el coronavirus
+    - el corona virus, ¿se queda en las frutas
+    - puedo contagiarme corona virus en el baño
+    - si voy al parque, ¿está el corona virus en el pasto
+    - cuánto tiempo puede sobrevivir el virus en mi ropa
+    - si me quedo en la casa me puedo contagiar de covid19
+    - si me paro a un metro de una persona contagiada, ¿me contagio
+    - por favor, dame ejemplos de situaciones favorables para el contagio
+    - me puede dar coronavirus por una transfución
+    - me va a dar corona virus por compartir una cuchara
+    - cuál es el vector principal de contagio del corona virus
+    - este virus se contagia por sangre
+    - qué insectos pueden contagiar el corona virus
+    - necesito saber el mecanismo de contagio
+
+- intent: can_i_get_from_feces_animal_pets
+  examples: |
+    - me puedes decir si los animales pueden contagiar el corona virus
+    - mira a ver si me puedes dar algo de informacion de si los animles contagian el corona virus
+    - mis mascotas se pueden contagiar de corona virus
+    - sabrías decirme si el corona virus puede ser contagiado mediante animales
+    - qué animales se pueden infectar de covid
+    - animales infectados por covid
+    - puedo contagiar a gatos de covid
+    - qué animales propagan el covid
+    - las mascotas se pueden enfermar también
+    - a los animales les puede dar coronavirus
+    - qué tipo de carne no debo comer para evitar contagiarme
+    - mis mascotas pueden enfermar de coronavirus
+    - qué otros animales se han contagiado de corona virus
+    - los animales pueden enfermarse de covid 19
+    - me gustaría saber qué animales pueden contraer el covid 19
+    - las mascotas transmiten el covid19
+    - la picadura de mosquito contagia de covid19
+    - dime si los murciélagos dan covid19
+    - las mordedura de rata te contagia con covid19
+    - mi gato se puede infectar
+    - se deben usar medidas de protección para los animales
+    - es seguro que las mascotas no pueden contagiarse
+    - yo le puedo contagiar el virus a mi gato
+    - mi gato me puede transferir el virus
+    - qué animales pueden transmitir este virus
+
+- intent: can_i_get_from_packages_surfaces
+  examples: |
+    - si sabes dime, por favor, cuál es el tiempo que dura el corona virus en el cartón
+    - cuánto tiempo vive el coronavirus en la ropa
+    - cuánto tiempo se queda el virus sobre algo
+    - puedo traer coronavirus en los zapatos
+    - el virus se muere si se queda en el carro
+    - el virus se encuentra en las botellas de vidrio
+    - qué materiales son los más peligrosos para el contagio del covid19
+    - el detergente mata el virus de las telas de ropa
+    - hay algún material sintético de la ropa en que el virus sobreviva más
+    - dime si el virus sobrevive en el alumninio
+    - puede el virus vivir en las ventanas de mi casa
+    - en el algodón sobrevive el virus? ¿cuánto tiempo
+    - cuánto se demora en irse el covid19 de la ropa
+    - en la superficie del celular se pega el covid19
+    - cuándo se muere el coronavirus en el papel
+    - cuánto tiempo debo esperar antes de tocar un objeto infectado
+    - puede el virus estar activo en la superficie de los alimentos
+    - es seguro tocar mi correo por el virus
+    - el coronavirus permanece vivo en los objetos inertes
+    - cuáles son la superficies más propensas a mantener al virus de forma latente
+    - se propaga el virus la porosidad del poliestireno expandido
+    - cuánto tarda en morir el virus en una superficie cerámica
+
+- intent: what_if_i_visited_high_risk_area
+  examples: |
+    - me dices cuáles son los países que están en máxima alerta por corona virus
+    - dime todos los pasos a seguir si acabo de llegar de un país de alto riesgo por corona virus
+    - qué países se consideran peligrosos por covid
+    - método de protección en países infectados por covid
+    - qué hago si visité un área de riesgo
+    - qué precauciones debo tener si tengo que ir a un hospital
+    - cuándo se estima que se abrirá fronteras en europa
+    - puedo viajar en estos momentos a brasil, qué tengo que hacer
+    - países considerados en riesgo, por favor
+    - si viajo a un país de alto riesgo, ¿qué pasa cuando vuelvo a argentina
+    - cuántos días de cuarentena si estuve en españa recientemente
+    - qué medidas hay en países con alerta roja de coronavirus
+    - recomendaciones en zonas de emergencia por coronavirus
+    - debo volar a un país de alto riesgo, ¿qué medidas de precaución debo tomar
+    - es legal viajar en avión a un país considerado de alto riesgo
+    - cuántos infectados tienen los países de alto riesgo
+    - es obligatoria la cuarentena después de volver de un país de alto riesgo
+    - qué medidas de cuidado deben tener las personas que recién llegan de un país de alto riesgo
+    - que hago si he viajado recientemente, por si tengo el virus
+    - qué paises del mundo son zonas de alto reisgo de contagio de covid 19
+    - qué localidades en el mundo son consideradas de alto riesgo
+    - qué tengo que hacer si fui a nueva york
+    - cómo puedo proceder después de haber estado en long island
+    - se considera a brooklyn un área de alto riesgo
+
+- intent: what_are_treatment_options
+  examples: |
+    - quiero saber cuáles son los tratamientos para el corona virus
+    - cómo reforzar el sistema inmunológico y evitar infectarse de covid
+    - hay medicina que cure el covid
+    - ya hay algún tratamiento eficaz contra el coronavirus
+    - cuáles son los mejores tratamientos que han implementado los gobiernos para combatir al virus
+    - dime quién está haciendo la vacuna para el covid19
+    - por qué no se pueden usar antibióticos para el covid
+    - nómbrame el tratamiento más caro para el covid
+    - cuál es la mejor cura para el covid
+    - hay novedades sobre tratamientos para el corona virus
+    - qué medicamento debo tomar si me contagio
+    - cuál es la cura del corona virus
+    - los antiparasitarios acaban con el covid19
+    - cuándo saldrá una vacuna contra el coronavirus
+    - se conoce una posible cura para el covid-19
+    - ya inventaron la vacuna contra el coronavirus
+    - no sé si este tratamiento sea eficaz contra el virus. ¿será
+    - cómo me puedo curar del covid-19
+    - hay algún paliativo para este virus
+    - son efectivos contra el corona virus medicinas como el nyquil
+    - cómo se cura a la gente infectada con covid-19
+
+- intent: myths
+  examples: |
+    - puedes decirme cuáles son algunos mitos relacionados con este virus
+    - mitos probados del covid
+    - es verdad que el virus no aguanta altas temperaturas
+    - mitos y realidades del covid-19
+    - dime mitos y consejos falsos del coronavirus
+    - cuál es la mayor mentira sobre el covid-19
+    - el coronavirus fue fabricado por las farmacéuticas
+    - dime qué tan cierto es que los jóvenes se contagian menos
+    - cuáles son los mitos más absurdos sobre el covid19
+    - s cierto que el coronavirus muere a más de 25 grados
+    - es verdad que los sobreviviventes de covid tienen daño pulmonar de por vida
+    - mitos sobre el virus, por fa
+    - me parece importante saber cómo se desmintieron los mitos sobre el virus, ¿me mostrás
+    - es un mito que comer ajo mata al virus
+    - es cierto que los niños no pueden contraer el virus? ¿es un mito
+    - qué creencias hay sobre el coronavirus en animales
+    - es creencia falsa que los niños no se enferman de covid19
+    - qué cuentos falsos existen de coronavirus en estados unidos
+    - si conoces mitos del conoravirus, nárrame uno
+    - los barbijos funionan realmente o es un mito
+    - qué información sobre el virus es verdad, y cuál el mito
+    - dame una lista de mitos sobre el corona virus
+    - hay mitos que no sean ciertos sobre el virus
+    - necestio información sobre los mitos del corona virus
+
+- intent: travel
+  examples: |
+    - podrías decirme si es seguro viajar en avión con esto del corona virus
+    - crees que debo de cancelar mi viaje en avión a estados unidos
+    - tienes información sobre si los taxis aún pueden utilizarse con esto del corona virus
+    - quisiera saber si con el corona virus aún se pueden coger autobuses
+    - a qué lugares se puede viajar todavía
+    - cancelaciones de vuelos por covid
+    - qué medio de transporte es más seguro ante el covid
+    - habrá viajes de verano a italia
+    - debo llevar algún comprobante de que no estoy enfermo para mi viaje a inglaterra
+    - qué medidas sanitarias tienen para los viajes nacionales
+    - se puede viajar en un país con estado de excepción
+    - qué precauciones tomar por el covid a la hora de tomar el metro
+    - quiero volar a neuquén la semana próxima, ¿podré hacerlo
+    - puedo viajara a colombia ahora o no hay vuelos por el virus
+    - recibiré un reembolso de mis pasajes a cuba por el coronavirus
+    - qué debo hacer para pedir un vuelo de repatriación
+    - es seguro viajar en bus dentro de la ciudad
+    - es posible ingresar a alemania en avión sin ser alemán
+    - cuándo abrirá sus fronteras aéreas argentina
+    - cuando viajas en avión, ¿te demoran en el aeropuerto
+    - hay que tener algún recaudo especial para viajar en metro
+    - puedo viajar en avión durante la pandemia
+    - consejos de viaje en carro a larga distancia con el coronavirus
+    - necestito que me aconsejes con cómo viajar
+    - cuáles son los riesgos de volar en aerolíneas comerciales
+    - quiero saber si visitar japón es peligroso durante la pandemia
+
+- intent: news_and_press
+  examples: |
+    - crees que puedas darme las últimas noticias sobre el covid-19
+    - noticias coronavirus en puebla
+    - despliega un resumen del número de muertos según las cifras oficiales
+    - muéstrame el discurso que dio piñera sobre la economía en pandemia
+    - cuéntame qué localidades siguen en cuarentena según el ministro de salud
+    - me podés hacer un reporte del comunicado de prensa del gobierno
+    - cuál es la última noticia local sobre corona virus
+    - me actualizás la última información nacional sobre el virus
+    - mostrame las últimas noticias sobre el covid 19
+    - me podés mostrar las noticias de hoy sobre el virus en buenos aires
+    - sucesos recientes sobre coronavirus en el mundo
+    - necesito saber qué noticias hay sobre recuperados en bérgamo
+    - novedades en los periódicos de colombia sobre coronavirus
+    - cuáles son las últimas estadísticas que publicó la prensa
+    - noticias sobre el coronavirus en europa
+    - cuáles fueron las noticias más destacadas del día de hoy
+    - ponme al día sobre el corona virus en el mundo
+    - quiero actualizaciones sobre el estado del coronavirus en estados unidos
+    - quiero oir qué dice el govierno sobre el virus
+    - qué hay de nuevo sobre los respiradores para la gente con covid-19
+
+- intent: share
+  examples: |
+    - mira a ver si puedes compartir esto
+    - tengo mucha necesidad por compartir este servicio
+    - dame enlace para compartir
+    - pásale el asistente del coronavirus a mis amigos
+    - quiero que le mandes el asistente a mi mamá
+    - compártele el asistente a mis grupos de whatsapp
+    - comparte en mi muro este enlace
+    - compartir vía messenger
+    - qué tal si compartes esto
+    - compartir las estadísticas con contactos
+    - copiar enlace a todos
+    - por favor, ¿compartís esto en mis redes
+    - compartí esto en mis redes, por favor
+    - necesito compartir esto con mis contactos
+    - quiero que mi mamá conozca este servicio, compárteselo
+    - es posible compartir esta modalidad con los contactos
+    - quiero compartir este asistente
+    - deseo compartir esta utilidad con mis contactos
+    - buena información, compártela
+    - preciso compartir este servicio
+    - debo compartir este enlace en whatsapp
+
+- intent: hi
+  examples: |
+    - qué tal
+    - qué tal estamos
+    - qué onda, doctor
+    - hola, doctor coronavirus
+    - aló doc, ¿estás
+    - cómo vas, doc
+    - qué tal tu día
+    - cómo te encuentras
+    - estás por ahí
+    - qué hubo
+    - ¡hola! ¿todo tranquilo, doc
+    - buen día, asistente corona
+    - buena noches, corona
+    - cómo amenece
+    - buenas noches, doctor corona virus
+    - escúcheme doctor-19
+    - buen día
+    - buenas tardes a mi médico personal
+
+- intent: okay_thanks
+  examples: |
+    - gracias de corazón
+    - eres muy amable
+    - muchas gracias por todo
+    - te debo una, gracias
+    - me ayudaste mucho, gracias
+    - ¡muchas gracias
+    - adiós, gracias
+    - gracias doc, cambio y fuera
+    - doc covid, gracias
+    - no sé qué haría sin tu ayuda, gracias por la info doc
+    - te debo una, gracias, doc
+    - te quiero dar las gracias
+    - no sé cómo agradecerle por los datos y la ayuda
+    - buena información, muchas gracias
+    - le agradezco, doctor corona
+    - gracias por la explicación
+    - ¡mil gracias por su ayuda
+    - estoy agradecido por tu ayuda
+    - muy bueno todo, gracias
+    - me sirvió mucho tu info, gracias
+    - es muy amable de su parte, médico corona
+
+- intent: donate
+  examples: |
+    - quiero donar dinero a áfrica
+    - ayúdame ahora a hacer una donación
+    - dime cómo donar dinero ahora
+    - quiero donar dinero
+    - vamos a hacer una donación
+    - dónde se necesitan donaciones? quiero hacer una
+    - invierte 10,000 pesos en cetes
+    - donar vía paypal
+    - quiero que se haga una donación a esta causa
+    - cómo puedo ayudar a las regiones más afectadas de ecuador
+    - ver formas de ayudar con donaciones a los refugiados de las islas griegas
+    - por favor, hacer una donación para ayudar a los países latinoamericanos
+    - cómo podemos donar mascarillas en hospitales públicos
+    - quiero ayudar con plata a los hogares de ancianos de santiago
+    - la situación económica es muy complicada, ¿cómo puedo ayudar a la gente que se quedó sin dinero en esta pandemia
+    - están recibiendo donaciones en nueva york
+    - hacer donación en la guajira
+    - hay forma de mandar una donación a colombia
+    - cómo se puede enviar una donación
+    - si quiero donarle dinero a esto, ¿cómo hago
+    - haz una inversión de dinero en lima
+    - hacer una contribución a asunción, paraguay
+    - quisiera contribuir con donaciones
+    - desearía ayudar donando dinero
+    - me asistes para entregarle donaciones a nueva york
