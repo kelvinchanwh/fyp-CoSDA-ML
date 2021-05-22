@@ -1,0 +1,42 @@
+version: "2.0"
+
+intents:
+  - donate
+  - hi
+  - how_does_corona_spread
+  - latest_numbers
+  - myths
+  - news_and_press
+  - okay_thanks
+  - protect_yourself
+  - share
+  - travel
+  - what_are_symptoms
+  - what_are_treatment_options
+  - what_if_i_visited_high_risk_area
+  - what_is_corona
+  - can_i_get_from_feces_animal_pets
+  - can_i_get_from_packages_surfaces
+
+responses:
+  utter_hi:
+  - text: "Hey! How are you?"
+
+  utter_donate:
+  - text: "You can visit this link here to donate"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
