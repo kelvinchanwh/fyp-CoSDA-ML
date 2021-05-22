@@ -1,0 +1,199 @@
+version: "2.0"
+
+nlu:
+
+- intent: what_are_treatment_options
+  examples: |
+    - is there a cure for the coronavirus
+    - flu treatment options viable to fight corona
+    - i want treatment options for covid-19
+    - is there a cure for the virus
+    - what are some updates on the cure for covid-19
+    - does acetaminophen cure coronavirus
+    - where can i get the covid vaccine
+    - who offers a vaccine for corona virus
+    - any homeopathic remedies for covid 19
+
+- intent: myths
+  examples: |
+    - please tell me if it's a myth that soup gives you corona
+    - covid debunked myths
+    - myths about desinfect your shoes every day
+    - do 5g antennas spread the coronavirus
+    - is it true that i can catch covid-19 from animals
+    - covid-19 origin myths
+    - myth about half the population dying from covid 19
+    - is it a myth that i can get coronavirus from my cat
+
+- intent: travel
+  examples: |
+    - can i travel to go hiking
+    - can i visit china now
+    - advice for traveling in dc
+    - is air travel safe yet
+    - will be the hotels reopen in 40 days
+
+- intent: news_and_press
+  examples: |
+    - i wanna see the latest news about covid in my city
+    - tell me the latest corona news for europe
+    - recent updates in bahrain
+    - anything new about new york
+    - latest coronavirus news
+    - any news on coronavirus from today
+    - are there any updates in texas
+    - covid updates from the latest press release
+
+- intent: share
+  examples: |
+    - share this
+    - share this bot
+    - please share this
+    - this would be great to share
+    - i want to share this assistant with my contacts
+    - share this article
+    - share this info
+    - share this report
+    - send link to sister
+
+- intent: hi
+  examples: |
+    - how are you today bot
+    - hello covid bot
+    - are you still sleepy bot
+    - hey there
+    - whaddup doctor
+    - hey there doc
+    - hey doc
+    - what's up doc
+    - how's it going
+
+- intent: okay_thanks
+  examples: |
+    - great info, thanks
+    - got it, thanks bot
+    - thanks for the info
+    - i appreciate your help, dear corona
+    - i appreciate it doc
+    - i appreciate your help with travel safety tips
+    - thanks for letting me know about high risk areas
+    - thanks so much, corona doc
+    - thank you for everything, doctor
+    - thanks for all the info
+    - thanks for the information doctor
+    - thanks for the details
+    - thank you for your help corona bot
+
+- intent: donate
+  examples: |
+    - how can i donate to new york city
+    - how can i donate to charity
+    - what's the best way to make a donation in my community
+    - i want to fund nyc
+    - donate to china
+    - donate for african relief
+    - donate to a local charity
+    - what's a good cause to donate to
+    - funding for covid 19 response chicago
+
+- intent: latest_numbers
+  examples: |
+    - how many covid19 cases are there now
+    - how many confirmed cases are there in new york
+    - can you show me the ranking by confirmed cases within the u.s
+    - what are the statistics for elderly people infected by the virus
+    - how many us states have a shelter in place order
+    - total recoveries from covid
+    - how many tests has the us done
+
+- intent: protect_yourself
+  examples: |
+    - does staying home protect my family from getting infected with the virus
+    - do gloves help
+    - should i sanitize my hands after grocery shopping
+    - what kind of hand sanitizer should i use
+    - how many times a day should i wash my hands
+    - what should essential workers do for prevention of the virus
+    - how long is the virus alive on surfaces
+    - how to kill the spread of corona virus on surfaces
+    - how can i protect myself from coronavirus
+    - do face masks help stop coronavirus
+    - are there any medications i should take if i have the virus
+    - do pets need protection if going outdoors
+    - should i wear gloves
+    - what gloves are best for protection
+
+- intent: what_is_corona
+  examples: |
+    - enlighten me about the virus
+    - brief me about the corona
+    - describe corona
+    - give me more info on the pandemic
+    - tell me what i should know about covid
+    - what does covid-19 stand for
+
+- intent: what_are_symptoms
+  examples: |
+    - is diarrhea a symptom
+    - what are the symptoms of covid-19
+    - tell me all the possible symptoms of covid-19
+    - how can i get better
+    - how can i tell the difference between having allergies or coronavirus
+    - what are possible danger signs for it
+    - what are some of the symptoms associated with corona virus
+    - what are the late stage symptoms
+    - how many different symptoms are there
+    - can corona virus cause a headache
+    - i have a sore throat, is this a symptom of the covid-19
+    - what main symptoms are clear signs of the disease
+    - what symptom is the easiest to notice when someone has the disease
+    - is covid-19 causing my shortness of breath
+    - ive been sneezing a lot is that caused buy the corona
+
+- intent: how_does_corona_spread
+  examples: |
+    - does corona virus spread through farts
+    - can i get the corona from my kids ipad even after 3 days
+    - can i get infected with covid if someone sneezes on me
+    - how likely does covid spread on amazon packages
+    - is coronavirus spread on doorknobs
+    - can i get infected with covid through indirect contact
+    - how can touching shared surfuces put you at risk for corona virus
+    - can the virus spread by skin to skin interaction
+    - can the virus travel by touch
+
+- intent: can_i_get_from_feces_animal_pets
+  examples: |
+    - should i have contact with my pet if i have the coronavirus disease
+    - can pets get the coronavirus, and can we catch it from them
+    - how do i avoid getting covid from animals
+    - is there a vaccination against the covid-19 coronavirus that my pet can receive
+    - can i test my animal through a private veterinary laboratory
+    - can i get corona virus from eating sushi
+    - how can i tell if my cat has corona
+    - can snakes get the virus
+    - can horses get the virus
+    - do mosquitos carry covid
+
+- intent: can_i_get_from_packages_surfaces
+  examples: |
+    - how long does covid19 stay on public surfaces
+    - can i get coronavirus from touching groceries
+    - have people got covid from deliveries from china
+    - should i stop getting deliveries
+    - will bleach kill coronavirus on my stove
+    - is covid good at living on steel
+    - does covid-19 stay on furniture
+    - does covid-19 stay on ceilings
+
+- intent: what_if_i_visited_high_risk_area
+  examples: |
+    - which cities in the united states are at most risk for coronavirus right now
+    - is the hospital considered a high risk area
+    - which country is currently the highest risk
+    - should i be concerned since i just visited china
+    - what city in california has the highest risk
+    - should i travel within the u.s during the pandemic
+    - which countries are safe for nonessential international travel
+    - will i get in trouble visiting a high risk area
+    - which essential business has the highest risk of infection

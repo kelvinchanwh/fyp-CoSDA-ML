@@ -1,0 +1,1309 @@
+version: "2.0"
+
+nlu:
+
+- intent: donate
+  examples: |
+    - this is great how do i help you
+    - i wish i could do something about this
+    - whom can i donate to
+    - how do i donate money
+    - i would like to help your cause
+    - do you take money
+    - who needs money right now
+    - is there a list of foundations to donate to
+    - how can i send dollars to someone
+    - what are the donation options
+    - donate to the food bank
+    - send money to the relief fund
+    - please send a donation to a local charity
+    - how do i donate to unemployed people in my town
+    - how do i donate to grocery store workers in town
+    - i wanna send money to unemployed people
+    - please help me send money to nyc hospitals
+    - how do i give money to a ventilator fund
+    - donate money to who
+    - i want to donate to spain
+    - how can i donate
+    - donate money now
+    - give money to the who fund
+    - donate to the food bank
+    - donate covid
+    - how can i donate to corona relief
+    - can i donate to medical needs for corona virus
+    - let's donate for new york
+    - provide funding for virus cure
+    - how to donate for corona treatment
+    - give out money
+    - funding for high-risk locations
+    - i'd like to make a donation
+    - donate to covid-19
+    - who is taking coronavirus donations
+    - i wanna donate
+    - can i donate some groceries
+    - i want to donate for the refugees
+    - donate to make more masks
+    - i wanna donate to the covid 19 illness people
+    - send out funds to coronavirus efforts in colorado
+    - donate medical material to the nearest hospital
+    - make a donation to dallas' fundraiser for coronavirus
+    - how do i donate
+    - donate to seattle
+    - how can i donate
+    - give funding for my area
+    - i wanna give funds to italy
+    - donate to covid-19 relief now
+    - i wanna donate a bit of money
+    - coronavirus donation info, please
+    - where can i donate to covid-19 relief
+    - does my city have a local relief fund
+    - i'd like to donate to help italy
+    - how can i donate to new york city
+    - i'd like to donate to italy
+    - how do i donate to support washington
+    - send funds to raleigh
+    - show me how to donate please
+    - i'd like to provide funding to spain
+    - donate in my area
+    - tell me how to donate please
+    - donate to local schools
+    - donate to india
+    - i want to donate to local relief efforts
+    - please help me donate to covid-19 medical research
+    - send funds to nursing homes in my area
+    - show me organizations accepting donations in my state
+    - i wanna make a monetary donation
+    - charitable donation for covid
+    - how can i find out more about donation campaigns
+    - i'd like to send a donation to blue cross
+    - how can i donate money to help feed homeless
+    - donate to the who
+    - how can i donate to the red cross
+    - where do i go to donate to the red cross
+    - can i donate to my county
+    - how do i donate locally
+    - i want to donate to research in my state
+    - where can i donate canned goods
+    - can i donate to hospitals near me
+
+- intent: hi
+  examples: |
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - nice to meet you
+    - hello robot
+    - who are you
+    - hi i'm jack
+    - hi i have a question
+    - could you help me
+    - hi corona bot
+    - good morning doc covid
+    - hallo doctor bot
+    - morning, corona doc
+    - hi, bot
+    - hello covid bot
+    - how's it going, doc
+    - hi
+    - hey bot
+    - good morning doctor
+    - morning bot
+    - hi doc, how are you
+    - hello
+    - g'day, doc
+    - alright, bot
+    - how ya goin, bot
+    - hello bot
+    - what's up, covid bot
+    - what's new, coronabot
+    - wakey wakey, cov bot
+    - doctor corona, you there
+    - top o' the mornin' to ya, doc
+    - yo, corona bot, what's up
+    - good day, corona doc
+    - hello, doc
+    - how do you do, doctor
+    - how is it going corona doc
+    - how did you sleep mr. covid
+    - what are you gonna do today dr. covid
+    - morning doc
+    - hi covid doc
+    - hello
+    - hey corona doctor
+    - what's new covid doctor
+    - are you there doctor
+    - how's your day going corona doc
+    - hello, hello doc
+    - good morning, doctor corona
+    - wake up, corona doc
+    - hi, corona
+    - how's it going
+    - how are you doctor
+    - good morning, dr
+    - hi covid- 19 doctor
+    - how are you doing, doc
+    - what's new, doc
+    - hey, yo, what up bot
+    - good morning doc
+    - hey doc, what's new
+    - hey doc, you there
+    - bot, what's happening
+    - hey bot
+    - rise and shine mr. corona
+    - good evening
+    - what's up
+    - hi coronavirus doctor
+    - how's it going
+    - morning doctor
+    - hello covid bot
+    - hey doc
+    - hey, what's up
+    - hello doc, how's it hanging
+    - good morning, covid bot
+    - what's the word, covid bot
+    - top of the morning to you, covid bot
+    - morning
+    - hi doc bot
+    - hey covid bot
+    - how's it going covid doc
+    - afternoon, doc
+    - hello doc bot
+    - hey hey, bot doc
+
+- intent: how_does_corona_spread
+  examples: |
+    - how does the virus spread
+    - how does coronavirus infect other people
+    - can i get infected by touch a patient
+    - can people with masks transmit it to other people
+    - does the virus float in air
+    - is covid-19 in the water
+    - can i get it if someone sneezes on me
+    - does covid only infect old people
+    - what are the common vectors
+    - what is causing it to spread
+    - can i get covid-19 from insects
+    - how long does the corona stay on my kids toys
+    - can i get covid-19 from kids dirty clothes
+    - can i get the corona from opening my mail
+    - can my parrot get the corona
+    - can my snake get covid-19
+    - is it true dogs were less susceptible to the corona
+    - is it true plants cant spread the corona virus
+    - can i get sick with covid through food
+    - can ticks spread coronavirus
+    - how does coronavirus get transmitted
+    - how is coronavirus spread in public
+    - what is the most common way covid is spread
+    - does the coronavirus spread through air
+    - how fast can people get infected if there is a community spread
+    - can you give me more info on respiratory transmission
+    - can my dog get infected with covid
+    - is person-to-person contact the main mode of covid transmission
+    - can asymptomatic people spread coronavirus
+    - is it possible to for me to get infected with covid and spread it to others without knowing
+    - can i spread coronavirus if i'm pregnant
+    - can someone spread coronavirus if they don't have symptoms
+    - can covid spread if someone only has mild symptoms
+    - is covid more likely to spread in humid weather
+    - can a mosquito bite give me covid
+    - can covid-19 spread through pools
+    - can the virus spread though the sewarage system
+    - is corona virus spreadable through air filters and/or air conditioning
+    - is corona virus airborne
+    - can warm weather slow the spread of covid-19
+    - is the disease able to spread by food
+    - are mosquitos and ticks be able to spread corona virus
+    - how likely is covid-19 spreadable through tap water
+    - can i use a mask to help with spreading corona virus
+    - how do gloves play a part with the covid-19 epidemic
+    - can the disease spread from touching your eyes
+    - may i have more information on airbone transmission
+    - what precautions can i take to help eliminate spreading of this virus
+    - will the 6 feet apart rule really help decrease virus transmission
+    - how effective has masks been with slowing down the spread of covid-19
+    - can covid-19 spread if you live in high temperature weather
+    - how can someone spread the disease
+    - can i have more information on aerosol transmission
+    - how does covid-19 spread so easily
+    - does corona virus spread from touching someone infected only
+    - how can the covid-19 spread decrease in a large community
+    - can covid-19 spread by shared living spaces
+    - does it travel in the air
+    - how can i get it
+    - do flies carry the 19
+    - how does 19 spread
+    - does the virus travel by smells
+    - can the virus be spread by kissing
+    - why is this virus spreading so fast
+    - how does the virus travel
+    - can i get the 19 by using public transport
+    - do fruit-flies carry the virus
+    - is 6ft apart effective to stop spreading the virus
+    - does the disease travel in food
+    - how does the virus keep spreading
+    - is the virus spreading growing
+    - should i wear a mask
+    - why is the virus spreading
+    - does the virus spread slower beacuse of heat
+    - do bees carry the virus
+    - can a ladybug carry the virus
+    - how is the virus reaching to my house
+    - how is the virus traveling
+    - can the virus travel by touching door knobs
+    - can the 19 be spread faster
+    - is the virus in the air
+
+- intent: latest_numbers
+  examples: |
+    - what's the latest statistics
+    - what do the numbers look like now
+    - how many people have been infected
+    - how bad is the situation in new york
+    - how many people have died because of covid
+    - how many people has coronavirus killed
+    - what do the pandemic numbers look like
+    - whta's the latest data
+    - what are the newest figures
+    - how is it like in california now
+    - how many cases are there in the world
+    - how many corona virus cases are there globally now
+    - what's the latetest stats on covid19
+    - what's the stats on corona in new york now
+    - what's the case count in new york
+    - how many people have died from covid19 in the u.s. already
+    - how many cases per 100k people in california
+    - what's the death count in south korea
+    - how many people died today in the u.s
+    - how many people died yesterday in the u.s
+    - how many new cases are there in california
+    - what's the death count in santa clara county
+    - show me the lastest stats for china
+    - how many new cases popped up in singapore
+    - tell me the lastest stats in texas
+    - i'd like to know how many people have been tested so far for covid19 in the u.s
+    - can you tell me the total confirmed cases in the tri-state area
+    - number of people who got tested in new york
+    - what's the country with the most death count
+    - how many people have been tested in the korea so far
+    - what are the statistics in canada for covid
+    - how many new cases are there worldwide today
+    - what are the stats in the uk for the coronavirus
+    - what is the average age of people affected in the us
+    - what is the rate of recovery for corona in europe
+    - how many people are recovered in california
+    - average hospital occupancy with cases of corona
+    - what is the average cost of testing for the virus
+    - how many hospitals have access to testing for the virus
+    - number of cases in mexico
+    - death rate of coronavirus in the us
+    - average age of death from the virus
+    - how many essential workers have been infected so far
+    - what are the statistics on countries enforcing mask wearing versus countries that don't
+    - how many people are infected daily by corona
+    - how many people total in the world have recovered from the virus
+    - how many elderly people have recovered from the virus
+    - what is the average rate of recovery for people between the ages of 20 and 40
+    - what is the projected number of deaths from the virus if we do not socially distance
+    - what are the number of cases worldwide
+    - number of cases in north korea
+    - how many tests are there in are available in the us
+    - death rate in the united kingdom
+    - how many deaths has covid-19 caused worldwide
+    - whats the latest numbers in california
+    - what is the death rate in china
+    - what is the recovery rate in the us
+    - whart is the recovery rate in china
+    - infected cases in colorado
+    - recovery rate in san francisco
+    - recovery rate in modesto
+    - how many people under the age of 18 are infected
+    - number of recovery cases in new york
+    - daily recovery rate in the us
+    - what ethnicity has taken the largest hit from covid
+    - how many people over the age 40 has been infected
+    - how many people have been infected since march
+    - latest stats on cases in africa
+    - total deaths from covid in australia
+    - recovery rate in chicago
+    - whar are the number of cases in china
+    - number of cases in vietnam
+    - how many active cases that are critical condition
+    - number of cases in europe
+    - how many have died in the uk
+    - what are the latest numbers of south korea
+    - how many cases are there in india
+    - number of recovered cases in italy
+
+- intent: myths
+  examples: |
+    - what are the myths about covid
+    - fake news
+    - what are the misconceptions
+    - what news should i not listen to
+    - what are the lies they are saying
+    - any misinformation about the virus
+    - are the politicians spreading any lies
+    - what should i not trust
+    - is this story true
+    - how can i call the bs
+    - covid myths
+    - is it a myth that covid is worse than the regular flu
+    - did they spread corona on purpose
+    - popular coronavirus myths, please
+    - myths about covid, please
+    - was the coronavirus engineered
+    - what are some popular covid myths
+    - pangolin myth covid
+    - is covid fake
+    - tell me information on corona virus myths
+    - is it a myth that children aren't prone to getting corona
+    - is covid-19 a bioweapon
+    - get me latest coronavirus myths
+    - was covid lad-made to control masses
+    - is social distancing a myth
+    - did corona virus come from a lab
+    - did a tiger really get the corona virus
+    - what is the most common myth of covid
+    - is it a myth that lavender helps covid
+    - give me info on the weirdest covid myths
+    - what are myths about coronavirus
+    - is it a myth that covid is made up
+    - what are the newest covid-19 myths
+    - what are the top five myths about coronavirus
+    - is it a myth that coronavirus spreads in cold climates
+    - does 5g cause coronavirus
+    - any new myths about covid-19
+    - did donald trump fabricate coronavirus to get re-elected
+    - is it a myth that diffused oils can cure covid-19
+    - give me some conspiracy theories on coronavirus
+    - is it the covid-19 transmited by water
+    - did the covid 19 come from africa
+    - myths about using mask filters
+    - is it a myth that covid-19 can re-infect people
+    - is it true that drinking alcohol prevents coronavirus
+    - gargling salty water to prevent the coronavirus
+    - myths about pets and coronavirus
+    - myths about home remedies for covid-19
+    - show the latest myths about coronavirus
+    - is it true that hot baths kill covid-19
+    - do animals spread the virus
+    - coronavirus with heart disease myth
+    - is it a myth that ibuprofin makes coronavirus worse
+    - what are the most recent covid-19 myths
+    - covid age myth
+    - covid myths versus facts
+    - what are some myths floating around about covid
+    - why are there so many covid myths
+    - why are there lots of myths about coronavirus on the news
+    - tell me some covid-19 myths that have been debunked
+    - is a myth that you can get coronavirus more than once
+    - tell me about the myths related to coronavirus
+    - which myths about coronovirus are actually true
+    - is it a myth that covid 19 started in china
+    - coronavirus myths
+    - what covid myths have been debunked
+    - is it true that there's covid vaccine
+    - what are common myths about corona
+    - is it a myth that gargling salt water kills corona
+    - send me some myths about covid19
+
+- intent: news_and_press
+  examples: |
+    - what's the latest
+    - news
+    - any updates
+    - did anything big happen today
+    - what is the press saying
+    - what did the president announce
+    - what are today's updates
+    - tell me the news
+    - what new happened today
+    - give me daily updates
+    - is there any reliable news on corona
+    - can i get the latest updates for covid in az
+    - what was in the last press release about covid
+    - coronavirus news please
+    - show all the news on corona in my county
+    - can i get a news briefing about covid
+    - please show me updates about the coronavirus in the us
+    - what are the current developments about corona worldwide
+    - what is the latest covid news
+    - what is the news on corona virus in my state
+    - what's the latest on the pandemic in puerto rico
+    - how's the virus situation in italy now
+    - corona virus news from bbc
+    - can i see today's news on covid 19
+    - can i see reports on infection rates
+    - send me news updates from the last hour
+    - what's the lastest news from italy
+    - any news on a vaccine
+    - today's coronavirus update, please
+    - what is the most recent new from spain
+    - are there any economic updates
+    - send me the latest news from germany, please
+    - what does the cft about the economic crisis
+    - what does the press say about the vaccine development
+    - tell me the best news about the covid 19 cure process
+    - any news about covid
+    - what's the latest on coronavirus in dc
+    - covid-19 news from south korea
+    - get me today's press release about the virus
+    - please send me the latest coronavirus news
+    - show me the latest about covid-19 in mexico
+    - what are the most important updates on coronavirus in the world
+    - send me all news articles about coronavirus in california
+    - covid-19 updates
+    - updates for my area
+    - where can i get news on covid-19
+    - coronavirus news subscription
+    - what's the most recent news about covid-19
+    - recent developments in my city
+    - will there be a press conference today
+    - what are the most recent coronavirus numbers
+    - gimme the daily corona update
+    - what time will the press release be today
+    - what's new with coronavirus in florida
+    - please give me the latest updates on covid-19
+    - coronavirus news in spain today
+    - what are the who press releases on covid-19 this week
+    - have there been any updates on coronavirus from the cdc since last week
+    - corona updates, please
+    - covid-19 press releases
+    - what updates can you give me about covid-19
+    - are there any recent covid-19 press releases
+    - what's the most recent news from australia
+    - show me yesterday's press release from trump
+    - what's the latest news on the situation in india
+    - get me news from my hometown
+    - what's the latest news about covid
+    - any news about the virus in italy
+    - are there any news about coronavirus in my area
+    - any updates on the corona situation today
+    - can you show me the latest updates in washington
+    - updates from italy
+    - most recent news from south korea
+    - covid 19 updates
+    - latest on corona virus
+    - current developments fromthe who
+    - any corona virus updates
+    - what did cuomo do regarding covid today
+    - what has who said about covid19
+    - any news about stay at home orders regarding covid 19
+
+- intent: okay_thanks
+  examples: |
+    - thanks for doing this
+    - omg so glad someone built this
+    - this is amazing
+    - you are so useful
+    - thank you very much
+    - okay
+    - hmm thanks for the info
+    - may god bless you
+    - thnx bro
+    - ty
+    - thanks, i appreciate it
+    - great info, thanks doctor bot
+    - interesting, thanks
+    - thanks, bot
+    - thank you very much, corona doc
+    - okay thanks
+    - thank you for the information
+    - thanks doc
+    - alright thanks
+    - thanks for the help
+    - cool, thanks
+    - i appreciate it
+    - thank you for your help
+    - thank you doc
+    - thanks bot
+    - thanks for checking that up, doctor bot
+    - grateful for the feedback, covid doc
+    - really appreciate this, doctor
+    - gratitude, corona doc
+    - thanks a million, doctor
+    - i appreciate the info, doc
+    - thank you for your assistance
+    - thanks for the help
+    - thank you for your interest
+    - thank you for all the help you've given me doc
+    - i'll be so gratefull to you mr covid
+    - okay, thank you so much coronabot
+    - alright, thanks
+    - i just learned about covid-19 symptoms. thanks a bunch, doc
+    - thank you doc for teaching about face masks
+    - thanks for all your help
+    - thanks so much doc
+    - i appreciate it, thank you
+    - ok, thanks a lot
+    - thank you for the help today
+    - i really appreciate you for helping me
+    - you're literally a life saver, thanks doc
+    - thank you so so much
+    - thanks for the help, doc
+    - that's exactly what i needed to know - thanks bot
+    - thank you for all the information
+    - great, thanks a bunch
+    - thanks for the info, doc
+    - okay, thanks covid doc
+    - thank you so much for all the help
+    - thanks for the help, bot
+    - thank you
+    - thank you so much for the info
+    - much appreciated, bot
+    - you're such a big help, doc
+    - thank you for sharing this info with me
+    - thanks for everything
+    - much appreciated, corona bot
+    - thanks for sharing this with me
+    - thank you, doc
+    - thanks bot
+    - thanks for the info doc
+    - thanks much, doc bot
+    - rightio, thank you covid doc
+    - thanks a bunch bot doc
+    - thanks for all this, covid bot
+
+- intent: protect_yourself
+  examples: |
+    - how can i stay safe
+    - what should i do to prevent
+    - preventive measures
+    - what precautions should i take for covid
+    - i'm scared what do i do
+    - how can i protect my family
+    - my parents are old what do i do
+    - i don't wanna die
+    - what can i do to avoid getting sick
+    - how should i protect myself
+    - how can i protect myself from coronavirus
+    - will wearing a mask be enough
+    - does regular flu vaccine help fight the virus
+    - what kind of face mask helps
+    - does disinfecting clothes after grocery shopping help
+    - how to avoid getting the virus
+    - should i need to wash my fresh groceries
+    - ways to protect myself from the virus
+    - should i disinfect my grocery bags
+    - top precautions for the virus
+    - should i take vitamins to protect myself
+    - how effective are gloves
+    - should different age groups take different prevention measures
+    - are cloth masks as efficient as surgical masks
+    - what cleaning products should i use
+    - what measures should elderly individuals be taking
+    - how do i prevent my kids from getting the virus
+    - how often should i wash a cloth mask
+    - how do i keep safe from getting virus
+    - how often should i switch out my face mask
+    - how should i shop for produce at the grocery store
+    - how far apart should i stand from other people
+    - should i stop using cash
+    - should i be wiping down my groceries
+    - should i be ordering packages online
+    - should i wash my hands with hot or cold water
+    - what can i do to protect others from getting the virus
+    - how can i not get coronavirus
+    - how do i not get sick from coronavirus
+    - how can i stay safe from covid-19
+    - what will help me stay safe
+    - tell me some ways to avoid coronavirus
+    - tell me some tips to staying safe
+    - what are some steps to avoid covid-19
+    - what methods will help prevent coronavirus
+    - give me information to avoiding covid-19
+    - how can i protect my family from covid-19
+    - in what ways can we protect ourselves from coronavirus
+    - in what ways can i protect my children
+    - what are some ways to staying safe from covid-19
+    - should i wear face masks to prevent covid-19
+    - will gloves help stop coronavirus
+    - will wearing gloves help me avoid covid-19
+    - does wearing gloves help me stay safe from covid-19
+    - should i stand six feet apart from others
+    - will cotton facemasks protect me
+    - do i need a n95 mask
+    - will hand sanitizers protect me from the virus
+    - should i avoid large crowded places
+    - do face masks help
+    - do kids need to wear face masks
+    - how can i protect against the virus
+    - do i need to wear a face mask to walk outdoors
+    - do cloth face mask help prevent the spread
+    - does drinking water reduce getting the virus
+    - best place to avoid getting the virus
+    - best way to prevent getting the virus
+    - how can i protect my dog
+    - do infants need a face mask
+    - do any medications protect against the virus
+    - do i need to clean all my groceries
+    - should i wipe down my trunk after going grocery shopping
+    - should i sanitize my clothing after going outside
+    - should i avoid wearing jewelry when shopping
+    - can i reuse my face mask
+    - how can i protect my grandparents
+
+- intent: share
+  examples: |
+    - share this with jack
+    - send this info to my friends
+    - share chat
+    - post to friends
+    - how do i tell everyone about this
+    - i'll tell my family about this
+    - send this to parents
+    - share with mom
+    - broadcast this chat
+    - send this to everyone
+    - please share this service
+    - share a link to this
+    - please send a link for this service
+    - share this service
+    - share the chat service, please
+    - share the link for this
+    - share link
+    - can you share this bot
+    - how can i share this service
+    - share service please
+    - share this bot on twitter
+    - link this to my profile
+    - share the world health bot
+    - share bot to my feed
+    - share this to friends
+    - share this link
+    - share this story
+    - how do i share this with my family
+    - share this link with my contacts
+    - can you share the who bot
+    - go on and forward this feature
+    - how can i share this link
+    - send a report to this link
+    - link this publication to my office
+    - share this information
+    - how do i share this
+    - share link
+    - i want to share this info
+    - can you share this please
+    - share this post now
+    - send out this information
+    - forward the news
+    - post this bot
+    - i want to share this service
+    - shareable link
+    - how can i share you with people
+    - i wanna share this on instagram
+    - i'm gonna share this service online
+    - let me share this chat
+    - share this link with my friends only
+    - share this on my story
+    - send this to my spouse
+    - post this on my timeline
+    - share this service with all my followers
+    - i wanna share this link with my family
+    - share this, please
+    - could i share this on my facebook
+    - show me how i can share this, please
+    - share info about this service
+    - please share this on my page
+    - share this info over text
+    - share on my social media
+    - can i share this link
+    - show me how to share this to my family
+    - i'd like to share this
+    - can i share this information
+    - share this with my friends, please
+    - share the link with my family
+    - how do i share this link
+    - i want to share this on my page
+    - share this link to my twitter followers
+    - how do i share link this to my contact list
+    - share this link to non believers
+    - send this article to my parents
+    - share link with friends on facebook
+    - share the article
+    - is sharing allowed
+    - share this link on facebook
+    - share this with a facebook group
+    - share this link with mom
+    - can i share this on my website
+    - how do i share this with reddit
+
+- intent: travel
+  examples: |
+    - is it safe to travel now
+    - can i take the bus to work
+    - should i cancel my vacation
+    - what is essential travel
+    - can i take uber
+    - is it okay if i take the train
+    - can i travel domestically
+    - should i cancel my flight
+    - can we move around freely now
+    - travel advice
+    - can i get through the border to mexico
+    - is traveling by car safe
+    - does cruising count as non-essential travel
+    - can i travel to go camping
+    - i wanna know if i can still go to hawaii
+    - can i fly to see my son across the country
+    - is it safe to travel on a train
+    - need travel advice
+    - can i still travel to europe
+    - is it safe to travel by bus
+    - should i stop using public transport
+    - is the metro still working in france
+    - will i be ok if i fly to new york in the summer
+    - travel tips during the pandemic
+    - can i travel from the us right now
+    - is it safe to go abroad this fall
+    - are the buses cancelled in town
+    - is crossing state lines allowed
+    - how long with travel bans be in effect
+    - what is considered essential travel
+    - is it safe to travel by your own car
+    - is it safe to travel out of the country
+    - can i visit my parents in california right now
+    - i want to know if i can take a trip to the mountains
+    - can i drive across state lines
+    - is it safe to drive to cleveland
+    - advice for traveling by train
+    - are airport bus services canceled
+    - can i visit greece within the next year and be okay
+    - is it okay to commute across state lines
+    - what is the safest mode of travel
+    - do i need to wear a mask on my subway ride
+    - what are the best precautions while travelling
+    - what are the least safe places to travel right now
+    - can i take an airplane on may the 15th
+    - can i go to ny after the quarantine
+    - is the mexican border closed because of covid 19
+    - is there any airline operating these days
+    - can you give me some travel advice
+    - are taxis considered unsafe
+    - is it safe to travel right now
+    - what's the safest transport right now
+    - are there any safe destinations
+    - what are the safety measures for a domestic travel
+    - is it safe to travel with kids
+    - is it safer to travel on plane or train
+    - what does the cdc recommend for travelers
+    - do i need to disinfect my luggage when travelling
+    - can i still take domestic flights
+    - when will travel bans lift
+    - should i keep my summer trips planned
+    - what is considered essential travel
+    - how do i travel safely
+    - am i allowed to leave my state
+    - do you think i have to cancel my trip to japan in august
+    - can i travel out of my city
+    - is my trip to las vegas considered non-essential
+    - can i travel to canada right now
+    - are trains still running in europe
+    - can i take the subway to the store
+    - are domestic flights cancelled, too
+    - should i cancel all my upcoming flights to the usa
+    - can i travel to europe right now
+    - is it safe to ride a bike
+    - give me the best options for travel in dc
+    - is it safe to get on a flight
+    - is it still possible to go to europe
+    - should i travel by car
+    - what is considered non-essential travel
+    - is it okay to travel to alaska
+    - safe travel options
+    - can i still travel by train
+    - can i safely travel via bus
+    - where can i go in the world that's safe
+    - should i cancel my destination wedding to italy
+    - can i travel to mexico via foot
+    - is buying groceries an excuse to be outside
+
+- intent: what_are_symptoms
+  examples: |
+    - what are the symptoms
+    - i have a cold should i be worried
+    - i dont have a fever but a headache
+    - i've had a cold for a week now
+    - is coughing a sign of the virus
+    - i think i have the flu
+    - my throat is sore do i have the virus
+    - is vomiting a symptom
+    - what are the signs of the virus
+    - how do i tell if someone is infected
+    - is coughing a symptom
+    - are the symptoms similar to having flu
+    - how will i know if i have covid-19
+    - can you please tell me the symptoms of coronavirus
+    - how long does these symptoms last
+    - if i show symptoms what should i do
+    - should i worry if i have a runny nose
+    - should i self-isolate if i show symptoms
+    - can you list all the symptoms
+    - what is the protocol if i show symptoms
+    - how can i rid of my cough
+    - is coughing a symptom
+    - is an upset stomach a sign of covid19
+    - how can i tell if i've had coronva virus
+    - is a fever a symptom
+    - what symptoms should we watch for
+    - list all of the corona virus symptoms
+    - how to tell if a family member has corona virus
+    - what symptoms are there
+    - what are some differences betweens covid19 and the common cold
+    - differences between allergies and covid19
+    - tell me all of the symptoms of covid19
+    - what should i be looking out for to tell if someone has it
+    - is a runny nose a symptom
+    - can corona virus cause pnumonia
+    - what symptoms are most common
+    - tell me about the different symptoms of corona virus
+    - what are some early symptoms
+    - is having a lack of taste a symptom
+    - is a headache one of the symptoms
+    - is having a hard time to breathe a symptom
+    - is a sign of corona having a lack of breath
+    - do i have allergies or covid-19
+    - is coughing a symptom of the corona virus disease
+    - what are some tell tale signs of covid-19
+    - are muscle aches a symptom of corona
+    - what are the main ways to see if i have it
+    - what should i check to see if i have the disease
+    - are the symptoms of covid-19 similar to allergies
+    - is coughing blood a symptom of it
+    - is a fever a symptom of corona virus
+    - how long does corona virus last
+    - how severe do the symptoms get
+    - how long should i wait to get help if i show signs of corona
+    - what are the main symptoms of the corona virus
+    - how can i tell if someone has corona
+    - what are the signs you may have the corona
+    - is a runny nose a symptom of the covid-19
+    - what are the symptoms of the coronavirus disease
+    - is shortness of breath a symptom
+    - is pneumonia a symptom
+    - is headache a symptom of the coronavirus disease
+    - i have a dry cough, does that mean i have the corona virus
+    - does the covid-19 cause diarrhoea
+    - does the covid-19 cause nasal congestion
+    - i have been extra tired lately does that mean u have the corona
+    - is headache a symptom of the coronavirus disease
+    - is chest pain a sign i have covid-19
+    - does the corona cause pressure in my chest
+    - does coughing up phlem mean i. have the corona
+    - does the corona cause lack. of appetite
+    - i have a fever does that mean i have the corona
+
+- intent: what_are_treatment_options
+  examples: |
+    - do we have a cure yet
+    - what are the treatment options
+    - is there a vaccine for covid
+    - do hospitals know how to fix this
+    - what have the doctors come up with
+    - how can i get treated
+    - what medicine should i take for covid
+    - is coronavirus treatable
+    - what can the hospitals do in this situation
+    - where should i go for medical advice
+    - can i use essential oils to tread covid
+    - can medicine cure corona
+    - is there a vaccine yet for the covid
+    - what can i do to treat myself if i'm sick with coronavirus
+    - is the malaria medicine safe for treatment of covid
+    - does coronavirus have a cure
+    - what can i use at home to treat myself if i have corona
+    - is there a vaccine to treat the coronavirus
+    - does elderberry juice treat covid
+    - are there any treatments for covid
+    - treatments for corona
+    - does hydroxychloroquine treat covid
+    - covid vaccine
+    - can i get a vaccine for covid
+    - what treatment is there for covid
+    - what are my covid treatment options
+    - what's the best cure for covid-19
+    - how do people get rid of the coronavirus
+    - is plasma donation good to treat coronavirus
+    - is tamiflu effective against covid
+    - can i use hydroxycholroquine for novel virus
+    - does quinine help with covid
+    - treatment covid 19
+    - latest treatment for sars cov 2
+    - best cure for the corona virus
+    - is there otc medicine that will help covid
+    - what are the treatment options for covid
+    - what are doctors using for covid
+    - can i use flu medicine to treat covid
+    - are there any approved vaccines for covid-19
+    - outline the current covid-19 treatments, please
+    - does hydroxycholroquine work as a treatment for the coronavirus
+    - what does the cdc recommend to treat coronavirus
+    - is the coronavirus curable
+    - what treatments are there for covid right now
+    - what can i do to cure coronavirus
+    - covid cure please
+    - is there a vaccine for coronavirus yet
+    - natural remedies for covid-19 side effects
+    - give me treatment options for covid-19
+    - cure for covid-19
+    - is there a covid-19 vaccine in the works
+    - what are some treatment options for covid-19
+    - is there a vaccine for covid-19
+    - are there any natural treatments for the coronavirus
+    - what medicines are effective against covid-19
+    - is vitamin c useful to prevent coronavirus infection
+    - what's the treatment for a coronavirus patient
+    - how do i cure coronavirus if i caught it
+    - is there any vaccine for covid-19
+    - at-home remedies for covid
+    - cdc covid-19 treatment recommendations
+    - can i use vinegar to clean my throat
+    - what can i use instead
+    - the covid 19 vacciine is on the way
+    - can i use it as soon as it wil be delivered
+    - what are the treatment options for covid-19
+    - is eucaliptus a treatment option for coronavirus
+    - what can i use as a treatment for covid-19
+    - can i get a vaccine for coronavirus
+    - how can i treat myself for coronavirus
+    - is there a cure yet for covid-19
+    - treatment against covid-19
+    - show me treatment options for the virus
+    - does hydroxychloroquine treat corona
+    - if i think i have covid should i go to the hospital
+    - how can i alleviate covid symptoms
+    - how to treat covid at home
+    - how many more months until a vaccine is ready
+    - where is a covid-19 vaccine being developed
+    - how are covid patients treated in the hospital
+    - will essential oils fight coronavirus
+    - what are my treatment options for covid 19
+    - do any countries have a cure for coronavirus
+    - will eating more fruit cure coronavirus
+    - is there a vaccine against coronavirus
+    - will heat therapy treat coronavirus
+    - how to alleviate coronavirus symptoms
+    - do nsaids treat covid 19
+    - how to get treated for corona virus
+    - covid 19 cures
+    - best treatment for corona virus cough
+
+- intent: what_if_i_visited_high_risk_area
+  examples: |
+    - i traveled to new york recently am i infected
+    - my flight from japan had someone test positive should i be worried
+    - i went to the hospital without a mask what should i do
+    - what should i do if i went to china
+    - i've been to a lot of infected places will i get the coronavirus
+    - how do i know if iam in a high risk area
+    - is there a specific number of cases that define high risk area
+    - how to protect myself in high risk areas
+    - how do we protect ourselves from virus in family
+    - will self quarantine help if i have come back from a high risk area
+    - should i get tested after visiting a high risk area
+    - i live in a high risk area what are the chances i have contracted or am a carrier of disease
+    - what are the high risk areas nearby
+    - show me local high risk areas
+    - what are high risk areas for coronavirus
+    - what is the nearest high risk area to me
+    - list high risk areas for covid-19
+    - what locations are considered at high risk for coronavirus
+    - what areas are at most risk for coronavirus outbreak
+    - what do i do if i have to visit a high risk area
+    - which states have the highest coronavirus outbreaks
+    - can i travel to and from a high risk area for coronavirus
+    - what policies are in place for high risk areas
+    - am i in a high risk area for covid-19
+    - what qualifies as a high risk area for coronavirus
+    - how do i know if i have traveled from a high risk area
+    - which countries are most affected by coronavirus outbreak
+    - what types of businesses are considered high risk
+    - what if i have to work in a high risk area during coronavirus outbreak
+    - how should i self-quarantine in a high risk coronavirus area
+    - what if i have come in contact with someone at the grocery store
+    - what areas have the quarantine restrictions in place for covid-19
+    - can i fly during coronavirus outbreak
+    - can i travel outside the united states right now
+    - how do i find out current quarantine restrictions for my city
+    - how do i know if i have visited a high risk area
+    - what should i do if i visited a high risk area
+    - are there any guidelines i can follow if i visited a high risk area
+    - what should my mom do since she works at the hospital
+    - what should healthcare workers be doing
+    - how do i protect myself if i need to go out for essentials
+    - is there a list of items i should wear if i am going somewhere
+    - what are the steps to protect myself when entering a hisk risk area
+    - should i be worried about my girlfriend coming home from the hospital
+    - should i be scared since i was around a lot of people
+    - what city nearby is the highest risk
+    - what shoud essential workers do to protect people in their household
+    - where can i find a list of high risk countries
+    - are there steps to follow for people who visited high risk areas
+    - is there a protocol to follow when i need to leave my house
+    - what state in the united states is at the highest risk
+    - is public transportation considered a high risk area
+    - i just visited a high risk area, should i get tested
+    - is there a list of protected gear i need when leaving my house
+    - what makes a place considered high risk
+    - is a place with 10 or more people considered a high risk area
+    - are beaches considered high risk areas
+    - is it safe to walk around wuhan now
+    - is it ok to visit a hospital this week
+    - i live near the beach. should i be concerned
+    - is it safe to go grocery shopping
+    - is munich germany also on lockdown
+    - which state has the second highest risk
+    - do high risk areas have their own protocol
+    - is china still considered a high risk country
+    - should i avoid those who recently came back from international travel
+    - is the company building i work at considered a high risk area
+    - how do i protect myself in high risk areas
+    - is there a list of countries that are officially high risk
+    - am i in a high risk area
+    - which countries are still in a nationwide shutdown
+    - what do i do if i live with essential employees
+
+- intent: what_is_corona
+  examples: |
+    - what is coronavirus
+    - what is covid 19
+    - i want to know about the virus
+    - can you tell me about the virus
+    - where does the virus come from
+    - how does the virus work
+    - what is a virus
+    - is coronavirus like the flu
+    - is coronavirus dangerous
+    - tldr of coronavirus
+    - what is covid 19
+    - more details on covid 19 please
+    - where did the covid-19 come from
+    - what is the virus
+    - can you give me advice about covid-19
+    - what is the latest data. on the corona
+    - what is the science behind virus protection
+    - can you teach me about covid
+    - educate me about corona
+    - what is the inside story about the virus
+    - what kind of guidance can you give me on covid-19
+    - can you give me a understanding of covid
+    - what intelligence do you have on the virus
+    - give me a report on corona
+    - what is the definition of the virus
+    - give me the latest rundown on covid-19
+    - give me a summary on corona
+    - what is the narrative on the virus
+    - give me the facts about covid-19
+    - enlighten me about the virus
+    - educate me on covid-19
+    - give ma breakdown of what the virus is
+    - what is the history of covid-10
+    - what info do you have on corona
+    - give me more info on covid-19
+    - can i hear updated info on the corona virus
+    - i wanna hear more about the pandemic
+    - give me a general update on the corona virus
+    - tell me about corona virus
+    - what can you tell me about the current pandemic
+    - more infomation about corona virus, please
+    - can i hear an update on the pandemic
+    - tell me more about covid-19
+    - tell me about corona virus
+    - tell me more information on corona
+    - give me an update on the pandemic
+    - give me an update on covid-19
+    - can you tell me what covid-19 is
+    - what kind of illness is covid-19
+    - give me a definition of corona virus
+    - give me a summary on corona virus
+    - tell me about covid-19
+    - please give more info on covid-19
+    - i want to hear about corona virus
+    - tell me about covid-19, please
+    - may i have more information on covid
+    - can you elaborate on the corona
+    - what should i know about covid
+    - please elaborate on the corona
+    - what is there to know about the corona virus
+    - is there more details about the corona virus
+    - is there more we can learn about covid-19
+    - what else can i learn about the corona virus
+    - what other information must i learn about covid
+    - may i get more details on the corona
+    - what is it about the corona virus we should keep in mind
+    - could you share more information about corona
+    - care to explain explicit details on corona
+    - anything else i should understand about covid
+    - i'd like to encounter anymore details on corona
+    - is there an outline on details regarding covid
+    - corona virus, what is it
+    - more details that relate to corona virus
+    - may i know more on the corona virus
+    - more information on coronavirus please
+    - where did corona virus start
+    - what is dangerous about covid-19
+    - can you educate me on this virus
+    - how did they come up with name for the virus
+    - what information can you give me
+    - any new informations on coronavirus
+    - can you update me on any new informations for covid-19
+
+- intent: can_i_get_from_feces_animal_pets
+  examples: |
+    - can i get the virus from dogs
+    - should i stop eating meat
+    - does the virus transmit via pets
+    - can i get it from animals
+    - can the virus spread through feces
+    - do i need to worry about wild life like birds, squirrels? can them spread virus too
+    - should i eat uncooked meat like sushi without coronavirus concern
+    - is the coronavirus disease zoonotic
+    - can pets spread covid-19
+    - can animals carry the coronavirus
+    - why coronavirus affects some animals, but not others
+    - should pets be tested for coronavirus
+    - can fish and aquarium water spread the virus to people
+    - can insects be coronavirus carriers
+    - can mosquitoes spread coronavirus
+    - can houseflies spread covid-19
+    - how to protect your pets from covid-19
+    - which pet is the most at risk for the coronavirus disease
+    - how can i tell if my pet get sick from coronavirus
+    - should i quarantine my cat too
+    - should my pet wear a face mask when in public
+    - can i take my pet's ivermectin to prevent or treat my covid-19 infection
+    - what animal did covid-19 originate from
+    - could the coronavirus mutate over time into strains for dogs or cats
+    - is there any evidence that pets other than dogs and cats could be susceptible
+    - who will collect the samples from my pets if my pets have covid-19 symptoms
+    - what should i do if i think my animal has the new strain of coronavirus
+    - can a pet's fur spread the virus that causes covid-19
+    - i am helping someone who is sick by walking their dog. how do i stay safe
+    - can i get corona virus from eating beef
+    - can my dog get the virus
+    - if i eat sea food can i get corona
+    - does corona virus transmit from birds
+    - can i get corona virus from mosquitos
+    - are my birds at risk to catch the virus
+    - should i be worried about my pets catching covid 19
+    - how does corona effect my pets
+    - how can i tell if my cat has corona
+    - if i pet a cat can i get covid 19
+    - if a dog bites me can i get covid 19
+    - can i get the virus from eating pork
+    - does corona virus transmit from pets to humans
+    - can chickens carry the virus
+    - do i need to worry about my dog getting corona
+    - should i worry about petting animals and getting the virus
+    - can i get covid 19 from mice
+    - what animals carry corona
+    - has any animals tested positive from corona
+    - is there any information from an animal getting sick and transmitting it to a human
+    - can a dog contract the virus
+    - can i contract coronavirus from a guinea pig
+    - how safe is it to own a pet bat
+    - do cat scratches contain the virus
+    - how safe are cat bites during the pandemic
+    - can chicken breasts contain the rona
+    - are there any cases of getting covid from eating steaks
+    - please tell me my fish are safe from the covid-19
+    - what types of animals can spread the virus
+    - can my daughter get the virus from my pet
+    - are baby animals affected more
+    - are sea animals contracting the virus
+    - can a bird test positive
+    - how can i care for a cat that has contracted the virus
+    - can the blood of an infected animal spread the virus to my kids
+    - does bird feces contain the virus
+    - can mites spread the disease to rats
+    - can a dead skunk on the road get a hungry coyote ill
+    - how many types of marsupials have been infected
+    - is there a limit to how many animals can be treated for the rona
+    - can humans contract coronavirus from an aimal
+    - does the coronavirus affect dogs
+    - are my animals at risk to catch the corona virus
+    - can pets spread covid19
+    - how does the virus affect animals
+    - do i need to worry about my pets during the virus
+    - how can i tell if my dog has the virus
+    - are there any symptoms for animals that have the virus
+    - give me information about the virus and animals
+    - will i get the virus from eating meat
+
+- intent: can_i_get_from_packages_surfaces
+  examples: |
+    - can amazon packages transmit the virus
+    - is it safe to get food delivered
+    - how often should i clean my table
+    - can i get covid-19 by touching my eyes
+    - will i get infected if i touch something a patient has used
+    - can i get covid19 from mail deliveries
+    - should i be worried about getting the virus from delivery packages
+    - how long does the virus live on surfaces
+    - will withdrawing cash from an atm give me the virus
+    - can coronavirus live on the exterior of my face mask
+    - can covid19 live on food items touched by an infected person
+    - can covid19 live on bags from the store
+    - how long does it take for covid 19 to leave surfaces
+    - can covid 19 live on car surfaces
+    - can i get the virus from my phone surface
+    - can electonic surfaces contain covid19
+    - what is the amount of time the corona virus stays on surfaces
+    - can the virus live on wood items
+    - should i be using public hand rails without gloves
+    - can the virus be on doors
+    - what is the timeframe for covid19 to remain active on surfaces
+    - does covid-19 live long on cardboard
+    - can coronavirus get on door handles
+    - will i get coronavirus from touching hand rails
+    - does the virus live on mail boxes
+    - will covid-19 stick to my gloves
+    - can you get coronavirus from borrowing clothes
+    - can i get the virus from using plastic bags from safeway
+    - can coronavirus get on my toilet paper
+    - can the virus spread on my tv remote
+    - will i get covid from my groceries
+    - should i wash all my shopping
+    - can you get covid from opening a trash can
+    - will corona die fast on metal
+    - can the virus live on my phone
+    - should i disinfect my table every day
+    - can covid live long on trees
+    - am i safe to handle plastic things
+    - what's the worst thing to touch
+    - whats the best material covid-19 dies on
+    - how long is covid-19 active on surfaces
+    - are there surfaces covid-19 cant live on
+    - does covid-19 go away after some time
+    - is there type of material it cant live on
+    - how long does it stay on a surface that isnt touched
+    - does hand santizer kill the virus on packages
+    - does covid-19 attach itself to the walls
+    - does covid-19 stay on books
+    - does covid-19 stay on gaming systems
+    - what surface is safe from covid-19
+    - does covid-19 seep into the walls
+    - does covid-19 have a surface it cant attach to
+    - does covid-19 attach onto fruit
+    - is it safe to use glassware
+    - is touching hand rails safe
+    - do i need to clean my mailbox
+    - can bleach kill the virus
+    - can alcohol kill the virus
+    - which surfaces are likely to have virus
+    - what surface will have virus for the longest time
+    - how does the virus survive on different surfaces
+    - how long coronavirus stay on surfaces
+    - can you get sick by touching a surface with virus
+    - does it stay active on surfaces
+    - while staying on surfaces does covid become stronger
+    - which surface is most likely to have virus for the longest time
+    - does virus thrive in water
+    - how to clean the groceries
+    - can cloth mask be a carrier of virus
+    - do you need to dilute bleach to clean
+    - is vinegar effective in cleaning plastics
+    - how to clean delivery packages
+    - how effective is cleaning with alcohol

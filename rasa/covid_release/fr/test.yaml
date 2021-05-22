@@ -1,0 +1,366 @@
+version: "2.0"
+
+nlu:
+
+- intent: latest_numbers
+  examples: |
+    - combien de pays ont plus de mille morts
+    - montre-moi les derniers chiffres du coronavirus
+    - nombre infectés coronavirus france
+    - nouveaux cas coronavirus californie
+    - pourcentage décès coronavirus plus de 65 ans
+    - combien de cas en amérique du nord
+    - taux d'infection covid-19
+    - quel est le nombre total de victimes du coronavirus dans le grand-est
+    - combien de résidents en ephad atteints du covid-19
+    - quel est le taux de décès du corona chez les moins de 40 ans
+    - plus jeune personne morte du coronavirus dans le monde
+    - nombre total de personnes contaminées en france
+    - quel pourcentage de la population a eu le coronavirus en europe
+    - donne-moi le nombre de morts en espagne
+    - c'est quoi le taux de réinfections au covid-19
+    - dernières statistiques pour les guérisons
+    - quelle tranche d'âge est plus affectée
+    - nombre d'infectés dans le monde
+    - quelle tranche d'âge est la plus affectée par le coronavirus
+    - statistiques réinfections
+    - combien de personnes sont décédées les dernières 24 heures en france
+    - quel est le nombre de personnes guéries en allemagne à ce jour
+
+- intent: protect_yourself
+  examples: |
+    - combien de fois se laver les mains
+    - quels produits dois-je utiliser pour désinfecter les objets
+    - comment éviter de faire rentrer le coronvirus dans la maison
+    - protection contre le coronavirus
+    - covid 19 protection
+    - les masques en tissu sont suffisants
+    - est-on protégé avec un masque
+    - le port du masque est obligatoire
+    - comment bien mettre un masque
+    - distance de sécurité
+    - étapes précises lavage des mains organisation mondiale de la santé
+    - comment désinfecter ma maison
+    - combien de temps un masque est-il efficace
+    - a quelle fréquence faut-il changer son masque
+    - meilleur type de masque pour se protéger
+    - avec quoi nettoyer les courses
+    - combien de fois par jour il faut se laver les mains
+    - comment protéger nos enfants
+    - quels types de masques
+    - précautions coronavirus au quotidien
+
+- intent: okay_thanks
+  examples: |
+    - mille mercis
+    - parfait, merci beaucoup
+    - génial je te remercie
+    - je te remercie cher docteur
+    - ok merci beaucoup
+    - merci robot top
+    - comment puis-je vous remercier
+    - merci beaucoup pour ce travail
+    - félicitations et à très bientôt
+    - cimer
+    - merci toubib
+    - tu gères doc
+    - merci médecin pour ces infos
+    - t'es trop fort, merci mon chou
+    - eh ben, bravo
+    - merci pour les infos
+
+- intent: donate
+  examples: |
+    - liste des organisations auxquelles faire un don
+    - donner de l'argent à des assoc pendant la crise du corona virus
+    - est-ce que je peux faire un don pour guérir les malades du corona
+    - je voudrais contribuer à la guérison des malades en leur envoyant un don
+    - puis-je faire un don pour combattre le corona aux antilles
+    - envoyer fonds pour l'italie
+    - donner de l'argent pour la france
+    - j'aimerais donner de l'argent
+    - comment pourrais-je donner de l'argent
+    - je veux faire un don, comment faire
+    - peux-tu faire un ton pour l'association
+    - comment effectuer un don pour lutter contre le coronavirus
+    - aide pour effectuer un don
+    - je veux faire un don en faveur de la lutte contre le covid-19
+    - faire un don pour la recherche sur le coronavirus en france
+    - je veux envoyer de l'argent pour aider la lutte contre le covid-19 en france
+    - combien d’argent donner
+
+- intent: what_is_corona
+  examples: |
+    - je veux plus d'infos sur le corona
+    - comment mutent les coronavirus
+    - pourquoi on l’appelle covid 19
+    - c’est quoi un coronavirus
+    - définition coronavirus
+    - est-ce que le coronavirus est une simple grippe
+    - origine coronavirus chine
+    - peut-on attraper le coronavirus deux fois
+    - qu'est-ce qu'on sait vraiment sur le coronavirus
+    - quand est apparu le covid-19
+    - recherches réalisées sur le coronavirus
+    - est-on immunisé contre le coronavirus après s'en être guéri
+    - tests réalisés sur le coronavirus
+    - qu'est-ce qu'un coronavirus
+    - dernières nouvelles concernant le sars cov 2
+    - pourquoi le covid 19 est-il plus contagieux que les autres virus
+    - quel rapport entre le sars et le covid 19
+
+- intent: what_are_symptoms
+  examples: |
+    - combien de jours après la contagion par le virus les premiers signes apparaissent-ils
+    - le corona fait tousser
+    - ai-je le coronavirus
+    - covid-19 symptômes
+    - coronavirus sans symptôme
+    - la fatigue est-elle un symptôme du coronavirus
+    - comment savoir si j'ai attrapé le coronavirus
+    - est-ce que le coronavirus donne mal à la tête
+    - symptômes covid-19 personnes âgées
+    - sensations corona
+    - perte goût et odorat covid-19
+    - si je tousse ça veut dire que j'ai le coronavirus
+    - est-ce que les troubles digestifs peuvent être un symptôme du coronavirus
+    - les symptômes sont-ils différents de ceux de la grippe
+    - comment reconnaître si je suis malade
+    - coronavirus autodiagnostic
+    - caractérisques porteur asymptomatique
+
+- intent: how_does_corona_spread
+  examples: |
+    - est-ce que le virus se transmet par la selle
+    - le coronavirus est dans l’air
+    - comment les gens sont contaminés
+    - infection covid personne à personne
+    - je suis enceinte, y a-t-il un risque pour le bébé si je suis contaminée
+    - dis-moi comment éviter de transmettre le coronavirus
+    - informations sur la transmission du virus
+    - est-ce que les enfants propagent plus facilement le coronavirus
+    - combien de personnes je risque de contaminer
+    - propagation virus surfaces
+    - est-ce que je peux transmettre le virus si je porte un masque
+    - bisou sur la joue coronavirus
+    - propagation covid-19 chez les enfants
+    - est-ce qu'on a du corona sur le visage
+    - les poignées de porte ont-elles des traces
+    - a quelle distance quelqu'un peut me contaminer
+    - transmettre le coronavirus en serrant la main
+    - sur quelle surface le virus survit-il le plus longtemps
+    - le covid19 peut-il se transmettre par l'alimentation
+    - quels sont les risques de contamination
+    - le covid19 est-il sexuellement transmissible
+    - quel est le principal mode de propagation du covid19
+    - comment le virus pénètre-t-il dans le corp
+    - le coronavirus se propage-t-il via les billets d'argent
+    - quel esl le mode de propagation le plus à craindre du coronavirus
+    - le coronavirus se propage-t-il via le fumée de cigarettes
+
+- intent: can_i_get_from_feces_animal_pets
+  examples: |
+    - les rats sont-il porteurs de coronavirus
+    - est-ce que les mouche c'est dangereux
+    - les animaux peuvent être infectés
+    - j’aimerais savoir si mon chat l’a eu
+    - pourquoi mon perroquet tousse
+    - covid animaux de compagnie
+    - mon chien peut-il avoir le covid-19
+    - risque de contamination en mangeant de la viande crue
+    - est-ce que les animaux peuvent attraper le coronavirus
+    - les poils de mon chien peuvent-ils transmettre le virus
+    - transmission coronavirus animaux sauvages
+    - est-ce que le virus peut se propager dans un zoo
+    - corona chez les félins
+    - les animaux se transmettent-ils le virus entre eux
+    - chiens chats malades coronavirus
+    - contamination coronavirus par piqûre de moustique
+    - les animaux domestiques sont-ils des vecteurs de propagation du virus
+    - informations contamination animale coronavirus
+    - précautions pour protéger mon animal domestique du covid19
+    - mon chien peut-il attraper le covid-19 et le transmettre
+    - un poisson rouge peut-il être contaminé par le coronavirus
+    - quelle est la possibilté que mon hamster me transmette le covid-19
+
+- intent: can_i_get_from_packages_surfaces
+  examples: |
+    - est-ce que le virus reste sur les surfaces
+    - combien d’heures ça survit sur le textile
+    - temps covid surfaces supermarchés
+    - est-ce que c'est dangereux de toucher les produits au supermarché
+    - coronavirus congélateur
+    - durée coronavirus rouleau de papier toilette
+    - transmission coronavirus interphone
+    - le virus meurt-il après être resté 24 heures sur une surface
+    - types de surfaces qui gardent le virus en vie le plus longtemps
+    - temps de survie virus clavier
+    - est-ce que le coronavirus peut rester sur les boîtes de conserve
+    - coronavirus sur les vêtements
+    - coronavirus sur le courrier
+    - pourquoi dit-on que le cuivre est l'ennemie du covid 19
+    - quid du cuire
+    - sur quelle surface le virus survit-il le moins longtemps
+    - désinfecter les rues est-il efficace contre l'épidémie
+    - risques de contaminations à cause d'emballages
+    - dois-je porter des gants dans les transports en commun
+    - rincer une surface à l'eau permet-il d'éviter la propagation
+
+- intent: what_if_i_visited_high_risk_area
+  examples: |
+    - je reviens d'un pays à haut risque, quel est le protocole
+    - durée d'isolement retour d'un pays à haut risque
+    - quels sont les pays à haut risque cette semaine
+    - italie c'est risqué maintenant
+    - toutes les zones à haut risque
+    - comment faire si on était dans un mauvais endroit
+    - que faire si j'ai été en italie
+    - quels sont les pays les plus à risques actuellement
+    - quels départements français sont les plus touchés par le virus
+    - pourquoi certains pays sont-ils les plus à risque
+    - zones à haut risque au canada
+    - que faire si je me trouve dans une zone à haut risque
+    - précautions pour les personnes immunodéprimées dans un pays à risque
+    - combien de temps m'isoler après mon retour de l'italie
+    - combien de jours d'isolement après un retour d'une zone à haut risque
+    - c'est où le pays avec le plus haut risque
+    - qui contacter si je suis allée dans une zone à haut risque
+    - je rentre d'espagne , quelles sont les mesures de sécurité
+    - la france est elle une zone covid 19 à haut-risque
+    - a mon retour de voyage, dois-je aller chez le médecin
+    - liste des pays à haut risque
+
+- intent: what_are_treatment_options
+  examples: |
+    - y a-t-il un vaccin contre la covid-19
+    - est-ce que le remède malgache contre le coronavirus marche
+    - traitement covid-19
+    - remède naturel coronavirus
+    - paracétamol coronavirus
+    - citron et coronavirus
+    - quel régime alimentaire adopter si on tombe malade du corona
+    - huiles essentielles, corona virus
+    - que faire pour me soigner à domicile
+    - remède conseillé coronavirus
+    - quels médicaments éviter en cas de suspicion du covid19
+    - combien de temps avant qu'un vaccin pour le covid-19 soit disponible
+    - coronavirus et doliprane
+    - existe-il un vaccin pour le covid-19
+    - infos traitements coronavirus
+    - soigner symptômes covid
+    - traitements diabète nouveau corona
+    - les antibiotiques peuvent-ils être efficaces contre le virus
+    - chloroquine et l'hydroxychloroquine – quelle est la différence
+    - quand aura-t-on un vaccin contre le covid-19
+    - infos recherches en cours traitement coronavirus
+    - sur quels types de traitement fait-on des recherches actuellement
+
+- intent: myths
+  examples: |
+    - virus créé par l'homme mythe
+    - quels sont les mythes les plus répandus sur le virus
+    - liens entre covid19 et laboratoires p4
+    - les enfants sont-ils tous des porteurs sains
+    - l'immunité de groupe est-elle un mythe
+    - les dernières rumeurs sur le coronavirus
+    - donne-moi les fausses rumeurs sur le covid-19 s'il te plait
+    - y a-t-il plus d'abandons d'animaux à cause du coronavirus
+    - le cannabis aide contre le corona
+    - laboratoire d’origine du coronavirus
+    - tu me dis si les chinois ont créé le virus
+    - la cocaïne c’est un traitement
+    - le covid-19 est une arme biologique crée dans un laboratoire chinois
+    - il est possible de déloger le virus de la gorge vers la voie digestive grâces aux boissons chaudes avant qu'il pénètre dans les voies respiratoires : vrai ou faux
+    - est-ce que corona virus est un complot
+
+- intent: travel
+  examples: |
+    - puis-je utiliser uber pour voyager en ville
+    - voyage train dangereux canada coronavirus
+    - comment se déplacer à l'île maurice coronavirus
+    - est-ce que je peux me rendre aux etats-unis
+    - il y a des vols vers la chine
+    - quels moyens de transport après le confinement
+    - le covoiturage est-il déconseillé pendant l'épidémie
+    - comment voyager sans trop de risque pendant le confinement
+    - les trains circulent-ils pendant le confinement
+    - je souhaite voyager cet été
+    - la frontière tchèque est-elle seulement ouverte au trafic aérien
+    - pourrai-je partir en vacances en ecosse en juillet
+    - quels sont les pays qui vont fermer leurs frontières pendant l’été
+    - pourra-t-on voyager cet été
+    - combien de trains sont annulés
+    - est-ce que la sncf a annulé des trains
+    - quand est-ce que le traffic aérien reprendra normalement
+    - vers quels pays peut-on voyager en bus
+    - dans quels pays d'europe puis-je aller en voiture la semaine prochaine
+
+- intent: news_and_press
+  examples: |
+    - comment se passe la crise du corona en italie aux dernières nouvelles
+    - la conférence de presse quotidienne a-t-elle déja eu lieu
+    - nouvelles covid19 brésil
+    - chine dernières infos sur le covid 19
+    - news france 24 covid-19
+    - comment évolue la situation en espagne concernant l'épidémie de covid-19
+    - meilleure chaîne d’infos covid 19
+    - le journal dit quoi du virus
+    - quelles sont les nouvelles en france sur le virus
+    - bilan du jour sur le coronavirus
+    - dernières actualités sur l'état de l'épidémie en italie
+    - comment évolue la situation avec le corona
+    - tiens-moi au courant sur le covid 19
+    - c’est toujours d’actualité le coronavirus
+    - mises à jours urgence sanitaire en france
+    - quelle est l’évolution de la situation sanitaire en tunisie
+
+- intent: share
+  examples: |
+    - partager bot corona sur facebook
+    - partage ce résultat sur whatsapp
+    - tu pourrais partager ta réponse sur facebook
+    - envoi lien twitter
+    - transmets cet article à mes amis facebook
+    - ajoute ce graphique à ma story instagram
+    - envoie ce lien sur twitter
+    - partage ces infos avec mes amis stp
+    - partage ceci sur twitter s'il te plaît
+    - merci de partager ces infos avec ma mère
+    - je veux partager les infos que tu me donnes
+    - fais-toi connaître des autres
+    - tu veux pas aller sur les réseaux
+    - comment faire pour te partager
+    - est-ce que tu es dispo sur les réseaux
+    - poste ce service sur mon mur
+    - le lien du bot doit apparaitre sur mon mur
+    - je souhaiterais partager le bot sur whatsapp
+    - j’ai besoin que le lien soit partagé avec tous mes amis
+    - diffusez ce bot sur twitter
+    - je veux utiliser ce service pour partager mon lien
+    - pouvez-vous partagez vos services avec mes amis
+    - partager lien bot corona
+    - est-ce que tu pourrais partager ton lien avec mes contacts stp
+    - je voudrais partager cet article sur facebook
+    - partage ce bot sur instagram
+    - publiez ces infos sur mon compte twitter
+
+- intent: hi
+  examples: |
+    - bonjour corona info
+    - salut toi
+    - salut toubib
+    - hello doc
+    - ça va docteur
+    - hello
+    - bonjour docteur, comment allez-vous
+    - coucou bot covid
+    - bien le bonjour docteur
+    - salut doc quoi de neuf
+    - ça va mon nouveau docteur
+    - tu vas bien mon allié corona
+    - réveille-toi combattant du covid
+    - ouvre-toi mon génie du virus
+    - salut docteur covid
+    - bonjour doc
+    - salut, ça va docteur anti-corona
+    - bonjour mon expert covid-19

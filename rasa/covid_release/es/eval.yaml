@@ -1,0 +1,212 @@
+version: "2.0"
+
+nlu:
+
+- intent: latest_numbers
+  examples: |
+    - me gustaría saber el número de muertes de corona virus en florida
+    - dime cuántos casos confirmados de covid hay en méxico
+    - estadísticas de pacientes recuperados a fecha de hoy en el mundo
+    - me facilitás la cantidad de recuperados de corona virus en mi ciudad
+    - cuántos casos confirmados de covid19 hay en el mundo
+    - cuáles son los países con más muertos por covid19
+    - estadísticas mundiales sobre el coronavirus
+    - dígame cuántos casos hay actualmente en cuba
+    - cuántos contagiados hay en argentina
+
+- intent: protect_yourself
+  examples: |
+    - cómo puedo proteger a los menores frente al corona virus
+    - me dices, por favor, qué debo hacer para no contagiarme de corona virus
+    - si puedes dime la mejor forma de prevenir contagios en los menores
+    - qué puedo usar si no tengo cubrebocas en mi casa
+    - cómo puedo prevenir el contagio de corona virus
+    - cómo evito que el virus entre a mi casa si salgo a comprar comida
+    - cuánta lejía tengo que usar para limpiar los productos del covid19
+    - medidas de cuidado para que adultos mayores no se contagien de covid19
+    - cómo puedo hacer para protegerme del coronavirus
+    - a cuántos metros puedo estar de otra persona sin que me contagie
+    - qué prevenciones deben tomar los adultos mayores frente al covid-19
+    - cómo hago para no atrapar el corona virus
+    - no me quiero enfermar. ¿qué puedo hacer
+    - cómo evito contagiarme del covid 19
+    - es necesario desinfectar los calzados al volver de lugares públicos
+
+- intent: what_is_corona
+  examples: |
+    - quiero aprender más del coronavirus
+    - dime todo del coronavirus
+    - qué tan mortal es el covid-19
+    - muéstrame información del coronavirus, por favor
+    - me dices la diferencia entre coronavirus y sars
+    - qué enfermedades están relacionadas con el covid
+    - hay otro virus que se llame corona virus
+    - cuál es la diferencia entre el corona virus y el de la influenza
+    - me explicás qué es exactamente el covid 19
+    - en qué consiste el virus del covid19
+    - dame datos básicos del coronavirus
+    - quiero que me des información científica sobre el coronavirus
+    - dame una definición de covid 19
+    - define corona virus
+    - qué tal si me das un resumen sobre el corona virus
+
+- intent: what_are_symptoms
+  examples: |
+    - estoy interesada en saber cuáles son los síntomas del corona virus, por favor
+    - tengo mucha necesidad por conocer cuáles son los principales sintomas del corona virus
+    - crees que el dolor de garganta es un síntoma de corona virus
+    - como puedo saber si tengo corona virus
+    - cuáles son los principales síntomas del corona virus
+    - cómo afecta la covid al cuerpo
+    - qué ataca el covid
+    - diferencias entre la influenza y el covid
+    - cuáles son los síntomas de alguien que tiene coronavirus
+    - es posible que sólo tenga síntomas estomacales y sea corona virus
+    - cuál es el síntoma más evidente que indica corona virus
+    - dime si tener diarrea es un síntoma suficiente para hacerse un examen
+    - necesito una lista de síntomas frecuentes de corona virus
+    - afectaciones de alguien con coronavirus
+    - cómo saber si estoy infectada de coronavirus
+    - lista de síntomas del coronavirus
+
+- intent: how_does_corona_spread
+  examples: |
+    - cómo se contagia el corona virus
+    - búscame información de cómo se contagia el corona virus, por favor
+    - cuáles son los factores de riesgo del covid
+    - puedo contagiarme por caminar en la calle
+    - por tocar una superficie me puedo contagiar de covid19
+    - el coronavirus, ¿es una enfermedad de transmición sexual
+    - el virus le puede dar a uno por contacto de piel
+
+- intent: can_i_get_from_feces_animal_pets
+  examples: |
+    - quisiera informacion sobre si los animales pueden contagiar el corona virus
+    - realmente necesito saber si mediante los animales podemos contagiarnos de corona virus
+    - el coronavirus se transmite entre especies
+    - le puede dar coronavirus a mi mascota
+    - a mis gatos les puede dar coronavirus
+    - si me como un murciélago tendré coronavirus
+    - las palomas propagan el corona virus
+    - por qué hay tigres con corona virus
+    - necesito proteger a mi perro del virus
+    - es cierto que el covid19 viene de los murciélagos
+    - los cerdos se pueden enfermar del virus
+    - puede un perro darle corona virus a un gato
+    - montar un caballo puede pasarme el virus
+
+- intent: can_i_get_from_packages_surfaces
+  examples: |
+    - tienes información de cuánto tiempo dura el corona virus en el cartón
+    - quiero que me digas si el corona virus sobrevive mucho tiempo en el papel
+    - el coronavirus aguanta el calor
+    - el coronavirus puede quedarse en los muebles
+    - cuánto tiempo vive el virus en la madera
+    - cuánto tiempo vive el virus en la mesada de mi cocina
+    - dime si las superficies del interior de un vehículo pueden propagar el virus
+
+- intent: what_if_i_visited_high_risk_area
+  examples: |
+    - qué puede pasarme si visito una zona de riesgo por corona virus
+    - reglas para visitar zonas de riesgo de covid
+    - pude contraer coronavirus si estuve en una zona de riesgo
+    - cuáles son las normativas que debo seguir si volví de una zona de riesgo
+    - que debe tener en cuenta alguien que estuvo hace poco en españa
+    - españa es zona de alto riesgo de covid 19
+    - qué pasa si he estado de viaje en roma
+    - cuál es el protocolo si estuve en tránsito en zona de alto riesgo
+
+- intent: what_are_treatment_options
+  examples: |
+    - hay algún tratamiento eficaz contra el corona virus
+    - cómo dar tratamiento a un infectado de covid
+    - cómo tratan los hospitales a los enfermos del covid
+    - si me da coronavirus, ¿cómo me voy a curar
+    - cómo están curando a los pacientes
+    - puedo tomarme un té para elevar mis defensas contra el coronavirus
+    - la vacuna de la influenza sirve para el coronavirus
+    - sirve la hidroxicloroquina para matar el coronavirus
+    - es efectiva la vacuna contra la gripe para lidiar con el corona virus
+
+- intent: myths
+  examples: |
+    - qué información sobre covid resultó ser mito
+    - es cierto que el coronavirus es un invento del gobierno para matar a los viejitos
+    - quiero saber cuáles son los mitos más importantes sobre el virus y su desmentida
+    - decime el top tres de mitos sobre el covid-19
+    - los anteojos de sol, ¿ayudan a evitar el contagio del virus
+    - necesito saber qué información es ficticia sobre el coronavirus
+    - que noticias sobre el coronavirus son mitos
+
+- intent: travel
+  examples: |
+    - te es posible decirme si los servicios de tren están cancelados en italia
+    - medidas de seguridad para viajeros
+    - cuándo la gente va a poder viajar otra vez
+    - en septiembre ya habrá viajes a europa
+    - nombrar las recomendaciones para ir al aeropuerto
+    - están funcionando los taxis estos días
+    - qué tengo que hacer para viajar en avión de forma segura en una pandemia
+    - están más baratos los vuelos a causa del covid19
+    - el subterráneo sigue funcionando
+    - tienes consejos para viajar durante la epidemia
+    - es buena idea pedir un lyft ahora que existe el virus
+
+- intent: news_and_press
+  examples: |
+    - cómo va el coronavirus? ¿qué dicen las noticias
+    - cuáles son las noticias destacadas de hoy en el mundo sobre covid
+    - dame los titulares de las principales noticias sobre coronavirus
+    - cuáles fueron las noticias sobre el coronavirus hoy en argentina
+    - muéstreme las últimas noticias sobre el virus en colombia
+    - quiero tener actualizaciones diarias sobre el virus en canadá
+    - dame info sobre el virus en australia
+
+- intent: share
+  examples: |
+    - comparte en mi muro
+    - dale like a este comentario y compártelo
+    - podrías compartir esto que me acabás de decir
+    - compartamos esto en mis redes
+    - necesito que todos sepan lo que acabas de contarme, compartámoslo
+    - lo que me estás contando, compártelo
+    - usa mis redes sociales para compartir este servicio
+    - compartir la noticia con mis amigos
+    - puedes compartirle a mis familiares esta información
+    - cómo se hace para que todos en mis redes tengan este servicio
+    - compartir el vínculo
+    - compártale el asistente de corona virus a mi familia
+
+- intent: hi
+  examples: |
+    - buenas noches, compadre
+    - cómo está mi informante
+    - qué más, coronin
+    - cómo va eso, corona
+    - hola, asistente corona virus
+    - ¡qué tal
+    - cómo dice que le va, doctor digital
+    - ¡hola, corona
+
+- intent: okay_thanks
+  examples: |
+    - millones de gracias por la información
+    - excelente, gracias
+    - me queda claro, muchas gracias
+    - gracias por toda la información
+    - oye, doctor, que sepas que agradezco la información
+    - sabes que siento agradecimiento hacia ti
+    - estoy muy agradecida por los datos que me diste
+    - gracias por decirme, muy útil
+    - un profundo agradecimiento
+
+- intent: donate
+  examples: |
+    - dame información de cómo puedo hacer una donación
+    - quisiera realizar una donación
+    - por favor, aplica una donación de 1000 pesos a esta propuesta
+    - quiero donar elementos de limpieza al pueblo de mi mamá
+    - querría que hicieras una donación a la provincia de buenos aires, por favor
+    - me ayudarías a donar parte de mis ahorros
+    - ayúdame a enviar dinero a san juan
+    - me gustaría regalarles dinero a los más afectados por el covid
