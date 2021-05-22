@@ -1,0 +1,239 @@
+version: "2.0"
+
+nlu:
+
+- intent: latest_numbers
+  examples: |
+    - b'gib mir die aktuellen corona zahlen in deutschland'
+    - b'zahl der gestorbenen im saarland, bitte'
+    - b'zeig mir die aktuellen fallzahlen weltweit'
+    - b'gib mir die coronazahlen in deutschland'
+    - b'kannst du mir die neustes statistiken zum corona virus sagen'
+    - b'nenne mir die aktuellste statistik aus china'
+    - b'update zur statistik in italien'
+    - b'wie hoch sind die fallzahlen in griechenland'
+    - b'wie hoch sind die zahlen der infektionen heute'
+    - b'wie sind die neuesten zahlen und fakten'
+    - b'wie viel in tote gibt es jetzt in deutschland'
+    - b'wie viele tote durch corona weltweit'
+    - b'zeige mir die aktuelle statistik bez\xc3\xbcglich corona in deutschland'
+    - b'zeige mir die aktuelle sterberatef\xc3\xbcr frankreich'
+    - b'zeige mir die neuesten statistiken aus italien'
+
+- intent: protect_yourself
+  examples: |
+    - b'was kann ich tun, um mich nicht mit dem coronavirus anzustecken'
+    - b'was kann ich tun, um mich vor einer corona-infektion zu sch\xc3\xbctzen'
+    - b'wie lange muss ich h\xc3\xa4ndewaschen, um ein ansteckungsrisiko zu verringern'
+    - b'hilft normale seife als vorbeugung gegen den coronavirus'
+    - b'ist das tragen einer maske zum schutz vor dem coronavirus sinnvoll'
+    - b'wie kann ich mich am besten vor einer ansteckung mit corona sch\xc3\xbctzen'
+    - b'wie kann man die verbreitung des coronavirus aufhalten'
+    - b'wie lange muss ich meine h\xc3\xa4nde waschen um mich zu sch\xc3\xbctzen'
+    - b'wie sch\xc3\xbctzt man am besten \xc3\xa4ltere menschen vor corona'
+
+- intent: what_is_corona
+  examples: |
+    - b'kannst du mir genauer erkl\xc3\xa4ren, was das coronavirus ist'
+    - b'wie funktioniert der corona virus'
+    - b'bitte informiere mich \xc3\xbcber covid-19'
+    - b'gib mir bitte fakten \xc3\xbcber corona'
+    - b'was ist der unterschied zwischen covid und coronavirus'
+    - b'was sind die neuesten wissenschaftlichen erkenntnisse zu covid neunzehn'
+    - b'wie genau verbreitet sich das coronavirus'
+    - b'woher kommt dieser coronavirus'
+    - b'zeige mir informationen \xc3\xbcber das coronavirus'
+
+- intent: what_are_symptoms
+  examples: |
+    - b'kann ich auch ohne fiebertemperatur corona-infiziert sein'
+    - b'kann ich coronavirus auch ohne fieber haben'
+    - b'symptom des coronavirus'
+    - b'symptome bei coronavirus'
+    - b'wann wei\xc3\x9f ich ob ich den corona virus habe'
+    - b'weist das kopfschmerzen auf corona hin'
+    - b'wie sieht die symptomatik beim coronavirus aus'
+
+- intent: how_does_corona_spread
+  examples: |
+    - b'sag mir, wie die verbreitung des virus funktioniert'
+    - b'ist corona auch \xc3\xbcber t\xc3\xbcrklinken \xc3\xbcbertragbar'
+    - b'kann das virus durch blut sich verbreiten'
+    - b'kann sich die krankheit von haustier zu haustier \xc3\xbcbertragen'
+    - b'verbreitet sich das virus \xc3\xbcber oberfl\xc3\xa4chen'
+    - b'wie das coronavirus verbreitet'
+    - b'wie ist der \xc3\xbcbertragungsweg des corona-virus'
+    - b'wie kann sich das virus so schnell verbreiten'
+    - b'wird das virus \xc3\xbcber die luft \xc3\xbcbertragen'
+
+- intent: can_i_get_from_feces_animal_pets
+  examples: |
+    - b'sind tiere in gef\xc3\xa4hr, sich mit dem coronavirus zu infizieren'
+    - b'wird der coronavirus \xc3\xbcber tiere \xc3\xbcbertragen'
+    - b'\xc3\xbcbertr\xc3\xa4gt schweinefleisch corona viren'
+    - b'gib mir information zur ansteckung von tieren'
+    - b'ist eine \xc3\xbcbertragung von corona auch durch tiere m\xc3\xb6glich'
+    - b'ist eine verbreitung des virus \xc3\xbcber tiere m\xc3\xb6glich'
+    - b'ist es m\xc3\xb6glich durch katzen infiziert zu werden'
+    - b'k\xc3\xb6nnen coronaviren \xc3\xbcber fleischwaren \xc3\xbcbertragen werden'
+    - b'k\xc3\xb6nnen sich menschen bei tieren mit corona anstecken'
+    - b'kann ich durch den nachbarshund infiziert werden'
+    - b'kann ich durch fleischverzehr angesteckt werden'
+    - b'kann ich meine katze anstecken'
+    - b'kann ich meine katze mir corona anstecken'
+    - b'kann mein haustier das coronavirus \xc3\xbcbertragen'
+    - b'kann mein papagei das coronavirus auf mich \xc3\xbcbertragen'
+    - b'kann meine katze \xc3\xbcbertr\xc3\xa4ger des coronavirus sein'
+
+- intent: can_i_get_from_packages_surfaces
+  examples: |
+    - b'ist das virus auf schaumstoff nachzuweisen'
+    - b'k\xc3\xb6nnen coronaviren  von verpackungen \xc3\xbcbertragen werden'
+    - b'kann ich mich mit dem erreger anstecken wenn ich einen einkaufswagen anfasse'
+    - b'kann ich pakete aus risikogebieten uneingeschr\xc3\xa4nkt \xc3\xb6ffnen'
+    - b'kann man sich \xc3\xbcber ber\xc3\xbchrung einer schachtel im supermarkt mit corona infizieren'
+    - b'wie lang kann das virus generell auf oberfl\xc3\xa4chen \xc3\xbcberleben'
+    - b'wie lange \xc3\xbcberlebt covid auf einem handgriff aus edelstahl'
+    - b'wie lange \xc3\xbcberlebt der coronavirus auf glas'
+    - b'wie lange bleiben die viren auf oberfl\xc3\xa4chenhaften'
+    - b'wie lange kann der virus auf glatten oberfl\xc3\xa4chen bestehen'
+
+- intent: what_if_i_visited_high_risk_area
+  examples: |
+    - b'soll ich mich selbst isolieren, wenn ich gerade in spanien war'
+    - b'welche ma\xc3\x9fnahmen muss ich treffen, wenn ich in einem hochrisikoland war'
+    - b'wie sieht das protokoll f\xc3\xbcr leute aus, die in einem hochrisikogebiet waren'
+    - b'wie sollte ich mich verhalten, wenn ich in italien war'
+    - b'muss ich bei der ankunft in deutschland in quarant\xc3\xa4ne'
+    - b'muss ich mich bei der beh\xc3\xb6rden melden wenn ich in china war'
+    - b'verhaltensregeln nach besuch in einem hochrisikogebiet'
+    - b'was ist nach der einreise aus einem hochrisikogebiet zu tun'
+    - b'was muss ich machen wenn ich in einem risikogebiet war'
+    - b'was muss ich tun bei der r\xc3\xbcckreise aus einem corona-risikogebiet'
+
+- intent: what_are_treatment_options
+  examples: |
+    - b'wie behandelt man das coronavirus'
+    - b'wie gro\xc3\x9f sind die chancen, dass man geheilt wird'
+    - b'wie werden die leute auf der intensivstation behandelt'
+    - b'wie wird man behandelt, wenn man corona hat'
+    - b'existiert ein impfstoff gegen das coronavirus'
+    - b'gibt es ein medikament zur behandlung von covid-19'
+    - b'gibt es heilmethoden f\xc3\xbcr corona virus'
+    - b'gibt es medikamente gegen das coronavirus'
+    - b'kann covid vollst\xc3\xa4ndig behandelt werden'
+    - b'kann man corona selbst behandeln'
+    - b'was ist eine heilmethode gegen das coronavirus'
+    - b'welche heilmethoden gibt es f\xc3\xbcr coronavirus'
+    - b'welches medikament kann die symptome des coronavirus stoppen'
+    - b'wie kann das coronavirus behandelt werden'
+    - b'wie wird man behandelt wenn man corona hat'
+    - b'wurde f\xc3\xbcr das coronavirus ein gegenmittel entwickelt'
+
+- intent: myths
+  examples: |
+    - b'ist das coronavirus eine biowaffe, um die menschheit zu vernichten'
+    - b'ist das wahr, dass \xc3\xa4ltere menschen sich von kindern leichter als von erwachsenen anstecken k\xc3\xb6nnen'
+    - b'ist es ein mythos, dass corona gef\xc3\xa4hrlicher ist als die grippe'
+    - b'ist es ein mythos, dass corona von flederm\xc3\xa4usen kommt'
+    - b'fakten versus mythen bez\xc3\xbcglich coronavirus'
+    - b'gibt es verschw\xc3\xb6rungstheorien \xc3\xbcber das corona'
+    - b'ist die sache mit bill gates ein coronavirus mythus'
+    - b'nenne mir aktuelle falschmeldungen zu corona'
+    - b'sind die mythen um corona wahr'
+    - b'welche gerichte gibt es zum corona virus'
+    - b'welche irrglauben gibt es zum coronavirus'
+    - b'wurde das virus von flederm\xc3\xa4usen \xc3\xbcbertragen'
+
+- intent: travel
+  examples: |
+    - b'ist es sicher, mit dem \xc3\xb6pnv zu fahren'
+    - b'kann ich im sommer an den gardasee reisen, oder ist das ein corona risikogebiet'
+    - b'ab wann werde ich wieder ohne einschr\xc3\xa4nkungen verreisen k\xc3\xb6nnen'
+    - b'gibt es die m\xc3\xb6glichkeit das mein gebuchte zugreise in deutschland gestrichen wird'
+    - b'gibt es einreisebeschr\xc3\xa4nkungen in neuseeland'
+    - b'gibt es reiseauflagen wegen corona'
+    - b'ist das risiko einer ansteckung beim zug fahren hoch'
+    - b'ist eine reise innerhalb deutschlands sicher'
+    - b'ist es ratsam im november einen urlaub in italien zu buchen'
+    - b'muss ich meine reise nach frankreich stornieren'
+    - b'welche m\xc3\xb6glichkeiten zu reisen gibt es im moment'
+    - b'welche reiseziele sind zurzeit sicher'
+    - b'wohin kann ich trotz covid-19 reisen'
+
+- intent: news_and_press
+  examples: |
+    - b'aktuelle pressemitteilung der regierung zum cornavirus'
+    - b'bitte schick mir die heutige entwicklungen'
+    - b'die aktuellsten nachrichten in deutschland'
+    - b'die neueste infos zu dem virus'
+    - b'gib mir ein update zu corona'
+    - b'gibt es coronarelevante pressemitteilungen'
+    - b'gibt es die neueste pressekonferenz'
+    - b'gibt es ein update zur lage in luxemburg'
+    - b'gibt es eine aktuelle pressemitteilung der kanzlerin'
+    - b'ich m\xc3\xb6chte die neuesten nachrichten \xc3\xbcber das corona virus'
+    - b'nenne mir die aktuellsten nachrichten bez\xc3\xbcglich des coronavirus'
+    - b'wie ist die lage zum coronavirus aktuell in deutschland'
+    - b'wie sind die neuesten nachrichten hinsichtlich der corona-pandemie'
+
+- intent: share
+  examples: |
+    - b'ich m\xc3\xb6chte den service teilen'
+    - b'sag mir bitte, wie teile ich diesen service'
+    - b'teile bitte alle informationen, die du mir gegeben hast'
+    - b'bitte gibt diese information an meinen kontakte weiter'
+    - b'das will ich teilen'
+    - b'ist es m\xc3\xb6glich die informationen auf meinem profil zu teilen'
+    - b'kannst du diesen link mit meinen freunden teilen bitte'
+    - b'teil bitte den link auf facebook'
+    - b'wie teile ich diesen link mit meinen eltern'
+    - b'wie teile ich dieses video auf facebook'
+
+- intent: hi
+  examples: |
+    - b'alles gut bei dir, corona'
+    - b'aufwachen, bot'
+    - b"bitte wie geht es dir, wie geht's , wie gehts's bitte, hallo guten tag, guten tag hallo,"
+    - b'guten tag, wie geht es ihnen doktor'
+    - b"hey corona-doktor, wie geht's dir"
+    - b'hey doc, alles fit'
+    - b'moin jung, wie geht es dir'
+    - b'guten morgen coronachen'
+    - b'hallo ich hoffe dir geht es gut'
+    - b'hallo j-box'
+    - b'hey corona bot'
+    - b'hey corona doc'
+    - b'hey corona experte'
+    - b'sei gegr\xc3\xbc\xc3\x9ft corona doc'
+
+- intent: okay_thanks
+  examples: |
+    - b'danke f\xc3\xbcr die hilfe, bot'
+    - b'danke f\xc3\xbcr die vielen informationen, doktor'
+    - b'danke vielmals, du corona-koryphae'
+    - b'die statistik war gro\xc3\x9fartig, danke dir'
+    - b'ich bedanke mich f\xc3\xbcr die hilfe, corona'
+    - b'super, danke f\xc3\xbcr die infos'
+    - b'vielen dank bot, das war hilfreich'
+    - b'danke corona-bot das war sehr hilfsreich'
+    - b'danke f\xc3\xbcr den service'
+    - b'danke f\xc3\xbcr diese initiative'
+    - b'ich muss dir nur danken'
+    - b'vielen dank corona bot'
+
+- intent: donate
+  examples: |
+    - b'wie funktioniert es, wenn ich geld spenden will'
+    - b'gibt es m\xc3\xb6glichkeiten dinge abseits von geld zu spenden'
+    - b'ich m\xc3\xb6chte die coronavirusforschung mit einer spende unterst\xc3\xbctzen'
+    - b'ich m\xc3\xb6chte f\xc3\xbcr eine soziale einrichtung in meiner stadt spenden'
+    - b'ich m\xc3\xb6chte mit einer spende die helfer in meiner stadt unterst\xc3\xbctzen'
+    - b'ich w\xc3\xbcrde gern jetzt spenden'
+    - b'ich w\xc3\xbcrde gerne f\xc3\xbcr das land italien geld spenden'
+    - b'welche l\xc3\xa4nder brauchen am dringensten eine spende und wie kann ich spenden'
+    - b'welche m\xc3\xb6glichkeiten gibt es f\xc3\xbcr schutzausr\xc3\xbcstungen in ecuador zu spenden'
+    - b'wie gebe ich dieser organisation geld'
+    - b'wie kann ich eine spende f\xc3\xbcr corona-opfer nach kenia schicken'
+    - b'wo erhalte ich die iban f\xc3\xbcr spenden in der t\xc3\xbcrkei'
+    - b'wo kann ich f\xc3\xbcr die menschen in italien spenden'
