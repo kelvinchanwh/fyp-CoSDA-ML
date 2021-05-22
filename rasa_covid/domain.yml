@@ -18,24 +18,6 @@ intents:
   - can_i_get_from_feces_animal_pets
   - can_i_get_from_packages_surfaces
 
-responses:
-  utter_hi:
-  - text: "Hey! How are you?"
-
-  utter_donate:
-  - text: "You can visit this link here to donate"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
 
 session_config:
   session_expiration_time: 60
