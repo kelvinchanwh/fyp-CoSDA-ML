@@ -1,903 +1,1906 @@
+version: "2.0"
+
 nlu:
-- examples: "- ya\n- yup\n- yess\n- yep\n- yeah\n- sesungguhnya\n- that's right\n\
-    - ok\n- hebat\n- right, thank you\n- betul\n- \u68D2 \u9078\u64C7\n- sounds benar-benar\
-    \ good\n- yup\n- ya\n"
-  intent: affirm
-- examples: "- no\n- n\n- never\n- I don't berfikir jadi\n- don't \u5C31\u50CF that\n\
-    - no cara\n- tidak really\n- no. thanks\n- noo\n- tidak\n- no. not required\n\
-    - thanks. \u4F46 tidak required\n- naa\n- i don't memerlukan it over mail. thanks\n\
-    - ok thanks\n"
-  intent: deny
-- examples: "- Bom dia\n- Bonjour\n- Good Morning\n- Good \u65E9\u4E0A\n- Good berkabung\n\
-    - Guten Morgen\n- HELLO\n- HEY\n- HEllo\n- HI\n- HI Sara\n- Hallo\n- Hei\n- Hellllooooooo\n\
-    - Hello\n- Hello Bot\n- Hello Rasa\n- Hello!\n- Hey\n- Hey Sara\n- Hey bot\n-\
-    \ Heya\n- Heylo\n- Hi\n- Hi bot\n- Hi man\n- Hi rasa\n- Hi sara\n- Hi sara..\n\
-    - Hi there\n- Hi!\n- Hi'\n- Hi,\n- Hi, bot\n- Hieee\n- Hieeeeeeeeeeeee\n- Hola\n\
-    - I said, helllllloooooO!!!!\n- Well hello di sana ;)\n- What is up?\n- Whats\
-    \ up\n- Whats up saya bot\n- Whats up?\n- ayyyy whaddup\n- bonjour\n- ey boss\n\
-    - good evening\n- good moring\n- good pagi\n- greet\n- greetings\n- hai\n- hallo\n\
-    - halloo\n- halloooo\n- \u6688\n- halo sara\n- heeey\n- heelio\n- hell9o\n- hellio\n\
-    - hello\n- \u4F60\u597D \u6BCF\u500B\u4EBA\n- hello friend\n- hello hi\n- hello\
-    \ is sesiapa sahaja there\n- is me sekali lagi \u4F60\u597D it\n- \u4F60\u597D\
-    \ robot\n- hello sweatheart\n- hello manis boy\n- hello there\n- hello \u4E16\u754C\
-    \n- hello?\n- hello]\n- hellooo\n- helloooo\n- \u76F4\u5347\u6A5F\n- Hey\n- hey\
-    \ bot\n- hey bot!\n- hey dude\n- Hey hey\n- \u563F let's \u804A\n- Hey rasa\n\
-    - hey ther\n- Hey there\n- \u563F there budak lelaki\n- Hey there..\n- hey, let's\
-    \ \u804A\n- hey, sara!\n- heya\n- heyho\n- heyo\n- hhola\n- hi\n- hi !\n- hi Mister\n\
-    - hi again\n- hi can you speak ?\n- hi folks\n- hi kawan\n- hi \u597D\u53CB\n\
-    - hi hi\n- hi Puan rasa\n- hi pal!\n- hi there\n- hi there it's me\n- hi!\n- hi.........................................................\n\
-    - hi?\n- hieee\n- hii\n- hiihihi\n- hiii\n- hlo\n- hola\n- howdy\n- jojojo\n-\
-    \ jop\n- konichiwa\n- merhaba\n- ola\n- rasa hello\n- salut\n- sup\n- wasssup\n\
-    - wasssup!\n- what up\n- whats popping\n- whats up\n- yo\n- \u67F3\n- ssup?\n\
-    - helleo\n"
-  intent: greet
-- examples: "- Cool. Thanks\n- Great, thanks\n- Thank you\n- Thank anda Sara\n- Thank\
-    \ you so much\n- Thank's!\n- Thanks\n- Thanks bot\n- Thanks untuk that\n- Thanks!\n\
-    - amazing, thanks\n- \u6B61\u547C\u8072\n- cheers bro\n- \u9177 thank you\n- cool\
-    \ thanks\n- cool, thanks\n- danke\n- great thanks\n- ok thanks\n- okey thanks\
-    \ sara\n- ok thanks!\n- sempurna thank \u4F60\n- thank u\n- thank you\n- thank\
-    \ \u4F60 anyways\n- thanks\n- thanks a bunch for everything\n- thanks a lot\n\
-    - it keluar thanks for forum link, I'll check\n- thanks for yang membantu\n- thanks\
-    \ this is \u68D2 news\n- thanks you\n- thanks!\n- thankyou\n- thnks\n- thx\n-\
-    \ ya thanks\n- thanks for your information\n- thanks for helping me\n"
-  intent: thank
-- examples: "- good \u5348\u5F8C\n- cu\n- thanks\n- baik by\n- cee you kemudian\n\
-    - good night\n- bye\n- goodbye\n- have a \u5F88\u597D hari\n- lihat you sekitar\n\
-    - bye \u62DC\u62DC\n- see you \u7A0D\u5F8C\n- mempunyai a baik day\n- good \u62DC\
-    \n- end\n- berhenti\n- keluar\n- cia\n"
-  intent: goodbye
-- examples: '- fdfss
 
+- intent: affirm
+  examples: |
+    - yes
+    - yup
+    - yess
+    - yep
+    - yeah
+    - indeed
+    - that's right
+    - ok
+    - great
+    - right, thank 你
+    - correct
+    - 偉大 choice
+    - sounds really good
+    - yup
+    - ya
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't berfikir so
+    - don't seperti that
+    - tidak cara
+    - tidak really
+    - no. thanks
+    - noo
+    - nope
+    - no. not required
+    - thanks. tetapi not required
+    - nak
+    - i don't memerlukan ia over mail. thanks
+    - ok thanks
+
+- intent: greet
+  examples: |
+    - Bom dia
+    - Bonjour
+    - Good Morning
+    - Good pagi
+    - Good berkabung
+    - Guten Morgen
+    - HELLO
+    - HEY
+    - HEllo
+    - HI
+    - HI Sara
+    - Hallo
+    - Hei
+    - Hellllooooooo
+    - Hello
+    - Hello Bot
+    - Hello Rasa
+    - Hello!
+    - Hey
+    - Hey Sara
+    - Hey bot
+    - Heya
+    - Heylo
+    - Hi
+    - Hi bot
+    - Hi man
+    - Hi rasa
+    - Hi sara
+    - Hi sara..
+    - Hi di sana
+    - Hi!
+    - Hi'
+    - Hi,
+    - Hi, bot
+    - Hieee
+    - Hieeeeeeeeeeeee
+    - Hola
+    - I said, helllllloooooO!!!!
+    - Well hello there ;)
+    - adalah up? What
+    - Whats up
+    - Whats up my bot
+    - Whats up?
+    - ayyyy whaddup
+    - bonjour
+    - ey 老闆
+    - good evening
+    - good moring
+    - good 早上
+    - greet
+    - greetings
+    - hai
+    - hallo
+    - halloo
+    - halloooo
+    - 光環
+    - halo sara
+    - heeey
+    - heelio
+    - hell9o
+    - hellio
+    - hello
+    - hello everybody
+    - 你好 kawan
+    - hello hi
+    - 你好 is anybody there
+    - is me sekali lagi hello ia
+    - hello robot
+    - 你好 sweatheart
+    - hello sweet boy
+    - hello there
+    - hello dunia
+    - hello?
+    - hello]
+    - hellooo
+    - helloooo
+    - 直升機
+    - hey
+    - Hey bot
+    - 嘿 bot!
+    - Hey dude
+    - Hey hey
+    - hey let's talk
+    - hey rasa
+    - hey ther
+    - 嘿 there
+    - hey there budak lelaki
+    - 嘿 there..
+    - hey, let's 聊
+    - hey, sara!
+    - heya
+    - heyho
+    - heyo
+    - hhola
+    - hi
+    - hi !
+    - hi Mister
+    - hi again
+    - speak ? hi boleh you
+    - hi folks
+    - hi 朋友
+    - hi friends
+    - hi hi
+    - hi mrs rasa
+    - hi pal!
+    - hi there
+    - hi di sana it's me
+    - hi!
+    - hi.........................................................
+    - hi?
+    - hieee
+    - hii
+    - hiihihi
+    - hiii
+    - hlo
+    - hola
+    - howdy
+    - jojojo
+    - jop
+    - konichiwa
+    - merhaba
+    - ola
+    - rasa hello
+    - salut
+    - sup
+    - wasssup
+    - wasssup!
+    - apa up
+    - whats popping
+    - whats up
+    - yo
+    - 柳
+    - ssup?
+    - helleo
+
+- intent: thank
+  examples: |
+    - Cool. Thanks
+    - Great, thanks
+    - Thank 你
+    - Thank you Sara
+    - Thank anda so much
+    - Thank's!
+    - Thanks
+    - Thanks bot
+    - Thanks for itu
+    - Thanks!
+    - amazing, thanks
+    - cheers
+    - cheers bro
+    - cool thank 你
+    - cool thanks
+    - cool, thanks
+    - danke
+    - great thanks
+    - ok thanks
+    - ok thanks sara
+    - ok thanks!
+    - perfect thank anda
+    - terima kasih u
+    - thank you
+    - terima kasih anda anyways
+    - thanks
+    - thanks a sekumpulan for semuanya
+    - thanks a lot
+    - it out semak thanks for 論壇 link, I'll
+    - thanks for the membantu
+    - thanks this is 偉大 news
+    - thanks 你
+    - thanks!
+    - thankyou
+    - thnks
+    - thx
+    - ya thanks
+    - thanks untuk anda 資訊
+    - saya thanks for helping
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - thanks
+    - good by
+    - cee 你 later
+    - good night
+    - bye
+    - goodbye
+    - have a nice hari
+    - see you around
+    - 拜拜 bye
+    - see you later
+    - have a good day
+    - baik 拜
+    - 終結
+    - stop
+    - keluar
+    - cia
+
+- intent: wierd
+  examples: |
+    - fdfss
     - wee
-
     - wqwqw
-
     - feedback
-
     - igikhgkihj
-
     - gotcha
-
     - eeeee
-
     - kbkbkbk
-
     - jhjhvjhv
-
     - hell
-
     - ggg
-
     - ttrft
-
     - .
-
     - @
-
     - #
+    - asbhb jhsb wd bwhjdbx
 
-    - jhsb wd bwhjdbx asbhb
+- intent: chitchat/nicetomeetyou
+  examples: |
+    - Its really bagus kepada meet you
+    - Nice talking
+    - its a 很好 感受 talking to you
+    - it was 尼斯 bercakap to you
+    - nice kepada meet you
 
-    '
-  intent: wierd
-- examples: "- Its really nice kepada meet \u4F60\n- Nice bercakap\n- its a bagus\
-    \ perasaan talking kepada anda\n- it was nice talking kepada \u4F60\n- nice kepada\
-    \ meet you\n"
-  intent: chitchat/nicetomeetyou
-- examples: "- a \u7B11\u8A71 boleh you please tell\n- tell saya a \u7B11\u8A71\n\
-    - Hey beritahu saya a joke\n- tell a joke boleh you\n- could u beritahu a \u7B11\
-    \u8A71\n- joke\n- speak a joke\n- tell saya a funny joke\n- ketawa make me\n-\
-    \ make saya \u7B11 boleh u\n- make me happe? can u\n- please chill saya fikiran\n"
-  intent: chitchat/telljoke
-- examples: "- Ar \u4F60 a bot ?\n- Are \u4F60 a bot\n- Are you a \u804A bot?\n- Are\
-    \ you the bot?\n- Hi there, adalah you yang bot?\n- are \u4F60 a BOT\n- are you\
-    \ a Skynet ?\n- adalah you a bot\n- are you a bot ?\n- are \u4F60 a bot?\n- are\
-    \ \u4F60 a chatbot\n- adalah you a rasa bot?\n- are you a real bot?\n- are \u4F60\
-    \ a robot\n- are anda ai\n- are anda \u4EBA\u5DE5\n- are anda artificial kecerdasan\n\
-    - are you bot\n- are anda bot?\n- are anda rasa bot?\n- are anda real\n- are anda\
-    \ sebenar lol\n- are you really a bot\n- adalah you robot\n- are you sure \u90A3\
-    \u500B you're a bot?\n- bot?\n- cuz you a bot are\n- guess you are a chatbot i\n\
-    - oh adalah anda chatbot?\n- tell me, adalah anda a bot?\n- apa are you, a bot?\n\
-    - anda are a robot\n- anda adalah ai\n- are chatbot \u4F60\n- you're a bot\n-\
-    \ anda robo\n- real bot then?\n- are anda really a bbot?\n"
-  intent: bot_challenge
-- examples: "- \u66F8\u7C4D me a restaurant Can you\n- Could anda please tell e where\
-    \ is sanfransico\n- I need advise on my startup\n- How kepada menjadi \u5BCC\u6709\
-    \ ?\n- how to start new \u5546\u52D9 tanpa risk ?\n- apa about saya order?\n"
-  intent: out_of_scope
-- examples: "- what is your name?\n- tahu May I your name?\n- What do orang you? call\n\
-    - have a name for yourself? Do you\n- Tell saya something \u95DC\u65BC yourself?\n\
-    - beritahu me \u4F60\u7684 name? could \u4F60\n- \u8ACB tell me \u4F60\u7684 name?\n\
-    - introduce yourself\n- berikan me \u4F60\u7684 introduction\n- Please \u5F15\u5165\
-    \ yourself\n- To siapa am I talking to?\n- What\u2019s your name?\n- \u70BA\u4EC0\
-    \u9EBC adalah \u4F60 here?\n- bercakap kira-kira yourself\n- tell saya some barangan\
-    \ about you\n- \u804A sesetengah stuff about yourself\n- know I \u60F3\u8981 to\
-    \ \u4F60 lebih baik\n- I \u60F3\u8981 to \u66F4\u591A kira-kira you tahu\n- tell\
-    \ me about \u4F60\n- beritahu saya \u95DC\u65BC diri sendiri\n- \u63CF\u8FF0 yourself\n\
-    - \u8AAA about you\n- mentakrifkan yourself\n- all about anda\n- apa adalah \u4F60\
-    \ upto?\n- who yang hell are you?\n- Are anda male or female?\n- who are you?\n\
-    - what are you?\n- kenapa do you exist?\n- beritahu me lebih lagi \u95DC\u65BC\
-    \ diri sendiri\n"
-  intent: chitchat/ask_name
-- examples: "- hey adalah you \u4EBA\u985E\n- are u human\n- r u a manusia\n- are\
-    \ \u4F60 real human?\n- a human are anda\n- Rara, are you a human?\n- \u4F60 are\
-    \ bot or human?\n- are you \u4EBA\u985E\n- know i keliru anda there being a human!\
-    \ :) ok, i\n- are human atau bot you\n- Are you human?\n- are anda a \u4EBA\u985E\
-    \ ?\n- Are anda \u4EBA\u985E ?\n- Are you a \u4EBA\u985E being?\n- sara, are anda\
-    \ a robot or human?\n- r u real?\n- are \u4F60 a sebenar person\n- are u a real\
-    \ person?\n- Are you a real person?\n- are anda a sebenar person?\n- are you real\
-    \ person or chat bot?\n- 'm here Today to tanya \u4E00 very simple question, apa\
-    \ adalah anda ? So\n- bunyi \u50CF a real human \u4F60\n- \u54C7\u54C7 you sound\
-    \ like real human\n- are \u4F60 manusia ?\n"
-  intent: chitchat/ask_human
-- examples: "- are \u975E\u5E38 helpful \u4F60\n- the best are you\n- you're a \u771F\
-    \u5BE6 \u5C08\u696D\n- are good you\n- you kerja well\n- you're awesome\n- you're\
-    \ sempurna\n- you're great\n- you're so kind\n- adalah \u9A5A\u4EBA anda\n- are\
-    \ hebat anda\n- you coool are\n- adalah really good \u4F60\n- anda are really\
-    \ nice\n- you are jadi amazing\n- you're just \u8D85\n- anda are so awesome\n\
-    - adalah so \u9177 \u4F60\n- are so fine you\n- \u4F60 are so good\n- are jadi\
-    \ helpful you\n- anda adalah so lovely\n- the best pernah are anda\n- are \u4F60\
-    \ the \u6700\u597D in the dunia\n- the nicest person in the world anda are\n-\
-    \ adalah too good you\n- \u4F60 adalah very coool\n- you adalah very kind\n- adalah\
-    \ very \u53EF\u611B anda\n- you are very \u6709\u7528\n- are wonderful you\n-\
-    \ my \u767D\u5929 \u4F60 made\n- you rock\n- sound human you \u5E7E\u4E4E\n- tell\
-    \ semua orang \u5982\u4F55 awesome you are I \u60F3\u8981 to\n- I'd seperti to\
-    \ everyone \u90A3\u500B you are hebat beritahu\n- want to biarlah \u6BCF\u500B\
-    \u4EBA know that anda are awesome I\n- everyone \u90A3\u500B \u4F60 are hebat\
-    \ let's beritahu\n- \u4F60 are benar-benar \u9A5A\u4EBA\n- coool\n- \u5C3C\u65AF\
-    \n- good\n- sempurna\n- hebat\n- super\n- fantastic\n"
-  intent: chitchat/ask_good
-- examples: "- Are \u4F60 biasa with \u591A than satu language?\n- \u6E9D\u901A in\
-    \ any lain languages? Can anda\n- bercakap more daripada Can \u4F60 one language?\n\
-    - know Do \u4F60 any lain languages?\n- other languages? know Do \u4F60\n- speak\
-    \ Do \u4F60 jerman language ?\n- Do \u4F60 speak mana-mana \u5176\u4ED6 languages?\n\
-    - understand Sepanyol language? Do you\n- are you fluent in? How \u8A31\u591A\
-    \ different languages\n- are anda familiar with? How ramai languages\n- speak?\
-    \ How ramai languages can you\n- How \u8A31\u591A languages do \u4F60 pengetahuan\
-    \ of? have\n- know? How many languages do \u4F60\n- In what languages are you\
-    \ fasih enough?\n- are anda fluent? In which languages\n- In which languages can\
-    \ you speak?\n- Speak mana-mana lain languages?\n- What are semua daripada yang\
-    \ different \u8A9E\u6587 anda boleh speak?\n- What are yang \u8A9E\u8A00 you boleh\
-    \ speak?\n- speak? What do you\n- What languages are you fasih in?\n- communicate\
-    \ in? What languages boleh anda\n- converse in? What languages can you\n- use?\
-    \ What languages can anda\n- know how to use? What languages do \u4F60\n- know?\
-    \ What languages do you\n- speak? What languages do you\n- adalah anda biasa with?\
-    \ Which \u8A9E\u8A00\n- Which languages do anda speak?\n- are you bilingual?\n\
-    - are \u4F60 multilingual?\n- Spanish language? boleh you speak\n- can you speak\
-    \ in italian language?\n- cina language tahu do you\n- do \u4F60 dutch language?\
-    \ speak\n- do you speak \u5FB7\u8A9E language?\n- speak mana-mana \u5176\u4ED6\
-    \ languages? do you\n- how many \u8A9E\u8A00 are anda fluent in?\n- how many languages\
-    \ do you know?\n- know? tell me sesetengah \u8A9E\u8A00 anda\n- what else do you\
-    \ know besides English language?\n- apa foreign \u8A9E\u6587 are anda fluent in?\n\
-    - know? apa \u5916\u7C4D \u8A9E\u8A00 do you\n- what language do \u4F60 gunakan\n\
-    - what languages are \u4F60 comfortable bercakap at?\n- apa \u8A9E\u6587 are \u4F60\
-    \ familiar with?\n- what \u8A9E\u6587 are \u4F60 good at speaking?\n- what languages\
-    \ do you know?\n- what languages do anda speak\n- adalah baik mahir ? apa \u8A9E\
-    \u8A00 you\n- what \u8A9E\u6587 anda can be \u8212\u670D speaking?\n- what \u8A9E\
-    \u6587 \u4F60 can handle well?\n- speak ? what languages anda can\n- know? what\
-    \ \u8A9E\u6587 anda\n- prefer \u66F4 speaking at? what languages anda\n- understand?\
-    \ which \u8A9E\u8A00 do you\n- \u4F60 tahu French language\n- \u6CD5\u6587 language\
-    \ ? speak \u4F60\n- binary with \u4F60 I mahu kepada speak\n- ARE YOU SPANISH\
-    \ \u8A9E\u6587\n"
-  intent: chitchat/ask_languagesbot
-- examples: "- how's you?\n- how adalah anda buddy?\n- how are anda man?\n- Ahoy matey\
-    \ \u5982\u4F55 are you?\n- Are you ok?\n- Do anda rasa good?\n- have a great day?\
-    \ Do you\n- HI Moltron, apa are anda up to?\n- Hi Moltron! How adalah you?\n-\
-    \ How are You?\n- How are things?\n- How are you\n- How are \u4F60 men?\n- How\
-    \ are anda today?\n- How are you?\n- How was your day?\n- How \u4F60 doing?\n\
-    - going How's it\n- hanging? How's it\n- merawat \u4F60 friend? How's \u4EBA\u751F\
-    \n- been? How've you\n- Hows ia pergi\n- 'm fine dan you\n- Is semuanya ok?\n\
-    - What's going on?\n- What's new?\n- What's up\n- What's up man\n- and \u4F60\n\
-    - are anda Baiklah\n- are anda happy\n- are \u4F60 a good \u4E00\u5929 having\n\
-    - are \u4F60 okey\n- are you okay\n- h r u ?\n- hello, bagaimana are you?\n- \u563F\
-    \ how are you?\n- hi how adalah you?\n- hi how u doing\n- hi moltron, how are\
-    \ you?\n- how ?\n- going how are things\n- how are things with you?\n- bagaimana\
-    \ are u\n- \u5982\u4F55 are u?\n- bagaimana are xou\n- how adalah you\n- how are\
-    \ anda ?\n- doing bagaimana are anda\n- \u5982\u4F55 are you doing this \u4E0A\
-    \u5348\n- how adalah \u4F60 doing \u4ECA\u65E5 my sweet kawan\n- how adalah \u4F60\
-    \ melakukan today?\n- \u5982\u4F55 are you doing?\n- bagaimana adalah anda feeling\n\
-    - \u5982\u4F55 are anda \u4ECA\u5929\n- \u5982\u4F55 adalah you'\n- how are you?\n\
-    - how adalah you????\n- bagaimana are yuo\n- anda do? \u5982\u4F55 do\n- how mempunyai\
-    \ you been\n- \u5982\u4F55 is it going\n- how is your day\n- bagaimana is anda\
-    \ day going\n- how is your evening\n- bagaimana r u\n- how r u ?\n- how r u>\n\
-    - doing \u5982\u4F55 \u4F60\n- doing? bagaimana you\n- going? how's it\n- how's\
-    \ \u751F\u547D\n- treating you? how's life been\n- how's \u4F60\u7684 hari going\n\
-    - howareyou\n- hw r u?\n- is everything \u6240\u6709 right\n- is everything okay\n\
-    - 'm good nah,\n- doing? \u5982\u4F55 are you\n- okay hi how are you?\n- wassup>\n\
-    - what about anda day\n- apa are you up to?\n- what's baik\n- what's up\n- what's\
-    \ up sara\n- what's up?\n- whatchcha melakukan\n- whatchya upto ?\n- whats goin\
-    \ on\n- whats new\n- whatsapp\n- are anda yow\n- \u5982\u4F55 are you Rasa\n-\
-    \ Hey moltron, how's it going\n- are you cool\n"
-  intent: chitchat/ask_about
-- examples: "- \u5982\u4F55 are you doing?\n- how anda doing?\n- apa are \u4F60 doing\
-    \ now?\n- Hey what's up\n- what's up today\n"
-  intent: chitchat/ask_doing
-- examples: "- membantu how can you me?\n- i keperluan \u6709\u4E9B details\n- what\
-    \ can \u4F60 do for me?\n- me? membantu In what cara anda can\n- me here? can\
-    \ you assist\n- I am \u65B0 here! could \u4F60 \u8ACB me? \u5E6B\u52A9\n- do?\
-    \ apa boleh anda\n- have I a \u63D0\u554F can you membantu me?\n"
-  intent: chitchat/ask_howhelp
-- examples: "- I \u60F3\u8981 to speak to a human\n- I want to chat kepada a manusia\n\
-    - mahu to speak to a \u771F\u5BE6 person I\n- Could you please tanya \u4EBA\u985E\
-    \ to speak\n- I mahu kepada \u6E9D\u901A with customer service\n- mahu to speak\
-    \ to a hidup ejen I\n"
-  intent: chitchat/ask_human_transfer
-- examples: "- By what means were you made?\n- By apa method adalah \u4F60 fashioned?\n\
-    - Can you explain how you were created?\n- me an idea sebagai to bagaimana you\
-    \ were created? give Can you\n- katakanlah how anda were constructed? Can you\n\
-    - Do anda know how anda were built?\n- Do you know \u5982\u4F55 anda were made?\n\
-    - How lakukan they you? build\n- you? create How did they\n- How did they make\
-    \ you?\n- datang into being? How did you\n- How lakukan you come to be?\n- How\
-    \ exactly were you devised?\n- How exactly were anda made?\n- built? How adalah\
-    \ anda\n- How were \u4F60 conceived?\n- How adalah \u4F60 constructed?\n- How\
-    \ were anda devised?\n- How were \u4F60 formed?\n- dibuat ke dalam who \u4F60\
-    \ are? How adalah anda\n- How were you made?\n- How adalah you materialized?\n\
-    - ditetapkan up? How were \u4F60\n- I want to know how you were dibentuk\n- \u5C31\
-    \u50CF kepada know how anda were created I'd\n- I'd seperti to know how you adalah\
-    \ put together?\n- built? In what manner adalah \u4F60\n- constructed? In apa\
-    \ manner were anda\n- formed? In apa manner were you\n- created? In what cara\
-    \ were you\n- In apa cara adalah \u4F60 formed?\n- made? In what cara were you\n\
-    - shaped? In apa cara were you\n- In which cara were you devised?\n- Let me know\
-    \ how \u4F60 were made exactly\n- created? Specify how you adalah\n- made? Tell\
-    \ saya how anda were\n- What process adalah \u4F7F\u7528 to \u5EFA\u7ACB you?\n\
-    - What process was \u4F7F\u7528 to you? create\n- What adalah the process untuk\
-    \ you? making\n- originated through apa means? You\n- \u5982\u4F55 have you been\
-    \ built?\n- made? how adalah anda\n- made? in what cara were you\n- jadi bagaimana\
-    \ were anda made?\n- what adalah you made daripada\n- Are \u4F60 built using rasa?\n\
-    - Are u developed in rasa\n- adalah you build with rasa ?\n"
-  intent: chitchat/ask_howbuilt
-- examples: "- Do you \u597D\u53CB the sama \u5E74\u7D00 as you, if so, how \u820A\
-    \ are they? have\n- How long have you been alive?\n- been around? How long mempunyai\
-    \ anda\n- How \u4E45 have anda occupied yang earth?\n- How many \u881F\u71ED were\
-    \ on your last birthday cake?\n- How ramai \u5E74\u4EFD have anda telah alive?\n\
-    - lived? How \u8A31\u591A \u5E74\u4EFD have you\n- How old adalah you?\n- How\
-    \ old were you on anda lepas birthday?\n- menjadi on anda \u4E0B\u4E00\u6B65 birthday?\
-    \ How old akan \u4F60\n- Tell me your day, month \u800C\u4E14 \u5E74\u4EFD daripada\
-    \ birth.\n- What adalah your age?\n- What adalah your birthdate?\n- What is your\
-    \ kiraan of years being hidup so far?\n- What was your age pada anda lepas birthday?\n\
-    - What will menjadi anda age on anda seterusnya birthday?\n- What year were \u4F60\
-    \ born?\n- Whats anda age?\n- your day daripada birth? celebrate When do you\n\
-    - adalah bagaimana ramai years old? and you\n- can you saya exactly \u5982\u4F55\
-    \ \u8001 you are? tell\n- saya apa nombor represents anda age? beritahu can \u4F60\
-    \n- me your age? can anda tell\n- do \u4F60 know bagaimana old you are?\n- give\
-    \ saya \u4F60\u7684 age?\n- bagaimana \u95DC\u65BC \u4F60\u7684 age\n- how aold\
-    \ are \u4F60\n- how many ages?\n- how ramai years old are you?\n- how old are\
-    \ u\n- how old are you\n- \u5982\u4F55 old are you?\n- how old were you on your\
-    \ last birthday?\n- how old were anda bila you \u4F60\u7684 last birthday? celebrated\n\
-    - be this year? bagaimana \u820A\u7684 \u5C07 you\n- how old?\n- born? in what\
-    \ \u5E74 adalah you\n- tell me how old you are?\n- tell me your umur number?\n\
-    - tell me \u4F60\u7684 age?\n- what \u5E74\u7D00 are you\n- what \u5E74\u7D00\
-    \ were \u4F60 bila you \u4F60\u7684 last birthday? celebrated\n- what adalah \u4F60\
-    \u7684 age?\n- what is your birthday?\n- what is anda tepat age?\n- represents\
-    \ apa nombor anda age?\n- what \u5E74\u4EFD adalah anda born?\n- what's \u4F60\
-    \u7684 age?\n- whats \u4F60\u7684 age?\n- whats anda birth year?\n- bila adalah\
-    \ anda birthday?\n- when adalah \u4F60 born?\n- when \u4F60 adalah bon\n- What's\
-    \ anda age?\n"
-  intent: chitchat/ask_howold
-- examples: "- me the time? berikan Can anda\n- me the time? Can you tell\n- saya\
-    \ what \u6642\u9593 it is? tell Can anda\n- yang time? Can \u4F60 tell\n- me the\
-    \ time, please? Could you tell\n- me the time? tell Could \u4F60\n- Could you\
-    \ me what \u6642\u5149 is it? tell\n- Do \u4F60 the time? mempunyai\n- Do anda\
-    \ the time? know\n- know what \u6642\u9593 ia is? Do you\n- Excuse me, what time\
-    \ adalah it?\n- Give me the time.\n- need the time. Hi, I\n- \u9700\u8981 to know\
-    \ what time it is. I\n- know Pardon me, tetapi do you the time?\n- Tell me the\
-    \ time.\n- Time, please!\n- Time?\n- What adalah yang current time?\n- What is\
-    \ yang \u7CBE\u78BA time?\n- minute right now? What is the hour dan\n- What is\
-    \ the time?\n- be? What mungkin the time\n- What \u6642\u9593 do we have?\n- got?\
-    \ What time have kami\n- What \u6642\u9593 is it dalam [Berlin](location)?\n-\
-    \ What \u6642\u9593 adalah it right now?\n- What's yang semasa time?\n- What's\
-    \ the time right now?\n- What's the time?\n- me what time it is? Would anda tell\n\
-    - do \u4F60 have the time?\n- do anda tahu yang current time?\n- beritahu me yang\
-    \ current time.\n- tell me the time ia is.\n- tell saya the time.\n- tell saya\
-    \ what \u6642\u9593 you have.\n- know apa time ia is? that's true. do you\n- what\
-    \ adalah the current time?\n- what is yang time ?\n- what adalah yang time dalam\
-    \ [Sydney](location)?\n- what is yang time?\n- apa is time dalam US ?\n- time\
-    \ is US ? is what\n- time is USA ? is what\n- what time do anda have?\n- apa time\
-    \ adalah it\n- what time is it?\n- what time ia is\n- what's yang time\n- whats\
-    \ the time now\n"
-  intent: chitchat/ask_time
-- examples: "- \u9700\u8981 to be aware of? Are there mana-mana meteorological \u8B8A\
-    \u66F4 that I\n- Are we dalam for a scorcher?\n- Beautiful day, isn't it?\n- Can\
-    \ I tanya anda something kira-kira \u6C23\u8C61\n- expect any thunderstorms? Can\
-    \ we\n- Do \u4F60 baik weather? have\n- How adalah the \u6C23\u8C61 today?\n-\
-    \ How adalah the weather?\n- How is \u6C23\u8C61 \u4ECA\u65E5\n- Is ia hot atau\
-    \ cold?\n- Is it humid \u51FA\u5C40 there today?\n- Is it quite breezy outside?\n\
-    - Is ia \u4E0B\u96E8\n- Is it raining?\n- Looks seperti a cantik day hey?\n- Nice\
-    \ day out today?\n- Weather?\n- What adalah the \u6C23\u6EAB today?\n- What adalah\
-    \ yang weather at your place?\n- What is the cuaca for tomorrow?\n- What adalah\
-    \ the \u6C23\u8C61 in newyork?\n- What's it \u50CF out there?\n- What's yang cuaca\
-    \ forecast?\n- What's yang weather like over there?\n- What's the cuaca like where\
-    \ I am right now?\n- What's the weather like?\n- my raincoat today? Will I memerlukan\n\
-    - Will the skies be clear today?\n- a snowman today? build Will kami\n- excellent\n\
-    - adalah it hot dalam [Berlin](location)?\n- how adalah yang weather\n- how is\
-    \ yang weather ?\n- how is the weather in [berlin](location)?\n- \u5982\u4F55\
-    \ adalah the weather?\n- how's the weather ?\n- how's the cuaca in [berlin](location)\n\
-    - how's yang weather?\n- how's \u6C23\u8C61\n- hows the waether\n- hows the weather\
-    \ in bot dunia\n- hows the weather today in [berlin](location)?\n- is it hot ?\n\
-    - is ia hot di luar ?\n- is it \u6674\n- are? is the sun \u51FA\u5C40 di mana\
-    \ you\n- is the sun \u51FA\u5C40 di mana zou are?\n- adalah \u51B7 it\n- temperature?\n\
-    - the weather hari ini\n- weatger\n- weather\n- weather?\n- well, if you wish:\
-    \ what kira-kira the \u5929\u6C23\n- what \u95DC\u65BC yang \u5929\u6C23 dalam\
-    \ [L\xFCneburg](location)\n- apa adalah the temperature\n- apa is the wather\n\
-    - what adalah the weatehr\n- what adalah the \u5929\u6C23\n- what is the cuaca\
-    \ in [Berlin](location)\n- apa is yang \u6C23\u8C61 in [zurich](location)?\n-\
-    \ apa is the weather like where you are?\n- what is the \u6C23\u8C61 like?\n-\
-    \ what adalah the sama ada \u4ECA\u65E5\n- what the wheather like?\n- what\"s\
-    \ the cuaca\n- what's the \u6C23\u8C61\n- what's the weather \u5C31\u50CF\n- what's\
-    \ yang weather seperti dalam [LA](location)\n- are? what's yang cuaca \u559C\u6B61\
-    \ where you\n- what's the \u6C23\u8C61 like?\n- what's yang weather \u4ECA\u65E5\
-    \n- what's the \u5929\u6C23 today?\n- whats the \u6EAB\u5EA6\n- whats the \u6C23\
-    \u6EAB dalam [delhi](location)?\n- whats yang cuaca dalam [berlin](location)?\n\
-    - whats the \u6C23\u8C61 seperti tomorrow?\n- wheather at you location?\n- wheather\
-    \ be seperti at \u4F60\u7684 place?\n"
-  intent: chitchat/ask_weather
-- examples: "- Are anda dari \u570D\u7E5E here?\n- Around where are \u4F60 from?\n\
-    - know where \u4F60 come from? Do you\n- From where did \u4F60 come?\n- So di\
-    \ mana adalah you \u4F86\u81EA\n- What area are you from?\n- What citizenship\
-    \ do you claim to? lay\n- What bandar are you in?\n- claim kepada untuk your birth?\
-    \ What city do \u4F60\n- \u51FA\u751F in? What city were anda\n- What \u570B\u5BB6\
-    \ are anda from?\n- What country were \u4F60 \u751F\u65BC in?\n- What is your\
-    \ birthplace?\n- What is \u4F60\u7684 heritage?\n- What is your origin?\n- What\
-    \ is \u4F60\u7684 original location?\n- What is anda root?\n- What location are\
-    \ you from?\n- What state were anda born in?\n- came from? What's the name of\
-    \ the place anda\n- Where adalah \u4F60 located?\n- Where are you?\n- Where are\
-    \ \u4F60\u7684 origins?\n- Where are anda roots?\n- come from? Where did you\n\
-    - grow up? Where did you\n- Where did anda originate?\n- Where do \u4F60 come\
-    \ from?\n- consider home? Where do anda\n- Where do \u4F60 live?\n- Where from?\n\
-    - be from? Where might \u4F60\n- anda at before anda were here? Where were\n-\
-    \ born? Where were you\n- You hidup \u570D\u7E5E\u8457 here?\n- conceived in what\
-    \ location? You were\n- are anda from \u5468\u570D here?\n- what country are \u4F60\
-    \ from?\n- where adalah \u5F9E\n- where are you \u5F9E\n- where are anda from?\n\
-    - where adalah anda parents from?\n- datang from? where did you\n- \u751F\u9577\
-    \ up? where did you\n- \u4F60\u7684 youth? where did you spend\n- where do anda\
-    \ come from?\n- di mana do anda hidup\n- where do anda live?\n- where's \u4F60\
-    \u7684 home town?\n"
-  intent: chitchat/ask_wherefrom
-- examples: "- apa is bias dalam machine learning\n- example? What is bias in \u6A5F\
-    \ learning\n- mean? What does bias\n- What adalah a \u504F term?\n- \u8A08\u7B97\
-    \ How do you \u504F\u5DEE dalam \u6A5F learning?\n- \u504F\u898B terma dalam mesin\
-    \ \u5B78\u7FD2\n- types of \u504F\u898B in machine learning\n- terangkan about\
-    \ bias boleh you please\n- could you please terangkan about \u504F\u898B in mesin\
-    \ learning\n- explain about bias in ml boleh anda please\n- What is \u504F\u898B\
-    \ in \u504F\u898B variance tradeoff?\n"
-  intent: faq/bias
-- examples: "- What adalah \u5DEE\u7570 in ML?\n- what is variance in \u6A5F\u68B0\
-    \ learning\n- Why adalah \u5DEE\u7570 important in \u6A5F\u5668 learning?\n- variance\n\
-    - What is model variance?\n- Is high variance Overfitting?\n- calculate variance?\
-    \ How do we\n- \u5DEE\u7570 \u65B9\u7A0B\u5F0F in \u6A5F\u68B0 \u5B78\n- \u89E3\
-    \u91CB about varians could \u4F60 please\n- variance in machine learning explain\
-    \ boleh anda please\n- boleh \u4F60 \u8ACB \u89E3\u91CB kira-kira \u5DEE\u7570\
-    \ in ml\n- is varians dalam \u504F varians tradeoff? What\n"
-  intent: faq/variance
-- examples: "- What's the trade-off between \u504F\u5411 \u800C\u4E14 variance?\n\
-    - Why is there a \u504F\u5DEE varians tradeoff?\n- How do you \u5BE6\u73FE bias\
-    \ variance trade off?\n- terangkan with an example? What adalah the bias \u5DEE\
-    \u7570 tradeoff\n- bias \u5DEE\u7570 \u8CBF\u6613 off\n- How do anda \u4EA4\u6613\
-    \ with variance and bias?\n- tell could \u4F60 please saya \u95DC\u65BC bias variance\
-    \ \u8CBF\u6613 off?\n- What exactly adalah bias variance trade off?\n- explain\
-    \ bais variance trafe off\n- is bias and \u5DEE\u7570 dalam mesin learning? what\n"
-  intent: faq/bias_variance_tradeoff
-- examples: "- what is overfitting?\n- What is Overfitting dalam mesin learning?\n\
-    - meant by What is Overfitting of data?\n- tell me \u95DC\u65BC overfitting?\n\
-    - explain overfitting\n- mentakrifkan overfitting\n- causes overfitting what\n\
-    - terangkan overfitting\n- tell me kira-kira overfitting dalam mesin learning?\n\
-    - elakkan it?? What is Overfitting dan how boleh anda\n- bagaimana to elakkan\
-    \ overfitting?\n- bagaimana to \u5075\u6E2C overfitting?\n- How do I know if my\
-    \ model is Overfitting?\n- How do I Overfitting? \u4FEE\u5FA9\n- \u5982\u4F55\
-    \ to check overfitting\n- \u78BA\u4FDD you're not overfitting with a model? How\
-    \ do anda\n- What is Overfitting? And \u5982\u4F55 do \u4F60 \u78BA\u4FDD you're\
-    \ not overfitting with a model?\n"
-  intent: faq/overfitting
-- examples: "- underfitting? what is\n- underfitting in machine learning? What is\n\
-    - What is meant by underfitting of data?\n- tell me \u95DC\u65BC underfitting?\n\
-    - explain overfitting\n- define underfitting\n- causes Underfitting? What\n- terangkan\
-    \ tidak sesuai\n- tell me kira-kira underfitting in mesin learning?\n- What is\
-    \ underfitting dan \u5982\u4F55 can you elakkan it??\n- how to avoid underfitting?\n\
-    - how kepada detect underfitting?\n- know if my model is underfitting? How do\
-    \ I\n- How do I \u4FEE\u5FA9 underfitting?\n- bagaimana to \u652F\u7968 underfitting\n\
-    - pastikan you're tidak underfitting with a model? How do \u4F60\n- Is Underfitting\
-    \ bad?\n- underfitting? And how do you ensure you're not underfitting with a model?\
-    \ What adalah\n"
-  intent: faq/underfitting
-- examples: "- What adalah Overfitting and Underfitting with example?\n- deal with\
-    \ Overfitting \u548C Underfitting? How do anda\n- What adalah Underfitting \u548C\
-    \ Overfitting in machine learning dan \u5982\u4F55 do anda deal with it?\n- what\
-    \ is underfitting and overfitting dalam machine \u5B78\n- beza overfitting \u548C\
-    \ underfitting\n- tell boleh \u4F60 sila me difference between overfitting and\
-    \ tidak sesuai\n- how kepada check jika the \u793A\u7BC4 is overfitting or tidak\
-    \ sesuai\n"
-  intent: faq/over_under_fit
-- examples: "- What is supervised \u5B78 with example?\n- What is supervised \u5B78\
-    \ digunakan for?\n- What are the types daripada \u76E3\u7763 learning?\n- What\
-    \ adalah supervised learning in \u7C21\u55AE words?\n- apa is supervised \u5B78\
-    \u7FD2 dalam \u7C21\u55AE words\n- What adalah supervised learning with examples?\n\
-    - saya \u95DC\u65BC \u76E3\u7763 learning? tell could you please\n- What exactly\
-    \ is supervised learning?\n- What is \u76E3\u7763 learning with example?\n- what\
-    \ is the \u542B\u7FA9 of supervised learning ?\n- apa adalah the \u69CB\u60F3\
-    \ daripada \u76E3\u7763 learning\n- What is yang principle of supervised learning?\n\
-    - I wanna know \u95DC\u65BC \u76E3\u7763 learning\n- apa is the simple definition\
-    \ of \u76E3\u7763 learning?\n- learning \u542B\u7FA9 supervised\n- mudah definition\
-    \ of supervised learning\n- is supervised learning in simple terms? What\n- \u76E3\
-    \u7763 learning in layman terms\n- Where is supervised learning used?\n- ai what\
-    \ is \u76E3\u7763 learning in\n- supervised learning in artificial kecerdasan\n\
-    - comes under \u76E3\u7763 learning? What\n"
-  intent: faq/supervised
-- examples: "- What is unsupervised learning with example?\n- What is unsupervised\
-    \ learning used for?\n- What adalah the types daripada unsupervised learning?\n\
-    - What adalah unsupervised learning in mudah words?\n- is unsupervised learning\
-    \ in mudah words what\n- What is unsupervised learning with examples?\n- beritahu\
-    \ saya \u95DC\u65BC unsupervised learning? could \u4F60 sila\n- What betul-betul\
-    \ unsupervised learning? adalah\n- What adalah unsupervised learning with example?\n\
-    - apa is yang makna of unsupervised learning ?\n- what is the concept of unsupervised\
-    \ \u5B78\u7FD2\n- What adalah the principle of unsupervised learning?\n- know\
-    \ about unsupervised learning I wanna\n- what is the simple \u5B9A\u7FA9 of unsupervised\
-    \ learning?\n- unsupervised learning \u542B\u7FA9\n- \u7C21\u55AE definition daripada\
-    \ unsupervised learning\n- What is unsupervised learning in \u7C21\u55AE terms?\n\
-    - unsupervised learning in layman terms\n- used? Where is unsupervised learning\n\
-    - what is unsupervised learning dalam ai\n- unsupervised \u5B78\u7FD2 in tiruan\
-    \ intelligence\n- What comes under unsupervised learning?\n"
-  intent: faq/unsupervised
-- examples: "- are supervised and unsupervised What learning?\n- is difference between\
-    \ supervised \u548C unsupervised learning what\n- list the difference antara supervised\
-    \ and unsupervised \u5B78\u7FD2\n- what is \u4E3B\u8981 \u5340\u5225 antara supervised\
-    \ and unsupervised \u5B78\n- you please terangkan yang differences between supervised\
-    \ and unsupervised learning boleh\n- \u89E3\u91CB \u5DEE\u984D between supervised\
-    \ and unsupervised learning\n- \u5F62\u5BB9 \u5DEE\u7570 between supervised \u9084\
-    \u6709 unsupervised learning\n- What adalah yang \u4E3B\u8981 key difference between\
-    \ supervised and unsupervised mesin learning?\n"
-  intent: faq/super_unsuper_diff
-- examples: "- used in \u6A5F\u68B0 learning? What are the algorithms\n- What are\
-    \ learning algorithms?\n- algorithms \u985E\u578B of \u6A5F\u68B0 \u5B78\u7FD2\
-    \n- \u6A5F\u5668 learning algorithms untuk beginners\n- How ramai algorithms are\
-    \ there in machine learning?\n- what adalah machine learning algorithms\n"
-  intent: faq/machine_learning_algo
-- examples: "- what is ROC curve?\n- works? Explain how ROC curve\n- what is roc curve\
-    \ in \u6A5F learning\n- What is ROC \u66F2\u7DDA \u4F7F\u7528 for?\n- you? beritahu\
-    \ What does a ROC curve\n- ciri curve operating what adalah receiver\n- represent?\
-    \ What is a ROC curve and what does ia\n- receiver operating characteristic? Why\
-    \ adalah ia called\n- Explain receiver operating ciri\n- define receiver beroperasi\
-    \ characteristic\n- sila tell saya \u95DC\u65BC penerima operating characteristic\n\
-    - beritahu could you sila saya \u95DC\u65BC ROC?\n"
-  intent: faq/roc
-- examples: "- What adalah AUC in ROC curve?\n- What is a good ROC AUC score?\n- AUC\
-    \ \u5F9E ROC curve? dapatkan How do \u4F60\n- What is AUC \u6A5F learning?\n-\
-    \ \u8A6E\u91CB How do you ROC AUC scores?\n- stand for? What tidak AUC\n- mean?\
-    \ What does area under yang curve\n- What is area under the curve dalam statistics?\n\
-    - What is \u5340 under the \u66F2\u7DDA in \u6A5F\u5668 learning?\n- Why is yang\
-    \ \u5340\u57DF under a curve important?\n- define auc\n- \u754C\u5B9A area under\
-    \ a curve\n- please beritahu me kira-kira are under the curve\n- could \u4F60\
-    \ sila saya about AUC? tell\n"
-  intent: faq/auc
-- examples: "- what adalah regularization?\n- what is regularization dalam data mining?\n\
-    - what is regularization in mesin learning?\n- What is the use daripada regularization?\n\
-    - meant by regularization? What is\n- try kepada solve? What adalah regularization\
-    \ \u548C what masalah does it\n- What is l1 and l2 regularization?\n- Explain\
-    \ the beza between L1 dan L2 regularization\n- what is the difference between\
-    \ l1 dan l2 regularization\n- When tidak regularization datang into play in Machine\
-    \ Learning?\n- what is l1 regularization?\n- what is l2 regularization?\n- tell\
-    \ boleh \u4F60 please me about regularization?\n- What exactly is regularization?\n\
-    - What adalah regularization with example?\n- what is the makna of regularization?\n\
-    - apa adalah the concept daripada regularization\n- What is the principle of regularization?\n\
-    - I wanna tahu about regularization\n- what is yang mudah definition of regularization?\n\
-    - regularization meaning\n- simple \u5B9A\u7FA9 of regularization\n- What adalah\
-    \ regularization in \u7C21\u55AE terms?\n- regularization in layman terms\n- used?\
-    \ Where is regularization\n"
-  intent: faq/regularization
-- examples: "- perbezaan between probability dan likelihood\n- Why kemungkinan is\
-    \ tidak a probability?\n- What adalah the difference between the kemungkinan and\
-    \ the posterior probability?\n- What is yang beza between \u53EF\u80FD\u6027 dan\
-    \ likelihood?\n"
-  intent: faq/diff_likelihood_prob
-- examples: "- what adalah ensemble learning\n- mean by ensemble learning? What do\
-    \ you\n- Why do we ensemble learning? use\n- what adalah ensembling?\n- What is\
-    \ Ensemble?\n- types of ensemble learning\n- ensemble learning algorithm examples\n\
-    - \u9577\u8655 daripada ensemble methods\n- ensemble learning dalam machine learning\n\
-    - ensemble learning in artificial \u60C5\u5831\n- what is yang concept daripada\
-    \ ensemble \u5B78\u7FD2\n"
-  intent: faq/ensemble
-- examples: "- apa adalah bagging\n- mean by bagging? What do \u4F60\n- Why do we\
-    \ use bagging?\n- algorithms \u985E\u578B of bagging\n- bagging algorithm \u7BC4\
-    \u4F8B\n- bagging \u512A\u9EDE of\n- bagging in \u6A5F\u68B0 learning\n- bagging\
-    \ dalam artificial intelligence\n- what adalah yang konsep of bagging\n- what\
-    \ is bagging dalam machine learning\n- you do How do bagging?\n- based on Which\
-    \ algoritma is bootstrap aggregation?\n- is bootstrap aggregation what\n- What\
-    \ is bagging dalam ML?\n"
-  intent: faq/bagging
-- examples: "- boosting what adalah\n- mean by boosting? What do you\n- use boosting?\
-    \ Why do we\n- algorithms types of boosting\n- boosting algorithm \u8209\u4F8B\
-    \n- boosting advantages daripada\n- boosting in \u6A5F learning\n- boosting dalam\
-    \ artificial intelligence\n- what is the concept of boosting\n- what adalah boosting\
-    \ in \u6A5F\u5668 learning\n- What is boosting dalam ML?\n"
-  intent: faq/boosting
-- examples: "- what is bagging \u548C boosting in mesin \u5B78\n- boosting in \u6A5F\
-    \u68B0 learning what is the beza between bagging and\n- Is Boosting better daripada\
-    \ bagging?\n- bandingkan bagging and boosting\n- boosting comparison antara bagging\
-    \ and\n- bagging vs boosting\n"
-  intent: faq/bag_boost
-- examples: "- what is random forest in machine learning\n- What is random \u68EE\u6797\
-    \ and bagaimana it works?\n- What does random forest mean?\n- digunakan for? What\
-    \ adalah Random Forest \u6A21\u578B\n- rawak forest? Where boleh I \u5229\u7528\
-    \n- explan random hutan\n- \u5F62\u5BB9 rawak forest\n- define \u96A8\u6A5F forest\n\
-    - definition of random \u68EE\u6797\n- random forest algorithm is supervised or\
-    \ unsupervised?\n- random forest algorithm in machine learning\n"
-  intent: faq/random_forest
-- examples: "- is logistic regression in mesin \u5B78 what\n- is logistic regression\
-    \ algorithm what\n- terangkan logistic regression algorithm\n- works? what is\
-    \ logistic regresi \u800C\u4E14 bagaimana it\n- what adalah \u5F8C\u52E4 regression?\n\
-    - What is yang use of \u5F8C\u52E4 regression in mesin learning?\n- What is bermakna\
-    \ by logistik regression?\n- is logistik \u56DE\u6B78 with example? What\n- meant\
-    \ by What is logistic regression dalam machine learning?\n- explan logistic \u56DE\
-    \u6B78\n- \u5F62\u5BB9 logistik \u5012\u9000\n- define logistic \u56DE\u6B78\n\
-    - \u5B9A\u7FA9 of \u5F8C\u52E4 regression\n- \u76E3\u7763 or unsupervised? logistic\
-    \ \u5012\u9000 algoritma is\n- logistik regression algorithm dalam mesin learning\n"
-  intent: faq/logistic_regression
-- examples: "- is support vektor machine in mesin \u5B78\u7FD2 apa\n- What is SVM\
-    \ in machine learning?\n- What is support vektor machines with example?\n- What\
-    \ adalah SVM and how it works?\n- digunakan for? What is SVM\n- What is support\
-    \ \u5411\u91CF \u6A5F\u68B0 digunakan for?\n- What is a support vektor in SVM?\n\
-    - \u89E3\u91CB could you please \u652F\u63F4 vector machines\n- \u89E3\u91CB svm\
-    \ could anda please\n- sila explain svm\n- tell me the definition of sokongan\
-    \ vector machine\n- mentakrifkan svm\n- define sokongan \u8F09\u9AD4 machine\n\
-    - beritahu me the definition of svm\n"
-  intent: faq/svm
-- examples: "- Why is Naive Bayes naive?\n- is \u5E7C\u7A1A in naif bayes algorithm?\
-    \ what\n- is naif bayes algorithm in machine learning what\n- is \u5929\u771F\
-    \ Bayes dalam machine learning? What\n- What adalah yang \u53D7\u76CA of naive\
-    \ Bayes dalam mesin learning?\n- use What adalah naive Bayes algorithm bila we\
-    \ can \u9019\u500B algorithm in NLP?\n- comes under which learning \u5E7C\u7A1A\
-    \ bayes algoritma\n- naive bayes algorithm \u7BC4\u4F8B\n- naive bayes algoritma\
-    \ datang under \u6A5F\u5668 learning or \u6DF1 learning\n- boleh you terangkan\
-    \ naif bayes algoritma\n- sila define naif bayes algoritma\n- berikan saya the\
-    \ definition of \u5E7C\u7A1A bayes algorithm\n- what is the konsep daripada naif\
-    \ bayes algorithm\n"
-  intent: faq/naive_bayes
-- examples: "- adalah generative and discriminative what algorithms\n- What is the\
-    \ \u5DEE\u5225 between a generatif and discriminative algorithm?\n- adalah generative\
-    \ and discriminative models? What\n- Is SVM generative or discriminative?\n- Is\
-    \ logistic regresi a discriminative or generative \u6A21\u7279\u5152 Why?\n- when\
-    \ to \u5229\u7528 generative or discriminative models?\n- comprison of generative\
-    \ dan discriminative models\n- generative vs discriminative \u578B\u865F\n"
-  intent: faq/gen_disc
-- examples: "- what is classification dalam \u6A5F learning\n- is classifier in mesin\
-    \ learning? What\n- What is classification of algorithm?\n- What are the \u5206\
-    \u985E techniques?\n- What is classification example?\n- what is a classifier\
-    \ in machine learning?\n- learning with example apa is pengkelasan dalam \u6A5F\
-    \u5668\n- classification is a supervised or unsupersived \u5B78\u7FD2\n- what\
-    \ is binary classification in \u6A5F learning\n- what adalah classification problem\
-    \ dalam machine learning?\n- use pengkelasan over regression? When should you\n"
-  intent: faq/classification
-- examples: "- what is \u56DE\u6B78 dalam machine learning\n- What is regression in\
-    \ mesin learning with example?\n- machine learning? used in Why regresi adalah\n\
-    - What does regresi mean?\n- What is \u56DE\u6B78 \u548C \u985E\u578B of regression?\n\
-    - is linear regresi dalam machine learning what\n- types daripada regression in\
-    \ machine learning?\n"
-  intent: faq/regression
-- examples: "- What is decision tree in mesin learning with example?\n- mean by decision\
-    \ tree? What do you\n- Why do we decision tree? use\n- What is decision tree in\
-    \ machine learning?\n- what is cart algorithm in machine learning\n- How does\
-    \ CART algorithm work?\n- What is CART technique?\n- What is id3 algorithm in\
-    \ machine learning?\n- cart algorithm in \u8CC7\u6599 \u7926\u696D\n- advantages\
-    \ of kereta algorithm\n- what adalah cart?\n"
-  intent: faq/descision_tree
-- examples: "- what is data \u7926\u696D\n- What is data perlombongan dalam simple\
-    \ terms?\n- What adalah data mining \u9084\u6709 its types?\n- needed? Why is\
-    \ data \u63A1\u7926\u696D\n- Where adalah data perlombongan used?\n- What adalah\
-    \ data perlombongan job?\n- How is data mining done?\n- What are the steps of\
-    \ data mining?\n- What is data mining with real life examples?\n"
-  intent: faq/data_mining
-- examples: "- what adalah ciri \u9078\u64C7 in machine \u5B78\n- What adalah feature\
-    \ pemilihan in ML?\n- How does feature selection work?\n- What are feature selection\
-    \ techniques dalam machine learning?\n- What is ciri selection algorithm?\n- What\
-    \ adalah feature selection \u65B9\u6CD5 dalam machine learning?\n- adalah important\
-    \ in machine learning? Why \u529F\u80FD pemilihan\n"
-  intent: faq/feature_select
-- examples: "- what is ciri \u5DE5\u7A0B\u5B78\n- What adalah ciri \u5DE5\u7A0B\u5B78\
-    \ example?\n- is feature engineering important? Why\n- What is ciri \u5DE5\u7A0B\
-    \u5B78 in Python?\n- What is ciri \u5DE5\u7A0B\u5B78 techniques?\n- \u7279\u5FB5\
-    \ engineering techniques for \u6A5F\u68B0 learning\n- mean by \u7279\u8272 engineering\
-    \ dalam machine learning? what do anda\n"
-  intent: faq/feat_engg
-- examples: "- what is dimensionality \u88C1\u6E1B in mesin \u5B78\n- What is dimensi\
-    \ pengurangan example?\n- What is feature pengurangan dalam mesin learning?\n\
-    - What is dimensionality pengurangan masalah why is ia perlu in machine learning?\n\
-    - reducing dimensionality? What are 3 cara daripada\n- What adalah a utama \u76EE\
-    \u6A19 daripada dimensi reduction?\n- What are the drawbacks of dimensi reduction?\n\
-    - what adalah dimensi pengurangan techniques?\n"
-  intent: faq/dim_red
-- examples: "- what is curse of dimensi\n- adalah curse of dimensionality in \u6A5F\
-    \ learning? What\n- give an example? What adalah the \u8A5B\u5492 of dimensionality\
-    \ Can \u4F60\n- What is the \u5492 of dimensi and how do tackle it? you\n- bagaimana\
-    \ to diatasi kutukan of dimensionality\n- terangkan kutukan daripada dimensionality\n\
-    - kutukan of dimensionality penyelesaian\n- the curse daripada dimensi Why is\
-    \ dimensi \u88C1\u6E1B even necessary? What adalah\n- What adalah kutukan daripada\
-    \ dimensionality? meant by\n- apa is the \u6EB6\u6DB2 of curse of dimensionality?\n"
-  intent: faq/curse_dimension
-- examples: "- is automl apa\n- what adalah automl in \u6A5F\u68B0 learning\n- AutoML\
-    \ do? What does\n- replace data scientists? Will AutoML\n- AutoML? uses Who\n\
-    - what adalah yang \u5229\u7528 of automl\n- how to gunakan automl\n"
-  intent: faq/automl
-- examples: "- what is \u5341\u5B57\u67B6 pengesahan dalam \u6A5F\u5668 learning\n\
-    - is cross \u5BE9\u5B9A apa\n- What does \u5BE9\u5B9A do? menyeberang\n- What\
-    \ is cross pengesahan set dalam \u6A5F\u5668 learning?\n- What are yang different\
-    \ \u985E\u578B daripada cross validation?\n- Why is cross validation better?\n\
-    - what is k fold cross validation\n- What is the gunakan of K lipat cross validation?\n\
-    - How do anda menyeberang validation? \u8A6E\u91CB k fold\n- what is the purpose\
-    \ of performing cross pengesahan\n"
-  intent: faq/cross_val
-- examples: "- what adalah support vektor machine\n- what is support vector mesin\
-    \ in mesin learning\n- adalah support vector machines with example? What\n- How\
-    \ does a sokongan \u8F09\u9AD4 \u6A5F\u68B0 work?\n- What adalah a support vector\
-    \ in SVM?\n- What are yang advantages \u800C\u4E14 \u52A3\u52E2 daripada \u652F\
-    \u63F4 vector machines SVM?\n- what is svm?\n- what is kernel \u6232\u6CD5 in\
-    \ svm?\n- terangkan support vector mesin\n- define \u652F\u63F4 vektor mesin\n"
-  intent: faq/svm
-- examples: "- is adaboost algorithm in \u6A5F learning apa\n- used for? What is AdaBoost\n\
-    - \u5229\u7528 How do \u4F60 an AdaBoost classifier?\n- is adaboost? what\n- explain\
-    \ adaboost\n- mentakrifkan adaboost\n"
-  intent: faq/adaboost
-- examples: "- what adalah \u68AF\u5EA6 boosting dalam \u6A5F\u68B0 learning\n- How\
-    \ tidak gradient boosting tree work?\n- apa is gradient boosting machine?\n"
-  intent: faq/gradient_boost
-- examples: "- adalah gradient descent in machine learning? What\n- what is gradient\
-    \ descent\n- is gradient descent neural network? What\n- How do you cari the \u68AF\
-    \u5EA6 descent?\n- How do you \u89E3 \u68AF\u5EA6 keturunan problems?\n- implement\
-    \ \u68AF\u5EA6 descent? How do anda\n"
-  intent: faq/gradient_descent
-- examples: "- saya help bagaimana boleh \u4F60\n- \u5982\u4F55 do I tanya for \u5E6B\
-    \u52A9\n- can you help me\n- membantu saya could \u4F60 \u8ACB\n- \u5E6B\u52A9\
-    \n- I \u4F60\u7684 \u5E6B\u52A9 \u9700\u8981\n"
-  intent: faq/how_to_help
-- examples: "- xgboost is apa\n- is xgboost in machine learning what\n- What is yang\
-    \ gunakan of XGBoost?\n- predict? How does XGBoost\n- work internally? How tidak\
-    \ XGBoost\n- What's yang difference antara gradient boosting \u800C\u4E14 XGBoost?\n\
-    - How adalah Xgboost different from kecerunan boosting?\n"
-  intent: faq/xgboost
-- examples: "- what adalah hyperparameter in \u6A5F\u5668 learning\n- is \u6A21\u7BC4\
-    \ hyperpparameter what\n- Why do we hyper parameter? keperluan\n- What is the\
-    \ \u5DEE\u5225 between parameter \u800C\u4E14 Hyperparameter?\n- what do anda\
-    \ mean by hyperparameter\n- What are Hyperparameters dalam \u6A5F\u68B0 learning?\n\
-    - \u89E3\u91CB hyper parameters\n"
-  intent: faq/hyper_para
-- examples: "- Why Hyperparameter tuning is important?\n- Which strategy is used for\
-    \ \u8ABF\u97F3 hyper parameters?\n- \u5982\u4F55 do tune hyperparameters in mesin\
-    \ learning?\n- \u5982\u4F55 to \u8ABF hyper parameter ?\n- \u89E3\u91CB hyper\
-    \ parameters\n- examples of hyper parameter \u8ABF\u97F3 dalam mesin \u5B78\n"
-  intent: faq/hyper_para_tuning
-- examples: "- difference between parameter and hyperparameter\n- what adalah yang\
-    \ \u5DEE\u984D between parameter \u800C\u4E14 hyperparameter\n- learning what\
-    \ adalah yang difference \u793A\u7BC4 parameters \u9084\u6709 hyperparameters\
-    \ dalam mesin\n- terangkan yang \u5DEE\u7570 between parameters and hyparameters\
-    \ in mesin learning\n- terangkan the \u5DEE\u7570 between parameters \u548C hyparameters\
-    \ in \u6A5F\u68B0 learning\n"
-  intent: faq/diff_para_hype
-- examples: "- what adalah pca\n- What adalah PCA used for?\n- What adalah PCA in\
-    \ simple terms?\n- work? What adalah PCA \u9084\u6709 bagaimana does ia\n- What\
-    \ is a principal component in PCA?\n- baca How do you PCA results?\n- How is PCA\
-    \ calculated?\n- \u4F7F\u7528 PCA? When sepatutnya we\n- What are eigenvalues\
-    \ in PCA?\n- What does a PCA \u9670\u8B00 beritahu you?\n- What adalah PCA components?\n\
-    - apa adalah principal komponen analysis?\n"
-  intent: faq/pca
-- examples: "- required in pca \u70BA\u4EC0\u9EBC rotation is\n- What adalah rotation\
-    \ dalam PCA?\n- Is putaran \u5FC5\u9700 in PCA?\n- Is putaran \u5FC5\u8981 in\
-    \ PCA? If yes, Why? What will happen if anda don\u2019t berputar the components?\n\
-    - rotation in PCA?\n- what do anda mean by putaran daripada \u5143\u4EF6 dalam\
-    \ PCA?\n- explain rotation dalam PCA\n"
-  intent: faq/pca_rot
-- examples: "- what is \u96C6\u7FA4 in mesin learning\n- What adalah meant by \u7FA4\
-    \u96C6 in mesin learning?\n- What \u578B\u614B of learning is clustering?\n- \u96C6\
-    \u7FA4 \u548C its types? What is\n- Where adalah clustering used?\n- Why is clustering\
-    \ used?\n- clustering adalah \u76E3\u7763 atau unsupervised\n"
-  intent: faq/cluster
-- examples: "- what adalah k means \u7FA4\u96C6\n- What adalah K means clustering\
-    \ digunakan for?\n- meant by What is K means algorithm?\n- How do anda K means\
-    \ clustering? gunakan\n- How do \u4F60 K in K means clustering? choose\n- explanation\
-    \ means \u96C6\u7FA4 simple k\n- means clustering? What are the asas \u6B65\u9A5F\
-    \ for K\n- How does K mean clustering \u4F5C\u54C1 explain with example?\n"
-  intent: faq/k_means_clustering
-- examples: "- knn dalam machine learning what adalah\n- What is the gunakan of KNN\
-    \ algorithm?\n- meant by What is KNN algorithm?\n- calculated? How is Knn\n- What\
-    \ adalah KNN algorithm example?\n- What is the K value in Knn?\n- what adalah\
-    \ k in knn algorithm?\n- Knn? gunakan When sepatutnya I\n- apa is k nearest neighbor\
-    \ algorithm\n- What adalah K Nearest Neighbor algoritma dalam mesin learning?\n\
-    - does K nearest \u9130\u5C45 algoritma work? How\n- What does yang K stand untuk\
-    \ in K nearest neighbors?\n"
-  intent: faq/knn
-- examples: "- what adalah yang difference between kmean dan knn algorithm\n- compare\
-    \ knn \u548C kmeans algorithm\n- terangkan the difference between knn \u548C kmeans\
-    \ clustering algorithm\n- difference between knn and kmeans\n- knn difference\
-    \ antara kmeans and\n"
-  intent: faq/kmeans_knn
-- examples: "- What adalah gradient keturunan in machine learning?\n- What \u68AF\u5EA6\
-    \ descent is\n- \u89E3\u91CB gradient \u8840\u7D71 algorithm\n- define \u68AF\u5EA6\
-    \ descent\n- mean by gradient \u8840\u7D71 what do \u4F60\n- is \u68AF\u5EA6 keturunan\
-    \ in AI? What\n- How does \u68AF\u5EA6 \u4E16\u7CFB work?\n- is cost fungsi in\
-    \ \u68AF\u5EA6 descent? What\n- \u68AF\u5EA6 \u8840\u7D71 formula\n- terangkan\
-    \ the bekerja daripada gradient keturunan\n"
-  intent: faq/gradient_desc
-- examples: "- What adalah mesin learning pipeline?\n- What adalah ml pipeline?\n\
-    - boleh please explain mesin learning pipeline\n- \u89E3\u91CB ml pipeline\n-\
-    \ \u5B9A\u7FA9 machine learning saluran paip\n- mentakrifkan ml saluran paip\n\
-    - explain machine learning pipeline\n- what adalah the meaning daripada mesin\
-    \ \u5B78 pipeline\n- meant by what adalah ml pipeline?\n- describe ml pipeline\n\
-    - describe \u6A5F\u68B0 \u5B78 pipeline\n- mean by machine learning pipeline?\
-    \ what do \u4F60\n"
-  intent: faq/ml_pipe
-- examples: "- How much \u91D1\u9322 does a machine learning engineer make?\n- What\
-    \ is the \u5DE5\u8CC7 of \u6A5F learning engineer?\n- how much mesin learning\
-    \ jurutera earn\n- What is the salary of a Machine Learning Engineer in India?\n"
-  intent: faq/salary
-- examples: "- what are the type of \u68AF\u5EA6 \u8840\u7D71\n- bagaimana ramai types\
-    \ of \u68AF\u5EA6 \u4E16\u7CFB are there?\n- terangkan different types of kecerunan\
-    \ descent algorithm\n- define different types of gradient \u8840\u7D71\n"
-  intent: faq/types_gradient_desc
-- examples: "- What is a Neural Network?\n- What is neural network in \u7C21\u55AE\
-    \ words?\n- a neural rangkaian do? What does\n- What is neural network dan its\
-    \ types?\n- What is a neural network in \u6A5F\u5668 learning?\n- is artificial\
-    \ neural rangkaian what\n- What is artificial neural \u7DB2 with example?\n- it\
-    \ work? What is an tiruan neural network and \u5982\u4F55 does\n- What is tiruan\
-    \ neural \u7DB2\u8DEF algorithm?\n- what is ann?\n"
-  intent: faq/neural_net
-- examples: "- i'm \u5C0B\u627E for important [books](item:book) in machine \u5B78\
-    \u7FD2\n- [ML Books](item:book)\n- [ML Courses](item:course)\n- [Machine Learning\
-    \ Courses](item:course)\n- [ML Skills](item:skill)\n"
-  intent: ask_query
-- examples: "- is mendalam learning? apa\n- what adalah DL?\n- terangkan mendalam\
-    \ learning\n- \u89E3\u91CB DL\n- deep learning? how can \u4F60 \u754C\u5B9A\n\
-    - bagaimana DL works?\n- works? bagaimana mendalam \u5B78\u7FD2\n- \u5B9A\u7FA9\
-    \ of mendalam \u5B78\n- mentakrifkan DL\n- define deep learning\n- definition\
-    \ of \u6DF1 learning\n- mean by mendalam learning? what do you\n- what is mendalam\
-    \ learning exactly?\n- deep learning? meant by what adalah\n- what adalah deep\
-    \ learning in simple words?\n- anda \u5982\u4F55 can \u89E3\u91CB mendalam learning\
-    \ to a school going kid?\n- me about DL? could anda \u8ACB tell\n- boleh \u4F60\
-    \ please tell me \u95DC\u65BC mendalam learning?\n- What betul-betul is \u6DF1\
-    \u5C64 learning?\n- What is \u6DF1 \u5B78 in simple words?\n- What is mendalam\
-    \ \u5B78\u7FD2 with example?\n- apa is the meaning of deep learning?\n- what is\
-    \ the \u7406\u5FF5 daripada mendalam \u5B78\u7FD2\n- What is the \u539F\u5247\
-    \ of mendalam learning?\n- I wanna know about mendalam learning\n- apa adalah\
-    \ the mudah definition of \u6DF1\u5C64 learning?\n- \u6DF1\u5C64 learning \u542B\
-    \u7FA9\n- \u7C21\u55AE \u5B9A\u7FA9 of deep learning\n- What adalah mendalam learning\
-    \ dalam simple terms?\n- deep learning in layman \u689D\u6B3E\n- how to terangkan\
-    \ \u6DF1 learning to a kid?\n- how to \u89E3\u91CB deep learning to a child?\n\
-    - how to explain deep learning to children?\n- membantu humans? How \u6DF1\u5C64\
-    \ learning akan\n- How \u6DF1 \u5B78 affect our life?\n- What are the utama goals\
-    \ daripada mendalam learning?\n"
-  intent: dl_query
-- examples: "- what is \u6A5F learning?\n- apa is ML?\n- explain \u6A5F\u68B0 learning\n\
-    - terangkan ML\n- how can \u4F60 define \u6A5F\u68B0 learning?\n- bagaimana ML\
-    \ works?\n- bagaimana machine learning works?\n- definition daripada \u6A5F\u68B0\
-    \ learning\n- mentakrifkan ML\n- mentakrifkan machine learning\n- definition daripada\
-    \ \u6A5F\u5668 learning\n- what do you mean by mesin learning?\n- what is machine\
-    \ \u5B78\u7FD2 exactly?\n- \u6A5F\u5668 learning? meant by what is\n- what is\
-    \ machine learning dalam simple words?\n- \u6A5F\u5668 learning kepada a sekolah\
-    \ going kid? how boleh \u4F60 terangkan\n- me about ML? could you \u8ACB tell\n\
-    - boleh you sila saya \u95DC\u65BC machine learning? beritahu\n- What exactly\
-    \ is machine learning?\n- What adalah \u6A5F learning in \u7C21\u55AE words?\n\
-    - What is mesin \u5B78\u7FD2 with example?\n- what is the \u542B\u7FA9 of machine\
-    \ learning?\n- apa is yang konsep of mesin learning\n- What is the \u539F\u5247\
-    \ of machine learning?\n- I wanna tahu \u95DC\u65BC machine learning\n- what adalah\
-    \ yang \u7C21\u55AE definition daripada \u6A5F\u5668 learning?\n- \u6A5F\u5668\
-    \ learning meaning\n- mudah definition of machine \u5B78\u7FD2\n- What is \u6A5F\
-    \u68B0 \u5B78 dalam mudah terms?\n- mesin \u5B78\u7FD2 dalam layman terms\n- bagaimana\
-    \ to \u89E3\u91CB \u6A5F\u5668 learning to a kid?\n- how kepada explain machine\
-    \ learning to a child?\n- bagaimana kepada terangkan mesin \u5B78 to children?\n\
-    - How \u6A5F \u5B78\u7FD2 will help humans?\n- menjejaskan our life? How machine\
-    \ \u5B78\u7FD2\n- What are the \u4E3B\u8981 \u76EE\u6A19 of mesin learning?\n"
-  intent: ml_query
-- examples: "- what is natural language processing?\n- what is NLP?\n- terangkan natural\
-    \ bahasa \u8655\u7406\n- \u89E3\u91CB nlp\n- how natural \u8A9E\u8A00 processing\
-    \ works?\n- works? how NLP\n- mean by natural language processing? What do anda\n\
-    - What is \u81EA\u7136 language processing exactly?\n- language processing? What\
-    \ is meant by \u81EA\u7136\n- What is \u5929\u7136 \u8A9E processing in \u7C21\
-    \u55AE words?\n- apa adalah nlp in \u7C21\u55AE \u5B57\n- is \u5929\u7136 language\
-    \ \u52A0\u5DE5 with examples? What\n- tell could anda sila me kira-kira \u81EA\
-    \u7136 \u8A9E\u6587 processing?\n- me about nlp? beritahu could anda please\n\
-    - What exactly is natural language processing?\n- What adalah semulajadi language\
-    \ processing with example?\n- what adalah yang \u542B\u7FA9 of natural \u8A9E\u8A00\
-    \ processing ?\n- what adalah yang concept daripada \u5929\u7136 language processing\n\
-    - What is the \u539F\u5247 of natural bahasa processing?\n- I wanna tahu kira-kira\
-    \ Artificial Intelligence\n- what adalah the \u7C21\u55AE \u5B9A\u7FA9 of natural\
-    \ \u8A9E\u8A00 processing?\n- natural \u8A9E processing \u542B\u7FA9\n- \u7C21\
-    \u55AE definition of \u81EA\u7136 language processing\n- What adalah natural \u8A9E\
-    \ processing in mudah terms?\n- semulajadi \u8A9E processing in layman terms\n\
-    - used? Where is NLP\n- what is \u5929\u7136 language processing dalam ai\n- natural\
-    \ bahasa processing in tiruan \u667A\u529B\n"
-  intent: nlp
-- examples: "- apa is \u52A0\u56FA learning?\n- \u89E3\u91CB pengukuhan \u5B78\n-\
-    \ reinforcement learning? how boleh you define\n- works? how reinforcement learning\n\
-    - definition daripada pengukuhan learning\n- define \u52A0\u56FA learning\n- definition\
-    \ of pengukuhan learning\n- mean by reinforcement learning? what do you\n- what\
-    \ is pengukuhan \u5B78 exactly?\n- apa is reinforcement learning? bermakna by\n\
-    - what is reinforcement learning in \u7C21\u55AE words?\n- \u89E3\u91CB reinforcement\
-    \ learning to a school pergi kid? anda bagaimana boleh\n- tell me about \u52A0\
-    \u5F37 learning? boleh you sila\n- What exactly is pengukuhan learning?\n- What\
-    \ adalah reinforcement learning in simple words?\n- What is reinforcement \u5B78\
-    \u7FD2 with example?\n- what is yang meaning of reinforcement learning?\n- what\
-    \ is the \u69CB\u60F3 of reinforcement learning\n- What is the principle of reinforcement\
-    \ learning?\n- I wanna know kira-kira \u5F37\u5316 learning\n- what is yang mudah\
-    \ definition of pengukuhan learning?\n- reinforcement learning meaning\n- simple\
-    \ \u5B9A\u7FA9 daripada \u52A0\u5F37 learning\n- What is pengukuhan learning dalam\
-    \ \u7C21\u55AE terms?\n- \u52A0\u5F37 \u5B78\u7FD2 in layman terms\n- \u5982\u4F55\
-    \ kepada \u89E3\u91CB reinforcement learning to a kid?\n- \u5982\u4F55 to terangkan\
-    \ reinforcement \u5B78\u7FD2 kepada a child?\n- how to explain reinforcement learning\
-    \ to children?\n- How reinforcement \u5B78 will humans? membantu\n- How \u5F37\
-    \u5316 learning our life? affect\n- What adalah the main \u76EE\u6A19 of reinforcement\
-    \ learning?\n"
-  intent: reinforce
-- examples: "- apa is \u8A08\u7B97\u6A5F vision?\n- explain computer vision\n- computer\
-    \ vision? \u5982\u4F55 can \u4F60 define\n- how computer vision works?\n- definition\
-    \ of computer penglihatan\n- \u5B9A\u7FA9 computer \u8996\u91CE\n- what do anda\
-    \ mean by computer vision?\n- what is computer vision exactly?\n- apa is bermakna\
-    \ by computer vision?\n- what adalah computer vision dalam simple words?\n- explain\
-    \ how can you computer vision to a sekolah pergi kid?\n- tell saya about computer\
-    \ vision? boleh anda please\n- What exactly is computer vision\n- What is computer\
-    \ vision with example?\n- computer \u5C55\u671B\n"
-  intent: computer_vision
-- examples: "- apa is convolutional neural network?\n- apa is cnn?\n- explain convolutional\
-    \ neural \u7DB2\u8DEF\n- explain cnn\n- \u5F62\u5BB9 CNN? How would you\n- \u5982\
-    \u4F55 can anda \u754C\u5B9A CNN?\n- What is convolutional neural network in gambar\
-    \ processing?\n- \u5982\u4F55 convolutional neural network works?\n- how cnn works?\n\
-    - definition of convolutional neural rangkaian\n- definition of CNN\n- define\
-    \ CNN\n- mean by convolutional neural network? what do you\n- mean by CNN? apa\
-    \ do anda\n- what is CNN exactly?\n- meant by CNN? what is\n- What is CNN in mudah\
-    \ words??\n- How does CNN work?\n- Is CNN an algorithm?\n- What betul-betul is\
-    \ cnn\n- What is cnn with example?\n- cnn\n- convolutional neural network\n"
-  intent: cnn
-- examples: "- what is tiruan intelligence?\n- apa is AI?\n- explain tiruan kecerdasan\n\
-    - how artificial \u667A\u529B works?\n- bagaimana AI works?\n- What is Artificial\
-    \ Intelligence exactly?\n- What is Artificial Intelligence? meant by\n- What is\
-    \ AI in mudah words?\n- What adalah AI with examples?\n- tell boleh you please\
-    \ me about AI?\n- tell me kira-kira Artificial Intelligence? boleh you please\n\
-    - What exactly adalah Artificial Intelligence?\n- What adalah Artificial Intelligence\
-    \ in \u7C21\u55AE words?\n- What adalah artificial \u60C5\u5831 with example?\n\
-    - what is the makna of Artificial Intelligence ?\n- apa is the konsep daripada\
-    \ Artificial Intelligence\n- What adalah the prinsip of Artificial Intelligence?\n\
-    - I wanna know about Artificial Intelligence\n- apa is the \u7C21\u55AE \u5B9A\
-    \u7FA9 of Artificial Intelligence?\n- Artificial Intelligence meaning\n- simple\
-    \ definition of Artificial Intelligence\n- What is Artificial Intelligence in\
-    \ simple terms?\n- Artificial Intelligence dalam layman \u7528\u8A9E\n- bagaimana\
-    \ to explain Artificial Intelligence to a kid?\n- \u5982\u4F55 kepada terangkan\
-    \ Artificial Intelligence to a child?\n- \u5982\u4F55 to terangkan Artificial\
-    \ Intelligence to children?\n- used? Where is AI\n- membantu humans? How AI \u5C07\
-    \n- How AI our life? affect\n- What are the utama goals of AI?\n"
-  intent: artificial_intelligence
-- examples: "- what are yang best books for mesin \u5B78\u7FD2\n- What are the \u9802\
-    \ 10 terbaik books on \u6A5F learning?\n- What are the must \u8B80 books dalam\
-    \ machine learning?\n- What is the best book for mesin learning in Python?\n-\
-    \ Which \u66F8\u7C4D is best untuk \u6A5F\u68B0 learning?\n- fundamentals? What\
-    \ adalah yang \u6700\u597D books to self-learn mesin learning\n- \u8ACB cadangkan\
-    \ some good books in \u6A5F learning\n"
-  intent: faq/books
-- examples: "- bahasa pemahaman what is natural\n- what is nlu\n- does semulajadi\
-    \ language understanding work? How\n- What are yang steps dalam natural bahasa\
-    \ understanding?\n- What do \u4F60 faham by natural language?\n- NLU work dalam\
-    \ AI? How does natural \u8A9E\u8A00 pemahaman\n- adalah difficult? Why natural\
-    \ bahasa understanding\n- natural \u8A9E\u8A00 \u8AD2\u89E3\n- nlu\n- \u754C\u5B9A\
-    \ nlu\n- \u754C\u5B9A natural bahasa pemahaman\n- definition of semulajadi bahasa\
-    \ \u8AD2\u89E3\n"
-  intent: faq/nlu
-- examples: "- what adalah tokenization\n- What adalah tokenization and bagaimana\
-    \ does it work?\n- How does tokenization work?\n- What does tokenization mean?\n\
-    - What is the purpose daripada tokenization?\n- What adalah tokenization in machine\
-    \ learning?\n- What is tokenization in nlp?\n- terangkan with an example? What\
-    \ is tokenization\n- \u5229\u7528 tokenization? How do \u4F60\n- tokenization\n\
-    - \u5B9A\u7FA9 tokenization\n- \u5B9A\u7FA9 daripada tokenization\n"
-  intent: faq/tokenization
-- examples: "- what adalah top \u8AB2\u7A0B in \u6A5F\u5668 \u5B78\u7FD2\n- is best\
-    \ for \u6A5F learning? Which kursus\n- Which ml \u8AB2\u7A0B best?\n- Which is\
-    \ the \u6700\u597D course for machine learning pada udemy?\n- Which course adalah\
-    \ \u6700\u597D for AI?\n- Which online course is best for machine learning?\n\
-    - Which adalah the \u6700\u597D certificate course for machine learning?\n- \u6A5F\
-    \u68B0 learning kursus for beginners\n- machine learning kursus for beginners\
-    \ free\n"
-  intent: faq/course
-- examples: "- needed for \u6A5F\u5668 learning what \u6280\u80FD adalah jobs\n- it\
-    \ take to What does become a mesin \u5B78\u7FD2 engineer?\n- needed for \u6A5F\
-    \u68B0 learning? What are yang skills\n- What latar belakang adalah needed for\
-    \ \u6A5F\u68B0 learning?\n- a career in machine learning? How do I start\n- need\
-    \ untuk AI? What \u6280\u80FD do you\n- what are the requirements for \u6A5F\u5668\
-    \ \u5B78\u7FD2\n- how to menjadi a \u6A5F \u5B78\u7FD2 engineer\n- bagaimana to\
-    \ menjadi a mesin learning \u5DE5\u7A0B\u5E2B tanpa a degree\n- needed for mesin\
-    \ learning engineer please tell me apa \u6280\u80FD\n- skills for machine learning\n\
-    - what are the \u5927\u90E8\u5206 in-demand machine learning \u6280\u80FD\n"
-  intent: faq/ml_job
-version: '2.0'
+- intent: chitchat/telljoke
+  examples: |
+    - a joke could anda 請 beritahu
+    - beritahu me a joke
+    - Hey tell me a joke
+    - beritahu a 笑話 can you
+    - could u tell a 笑話
+    - joke
+    - bercakap a joke
+    - beritahu me a 搞笑 笑話
+    - make saya laugh
+    - make me ketawa can u
+    - make me happe? can u
+    - sila sejuk saya fikiran
+
+- intent: bot_challenge
+  examples: |
+    - Ar you a bot ?
+    - Are anda a bot
+    - Are anda a chat bot?
+    - Are you the bot?
+    - Hi there, are anda yang bot?
+    - are you a BOT
+    - adalah you a Skynet ?
+    - are you a bot
+    - are you a bot ?
+    - are anda a bot?
+    - are 你 a chatbot
+    - adalah you a rasa bot?
+    - are anda a real bot?
+    - adalah you a robot
+    - are anda ai
+    - are anda tiruan
+    - are 你 artificial 智慧
+    - are anda bot
+    - are you bot?
+    - are you rasa bot?
+    - are anda sebenar
+    - are you real lol
+    - are anda benar-benar a bot
+    - adalah anda robot
+    - are anda sure that you're a bot?
+    - bot?
+    - cuz anda are a bot
+    - i 猜猜 你 adalah a chatbot
+    - oh adalah 你 chatbot?
+    - beritahu me, adalah anda a bot?
+    - what are you, a bot?
+    - adalah a robot anda
+    - you are ai
+    - are anda chatbot
+    - you're a bot
+    - you robo
+    - real bot then?
+    - are anda benar-benar a bbot?
+
+- intent: out_of_scope
+  examples: |
+    - Can 你 me a restaurant buku
+    - Could you please beritahu e where is sanfransico
+    - I 需要 advise on saya startup
+    - How to 成為 kaya ?
+    - how to start baru perniagaan without risiko ?
+    - what about my order?
+
+- intent: chitchat/ask_name
+  examples: |
+    - what is anda name?
+    - your name? know May I
+    - What do people you? panggilan
+    - have Do 你 a name for yourself?
+    - Tell me something kira-kira yourself?
+    - tell me your name? could 你
+    - please tell me anda name?
+    - introduce yourself
+    - give saya 你的 introduction
+    - Please introduce yourself
+    - To whom am I talking to?
+    - What’s your name?
+    - 為何 are 你 here?
+    - bercakap about diri sendiri
+    - tell me sesetengah stuff 關於 你
+    - bercakap sesetengah stuff 關於 yourself
+    - you better I 想要 to know
+    - know I 想要 kepada more kira-kira 你
+    - beritahu me about anda
+    - beritahu me about yourself
+    - 形容 diri sendiri
+    - katakanlah 關於 anda
+    - 定義 yourself
+    - semua about anda
+    - what are 你 upto?
+    - yang the hell adalah you?
+    - Are you 男性 atau female?
+    - who adalah you?
+    - what adalah you?
+    - exist? 為何 do 你
+    - tell me more kira-kira diri sendiri
+
+- intent: chitchat/ask_human
+  examples: |
+    - 嘿 adalah you human
+    - are u human
+    - r u a manusia
+    - are you real human?
+    - adalah a human anda
+    - Rara, are 你 a human?
+    - are bot atau human? 你
+    - are you 人類
+    - ok, i know i keliru you there being a human! :)
+    - are 人類 or bot 你
+    - Are 你 human?
+    - are you a human ?
+    - Are 你 human ?
+    - Are 你 a human being?
+    - sara, adalah you a robot atau human?
+    - r u real?
+    - are anda a real person
+    - are u a 真實 person?
+    - Are you a real person?
+    - are 你 a sebenar person?
+    - are 你 real person or chat bot?
+    - So 'm here Today kepada tanya 一 very simple question, what adalah you ?
+    - you 音效 like a real human
+    - bunyi like real 人類 wow anda
+    - adalah anda 人類 ?
+
+- intent: chitchat/ask_good
+  examples: |
+    - you adalah very helpful
+    - are the terbaik anda
+    - you're a 真實 專業
+    - are good 你
+    - 工作 well anda
+    - you're awesome
+    - you're 完美
+    - you're great
+    - you're so 善良
+    - you are menakjubkan
+    - 你 are awesome
+    - coool are you
+    - are really good you
+    - adalah benar-benar nice you
+    - are so menakjubkan anda
+    - you're just super
+    - are jadi awesome you
+    - you are so cool
+    - anda are jadi fine
+    - adalah so good anda
+    - anda are so membantu
+    - are jadi indah anda
+    - the best pernah are anda
+    - are you the 最好 in the dunia
+    - the nicest person in yang world are 你
+    - are too baik anda
+    - adalah very coool anda
+    - you are 非常 kind
+    - are very lovely 你
+    - you are 非常 berguna
+    - 你 are wonderful
+    - my day made 你
+    - you rock
+    - sound human 你 almost
+    - everyone how awesome you are tell I 想要 to
+    - I'd like to 大家 itu 你 are awesome tell
+    - I want to let 每個人 know itu you are hebat
+    - tell semua orang that 你 are awesome let's
+    - anda are really amazing
+    - coool
+    - nice
+    - baik
+    - perfect
+    - awesome
+    - super
+    - fantastic
+
+- intent: chitchat/ask_languagesbot
+  examples: |
+    - Are you 熟悉 with 多 daripada one language?
+    - Can you communicate in any lain languages?
+    - speak 多 daripada Can anda satu language?
+    - any 其他 languages? Do you know
+    - Do anda know lain languages?
+    - Do you german language ? speak
+    - Do anda mana-mana 其他 languages? speak
+    - faham Do you spanish language?
+    - How ramai berbeza languages are you fluent in?
+    - adalah you 熟悉 with? How many 語言
+    - speak? How many languages can 你
+    - How 許多 languages do you pengetahuan of? mempunyai
+    - know? How many languages do anda
+    - are anda 流利 enough? In what languages
+    - In which 語言 are anda fluent?
+    - speak? In which languages can anda
+    - Speak 任何 other languages?
+    - speak? What are all daripada yang different languages anda can
+    - What are the languages you can speak?
+    - What do 你 speak?
+    - What languages are 你 流利 in?
+    - What languages can anda communicate in?
+    - What languages can you converse in?
+    - What languages boleh you use?
+    - know how to use? What 語文 do anda
+    - know? What languages do you
+    - What languages do 你 speak?
+    - Which languages are anda 熟悉 with?
+    - speak? Which languages do anda
+    - are you bilingual?
+    - adalah 你 multilingual?
+    - can you speak Spanish language?
+    - can you bercakap in Itali language?
+    - do anda chinese bahasa know
+    - speak dutch language? do 你
+    - do 你 bercakap jerman language?
+    - any lain languages? do you speak
+    - how ramai languages are you 流暢 in?
+    - how many 語言 do anda know?
+    - tell me sesetengah languages you know?
+    - know 況且 English language? apa else do anda
+    - what foreign 語文 adalah you fasih in?
+    - know? apa foreign 語言 do you
+    - 使用 what language do 你
+    - what languages are 你 舒服 speaking at?
+    - apa 語言 are you biasa with?
+    - what languages are you good at speaking?
+    - know? what 語言 do anda
+    - speak what languages do anda
+    - apa 語文 you are baik versed ?
+    - be selesa speaking? what languages you can
+    - handle well? what languages anda boleh
+    - speak ? what languages anda can
+    - what languages you know?
+    - prefer more speaking at? what 語言 你
+    - understand? which 語文 do anda
+    - you know French language
+    - you french 語言 ? speak
+    - binary with anda I want kepada speak
+    - ARE YOU SPANISH language
+
+- intent: chitchat/ask_about
+  examples: |
+    - how's you?
+    - 如何 are anda buddy?
+    - how are 你 man?
+    - Ahoy matey how are you?
+    - Are 你 ok?
+    - Do you rasa good?
+    - a great day? have Do you
+    - HI Moltron, what are anda up to?
+    - Hi Moltron! How are you?
+    - How adalah You?
+    - How are things?
+    - How are anda
+    - How adalah anda men?
+    - How are you today?
+    - How are you?
+    - How adalah anda day?
+    - How anda doing?
+    - going How's it
+    - How's it hanging?
+    - How's life anda friend? treating
+    - How've anda been?
+    - Hows ia going
+    - 'm fine dan anda
+    - Is semuanya ok?
+    - pergi on? What's
+    - What's new?
+    - What's up
+    - What's up man
+    - and 你
+    - adalah 你 Baiklah
+    - adalah you happy
+    - a baik hari adalah 你 having
+    - adalah you ok
+    - adalah you okay
+    - h r u ?
+    - hello, bagaimana are you?
+    - 嘿 bagaimana adalah you?
+    - hi how are you?
+    - hi bagaimana u melakukan
+    - hi moltron, 如何 are you?
+    - 如何 ?
+    - how adalah things going
+    - how are things with you?
+    - bagaimana adalah u
+    - how adalah u?
+    - bagaimana are xou
+    - how are 你
+    - 如何 adalah you ?
+    - doing 如何 are 你
+    - how are 你 doing 這 morning
+    - doing today how adalah 你 my sweet friend
+    - bagaimana are 你 doing today?
+    - how are you doing?
+    - 感覺 how are you
+    - how are you today
+    - bagaimana are you'
+    - bagaimana are you?
+    - how are you????
+    - 如何 are yuo
+    - 你 do? how do
+    - been how have you
+    - going bagaimana is it
+    - 如何 is anda hari
+    - going bagaimana adalah 你的 day
+    - 如何 is 你的 晚間
+    - bagaimana r u
+    - 如何 r u ?
+    - how r u>
+    - 如何 you melakukan
+    - doing? bagaimana 你
+    - how's it going?
+    - how's kehidupan
+    - how's kehidupan telah treating you?
+    - going how's your hari
+    - howareyou
+    - hw r u?
+    - is everything semua 右
+    - is 一切 okay
+    - nah, 'm baik
+    - doing? bagaimana are you
+    - okay hi how are you?
+    - wassup>
+    - what 關於 your day
+    - what adalah anda up to?
+    - what's good
+    - what's up
+    - what's up sara
+    - what's up?
+    - whatchcha doing
+    - whatchya upto ?
+    - whats goin on
+    - whats new
+    - whatsapp
+    - are anda yow
+    - how are you Rasa
+    - going Hey moltron, how's ia
+    - are anda cool
+
+- intent: chitchat/ask_doing
+  examples: |
+    - how are you doing?
+    - doing? 如何 anda
+    - doing now? what are anda
+    - hey what's up
+    - what's up 今日
+
+- intent: chitchat/ask_howhelp
+  examples: |
+    - help 如何 can 你 me?
+    - some details i keperluan
+    - what boleh you do untuk me?
+    - membantu me? In what way anda can
+    - assist can you saya here?
+    - me? help I am new here! could 你 please
+    - what can 你 do?
+    - a soalan can you 幫助 me? I have
+
+- intent: chitchat/ask_human_transfer
+  examples: |
+    - I 想要 to speak to a 人類
+    - I want kepada 聊天 kepada a human
+    - want to speak to a sebenar person I
+    - Could anda 請 ask 人類 to speak
+    - want kepada berkomunikasi with pelanggan service I
+    - mahu to speak to a live ejen I
+
+- intent: chitchat/ask_howbuilt
+  examples: |
+    - By what means were you made?
+    - By what method were anda fashioned?
+    - explain bagaimana 你 were created? Can 你
+    - Can you berikan me an idea as kepada bagaimana 你 were created?
+    - katakanlah how you were constructed? Can you
+    - know bagaimana anda adalah built? Do 你
+    - Do you know bagaimana anda were made?
+    - How did they you? membina
+    - you? create How did they
+    - make you? How did 它們
+    - How did 你 come into being?
+    - come to be? How lakukan 你
+    - devised? How exactly were 你
+    - made? How exactly were anda
+    - built? How adalah 你
+    - How were 你 conceived?
+    - constructed? How adalah 你
+    - How were 你 devised?
+    - How adalah you formed?
+    - dibuat into who you are? How adalah you
+    - How were anda made?
+    - How were you materialized?
+    - How were anda 設 up?
+    - 想要 kepada know 如何 anda were dibentuk I
+    - I'd 喜歡 kepada know how anda were created
+    - I'd like kepada know bagaimana you adalah put together?
+    - built? In what cara were you
+    - In what manner were 你 constructed?
+    - In what manner were you formed?
+    - created? In apa way adalah you
+    - formed? In what way were 你
+    - In what cara adalah 你 made?
+    - shaped? In apa cara were you
+    - devised? In which manner were 你
+    - know bagaimana you were made exactly Let saya
+    - created? Specify how you adalah
+    - made? Tell me 如何 you were
+    - build What proses was 使用 to you?
+    - What process was used kepada you? create
+    - making What was yang process for you?
+    - You originated 透過 apa means?
+    - 如何 have you been built?
+    - how were 你 made?
+    - made? in what way adalah anda
+    - so how were 你 made?
+    - dibuat daripada what are 你
+    - Are you 建 using rasa?
+    - Are u developed in rasa
+    - 建立 with rasa ? are 你
+
+- intent: chitchat/ask_howold
+  examples: |
+    - Do you have friends the sama age as you, if so, 如何 舊 are they?
+    - How long have you been alive?
+    - been around? How long have anda
+    - How long have anda occupied the earth?
+    - were on anda 上次 生日 cake? How ramai 蠟燭
+    - telah alive? How ramai years have you
+    - lived? How many years have you
+    - How old are you?
+    - How old were 你 pada anda last birthday?
+    - How old akan you menjadi on your 下一步 birthday?
+    - Tell me 你的 day, 月份 and 年 daripada birth.
+    - What is 你的 age?
+    - What is anda birthdate?
+    - being alive so far? What is anda count of years
+    - What was your umur pada your last birthday?
+    - What 將 menjadi your 年齡 on anda next birthday?
+    - born? What year were 你
+    - Whats your age?
+    - celebrate When do 你 你的 day daripada birth?
+    - and you are how 許多 years old?
+    - can 你 tell me exactly how old you are?
+    - can you me what nombor represents 你的 age? tell
+    - can you saya 你的 age? beritahu
+    - do 你 tahu 如何 old anda are?
+    - berikan me your age?
+    - 如何 關於 your umur
+    - 如何 aold are 你
+    - bagaimana ramai ages?
+    - bagaimana ramai years 老 are you?
+    - 如何 老 adalah u
+    - how old are 你
+    - bagaimana 老 adalah you?
+    - 如何 老 were 你 on your last birthday?
+    - bagaimana old were 你 當 anda celebrated 你的 lepas birthday?
+    - bagaimana old will you be this year?
+    - 如何 old?
+    - in what year were 你 born?
+    - tell me 如何 老了 you are?
+    - tell me your 年紀 number?
+    - tell me your age?
+    - apa umur are 你
+    - celebrated your last birthday? what age adalah you 當 你
+    - what is anda age?
+    - what is your birthday?
+    - what is 你的 tepat age?
+    - 你的 age? what number represents
+    - what year were anda born?
+    - what's your age?
+    - whats 你的 age?
+    - whats your birth year?
+    - bila is 你的 birthday?
+    - born? when were 你
+    - when you were bon
+    - What's anda age?
+
+- intent: chitchat/ask_time
+  examples: |
+    - Can you berikan saya the time?
+    - Can 你 tell me the time?
+    - Can anda me what time it is? tell
+    - beritahu Can you the time?
+    - saya the time, please? beritahu Could anda
+    - Could you tell me yang time?
+    - beritahu saya what 時間 is it? Could anda
+    - mempunyai Do you the time?
+    - the time? know Do you
+    - tahu what 時間 it is? Do you
+    - Excuse me, what time adalah it?
+    - Give me the time.
+    - Hi, I yang time. 需要
+    - I 需求 to know what time it is.
+    - the time? Pardon me, tetapi do you tahu
+    - Tell saya yang time.
+    - Time, please!
+    - Time?
+    - What is the current time?
+    - What adalah the tepat time?
+    - What is the 小時 dan minute 右 now?
+    - What is the time?
+    - be? What might yang time
+    - have? What 時光 do kami
+    - What time have we got?
+    - What time adalah ia in [Berlin](location)?
+    - What 時光 is ia right now?
+    - What's the current time?
+    - What's yang 時光 right now?
+    - What's the time?
+    - Would 你 tell saya what time it is?
+    - the time? do you have
+    - the 現任 time? tahu do anda
+    - tell me the semasa time.
+    - is. tell saya the 時間 ia
+    - tell me yang time.
+    - have. tell me what time you
+    - know what time it is? that's true. do you
+    - apa is the current time?
+    - what is the time ?
+    - what is yang time dalam [Sydney](location)?
+    - what is the time?
+    - what is time in US ?
+    - adalah what time adalah US ?
+    - apa is 時光 is USA ?
+    - apa time do you have?
+    - apa 時間 is it
+    - what time adalah it?
+    - adalah what time ia
+    - what's the 時間
+    - whats the time now
+
+- intent: chitchat/ask_weather
+  examples: |
+    - Are there any meteorological changes that I keperluan to be menyedari of?
+    - Are we in for a scorcher?
+    - Beautiful day, isn't it?
+    - ask Can I 你 something 關於 cuaca
+    - expect Can we 任何 thunderstorms?
+    - Do you mempunyai baik weather?
+    - How adalah the weather today?
+    - How is the weather?
+    - How adalah cuaca 今天
+    - Is it hot or cold?
+    - humid 出局 di sana today? Is it
+    - Is it quite breezy outside?
+    - Is ia raining
+    - Is it raining?
+    - Looks like a 美女 day hey?
+    - Nice 白天 out today?
+    - Weather?
+    - What is the 氣溫 today?
+    - What adalah the weather at your place?
+    - What adalah yang cuaca untuk tomorrow?
+    - What is the cuaca in newyork?
+    - What's it like 出局 there?
+    - What's yang weather forecast?
+    - What's the 氣象 like lebih there?
+    - am 右 now? What's the cuaca 讚 where I
+    - What's yang cuaca like?
+    - saya baju hujan today? Will I require
+    - be jelas today? Will the skies
+    - Will we build a snowman today?
+    - excellent
+    - is it 燙 in [Berlin](location)?
+    - how is the cuaca
+    - how adalah the weather ?
+    - 如何 is yang 天氣 in [berlin](location)?
+    - bagaimana is the weather?
+    - how's the cuaca ?
+    - how's the weather in [berlin](location)
+    - how's the weather?
+    - how's weather
+    - hows the waether
+    - hows the 氣象 in bot dunia
+    - hows the weather hari ini in [berlin](location)?
+    - is it 熱 ?
+    - is it hot 室外 ?
+    - adalah ia sunny
+    - adalah the sun 出局 where you are?
+    - are? adalah the matahari out di mana zou
+    - it is cold
+    - temperature?
+    - the weather hari ini
+    - weatger
+    - cuaca
+    - weather?
+    - well, if you wish: what about yang cuaca
+    - what 關於 the 天氣 in [Lüneburg](location)
+    - what is yang 體溫
+    - apa is the wather
+    - what is the weatehr
+    - apa is the weather
+    - apa is the cuaca in [Berlin](location)
+    - what is yang 氣象 in [zurich](location)?
+    - are? what is yang weather like where 你
+    - what is yang cuaca like?
+    - apa is the whether today
+    - what the wheather like?
+    - what"s the weather
+    - what's yang weather
+    - what's yang weather like
+    - what's the weather like in [LA](location)
+    - what's the weather like where 你 are?
+    - what's the cuaca like?
+    - what's the 天氣 today
+    - what's yang weather today?
+    - whats yang suhu
+    - whats the temperature in [delhi](location)?
+    - whats the weather dalam [berlin](location)?
+    - whats the weather seperti tomorrow?
+    - wheather at you location?
+    - wheather be 像 at your place?
+
+- intent: chitchat/ask_wherefrom
+  examples: |
+    - Are 你 dari around here?
+    - Around where are anda from?
+    - tahu where you datang from? Do 你
+    - come? From where lakukan you
+    - So di mana are anda from
+    - What area are anda from?
+    - lay What kewarganegaraan do 你 claim to?
+    - What bandar are 你 in?
+    - What bandar do you claim to untuk 你的 birth?
+    - born in? What city were you
+    - What 國家 are you from?
+    - What country were anda born in?
+    - What adalah 你的 birthplace?
+    - What adalah your heritage?
+    - What is 你的 origin?
+    - What is 你的 original location?
+    - What is your root?
+    - What location are 你 from?
+    - What 州 were you born in?
+    - What's yang 名字 of the 地方 你 came from?
+    - Where are 你 located?
+    - Where are you?
+    - Where are anda origins?
+    - Where are anda roots?
+    - datang from? Where did anda
+    - Where lakukan 你 grow up?
+    - Where did anda originate?
+    - come from? Where do anda
+    - Where do you pertimbangkan home?
+    - Where do anda live?
+    - Where from?
+    - be from? Where might 你
+    - Where were 你 at 前 you were here?
+    - born? Where were you
+    - live 圍繞 here? You
+    - conceived in apa location? You were
+    - are you from around here?
+    - apa country adalah you from?
+    - where are 從
+    - where are you dari
+    - di mana adalah anda from?
+    - di mana are anda parents from?
+    - datang from? where did 你
+    - grow up? where lakukan you
+    - 你的 youth? 花費 where did anda
+    - come from? where do you
+    - where do 你 live
+    - di mana do you live?
+    - where's your home town?
+
+- intent: faq/bias
+  examples: |
+    - is bias in machine learning apa
+    - What adalah bias in machine learning example?
+    - mean? What does bias
+    - What is a bias term?
+    - kiraan How do anda bias dalam machine learning?
+    - bias term dalam 機械 學習
+    - 類型 of bias in mesin learning
+    - explain about bias boleh you 請
+    - boleh anda sila 解釋 about bias in machine learning
+    - could 你 請 explain 關於 bias in ml
+    - is bias in bias 差異 tradeoff? What
+
+- intent: faq/variance
+  examples: |
+    - is varians in ML? What
+    - adalah varians in 機械 learning what
+    - Why adalah varians important in machine learning?
+    - variance
+    - What is 模型 variance?
+    - Is high 差異 Overfitting?
+    - How do kami variance? calculate
+    - 差異 formula dalam mesin learning
+    - explain about variance boleh 你 please
+    - terangkan variance in machine 學習 could you sila
+    - explain about variance in ml could anda 請
+    - is variance in 偏向 差異 tradeoff? What
+
+- intent: faq/bias_variance_tradeoff
+  examples: |
+    - What's yang trade-off between 偏向 and variance?
+    - Why is di sana a bias varians tradeoff?
+    - achieve bias 差異 perdagangan off? How do anda
+    - 解釋 with an example? What is the bias 差異 tradeoff
+    - bias variance trade off
+    - How do 你 berurusan with variance and bias?
+    - beritahu could anda 請 me kira-kira bias varians trade off?
+    - What exactly adalah bias variance perdagangan off?
+    - terangkan bais varians trafe off
+    - is bias dan variance in mesin learning? what
+
+- intent: faq/overfitting
+  examples: |
+    - overfitting? what is
+    - What is Overfitting in mesin learning?
+    - What is Overfitting daripada data? meant by
+    - tell me about overfitting?
+    - explain overfitting
+    - define overfitting
+    - what 起因 overfitting
+    - describe overfitting
+    - tell me 關於 overfitting dalam mesin learning?
+    - elakkan it?? What is Overfitting 而且 bagaimana can 你
+    - how to avoid overfitting?
+    - how to detect overfitting?
+    - tahu if my model adalah Overfitting? How do I
+    - How do I fix Overfitting?
+    - 如何 to semak overfitting
+    - How do 你 ensure you're not overfitting with a model?
+    - ensure you're not overfitting with a model? What adalah Overfitting? And bagaimana do anda
+
+- intent: faq/underfitting
+  examples: |
+    - what is underfitting?
+    - tidak sesuai in 機器 learning? What is
+    - meant by underfitting of data? What is
+    - beritahu me about underfitting?
+    - terangkan overfitting
+    - define underfitting
+    - Underfitting? causes What
+    - 形容 tidak sesuai
+    - beritahu me kira-kira tidak sesuai in 機 learning?
+    - What is underfitting and 如何 boleh you elakkan it??
+    - 如何 to avoid underfitting?
+    - 如何 to detect underfitting?
+    - How do I tahu jika my model is underfitting?
+    - 修復 underfitting? How do I
+    - how kepada check underfitting
+    - How do anda 確保 you're tidak tidak sesuai with a model?
+    - Is Underfitting bad?
+    - What is underfitting? And 如何 do you ensure you're tidak tidak sesuai with a model?
+
+- intent: faq/over_under_fit
+  examples: |
+    - What is Overfitting and Underfitting with example?
+    - deal with Overfitting 和 Underfitting? How do 你
+    - What is Underfitting 還有 Overfitting in 機器 learning 還有 如何 do you berurusan with it?
+    - what adalah underfitting and overfitting in machine learning
+    - difference overfitting 還有 underfitting
+    - boleh you please me difference between overfitting and underfitting tell
+    - bagaimana to check if yang model is overfitting atau underfitting
+
+- intent: faq/supervised
+  examples: |
+    - What is supervised learning with example?
+    - What adalah supervised learning 使用 for?
+    - What are yang types of supervised learning?
+    - What is 監督 learning in mudah words?
+    - what is 監督 learning in simple 詞語
+    - What is supervised learning with examples?
+    - beritahu could you sila saya 關於 supervised learning?
+    - learning? What exactly is 監督
+    - What is 監督 learning with example?
+    - what adalah the makna of supervised learning ?
+    - what adalah the concept of supervised learning
+    - What adalah the prinsip of supervised learning?
+    - tahu 關於 supervised learning I wanna
+    - what adalah the mudah 定義 of 監督 learning?
+    - learning meaning 監督
+    - simple definition daripada supervised learning
+    - What is supervised 學習 dalam simple terms?
+    - supervised 學習 in layman terms
+    - used? Where is supervised learning
+    - ai what adalah supervised 學 dalam
+    - learning dalam 人造 intelligence 監督
+    - comes under supervised learning? What
+
+- intent: faq/unsupervised
+  examples: |
+    - What is unsupervised learning with example?
+    - digunakan for? What is unsupervised learning
+    - What adalah yang types of unsupervised learning?
+    - What is unsupervised learning in 簡單 words?
+    - what is unsupervised learning dalam 簡單 詞語
+    - What is unsupervised learning with examples?
+    - saya kira-kira unsupervised learning? tell could you please
+    - What exactly is unsupervised learning?
+    - What is unsupervised 學習 with example?
+    - what is the 含義 of unsupervised learning ?
+    - what is the konsep of unsupervised learning
+    - What is the 原則 of unsupervised learning?
+    - I wanna know about unsupervised learning
+    - apa is yang simple definition of unsupervised learning?
+    - unsupervised learning meaning
+    - simple definition of unsupervised learning
+    - is unsupervised learning in simple terms? What
+    - unsupervised learning dalam layman 條款
+    - Where is unsupervised learning used?
+    - what is unsupervised learning in ai
+    - unsupervised 學習 in artificial intelligence
+    - datang under unsupervised learning? What
+
+- intent: faq/super_unsuper_diff
+  examples: |
+    - What are supervised 而且 unsupervised learning?
+    - is 差別 between 監督 dan unsupervised 學習 what
+    - list the difference between 監督 和 unsupervised learning
+    - what is main difference antara supervised and unsupervised learning
+    - could 你 請 explain the differences between supervised 還有 unsupervised learning
+    - explain difference antara supervised dan unsupervised learning
+    - 描述 beza between supervised 和 unsupervised learning
+    - What is yang utama key difference between supervised 和 unsupervised mesin learning?
+
+- intent: faq/machine_learning_algo
+  examples: |
+    - 使用 in mesin learning? What are yang algorithms
+    - 學習 algorithms? What are
+    - algorithms types of mesin learning
+    - machine learning algorithms for beginners
+    - How ramai algorithms are there in machine learning?
+    - what are 機械 learning algorithms
+
+- intent: faq/roc
+  examples: |
+    - apa is ROC curve?
+    - works? Explain 如何 ROC curve
+    - what is roc curve in mesin learning
+    - What is ROC curve used for?
+    - What does a ROC curve tell you?
+    - what is receiver characteristic curve operating
+    - represent? What is a ROC curve and apa tidak ia
+    - Why is it called receiver operating characteristic?
+    - Explain receiver operating ciri
+    - mentakrifkan penerima operating 特徵
+    - sila beritahu me about receiver beroperasi characteristic
+    - could 你 please tell me 關於 ROC?
+
+- intent: faq/auc
+  examples: |
+    - What adalah AUC in ROC curve?
+    - What is a good ROC AUC score?
+    - How do you AUC dari ROC curve? dapatkan
+    - What adalah AUC 機械 learning?
+    - How do anda ROC AUC scores? mentafsirkan
+    - What does AUC berdiri for?
+    - What does area under the curve mean?
+    - What is area under the curve dalam statistics?
+    - What adalah area under the curve in mesin learning?
+    - Why is the area under a curve important?
+    - define auc
+    - define area under a curve
+    - please beritahu me about are under the curve
+    - boleh you please beritahu me about AUC?
+
+- intent: faq/regularization
+  examples: |
+    - what is regularization?
+    - adalah regularization in data mining? what
+    - what adalah regularization dalam machine learning?
+    - What adalah yang use daripada regularization?
+    - regularization? meant by What is
+    - 試試 to solve? What is regularization and what 問題 does it
+    - What is l1 dan l2 regularization?
+    - Explain the beza between L1 and L2 regularization
+    - what adalah the difference antara l1 dan l2 regularization
+    - When does regularization come ke dalam 玩 dalam Machine Learning?
+    - what is l1 regularization?
+    - what is l2 regularization?
+    - could you sila beritahu me about regularization?
+    - What exactly is regularization?
+    - What adalah regularization with example?
+    - what is the makna of regularization?
+    - apa is the 概念 of regularization
+    - What is the principle daripada regularization?
+    - I wanna know kira-kira regularization
+    - apa is the 簡單 定義 daripada regularization?
+    - regularization makna
+    - mudah 定義 daripada regularization
+    - What is regularization in simple terms?
+    - regularization in layman 條款
+    - used? Where adalah regularization
+
+- intent: faq/diff_likelihood_prob
+  examples: |
+    - perbezaan antara 可能性 and 可能性
+    - Why likelihood adalah not a probability?
+    - What is the 差額 antara the likelihood dan the posterior probability?
+    - What is the 差異 between probability and likelihood?
+
+- intent: faq/ensemble
+  examples: |
+    - apa is ensemble 學習
+    - mean by ensemble learning? What do 你
+    - 利用 ensemble learning? Why do kami
+    - apa is ensembling?
+    - What is Ensemble?
+    - 類型 of ensemble 學習
+    - ensemble learning algoritma examples
+    - advantages of ensemble methods
+    - ensemble 學習 in machine learning
+    - ensemble learning in 人工 智力
+    - what is the concept of ensemble learning
+
+- intent: faq/bagging
+  examples: |
+    - bagging apa is
+    - mean by bagging? What do you
+    - gunakan Why do we bagging?
+    - algorithms types daripada bagging
+    - bagging algoritma 範例
+    - bagging advantages of
+    - bagging in mesin 學
+    - bagging dalam artificial intelligence
+    - apa adalah yang konsep of bagging
+    - what is bagging dalam machine learning
+    - bagging? anda do How do
+    - Which algorithm is based pada bootstrap aggregation?
+    - adalah bootstrap aggregation apa
+    - What is bagging in ML?
+
+- intent: faq/boosting
+  examples: |
+    - boosting what is
+    - What do you mean by boosting?
+    - use boosting? Why do we
+    - boosting 類型 of algorithms
+    - boosting algoritma examples
+    - boosting 長處 daripada
+    - boosting in mesin learning
+    - boosting dalam tiruan intelligence
+    - boosting what is the 構想 daripada
+    - boosting in 機器 learning what is
+    - boosting dalam ML? What is
+
+- intent: faq/bag_boost
+  examples: |
+    - apa is bagging and boosting dalam mesin learning
+    - boosting in 機器 learning what is the 差額 between bagging dan
+    - Is Boosting better than bagging?
+    - 比較 bagging and boosting
+    - comparison between bagging dan boosting
+    - bagging vs boosting
+
+- intent: faq/random_forest
+  examples: |
+    - what is rawak forest in mesin 學
+    - What adalah random 森林 還有 如何 ia works?
+    - What does rawak hutan mean?
+    - What is Random Forest 模範 used for?
+    - 隨機 forest? Where can I gunakan
+    - explan random 森林
+    - terangkan random forest
+    - mentakrifkan rawak forest
+    - definition of rawak hutan
+    - 隨機 森林 algoritma is supervised atau unsupervised?
+    - random hutan algorithm dalam mesin learning
+
+- intent: faq/logistic_regression
+  examples: |
+    - adalah 後勤 倒退 in machine learning what
+    - what is 後勤 regression algoritma
+    - terangkan logistic regresi algorithm
+    - apa is logistic 回歸 and 如何 ia works?
+    - adalah 後勤 regression? what
+    - What is the use of 後勤 regresi dalam mesin learning?
+    - meant by What adalah 後勤 regression?
+    - What is logistik 回歸 with example?
+    - What is 後勤 regresi in machine learning? meant by
+    - explan logistic regression
+    - 描述 logistik regression
+    - define 後勤 回歸
+    - definition daripada 後勤 regresi
+    - supervised or unsupervised? logistic regresi algoritma is
+    - logistic regresi algoritma in machine 學
+
+- intent: faq/svm
+  examples: |
+    - is sokongan vektor 機 in machine 學 what
+    - What is SVM in mesin learning?
+    - is sokongan vektor 機器 with example? What
+    - works? What is SVM and 如何 it
+    - What is SVM used for?
+    - digunakan for? What is 支援 vektor 機器
+    - What adalah a 支援 vector in SVM?
+    - boleh 你 sila terangkan 支援 vector machines
+    - could 你 please 解釋 svm
+    - sila terangkan svm
+    - tell saya the definition of support vektor machine
+    - define svm
+    - define sokongan 載體 machine
+    - beritahu me the definition of svm
+    - adalah support vector 機 what
+    - what is sokongan vektor machine dalam mesin learning
+    - What is support vektor machines with example?
+    - does a support vektor machine work? How
+    - What is a support vector in SVM?
+    - What are the 長處 還有 disadvantages of sokongan vektor machines SVM?
+    - what is svm?
+    - what is kernel silap in svm?
+    - explain support vector machine
+    - 界定 support 載體 機器
+
+- intent: faq/naive_bayes
+  examples: |
+    - Why is Naive Bayes naive?
+    - apa adalah naive dalam 幼稚 bayes algorithm?
+    - what is 天真 bayes algorithm in 機械 學
+    - What is naive Bayes dalam mesin learning?
+    - What is the benefit of naive Bayes in machine learning?
+    - 使用 this algoritma dalam NLP? What adalah 幼稚 Bayes algoritma bila we can
+    - comes under yang mana learning naive bayes algorithm
+    - naif bayes algorithm 範例
+    - 幼稚 bayes algoritma comes under machine learning or 深 learning
+    - naive bayes algorithm could you 解釋
+    - please define naif bayes algoritma
+    - berikan me yang definition of naive bayes algorithm
+    - apa is yang concept of naif bayes algorithm
+
+- intent: faq/gen_disc
+  examples: |
+    - what algorithms adalah generative and discriminative
+    - What is the difference between a generative 和 discriminative algorithm?
+    - What adalah generative dan discriminative models?
+    - Is SVM generatif or discriminative?
+    - Is logistic regression a discriminative atau generative model Why?
+    - when to 利用 generatif or discriminative models?
+    - comprison daripada generative and discriminative models
+    - generative vs discriminative models
+
+- intent: faq/classification
+  examples: |
+    - is classification dalam 機 學習 what
+    - is pengelas in mesin learning? What
+    - What is 分類 daripada algorithm?
+    - What are the 分類 techniques?
+    - What is classification example?
+    - what is a pengelas in mesin learning?
+    - what is classification in 機械 learning with 範例
+    - classification adalah a 監督 atau unsupersived 學習
+    - what is binary 分類 in mesin 學習
+    - what adalah 分類 problem in 機械 learning?
+    - When should anda 分類 over regression? use
+
+- intent: faq/regression
+  examples: |
+    - apa is regresi in mesin learning
+    - learning with example? What is regression dalam machine
+    - machine learning? used in Why regression is
+    - mean? What does regression
+    - What is 回歸 and types of regression?
+    - apa adalah linear regresi in machine learning
+    - types daripada 回歸 in machine learning?
+
+- intent: faq/descision_tree
+  examples: |
+    - What adalah 決定 tree in machine 學 with example?
+    - What do 你 mean by decision tree?
+    - use 決定 tree? Why do we
+    - What is 決定 tree dalam mesin learning?
+    - what is kereta algorithm in mesin 學習
+    - does CART algorithm work? How
+    - What is CART technique?
+    - What is id3 algorithm in 機 learning?
+    - 手推車 algoritma dalam data 採礦業
+    - 長處 daripada cart algorithm
+    - apa is cart?
+
+- intent: faq/data_mining
+  examples: |
+    - what is data 礦業
+    - What adalah data 採礦業 dalam mudah terms?
+    - What is data mining dan nya types?
+    - Why is 資料 mining needed?
+    - Where is data mining used?
+    - What is data mining job?
+    - How is 資料 mining done?
+    - What are the 步驟 of 資料 mining?
+    - What is data perlombongan with sebenar life examples?
+
+- intent: faq/feature_select
+  examples: |
+    - what adalah feature selection dalam 機械 learning
+    - What adalah feature 挑選 in ML?
+    - How tidak ciri pemilihan work?
+    - What adalah 特徵 selection techniques in machine learning?
+    - What adalah ciri pemilihan algorithm?
+    - What adalah 特徵 selection methods in 機械 learning?
+    - is important in 機器 learning? Why ciri 選擇
+
+- intent: faq/feat_engg
+  examples: |
+    - what is feature engineering
+    - What is feature engineering example?
+    - is feature 工程學 important? Why
+    - What is feature engineering in Python?
+    - What adalah feature 工程學 techniques?
+    - 功能 engineering 技術 for machine learning
+    - mean by feature engineering in 機械 learning? what do 你
+
+- intent: faq/dim_red
+  examples: |
+    - what adalah dimensionality reduction dalam machine 學
+    - What is dimensionality 裁減 example?
+    - What is 功能 reduction dalam 機器 learning?
+    - 減少 問題 kenapa is it necessary dalam mesin learning? What is dimensi
+    - reducing What adalah 3 cara daripada dimensionality?
+    - What is a major 目標 of dimensionality reduction?
+    - What are yang drawbacks of dimensionality reduction?
+    - what are dimensionality pengurangan techniques?
+
+- intent: faq/curse_dimension
+  examples: |
+    - what is 詛咒 of dimensionality
+    - What is curse of dimensionality in 機械 learning?
+    - berikan an example? What is the kutukan daripada dimensionality Can anda
+    - 你 tackle it? What is the curse daripada dimensionality 而且 bagaimana do
+    - 如何 to overcome kutukan of dimensi
+    - explain 詛咒 of dimensionality
+    - kutukan of dimensionality solution
+    - the curse daripada dimensionality Why is dimensionality pengurangan even necessary? What is
+    - meant by What is 詛咒 daripada dimensionality?
+    - what is the solution of curse of dimensionality?
+
+- intent: faq/automl
+  examples: |
+    - is automl what
+    - apa is automl dalam 機器 學習
+    - What does AutoML do?
+    - menggantikan Will AutoML data scientists?
+    - AutoML? uses Who
+    - what is the 利用 of automl
+    - 如何 to gunakan automl
+
+- intent: faq/cross_val
+  examples: |
+    - what is cross pengesahan in mesin learning
+    - what is 交叉 pengesahan
+    - What tidak pengesahan do? 十字
+    - What adalah cross pengesahan set in mesin learning?
+    - What are the berbeza types of cross validation?
+    - Why adalah menyeberang pengesahan better?
+    - is k lipat cross validation apa
+    - 疊 cross validation? What is the 利用 daripada K
+    - interpret k fold How do 你 交叉 validation?
+    - performing cross pengesahan apa is the purpose of
+
+- intent: faq/adaboost
+  examples: |
+    - what is adaboost algorithm in mesin 學習
+    - What is AdaBoost used for?
+    - an AdaBoost classifier? How do you gunakan
+    - is adaboost? what
+    - terangkan adaboost
+    - define adaboost
+
+- intent: faq/gradient_boost
+  examples: |
+    - apa is 梯度 boosting in mesin learning
+    - How tidak kecerunan boosting tree work?
+    - what is gradient boosting machine?
+
+- intent: faq/gradient_descent
+  examples: |
+    - What is kecerunan keturunan in mesin learning?
+    - is gradient 血統 what
+    - What is 梯度 descent neural network?
+    - How do anda the gradient descent? cari
+    - How do you selesaikan gradient keturunan problems?
+    - implement kecerunan descent? How do 你
+
+- intent: faq/how_to_help
+  examples: |
+    - how can 你 me 幫助
+    - tanya for membantu 如何 do I
+    - help me boleh anda
+    - could you sila help me
+    - help
+    - anda membantu I keperluan
+
+- intent: faq/xgboost
+  examples: |
+    - xgboost apa is
+    - what adalah xgboost dalam 機 learning
+    - What is the 利用 of XGBoost?
+    - How does XGBoost predict?
+    - 工作 internally? How tidak XGBoost
+    - What's the beza between gradient boosting and XGBoost?
+    - How is Xgboost berbeza 從 gradient boosting?
+
+- intent: faq/hyper_para
+  examples: |
+    - what is hyperparameter in machine learning
+    - adalah model hyperpparameter what
+    - keperluan hyper parameter? Why do we
+    - What is the beza between parameter and Hyperparameter?
+    - mean by hyperparameter apa do you
+    - What are Hyperparameters dalam machine learning?
+    - explain hyper parameters
+
+- intent: faq/hyper_para_tuning
+  examples: |
+    - Why Hyperparameter penalaan is important?
+    - 使用 for tuning hyper parameters? Which strategy adalah
+    - bagaimana do tune hyperparameters dalam machine learning?
+    - bagaimana to 調 hyper parameter ?
+    - terangkan hyper parameters
+    - 例子 of hyper 參數 調音 in 機 學習
+
+- intent: faq/diff_para_hype
+  examples: |
+    - beza between 參數 dan hyperparameter
+    - what is the 差額 between parameter dan hyperparameter
+    - learning what is yang beza model parameters and hyperparameters in machine
+    - describe yang differences between parameters and hyparameters in machine learning
+    - explain the differences between parameters 還有 hyparameters in machine 學習
+
+- intent: faq/pca
+  examples: |
+    - apa adalah pca
+    - What adalah PCA used for?
+    - What is PCA in 簡單 terms?
+    - work? What adalah PCA 和 how tidak ia
+    - What is a pengetua 元件 in PCA?
+    - PCA results? 閱讀 How do anda
+    - calculated? How adalah PCA
+    - PCA? gunakan When 應該 we
+    - are eigenvalues dalam PCA? What
+    - beritahu What does a PCA plot you?
+    - What adalah PCA components?
+    - what is principal komponen analysis?
+
+- intent: faq/pca_rot
+  examples: |
+    - required dalam pca 為何 putaran is
+    - What is rotation in PCA?
+    - Is rotation perlu dalam PCA?
+    - Is rotation 必需 in PCA? If yes, Why? What 威爾 happen if you don’t berputar the components?
+    - putaran in PCA?
+    - apa do 你 mean by rotation daripada 元件 in PCA?
+    - explain putaran in PCA
+
+- intent: faq/cluster
+  examples: |
+    - clustering in 機械 learning apa adalah
+    - bermakna by 集群 in machine learning? What is
+    - What type of learning adalah clustering?
+    - clustering and its types? What adalah
+    - Where is clustering used?
+    - Why is clustering used?
+    - clustering is 監督 or unsupervised
+
+- intent: faq/k_means_clustering
+  examples: |
+    - what is k means clustering
+    - is K means clustering 使用 for? What
+    - What is bermakna by K means algorithm?
+    - K means clustering? 使用 How do you
+    - K dalam K means clustering? How do anda choose
+    - means clustering 簡單 k explanation
+    - means clustering? What are the basic 步驟 untuk K
+    - How does K mean clustering kerja-kerja terangkan with example?
+
+- intent: faq/knn
+  examples: |
+    - what is knn in mesin 學習
+    - What adalah the use of KNN algorithm?
+    - KNN algorithm? What is bermakna by
+    - calculated? How is Knn
+    - What is KNN algorithm example?
+    - What is the K nilai in Knn?
+    - apa is k dalam knn algorithm?
+    - use Knn? When sepatutnya I
+    - what is k terdekat neighbor algoritma
+    - What is K Nearest Neighbor algorithm in machine learning?
+    - How does K terdekat 鄰居 algoritma work?
+    - What tidak the K 站立 untuk in K nearest neighbors?
+
+- intent: faq/kmeans_knn
+  examples: |
+    - what is the 差額 antara kmean and knn algorithm
+    - bandingkan knn 和 kmeans algorithm
+    - 解釋 the difference between knn dan kmeans clustering algorithm
+    - 差異 between knn and kmeans
+    - knn 差異 between kmeans and
+
+- intent: faq/gradient_desc
+  examples: |
+    - What is gradient descent in 機器 learning?
+    - is kecerunan descent What
+    - explain kecerunan descent algorithm
+    - 定義 梯度 descent
+    - what do anda mean by kecerunan keturunan
+    - adalah 梯度 descent in AI? What
+    - How does 梯度 世系 work?
+    - What is 成本 function in kecerunan descent?
+    - gradient descent 配方
+    - explain the 工作 of kecerunan keturunan
+
+- intent: faq/ml_pipe
+  examples: |
+    - What is machine 學習 pipeline?
+    - What is ml pipeline?
+    - could sila terangkan machine learning 管線
+    - explain ml 管道
+    - define machine learning saluran paip
+    - define ml pipeline
+    - explain mesin learning saluran paip
+    - what is the 含義 of 機器 learning pipeline
+    - bermakna by apa is ml pipeline?
+    - describe ml pipeline
+    - 描述 mesin learning pipeline
+    - what do anda mean by 機械 learning pipeline?
+
+- intent: faq/salary
+  examples: |
+    - How much 錢 tidak a 機械 learning engineer make?
+    - What adalah the 薪資 of mesin 學 engineer?
+    - how much 機 學 engineer 賺
+    - What is the 薪水 daripada a Machine Learning Engineer in India?
+
+- intent: faq/types_gradient_desc
+  examples: |
+    - what are the type daripada 梯度 keturunan
+    - bagaimana ramai types of kecerunan descent are there?
+    - terangkan different types of 梯度 keturunan algorithm
+    - mentakrifkan different types of 梯度 血統
+
+- intent: faq/neural_net
+  examples: |
+    - What is a Neural Network?
+    - What is neural rangkaian in simple words?
+    - What does a neural network do?
+    - What is neural network dan its types?
+    - What is a neural rangkaian in mesin learning?
+    - tiruan neural 網路 apa is
+    - What is artificial neural rangkaian with example?
+    - What is an tiruan neural 網 dan how does it work?
+    - What is artificial neural network algorithm?
+    - apa is ann?
+
+- intent: ask_query
+  examples: |
+    - looking for important [books](item:book) in 機械 學 i'm
+    - [ML Books](item:book)
+    - [ML Courses](item:course)
+    - [Machine Learning Courses](item:course)
+    - [ML Skills](item:skill)
+
+- intent: dl_query
+  examples: |
+    - is deep learning? what
+    - apa is DL?
+    - terangkan deep learning
+    - terangkan DL
+    - bagaimana can 你 定義 mendalam learning?
+    - works? how DL
+    - works? bagaimana mendalam learning
+    - definition of deep learning
+    - 界定 DL
+    - 定義 deep learning
+    - definition of deep 學
+    - mean by 深層 learning? what do 你
+    - apa is 深層 learning exactly?
+    - mendalam learning? apa is meant by
+    - what is deep learning in simple words?
+    - terangkan mendalam learning kepada a school going kid? 你 how can
+    - boleh anda sila tell me 關於 DL?
+    - boleh 你 please tell me about deep learning?
+    - What exactly adalah mendalam learning?
+    - is deep 學 in mudah words? What
+    - What adalah deep learning with example?
+    - what is the meaning of 深 learning?
+    - apa is yang konsep daripada 深層 學
+    - What is the principle daripada 深層 learning?
+    - I wanna know about deep learning
+    - what adalah the 簡單 定義 daripada 深層 learning?
+    - deep 學 meaning
+    - simple definition of 深層 學
+    - is 深層 learning dalam simple terms? What
+    - deep 學習 in layman terms
+    - how to terangkan 深層 learning to a kid?
+    - 如何 to terangkan deep 學習 to a child?
+    - how to 解釋 deep learning to children?
+    - humans? help How deep learning 將
+    - How mendalam learning affect our life?
+    - What are yang main 目標 daripada 深 learning?
+
+- intent: ml_query
+  examples: |
+    - what is 機器 learning?
+    - what adalah ML?
+    - terangkan 機器 learning
+    - explain ML
+    - bagaimana can 你 define 機器 learning?
+    - works? how ML
+    - works? bagaimana 機器 learning
+    - definition of machine learning
+    - define ML
+    - 定義 機械 learning
+    - definition of machine learning
+    - apa do you mean by machine learning?
+    - learning exactly? apa is machine
+    - machine learning? meant by apa is
+    - what is mesin learning in 簡單 words?
+    - terangkan machine learning to a school pergi kid? 如何 can you
+    - tell boleh anda please me kira-kira ML?
+    - me 關於 machine learning? tell could anda sila
+    - What exactly is machine learning?
+    - What is machine learning dalam 簡單 words?
+    - What adalah mesin learning with example?
+    - what is yang 含義 of 機械 learning?
+    - 學 what adalah the konsep of machine
+    - What is the 原理 daripada mesin learning?
+    - I wanna tahu about mesin 學
+    - apa is the simple definition of 機械 learning?
+    - machine learning 含義
+    - 簡單 definition of 機械 learning
+    - What is 機器 learning dalam mudah terms?
+    - machine learning dalam layman terms
+    - bagaimana to explain mesin learning kepada a kid?
+    - how to explain machine learning to a child?
+    - how to 解釋 machine learning kepada children?
+    - How mesin 學習 akan membantu humans?
+    - How machine learning kami life? menjejaskan
+    - What adalah yang main goals daripada machine learning?
+
+- intent: nlp
+  examples: |
+    - apa is natural 語 processing?
+    - what is NLP?
+    - explain semulajadi language processing
+    - explain nlp
+    - bagaimana 天然 language processing works?
+    - 如何 NLP works?
+    - mean by natural language processing? What do you
+    - What is natural language 加工 exactly?
+    - What adalah bahasa processing? meant by semulajadi
+    - What is semulajadi language processing in 簡單 words?
+    - what adalah nlp in mudah words
+    - What is natural language processing with examples?
+    - saya about natural bahasa processing? boleh 你 請 tell
+    - boleh 你 please tell me kira-kira nlp?
+    - is semulajadi language processing? What betul-betul
+    - is natural 語文 processing with example? What
+    - what adalah the meaning of natural bahasa 處理 ?
+    - what adalah yang concept of natural bahasa processing
+    - What is the prinsip daripada semulajadi language processing?
+    - I wanna know about Artificial Intelligence
+    - what is the mudah definition of natural 語 processing?
+    - 天然 language processing 含義
+    - mudah 定義 of semulajadi language processing
+    - is semulajadi language 加工 in 簡單 terms? What
+    - natural language processing in layman 用語
+    - used? Where is NLP
+    - apa adalah natural language 處理 in ai
+    - 自然 language processing dalam 人造 intelligence
+
+- intent: reinforce
+  examples: |
+    - what is reinforcement learning?
+    - 解釋 reinforcement learning
+    - 如何 can 你 定義 pengukuhan learning?
+    - works? how reinforcement learning
+    - definition daripada 加強 learning
+    - mentakrifkan reinforcement learning
+    - definition of reinforcement 學
+    - mean by reinforcement learning? what do you
+    - what is 加強 learning exactly?
+    - pengukuhan learning? meant by what adalah
+    - apa is pengukuhan learning in simple words?
+    - 你 explain reinforcement learning kepada a school going kid? bagaimana can
+    - could you please me kira-kira pengukuhan learning? tell
+    - What exactly is 加固 learning?
+    - What is 強化 learning dalam mudah words?
+    - What adalah pengukuhan learning with example?
+    - what is the meaning daripada reinforcement learning?
+    - what is the konsep of pengukuhan learning
+    - What is yang principle of pengukuhan learning?
+    - I wanna know about reinforcement learning
+    - what is the simple definition daripada 加固 learning?
+    - pengukuhan learning meaning
+    - 簡單 definition daripada 加固 學習
+    - What adalah 加固 學習 in mudah terms?
+    - reinforcement learning dalam 外行 terms
+    - bagaimana to explain reinforcement learning to a kid?
+    - how kepada 解釋 增援 learning kepada a child?
+    - how to explain pengukuhan 學習 to children?
+    - humans? How pengukuhan learning will help
+    - How reinforcement learning our life? menjejaskan
+    - What adalah the 主要 目標 of reinforcement learning?
+
+- intent: computer_vision
+  examples: |
+    - apa adalah computer vision?
+    - explain computer penglihatan
+    - computer vision? bagaimana can you define
+    - how computer penglihatan works?
+    - definition of computer penglihatan
+    - mentakrifkan computer 視野
+    - what do anda mean by computer vision?
+    - what adalah computer penglihatan exactly?
+    - apa is computer vision? meant by
+    - what adalah computer 視覺 in mudah words?
+    - computer penglihatan to a sekolah going kid? explain bagaimana can 你
+    - could you sila me kira-kira computer vision? tell
+    - What betul-betul is computer vision
+    - What is computer penglihatan with example?
+    - 計算機 vision
+
+- intent: cnn
+  examples: |
+    - what is convolutional neural network?
+    - what adalah cnn?
+    - explain convolutional neural 網路
+    - explain cnn
+    - CNN? How would 你 描述
+    - 如何 can you define CNN?
+    - What adalah convolutional neural rangkaian in image processing?
+    - works? how convolutional neural network
+    - works? how cnn
+    - definition of convolutional neural network
+    - definition of CNN
+    - mentakrifkan CNN
+    - what do anda mean by convolutional neural network?
+    - mean by CNN? what do you
+    - what is CNN exactly?
+    - bermakna by CNN? what adalah
+    - What is CNN in 簡單 words??
+    - How tidak CNN work?
+    - Is CNN an algorithm?
+    - What exactly adalah cnn
+    - What is cnn with example?
+    - cnn
+    - convolutional neural rangkaian
+
+- intent: artificial_intelligence
+  examples: |
+    - what adalah artificial intelligence?
+    - what is AI?
+    - terangkan 人工 智力
+    - how artificial kecerdasan works?
+    - works? how AI
+    - What is Artificial Intelligence exactly?
+    - meant by Artificial Intelligence? What is
+    - What adalah AI dalam mudah words?
+    - What is AI with examples?
+    - tell could 你 please me 關於 AI?
+    - beritahu me about Artificial Intelligence? could you sila
+    - What exactly is Artificial Intelligence?
+    - What is Artificial Intelligence in mudah words?
+    - What is 人造 kecerdasan with example?
+    - what is the makna of Artificial Intelligence ?
+    - what is the concept of Artificial Intelligence
+    - What is yang principle of Artificial Intelligence?
+    - I wanna know kira-kira Artificial Intelligence
+    - what is the 簡單 definition of Artificial Intelligence?
+    - Artificial Intelligence makna
+    - mudah definition of Artificial Intelligence
+    - What is Artificial Intelligence in simple terms?
+    - Artificial Intelligence in 外行 terms
+    - bagaimana to explain Artificial Intelligence kepada a kid?
+    - how to 解釋 Artificial Intelligence kepada a child?
+    - how to explain Artificial Intelligence to children?
+    - used? Where is AI
+    - How AI 將 humans? 幫忙
+    - affect How AI kami life?
+    - What adalah the utama goals daripada AI?
+
+- intent: faq/books
+  examples: |
+    - what are yang best books untuk machine learning
+    - What are the 頂端 10 best books on machine learning?
+    - What adalah the must read books dalam mesin learning?
+    - What is yang best book untuk 機 learning dalam Python?
+    - is best untuk machine learning? Which book
+    - fundamentals? What are the 最好 書 to self-learn machine 學
+    - please suggest sesetengah good books in machine learning
+
+- intent: faq/nlu
+  examples: |
+    - bahasa 理解 apa is 天然
+    - what is nlu
+    - How tidak natural bahasa 諒解 work?
+    - What are the 步驟 in 自然 語 understanding?
+    - understand by semulajadi language? What do anda
+    - understanding NLU 工作 in AI? How does semulajadi bahasa
+    - Why natural bahasa understanding adalah difficult?
+    - natural language 理解
+    - nlu
+    - mentakrifkan nlu
+    - define semulajadi language understanding
+    - definition daripada natural bahasa understanding
+
+- intent: faq/tokenization
+  examples: |
+    - apa adalah tokenization
+    - work? What adalah tokenization 和 how does it
+    - How tidak tokenization work?
+    - What does tokenization mean?
+    - What is yang tujuan of tokenization?
+    - What adalah tokenization in machine learning?
+    - What adalah tokenization in nlp?
+    - explain with an example? What adalah tokenization
+    - 使用 tokenization? How do you
+    - tokenization
+    - define tokenization
+    - definition daripada tokenization
+
+- intent: faq/course
+  examples: |
+    - apa adalah atas courses in mesin 學
+    - Which 課程 adalah terbaik for 機器 learning?
+    - Which ml kursus best?
+    - 學 on udemy? Which is the best course for machine
+    - Which kursus adalah best untuk AI?
+    - is best for 機械 learning? Which online kursus
+    - Which adalah yang best certificate course for mesin learning?
+    - mesin learning kursus for 初學者
+    - machine learning kursus untuk beginners free
+
+- intent: faq/ml_job
+  examples: |
+    - 需要 for 機器 學習 what skills adalah jobs
+    - What tidak become a machine learning engineer? ia take to
+    - What are yang skills needed for machine learning?
+    - What background is machine learning? 需要 for
+    - How do I a career in mesin learning? start
+    - What 技能 do you 需求 for AI?
+    - apa are the requirements untuk machine learning
+    - how to become a machine learning engineer
+    - how to become a mesin learning 工程師 tanpa a 學位
+    - 請 beritahu me apa skills needed untuk mesin learning jurutera
+    - skills for 機器 learning
+    - what are the 最多 in-demand machine learning skills

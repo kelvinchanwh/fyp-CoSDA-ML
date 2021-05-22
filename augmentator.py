@@ -1,6 +1,8 @@
 import yaml
 import re
 import random
+import pandas as pd
+import numpy as np
 import util.tool
 import util.data
 import util.convert
@@ -65,18 +67,20 @@ class Augmentator():
 with open("./rasa/data/in_nlu.yml") as read_file:
     augmentator = Augmentator(0.75, 0.75, 0.75)
     documents = yaml.full_load(read_file)
-    nlu = []
+    df = pd.DataFrame(np.empty((0,2)), columns=["intent", "example"])
     for entry in documents.get('nlu'):
         intent = entry.get('intent')
         examples = entry.get('examples')
         examples = re.split('\n- |- |\n',examples)[1:-1]
         examples_list = [augmentator.cross_list(example) for example in examples]
-        examples_list = "- " + "\n- ".join(examples_list) + "\n"
-        nlu.append({'intent': intent, 'examples': examples_list})
-    output_dict = {'version': '2.0', 'nlu': nlu}
+        # examples_list = [example for example in examples]
+        df = df.append(pd.concat([pd.DataFrame([[intent, example]], columns=("intent", "example")) for example in examples_list]), ignore_index=True)
 
-    with open("./rasa/data/nlu.yml", "w") as write_file:
-        yaml.safe_dump(output_dict, write_file, default_style=None, default_flow_style=False)
-
+    with open ("./rasa/data/nlu.yml", "w") as outputFile:
+        outputFile.write('version: "2.0"\n\nnlu:\n')
+        for intent in df["intent"].unique():
+            outputFile.write("\n- intent: %s\n  examples: |\n"%intent)
+            for sentence in df[df["intent"]==intent]["example"]:
+                outputFile.write("    - %s\n"%sentence)
 
 
