@@ -1,0 +1,794 @@
+[
+  {
+    "text": "como puedo fight corona",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.5748632550239563
+    }
+  },
+  {
+    "text": "cu\u00e1les son los mitos m\u00e1 fake sobre el covid",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.7022814750671387
+    }
+  },
+  {
+    "text": "es verdad que el covid es como el flu",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.6682804226875305
+    }
+  },
+  {
+    "text": "el coronavirus es fake",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.36592018604278564
+    }
+  },
+  {
+    "text": "de verda hay que practicar social distancing",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.7845452427864075
+    }
+  },
+  {
+    "text": "beber bleach no ayuda contra el covid, verdad",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.3312516510486603
+    }
+  },
+  {
+    "text": "dime el top five de fake news sobre coronavirus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.999911367893219
+    }
+  },
+  {
+    "text": "listar los fake facts sobre coronavirus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.6058627963066101
+    }
+  },
+  {
+    "text": "coronavirus es un heart disease",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9267222285270691
+    }
+  },
+  {
+    "text": "el covid puede causar un skin rush",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.34195050597190857
+    }
+  },
+  {
+    "text": "es verdad que existe un treatment para el covid en china",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9754064679145813
+    }
+  },
+  {
+    "text": "el rainy weather afecta al coronavirus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.8143942952156067
+    }
+  },
+  {
+    "text": "tell me si comer soup me dar\u00e1 coronavirus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.6991028785705566
+    }
+  },
+  {
+    "text": "crees que debo postpone mi vacation",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.40796366333961487
+    }
+  },
+  {
+    "text": "se puedes cruzar state lines",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.6823839545249939
+    }
+  },
+  {
+    "text": "puedo salir del state of washington",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5223385095596313
+    }
+  },
+  {
+    "text": "dame los headlines sobre el covid, please",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.8449701070785522
+    }
+  },
+  {
+    "text": "qu\u00e9 est\u00e1 pasando in italy con el covid",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.6546019911766052
+    }
+  },
+  {
+    "text": "c\u00f3mo fue el press briefing de trump",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.627122700214386
+    }
+  },
+  {
+    "text": "novedades sobre los stay at home orders",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.7465855479240417
+    }
+  },
+  {
+    "text": "update del n\u00famero de infectados por coronavirus",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.8908724784851074
+    }
+  },
+  {
+    "text": "cu\u00e1l es el infection rate del covid",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.8223406672477722
+    }
+  },
+  {
+    "text": "buscar updates sobre pacientes de covid",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.6414794325828552
+    }
+  },
+  {
+    "text": "puedes compatir a mi contact list",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.9857068061828613
+    }
+  },
+  {
+    "text": "hacer un forward al grupo",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "donate",
+      "confidence": 0.34877702593803406
+    }
+  },
+  {
+    "text": "comparte en mi family chat, please",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.5460264086723328
+    }
+  },
+  {
+    "text": "c\u00f3mo publico la info en este device",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.5332821607589722
+    }
+  },
+  {
+    "text": "ayudar high risk locations",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.9999502301216125
+    }
+  },
+  {
+    "text": "infections por covid19",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.7790220379829407
+    }
+  },
+  {
+    "text": "cu\u00e1ntas personas est\u00e1n en recovery mode",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.3012875020503998
+    }
+  },
+  {
+    "text": "infections en beb\u00e9s",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.481518417596817
+    }
+  },
+  {
+    "text": "c\u00f3mo est\u00e1 el outbreak de covid en el southwest",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.42745018005371094
+    }
+  },
+  {
+    "text": "a cu\u00e1nto est\u00e1 el death toll hoy d\u00eda",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.7048889398574829
+    }
+  },
+  {
+    "text": "cu\u00e1nto est\u00e1n en recovery mode en mi ciudad",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.859701931476593
+    }
+  },
+  {
+    "text": "han subido los death counts desde ayer",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.57826828956604
+    }
+  },
+  {
+    "text": "a cu\u00e1nto llegan los death counts en china",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.8838748931884766
+    }
+  },
+  {
+    "text": "el hand sanitizer ayuda",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "donate",
+      "confidence": 0.4167192876338959
+    }
+  },
+  {
+    "text": "me protege el hand satinizer",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.9767022132873535
+    }
+  },
+  {
+    "text": "listar safety measures contra covid",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.873904824256897
+    }
+  },
+  {
+    "text": "c\u00f3mo puedo protegerme outdoors",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.39933064579963684
+    }
+  },
+  {
+    "text": "el cash puede transmitir covid",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.9948329925537109
+    }
+  },
+  {
+    "text": "los face masks de tela funcionan",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5428406000137329
+    }
+  },
+  {
+    "text": "puedo pedir delivery food",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.747927188873291
+    }
+  },
+  {
+    "text": "pedir takeout es seguro",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5135757327079773
+    }
+  },
+  {
+    "text": "listar best practices contra coronavirus",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.5420195460319519
+    }
+  },
+  {
+    "text": "los grocery bags pueden estar contaminados",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.3132407069206238
+    }
+  },
+  {
+    "text": "me recomiendas online grocery shopping por mi seguridad",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.8107740879058838
+    }
+  },
+  {
+    "text": "se puede ir al grocery store",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.8102902770042419
+    }
+  },
+  {
+    "text": "debo lavar la ropa despu\u00e9s del grocery shopping",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.4219144284725189
+    }
+  },
+  {
+    "text": "cu\u00e1l es el mejor hand sanitizer",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.7438440918922424
+    }
+  },
+  {
+    "text": "estoy un poco feverish. tengo covid",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.7960277199745178
+    }
+  },
+  {
+    "text": "el covid es contagious",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.25213924050331116
+    }
+  },
+  {
+    "text": "c\u00f3mo afecta coronavirus al body",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9518002867698669
+    }
+  },
+  {
+    "text": "how do i know si tengo covid",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.5225512385368347
+    }
+  },
+  {
+    "text": "sneezing es un sypmtom",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.6828775405883789
+    }
+  },
+  {
+    "text": "si estoy 6 feet apart me contagiar\u00e9",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.9251500964164734
+    }
+  },
+  {
+    "text": "los flies transmiten el coronavirus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.7766477465629578
+    }
+  },
+  {
+    "text": "los butterflies tambi\u00e9n llevan el virus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.6182171106338501
+    }
+  },
+  {
+    "text": "puede transmitirse por el sewary system",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.8025007843971252
+    }
+  },
+  {
+    "text": "puede contagiarme si toco un amazon package",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.9384958744049072
+    }
+  },
+  {
+    "text": "si abro el mail me contagio",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.7881110310554504
+    }
+  },
+  {
+    "text": "listar transmission methods, please",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.42551103234291077
+    }
+  },
+  {
+    "text": "el coronavirus est\u00e1 en los shoes",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5164531469345093
+    }
+  },
+  {
+    "text": "food poisoning puede causarme coronavirus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.5760167837142944
+    }
+  },
+  {
+    "text": "food packaging es peligroso",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5274362564086914
+    }
+  },
+  {
+    "text": "los shared living spaces son foco de contagio",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.3181738257408142
+    }
+  },
+  {
+    "text": "me puedo contagiar si me voy de shopping",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.8297095894813538
+    }
+  },
+  {
+    "text": "los masks est\u00e1n slowing down el virus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.5421587228775024
+    }
+  },
+  {
+    "text": "si mis symptoms son mild, puedo contagiarlo",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9874215126037598
+    }
+  },
+  {
+    "text": "deber\u00eda quarantine mi gato",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.942409873008728
+    }
+  },
+  {
+    "text": "los racoons pueden transmitir coronavirus",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.3404281437397003
+    }
+  },
+  {
+    "text": "qu\u00e9 animales han testedo positive por corona",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.585399866104126
+    }
+  },
+  {
+    "text": "puedo contagiarme por un dog bite",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.43234702944755554
+    }
+  },
+  {
+    "text": "puedo comer chicken",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.42960116267204285
+    }
+  },
+  {
+    "text": "puedo comer beef",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.47564074397087097
+    }
+  },
+  {
+    "text": "p\u00e1jaros pueden testar positive",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.5836055874824524
+    }
+  },
+  {
+    "text": "mi guinea pig puede tener coronavirus",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.4016127288341522
+    }
+  },
+  {
+    "text": "los flies me dar\u00e1n covid",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.9903873205184937
+    }
+  },
+  {
+    "text": "los chickens de mi pap\u00e1 tienen covid",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.3136407434940338
+    }
+  },
+  {
+    "text": "los atms son seguros",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.41649121046066284
+    }
+  },
+  {
+    "text": "debo limpiar todos mis groceries",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9152815937995911
+    }
+  },
+  {
+    "text": "los delivery packages transmiten covid",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.36116063594818115
+    }
+  },
+  {
+    "text": "coronavirus se pega a los fruits and vegetables",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.8907480239868164
+    }
+  },
+  {
+    "text": "los handle bars tienen corona",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9321367144584656
+    }
+  },
+  {
+    "text": "mi face mask puede infectarse con coronavirus",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.5576366186141968
+    }
+  },
+  {
+    "text": "c\u00f3mo limpio mi face mask para quitar el virus",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.7140703797340393
+    }
+  },
+  {
+    "text": "debo evitar deliveries a china",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.9002062082290649
+    }
+  },
+  {
+    "text": "cu\u00e1nto coronavirus hay en mi laptop",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.5041228532791138
+    }
+  },
+  {
+    "text": "qu\u00e9 pais tiene muchos outbreaks",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.32776597142219543
+    }
+  },
+  {
+    "text": "qu\u00e9 hago si vivo con essential workers",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.930236279964447
+    }
+  },
+  {
+    "text": "cu\u00e1les paises tienen un shelter in place",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.27641814947128296
+    }
+  },
+  {
+    "text": "cu\u00e1les paises est\u00e1n bajo national shutdown",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.488537073135376
+    }
+  },
+  {
+    "text": "hay alg\u00fan travel restriction para viajar a mexico",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9999497532844543
+    }
+  },
+  {
+    "text": "cu\u00e1les paises est\u00e1n en lockdown",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9621740579605103
+    }
+  },
+  {
+    "text": "hay un national lockdown en us",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.947442352771759
+    }
+  },
+  {
+    "text": "d\u00f3nde puede hacer tracking del outbreak by state",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.7894010543823242
+    }
+  },
+  {
+    "text": "qu\u00e9 safety measures debo tomar",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9946423768997192
+    }
+  },
+  {
+    "text": "puedes describe qu\u00e9 es corona",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.447320818901062
+    }
+  },
+  {
+    "text": "share informaci\u00f3n sobre covid19, please",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "share",
+      "confidence": 0.9102980494499207
+    }
+  }
+]

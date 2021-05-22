@@ -1,0 +1,850 @@
+[
+  {
+    "text": "this is great how do i help you",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.4756371080875397
+    }
+  },
+  {
+    "text": "how to donate for corona treatment",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.807437002658844
+    }
+  },
+  {
+    "text": "could you help me",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.9481557607650757
+    }
+  },
+  {
+    "text": "doctor corona, you there",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.6806906461715698
+    }
+  },
+  {
+    "text": "how does coronavirus infect other people",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.5381826162338257
+    }
+  },
+  {
+    "text": "can i get infected by touch a patient",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.9871377944946289
+    }
+  },
+  {
+    "text": "can people with masks transmit it to other people",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.5218256711959839
+    }
+  },
+  {
+    "text": "can i get it if someone sneezes on me",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.822477400302887
+    }
+  },
+  {
+    "text": "does covid only infect old people",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.3760278522968292
+    }
+  },
+  {
+    "text": "what are the common vectors",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.5649374127388
+    }
+  },
+  {
+    "text": "how long does the corona stay on my kids toys",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.8018996119499207
+    }
+  },
+  {
+    "text": "can my snake get covid-19",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.48522138595581055
+    }
+  },
+  {
+    "text": "is it true dogs were less susceptible to the corona",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.5137320756912231
+    }
+  },
+  {
+    "text": "can i get sick with covid through food",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.5889338254928589
+    }
+  },
+  {
+    "text": "can you give me more info on respiratory transmission",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9997683167457581
+    }
+  },
+  {
+    "text": "is person-to-person contact the main mode of covid transmission",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.5225351452827454
+    }
+  },
+  {
+    "text": "can asymptomatic people spread coronavirus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9119718074798584
+    }
+  },
+  {
+    "text": "is it possible to for me to get infected with covid and spread it to others without knowing",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.5190153121948242
+    }
+  },
+  {
+    "text": "can covid spread if someone only has mild symptoms",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9876992702484131
+    }
+  },
+  {
+    "text": "may i have more information on airbone transmission",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.998514711856842
+    }
+  },
+  {
+    "text": "will the 6 feet apart rule really help decrease virus transmission",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4606349766254425
+    }
+  },
+  {
+    "text": "can i have more information on aerosol transmission",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.8168337345123291
+    }
+  },
+  {
+    "text": "does it travel in the air",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9788249135017395
+    }
+  },
+  {
+    "text": "how can i get it",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.8452337980270386
+    }
+  },
+  {
+    "text": "can i get the 19 by using public transport",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9989211559295654
+    }
+  },
+  {
+    "text": "should i wear a mask",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.5585859417915344
+    }
+  },
+  {
+    "text": "what do the numbers look like now",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.756327211856842
+    }
+  },
+  {
+    "text": "what are the newest figures",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.7285439968109131
+    }
+  },
+  {
+    "text": "latest stats on cases in africa",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.9495258927345276
+    }
+  },
+  {
+    "text": "what news should i not listen to",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.46678367257118225
+    }
+  },
+  {
+    "text": "any misinformation about the virus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9602930545806885
+    }
+  },
+  {
+    "text": "are the politicians spreading any lies",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.9672365784645081
+    }
+  },
+  {
+    "text": "what should i not trust",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.468722403049469
+    }
+  },
+  {
+    "text": "did they spread corona on purpose",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.9989178776741028
+    }
+  },
+  {
+    "text": "is covid fake",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.4605879485607147
+    }
+  },
+  {
+    "text": "do animals spread the virus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8783667683601379
+    }
+  },
+  {
+    "text": "news",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.5108258128166199
+    }
+  },
+  {
+    "text": "can i get a news briefing about covid",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.5138869285583496
+    }
+  },
+  {
+    "text": "can i see reports on infection rates",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.9452695846557617
+    }
+  },
+  {
+    "text": "what's the latest on coronavirus in dc",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9485992789268494
+    }
+  },
+  {
+    "text": "what are the most recent coronavirus numbers",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.9990999102592468
+    }
+  },
+  {
+    "text": "covid-19 press releases",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.538615345954895
+    }
+  },
+  {
+    "text": "latest on corona virus",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9922314286231995
+    }
+  },
+  {
+    "text": "this is amazing",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.5995054244995117
+    }
+  },
+  {
+    "text": "you are so useful",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "donate",
+      "confidence": 0.773978590965271
+    }
+  },
+  {
+    "text": "okay",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9999776482582092
+    }
+  },
+  {
+    "text": "may god bless you",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.36756470799446106
+    }
+  },
+  {
+    "text": "i'm scared what do i do",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.4280126690864563
+    }
+  },
+  {
+    "text": "my parents are old what do i do",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.32391810417175293
+    }
+  },
+  {
+    "text": "i don't wanna die",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.797089695930481
+    }
+  },
+  {
+    "text": "will wearing a mask be enough",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.5977861881256104
+    }
+  },
+  {
+    "text": "how effective are gloves",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.7224253416061401
+    }
+  },
+  {
+    "text": "should different age groups take different prevention measures",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.9845452904701233
+    }
+  },
+  {
+    "text": "what cleaning products should i use",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.44330835342407227
+    }
+  },
+  {
+    "text": "how often should i switch out my face mask",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.7366182208061218
+    }
+  },
+  {
+    "text": "how should i shop for produce at the grocery store",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.8351055979728699
+    }
+  },
+  {
+    "text": "how far apart should i stand from other people",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.5846741199493408
+    }
+  },
+  {
+    "text": "should i stop using cash",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.7095186114311218
+    }
+  },
+  {
+    "text": "should i be wiping down my groceries",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.9812096953392029
+    }
+  },
+  {
+    "text": "should i be ordering packages online",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.6290671229362488
+    }
+  },
+  {
+    "text": "how can i not get coronavirus",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.8975552320480347
+    }
+  },
+  {
+    "text": "what will help me stay safe",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.46662893891334534
+    }
+  },
+  {
+    "text": "will gloves help stop coronavirus",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.6732675433158875
+    }
+  },
+  {
+    "text": "do i need a n95 mask",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.43977686762809753
+    }
+  },
+  {
+    "text": "should i avoid large crowded places",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.8726435899734497
+    }
+  },
+  {
+    "text": "best place to avoid getting the virus",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.34145820140838623
+    }
+  },
+  {
+    "text": "how can i protect my dog",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9391602873802185
+    }
+  },
+  {
+    "text": "do infants need a face mask",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9140904545783997
+    }
+  },
+  {
+    "text": "should i wipe down my trunk after going grocery shopping",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.819887638092041
+    }
+  },
+  {
+    "text": "how do i tell everyone about this",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.4517335295677185
+    }
+  },
+  {
+    "text": "i'll tell my family about this",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.6405360102653503
+    }
+  },
+  {
+    "text": "is the mexican border closed because of covid 19",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.7551670074462891
+    }
+  },
+  {
+    "text": "is buying groceries an excuse to be outside",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.8612145781517029
+    }
+  },
+  {
+    "text": "what is the protocol if i show symptoms",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.512188196182251
+    }
+  },
+  {
+    "text": "what are some differences betweens covid19 and the common cold",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.7526758909225464
+    }
+  },
+  {
+    "text": "what are the main ways to see if i have it",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9895713329315186
+    }
+  },
+  {
+    "text": "do hospitals know how to fix this",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.91471928358078
+    }
+  },
+  {
+    "text": "what have the doctors come up with",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.9539333581924438
+    }
+  },
+  {
+    "text": "is there a covid-19 vaccine in the works",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.5478639602661133
+    }
+  },
+  {
+    "text": "can i use vinegar to clean my throat",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.8773666620254517
+    }
+  },
+  {
+    "text": "can i use it as soon as it wil be delivered",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9886281490325928
+    }
+  },
+  {
+    "text": "how can i alleviate covid symptoms",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.88321453332901
+    }
+  },
+  {
+    "text": "i traveled to new york recently am i infected",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9884417653083801
+    }
+  },
+  {
+    "text": "my flight from japan had someone test positive should i be worried",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.998379647731781
+    }
+  },
+  {
+    "text": "can i travel outside the united states right now",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9999572038650513
+    }
+  },
+  {
+    "text": "should i avoid those who recently came back from international travel",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.6240074038505554
+    }
+  },
+  {
+    "text": "where does the virus come from",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.3943376839160919
+    }
+  },
+  {
+    "text": "how does the virus work",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.5338121056556702
+    }
+  },
+  {
+    "text": "is coronavirus dangerous",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.631422221660614
+    }
+  },
+  {
+    "text": "where did the covid-19 come from",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.5353153944015503
+    }
+  },
+  {
+    "text": "can you give me advice about covid-19",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.7450518608093262
+    }
+  },
+  {
+    "text": "can you give me a understanding of covid",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.39840373396873474
+    }
+  },
+  {
+    "text": "give me the facts about covid-19",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.539614200592041
+    }
+  },
+  {
+    "text": "can houseflies spread covid-19",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8339359164237976
+    }
+  },
+  {
+    "text": "do cat scratches contain the virus",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.6432807445526123
+    }
+  },
+  {
+    "text": "is it safe to get food delivered",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.3166041076183319
+    }
+  },
+  {
+    "text": "how often should i clean my table",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.8846459984779358
+    }
+  },
+  {
+    "text": "should i be worried about getting the virus from delivery packages",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.567535936832428
+    }
+  },
+  {
+    "text": "will withdrawing cash from an atm give me the virus",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.659042239189148
+    }
+  },
+  {
+    "text": "should i be using public hand rails without gloves",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9369679689407349
+    }
+  },
+  {
+    "text": "should i wash all my shopping",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.7734130620956421
+    }
+  },
+  {
+    "text": "should i disinfect my table every day",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.981171190738678
+    }
+  },
+  {
+    "text": "does covid-19 go away after some time",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.40434402227401733
+    }
+  },
+  {
+    "text": "is there type of material it cant live on",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.8829836845397949
+    }
+  },
+  {
+    "text": "do i need to clean my mailbox",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9903584122657776
+    }
+  },
+  {
+    "text": "do you need to dilute bleach to clean",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9642995595932007
+    }
+  }
+]
