@@ -1,0 +1,1311 @@
+version: "2.0"
+
+nlu:
+
+- intent: donate
+  examples: |
+    - hiregana this is 偉大 اسے do i help
+    - i wish i boleh کر دینا quelquechose about ดิส
+    - whom может i عطیہ دینا to
+    - nası do i wang donate
+    - ساعد i would like to your 原因
+    - take money do you
+    - needs who txanpon right ngay
+    - is εκεί a förteckning of foundations to donate to
+    - send nasıl can i dollars to καποιος
+    - what คือ the दान seçenekleri
+    - donate to the food itsasertz
+    - αποστολή धन to the облегчение fund
+    - please send a donation to a local charity
+    - menderma to arbetslösa persones in my تاون اس طرح do i
+    - how do i eman to grocery store العاملون in town
+    - i wanna send money to unemployed people
+    - 送出 xin aiuto ni money to nyc hastane
+    - how do i give money to a haizemaile ファンド
+    - donate money to who
+    - i 欲しい to donas to spain
+    - how können i dons
+    - donate monnaie now
+    - дай मनी to the who fund
+    - 捐 to ال طعام bank
+    - donate covid
+    - कैसे can i облегчение дари to corona
+    - donate to medizinische needs for corona virus can i
+    - donas per νέος york let's
+    - provide التمويل for ウィルス лекарство
+    - how to дари เพื่อ corona 治療
+    - give باہر money
+    - تمويل за high-risk 地點
+    - i'd like to a dohaintza tentatu
+    - δωρεά to covid-19
+    - who is اخذ coronavirus donations
+    - ni wanna donate
+    - pouvez i dohaintza egin 有些 groceries
+    - i want to donate para els refugees
+    - δωρεά to make mas الاقنعة
+    - donate to -a covid 19 hastalık ατομα i wanna
+    - send keluar funds to coronavirus усилия اندر colorado
+    - skänk طبیبی υλικό to το nearest hospital
+    - make a donation to dallas' fundraiser لاجل coronavirus
+    - 募金 how do i
+    - donate to seattle
+    - hur can i บริจาค
+    - donar финансирование for my 領域
+    - i wanna verin 資金 to itàlia
+    - donate to covid-19 sollievo now
+    - a bit of 錢 i wanna التبرع
+    - coronavirus derma info, please
+    - donate to covid-19 nereye can i relief
+    - a local relief fund does my city nabaritu
+    - وش to donate to помощ италия i'd
+    - how can i تحفہ دینا to nuova york city
+    - i'd gibi to donate to italy
+    - how do i donate to washington förderung
+    - στείλε fonds to raleigh
+    - दिखाओ me nola to donate please
+    - i'd нравится to funding to spain menyediakan
+    - donate in میرا région
+    - tell me 如何 to donate please
+    - oparitu to местни स्कूलों
+    - บริจาค to بالهند
+    - want to eman to local रिलीफ sforzi i
+    - please مساعدة me 寄付 to covid-19 medical ricerche
+    - send fondi to kejururawatan homes in میرے บริเวณ
+    - show me organizzazioni donations in my state accepting
+    - make i wanna a monetary दान
+    - charitable donation for covid
+    - more about donation campaigns how can i trova 出局
+    - i'd like to a दान arren bleue กางเขน send
+    - donate how can i money -raino ヘルプ feed homeless
+    - 募金 to the who
+    - how can i 捐 to den röd croce
+    - đâu do i go to eman to the red karşıya
+    - can ni donate to my kreis
+    - شلون do i दान locally
+    - i want to donate to تحقیق in my state
+    - goods where boleh i bağışta canned
+    - can i eman to hospitals near me
+
+- intent: hi
+  examples: |
+    - здравствуйте
+    - hi
+    - buona günaydın
+    - good soirée
+    - nice to meet you
+    - hello robot
+    - nor हैं tu
+    - bola 'm hi
+    - a fragen have hi i
+    - could you hilfen me
+    - hi corona บ็อต
+    - good morning doc covid
+    - hallo doctor bot
+    - morning, corona doc
+    - hi, бот
+    - hello covid бот
+    - how's it going, doc
+    - hi
+    - अरे bot
+    - good morning doctor
+    - morning bot
+    - سلام doc, how are zuek
+    - ало
+    - g'day, หมอ
+    - alright, bot
+    - goin, bot 如何 ya
+    - hello bot
+    - what's up, covid bot
+    - what's new, coronabot
+    - wakey wakey, cov bot
+    - doctor corona, انتي there
+    - top o' the mornin' to ya, doc
+    - yo, corona bot, what's up
+    - καλο day, corona doc
+    - hello, doc
+    - เธอ do, doctor hur do
+    - going corona doc bao is it
+    - how did you sleep mr. covid
+    - gonna do today dr. covid what are you
+    - morning doc
+    - hi covid doc
+    - hello
+    - hey corona dottore
+    - what's new covid 醫生
+    - are تجھے di sana arzt
+    - corona doc how's dina 一日 πηγαίνοντας
+    - hello, hello doc
+    - good morning, डॉक्टर corona
+    - wake up, corona doc
+    - hi, corona
+    - gidiyor how's it
+    - how are تو doctor
+    - good morning, dr
+    - hi covid
+    - 19 doctor
+    - doing, doc zein sono you
+    - what's new, doc
+    - hey, yo, quoi up bot
+    - 良い morning doc
+    - ヘイ doc, what's นิว
+    - hey doc, you there
+    - gerçekleşiyor bot, what's
+    - hey bot
+    - rise и λάμψει mr. корона
+    - baik evening
+    - what's up
+    - hi coronavirus dottore
+    - how's it going
+    - vormittag doctor
+    - الو covid بوت
+    - hey doc
+    - hey, what's up
+    - hello doc, how's it висит
+    - baik morning, covid bot
+    - what's la word, covid بوت
+    - đỉnh of the morning to you, bot covid
+    - الصباح
+    - hi док บ็อต
+    - ヘイ covid bot
+    - covid doc going how's it
+    - afternoon, док
+    - hello doc бот
+    - hey hey, bot doc
+
+- intent: how_does_corona_spread
+  examples: |
+    - spread how does the virus
+    - その他 people how hace coronavirus infect
+    - can i get μολυσμένη by touch a paziente
+    - transmit it to other people can ανθρωποι ith μάσκες
+    - float in air does the virus
+    - is covid-19 in το water
+    - it if کوئ sneezes on مجھے can i get
+    - tidak covid sahaja infect old people
+    - ايش are the yaygın vectors
+    - क्या is causing it to กระจาย
+    - get covid-19 vom insects μπορεί i
+    - ازاي लम्बी does the corona stay on my kids toys
+    - can i alın covid-19 from kanak-kanak sporco vestiti
+    - the コロナ from opening my डाक get can i
+    - can میرے parrot get els κορόνα
+    - can my suge 獲取 covid-19
+    - यहूद less mottaglig to il corona is it true dogs
+    - is it true 植物 cant spread the corona virus
+    - get sick with covid through food can i
+    - spread kann ticks coronavirus
+    - اسے does coronavirus ملنا transmitted
+    - spread in public how is coronavirus
+    - gì is les most common way covid is sprid
+    - does the coronavirus スプレッド through 空気
+    - how fast может people get infected if มี is a コミュニティ yay
+    - give can tu me आदि 情報 on atmung transmission
+    - can my dog احضر infected with covid
+    - is person-to-person contact the main ڈول of covid transmissions
+    - スプレッド coronavirus can asymptomatic लोग
+    - is it possibles to para me to get covid and verteilen it to altres without knowing nhiễm với
+    - can i coronavirus if i'm bầu กระจาย
+    - spread coronavirus if onlar don't have symptoms can someone
+    - kontserbatu covid spread if someone فقط lindriga симптомы has
+    - is covid más likely to انتشر in نم weather
+    - me covid दे kan a mosquito bite
+    - can covid-19 スプレッド qua プール
+    - spread though kann the virus la sewarage system
+    - is corona وائرس spreadable through αέρας филтри and/or luft conditioning
+    - is corona virus airborne
+    - the sprida of covid-19 despacito can varm 気象
+    - spread -rako föda is the disease able to
+    - ہونا قادر to spread koroa virus are mosquitos and ticks
+    - cómo likely is covid-19 spreadable 通過 tap su
+    - a mask با help with sprida corona virus can i использование
+    - تلعب come do gloves a part bằng los covid-19 епидемия
+    - propagation from toucher tu глаза can de 疾病
+    - may i devamı information on airbone transmisión have
+    - take to help eliminate spreading of this virus what precautions سکنا i
+    - ลด will the 6 feet apart regel really help virus предаване
+    - nasil efectivos té masks varit с rallentamento xuống the spread of covid-19
+    - live in cao temperature temperaturen can covid-19 spread if 你
+    - difusió 如何 can alguien -a disease
+    - altro information on aerosol transmission have can i
+    - how does covid-19 spread so easily
+    - sprid इससे touchante someone infected only does corona virus
+    - ازاي can els covid-19 spread diminution in a large community
+    - spaces can covid-19 بکھیرنا by shared hidup
+    - travel in the udara делает it
+    - how can i get it
+    - carry the 19 do แมลงวัน
+    - nasıl does 19 propagation
+    - travel by olores does ال birus
+    - tersebar by kissing can the virus be
+    - spreading jadi snabb why is hau virus
+    - travel как hace the virus
+    - den 19 by استخدام publique garraio aconsegueix can i
+    - de вируси carry do fruit-flies
+    - is 6ft apart 実効 to stop разпространява les virus
+    - travel in alimento fa the disease
+    - how does the virus keep ausbreitung
+    - spreading 生長 is the вирус
+    - should i a маску wear
+    - spreading wieso is the virus
+    - difusió does the virus slower beacuse of هيت
+    - do bees на 病毒 carry
+    - pueden a marieta els virus carry
+    - reaching to my house how is le ιό
+    - how is the virus traveling
+    - du by ondoko door knobs can the birus
+    - can the 19 be กระจาย faster
+    - is de viren in the air
+
+- intent: latest_numbers
+  examples: |
+    - what's the últimes statistik
+    - what do the numeri نظرة وش now
+    - infected come many άνθρωποι have been
+    - how سيء is the situation in nuevos york
+    - اسے many people have died perché of covid
+    - how many people coronavirus killed has
+    - what do το pandemic numbers look 讚
+    - whta's la latest data
+    - apa are els newest figures
+    - how is it like in california giờ
+    - как many cases are orada in the world
+    - how många corona ウイルス cases are there глобално now
+    - what's the latetest stats on covid19
+    - what's на statistiken on corona in mới york now
+    - what's the case गणना in nou york
+    - how many gent mempunyai died from covid19 in the u.s. уже
+    - how many fällen пер 100k people in california
+    - what's το смерть cuenta in süden coréenne
+    - bao nhiều people умряла اليوم in the u.s
+    - hur many people chết yesterday in the u.s
+    - are there in california كيف vieles nouvelles cases
+    - what's the death count dalam 聖誕老人 clara comté
+    - mostra me the lastest estadísticas for chine
+    - popped up -etan singapur πως many حادس casos
+    - tell me the lastest stats in テキサス
+    - i'd 就像 to know how الكثيرون people have been tested beraz far for covid19 in the u.s
+    - πες me the σύνολο confirmed cases in yang tri-state area can тебя
+    - number of people 誰 получила nytt york testés in
+    - what's the страна with เดอะ most ตาย นับ
+    - tested in how många people have been the korea so بعيد
+    - quel are the 統計數字 in canada for covid
+    - ہن there عالميا today how 許多 hasiberri cas
+    - what are на stats in els uk for il coronavirus
+    - what is на средний umur of people drabbad in το us
+    - vad is la tasso of recovery for corona in avrupa
+    - how many people ہن california recovered in
+    - average sjukhuset occupancy with casi of corona
+    - què is le average 費用 of test for the virus
+    - access to testing for de вирус avoir how birçok hôpitaux
+    - nombor of vakalar in mexico
+    - death salneurri of coronavirus in the ہم
+    - average tuổi of death from the virus
+    - contaminés so پر nasil many ذاتی workers have been
+    - какие are the статистика on countries nạ wearing बनाम الدول هذا don't enforcing
+    - コロナ infiziert يوميا by bagaimana many personnes are
+    - how πολλοί ανθρωποι المجموع in the giới have recovered from la فيروس
+    - recuperats từ the virus bai many elderly people have
+    - what is bera средний レート of восстановления लिये хората between berbera ages of 20 और 40
+    - what is the projected số of deaths من la virüsten if we do नहीं socially distance
+    - what are la número of περιπτώσεις worldwide
+    - 編號 -ekiko случаи in north korea
+    - how many ทดสอบ are there in are available in the us
+    - defunció oranı in the united rike
+    - how कई deaths has covid-19 caused worldwide
+    - whats la تازہ numbers in california
+    - what is the ölüm rate in china
+    - vad is на recovery zinssatz in the kami
+    - the guérison rate in china whart is
+    - infected cases in colorado
+    - recovery tasso in san francisco
+    - recuperació rate in modesto
+    - كيف many personnes तहत the عمر of 18 हैं infected
+    - брой of recuperació قضايا in nouveaux york
+    - ہر دن ανάκτηση rate in the us
+    - the largest hit इससे covid preso какие ชาติพันธุ์ has
+    - infected วิธี nhiều people over the tuổi 40 has been
+    - infected since کوچ کرنا como कई orang have been
+    - azken आँकड़े on मामलों in africa
+    - total смерти from covid in αυστραλία
+    - guérison rate in chicago
+    - whar are the number of cases in china
+    - 番号 of cases in vietnam
+    - how 許多 active cases eso are critical condizione
+    - number of cases in avrupa
+    - died in der uk πώς کئ have
+    - quoi are the terkini numbers کا южен korea
+    - hur many cases हैं ahí in india
+    - cases in italy aintzakotzat hartu of recuperat
+
+- intent: myths
+  examples: |
+    - what are the myths about covid
+    - تہ کرنا news
+    - apa are the misconceptions
+    - what news should i không listen to
+    - redensart apa sono yang lies they sind
+    - qualsevol misinformation circa the virus
+    - sprida са la politicians कोई lies
+    - what should i not trust
+    - is this เรื่อง αληθές
+    - hur can i โทร на bs
+    - covid miti
+    - covid is worse than els редовно cúm is it a миф que
+    - corona on purpose did ellos spread
+    - popular coronavirus myths, please
+    - 神話 about covid, sisplau
+    - adalah the coronavirus engineered
+    - what sont einige popular covid myths
+    - pangolino 神話 covid
+    - is covid falsi
+    - tell me information on corona virus myths
+    - is it a मिथक that infants aren't ahuspez to getting corona
+    - is covid-19 a bioweapon
+    - obtenez me 最新 coronavirus 神話
+    - was covid lad-made to контролиране masses
+    - is social distancing ایک myth
+    - did تاج virus ела from a makmal
+    - get ทำ a tiger реально -a corona virus
+    - what is the most comunes myth of covid
+    - helps covid is it a myth that lavender
+    - dar me ข้อมูล on the weirdest covid myths
+    - what are myths about coronavirus
+    - is it a mitos that covid ہونا made up
+    - hau are the newest covid-19 myths
+    - อะไร är the върха five myths circa coronavirus
+    - แพร่ dalam cold climates is bera a myth dass coronavirus
+    - does 5g causa coronavirus
+    - qualunque νέο myths about covid-19
+    - gjorde دونالد trump fabricar coronavirus to eduki re-elected
+    - is it a myth that diffused oils can kur covid-19
+    - дайте me quelques conspiracy theories on coronavirus
+    - is it ال covid-19 transmited by water
+    - come from африка did το covid 19
+    - using myter about mask filtern
+    - is it a myth นั่น covid-19 can re-infect people
+    - is it verdadero itu drinking alcohol prevents coronavirus
+    - gargling соленое su to förhindrar the coronavirus
+    - myths about pets وال coronavirus
+    - myths about 住家 θεραπείες लिये covid-19
+    - शो a latest myths about coronavirus
+    - is it verdad αυτό hot bädern 殺 covid-19
+    - spread เดอะ virus ادا کرنا 動物
+    - coronavirus with heart болезнь myth
+    - is it a 神話 itu ibuprofin makes coronavirus worse
+    - कया are the most 最近 covid-19 myths
+    - covid 年紀 миф
+    - covid myths versus facts
+    - floating around hakkında covid what са quelques myths
+    - なぜ are there so بہت covid myths
+    - why are là lots of myths khoảng coronavirus on yang news
+    - nói nitaz some covid-19 myths это have lơn debunked
+    - is a myth that you can get coronavirus более than 一旦
+    - کہنا me เรื่อง the myths related to coronavirus
+    - са بالحقيقة true vilka мифы относно coronovirus
+    - is it a 神話 that covid 19 शुरू dalam china
+    - coronavirus mythen
+    - quelle covid mites ha been debunked
+    - is it true cela there's covid ٹیکا
+    - what are allgemein myths について corona
+    - is it a mito कि gargling salt su kills corona
+    - send me some myths about covid19
+
+- intent: news_and_press
+  examples: |
+    - what's the latest
+    - news
+    - کچھ обновления
+    - did anything большие happen nay
+    - کیا is los صحافة λέγοντας
+    - jakinarazi what did les president
+    - what are today's güncellemeler
+    - tell me den news
+    - what ny happened днеска
+    - дай enegana daily 更新
+    - is there any reliable news on corona
+    - can i il latest uppdateringar for covid in az get
+    - was in the اخر bào release kira-kira covid what
+    - coronavirus notícies atsegina_izan
+    - hiện all the news on corona dalam my kreis
+    - get lata i a news briefing について covid
+    - please show me aggiornamenti about los coronavirus in the us
+    - what ہن the aktuella desenvolupaments about corona worldwide
+    - what is the dernières covid noticias
+    - what izan la tin on corona вирус in my delstat
+    - what's the neueste on the pandemic in puerto rico
+    - how's ال ウイルス situation in italy now
+    - corona حُمہ noticias इससे bbc
+    - देखिए today's news on covid 19 i can
+    - can i see reports on infection rates
+    - send me news updates from the last hour
+    - what's les lastest nouveautés from italy
+    - any news on a ваксина
+    - today's coronavirus update, vänligen
+    - what is yang most recent นิว from spain
+    - are そこ any اقتسادی updates
+    - send me de latest новините from germany, please
+    - quin does bera cft về le economic crisis
+    - what does dem pressen сказать परिचय the vaccin development
+    - tell me the schönste news について la covid hemeretzi इलाज़ process
+    - any news about covid
+    - what's yang azkeneko on coronavirus فی dc
+    - covid-19 news from selatan südkorea
+    - obtener me today's press освобождения hakkında the virus
+    - please ارسال me the latest coronavirus новость
+    - show me the تازہ について covid-19 in mexico
+    - gì са the सबसे महत्वपूर्ण updates on कोरोनावाइरस in the world
+    - ส่ง me all news articles khoảng coronavirus in kaliforniya
+    - covid-19 updates
+    - updates لاجل my エリア
+    - новости on covid-19 đâu μπορεί i پانا
+    - coronavirus news subscription
+    - what's the most recent новина about covid-19
+    - yakınlardaki developments in my دارالخلافہ
+    - a tekan συνέδριο today will there be
+    - qué soinu the ที่สุด aktuelle coronavirus numbers
+    - gimme il daily corona uppdatering
+    - vad süre fera els press liberación be 今日
+    - what's nou med coronavirus in florida
+    - please cho me the latest updates pada covid-19
+    - coronavirus news -z españa 今日
+    - rilascia -n covid-19 this minggu gì are la chi press
+    - been cualquier updates on coronavirus इससे the cdc since cuối semaine have there
+    - corona updates, please
+    - covid-19 press releases
+    - me about covid-19 apa güncellemeler سکنا you give
+    - sono orda qualsevol recent covid-19 преса pressemitteilungen
+    - what's the most recent haber from αυστραλία
+    - show me yesterday's press release from trump
+    - what's the ultimi notizie on el situació in индия
+    - get saya novedades from my hometown
+    - what's la latest 新聞 เรื่อง covid
+    - any berri about the virus بیچ италии
+    - là there jedes news ungefär coronavirus in my area
+    - any updates on the corona situation トゥデイ
+    - can เธอ me -a latest updates in washington show
+    - updates سے italy
+    - most 最近 پیغام from юг κορέα
+    - covid 19 updates
+    - azkeneko on корона вируси
+    - current developments fromthe ποιος
+    - تحديثات any コロナ virus
+    - what did cuomo burutu regarding covid σήμερα
+    - what has who قالت about covid19
+    - any informazio about stay at home orders regarding covid 19
+
+- intent: okay_thanks
+  examples: |
+    - شکر för this doing
+    - this omg so glad seseorang built
+    - detta is fantastiska
+    - are پھر 實用 dig
+    - antzeman انتي πολύ much
+    - okay
+    - χμμ спасибо for los informazioa
+    - may боже bless you
+    - thnx bro
+    - ty
+    - thanks, i bera appreciate
+    - egundoko info, शुक्रिया doctor bot
+    - interesting, gracias
+    - thanks, bot
+    - thank zuek very much, corona doc
+    - okay thanks
+    - thank cac สำหรับ the information
+    - thanks doc
+    - alright thanks
+    - thanks -teko the помощ
+    - cool, thanks
+    - i appreciate it
+    - thank you for your ayuda
+    - thank ти दस्तावेज़
+    - thanks bot
+    - thanks for проверяем aixo up, 醫生 bot
+    - grateful लिये la feedback, covid док
+    - наистина سراہنا this, doctor
+    - gratitude, corona หมอ
+    - grazie a million, doctor
+    - the info, doc appreciate i
+    - thank انتي for твоят assistance
+    - thanks per de 幫助
+    - remercier ni cho ihr interest
+    - thank εσείς for all a помощь you've مجھ کو doc given
+    - be so gratefull to you mr covid i'll
+    - okay, thank you so much coronabot
+    - alright, thanks
+    - 学習 kira-kira covid-19 symptoms. thanks a bunch, док i just
+    - thank you doc for تعليم etwa หน้าตา màscares
+    - thanks เพื่อ all your aiuto
+    - tack so much doc
+    - i تعریف کرنا it, danken you
+    - ok, thanks a lot
+    - ขอบคุณ you for the giúp today
+    - appreciate i gerçekten anda per helping مجھ کو
+    - you're literally a زندگی saver, thanks doc
+    - remercier ви so so ماتش
+    - gracias เพื่อ το help, ドク
+    - that's esattamente what i needed to bil
+    - thanks bot
+    - thank you за all the information
+    - great, thanks a bunch
+    - gracias for the info, mediku
+    - okay, شكر covid ドク
+    - thank te so многое cho guzti το yardım
+    - thanks per the help, bot
+    - remercier you
+    - thank voi so much for den info
+    - много appreciated, บ็อต
+    - you're such a big help, doc
+    - thank you für condividere αυτο infos with me
+    - thanks for everything
+    - nhiều appreciated, corona bot
+    - この mit me sharing danke लिये
+    - thank you, doc
+    - gracias bot
+    - thanks for la 情報 doc
+    - thanks much, bot doc
+    - rightio, thank you covid doc
+    - thanks a bunch bot doc
+    - thanks for всем this, covid bot
+
+- intent: protect_yourself
+  examples: |
+    - stay safe hur могат i
+    - vad should i do to باز رکھنا
+    - προληπτική measures
+    - qué precautions should i tomar para covid
+    - 'm sợ welchen do i do
+    - protect my mafia วิธี can i
+    - i do my parents are old what do
+    - i don't wanna die
+    - what can i balio izan to 避免 getting gaixorik
+    - nasıl dovrebbe i själv protect
+    - how can i 自己 ab coronavirus protect
+    - راح wearing a 仮面 be đủ
+    - does regelmäßiger flu вакцину aiuto fight the virus
+    - what atsegin of mặt 口罩 helps
+    - does disinfecting clothes after grocery shopping help
+    - comment to avoid getting เดอะ virus
+    - my fresco groceries ควร i ニーズ kepada garbitu
+    - protect modi to myself from the ιό
+    - дезинфекции should i my grocery túi
+    - arriba precautions for the virus
+    - vitamins to vệ myself deberían i take
+    - inwiefern etkin are gloves
+    - должен bestelako възраст taldeka prendere verschieden prevention maßnahmen
+    - sind cloth मास्क lain efficient as surgical หน้ากาก
+    - pembersihan productos should i gunakan what
+    - tenint what measures should възрастни particuliers be
+    - prévenir my kids from getting the virus how do i
+    - how selalunya should i a cloth mask измиване
+    - devam safe from getting viren как do i
+    - превключване out my face mask how often چاہئے i
+    - negozio para produce at the grocery store how should i
+    - stand от lain people केसे far apart baldintzazko perpausetan i
+    - should i stop dinero using
+    - ควร i be my groceries wiping runter
+    - should i be パッケージ online sipariş
+    - devraient i my hands مع hot or cold water rửa
+    - do to schützen others from getting the virus ماذا can i
+    - i not get nola can coronavirus
+    - i not get sick इससे coronavirus come do
+    - how bainugela i остаться ασφαλές from covid-19
+    - aider me gelditu safe vad करेगी
+    - avoid πες me some ways to coronavirus
+    - tell me some tips to staying safe
+    - avoid covid-19 what sono некоторые passes to
+    - ป้องกัน какво الطرائق will help coronavirus
+    - avoiding covid-19 give me information to
+    - ปกป้อง شلون can i neure العائلة from covid-19
+    - اندر what caminos can we vệ ourselves سے coronavirus
+    - my children protect in what ways puede i
+    - stannar ασφαλή from covid-19 อะไร are some ways to
+    - face masks to prevent covid-19 wear should i
+    - help stop coronavirus will ръкавици
+    - уил ношение eldivenler مدد me 避ける covid-19
+    - does wearing handschuhe yardim me stay seguro from covid-19
+    - stand seis fot apart from others should i
+    - me lagundu will cotton facemasks
+    - behov obratu i a n95 マスク
+    - me 來自 the ไวรัส protect จะ hand sanitizers
+    - grande jendetsu llocs should i avoid
+    - do face masks помощ
+    - face masks wear do nens need to
+    - how can i protect contrari the virus
+    - wear do i 需求 to a face 面罩 فی promenade outdoors
+    - do плат face मुखौटा help the difusió предотвратить
+    - does drinking الماء réduire getting -a virus
+    - the ιός getting best tempat to αποφύγετε
+    - -tarrak virus getting best weise to prevent
+    - how can i حفاظت کرنا my 竇
+    - a face nạ do infants cần
+    - koruyun contrari เดอะ birus do कोई medications
+    - do i 需要 to clean all my groceries
+    - my trunk after going bakkal sắm wipe نیچے nên i
+    - sepatutnya i sanitize my वस्त्र след pergi fuori
+    - jewelry when shopping wearing should i เลี่ยง
+    - reuse my can i face topeng
+    - как can i my grandparents protect
+
+- intent: share
+  examples: |
+    - share this with जोकर
+    - send यह info to my friends
+    - partagez чат
+    - post to friends
+    - how do i tell oro about honen
+    - my خاندان kira-kira bu i'll tell
+    - send bu to الاهل
+    - part with mom
+    - broadcast this chat
+    - بهيجنا questo ra everyone
+    - please share ये service
+    - share a سلسلہ to this
+    - atsegina_izan send a link für هذه service
+    - 共享 hau service
+    - share the chat service, پلیز
+    - teilen -a link for detta
+    - share link
+    - compartició này bot can you
+    - ازاي can i share this servizio
+    - share service please
+    - share this bot on twitter
+    - link này to my profil
+    - share the world الصحة bot
+    - paylaşım bot to my feed
+    - teilen aquesta to friends
+    - condividi this ลิงค์
+    - حصہ this 記事
+    - αυτό mit my familia 如何 egin i akzio
+    - paylaş này линк with my contacts
+    - partagez le ποιος bot can tu
+    - joan on and forward this feature
+    - споделете how can i this länka
+    - send a रपट to diese link
+    - lien này 出版物 to my office
+    - condividere това information
+    - detta share how do i
+    - разделить link
+    - यह info i 欲しい to partekatu
+    - can तुम bahagian this please
+    - teile этот โพส now
+    - ارسال out this информиране
+    - forward το ニュース
+    - post this bot
+    - هذه услуга i want to پتی
+    - shareable enllaç
+    - how can i share εσυ with लोगों
+    - シェア i wanna this on instagram
+    - i'm gonna 這 service uppkopplad シェア
+    - حصة this 聊 let me
+    - シェア this връзка med my friends только
+    - share това on my story
+    - hantar یہی to my spouse
+    - post this با my timeline
+    - share this service ذریعہ tutte my followers
+    - això link with my خاندان share i wanna
+    - share this, please
+    - يمكن i share này on my facebook
+    - حصہ دار بنائیں this, snälla espectacle me how i سکنا
+    - bahagian सूचना etwa this service
+    - please comparte this on my page
+    - condividere this info over текста
+    - share on my sozial media
+    - can i share this link
+    - espectáculo me วิธี to дял this to my خاندان
+    - partagez este i'd like to
+    - this informació paylaşım komun i
+    - share 這 with my friends, please
+    - حصہ دار بنائیں the link bằng my семейството
+    - how do ni share this link
+    - share esto on my page i چاہنا to
+    - share αυτο länka to my ट्वीटर followers
+    - 這個 gutxi my contact liste how do i share رابط
+    - 共用 này تعلق پیدہ کرنا kepada non ईमानवालों
+    - send この article to my parents
+    - share verlinken with amiche on facebook
+    - condividere la article
+    - is sharing allowed
+    - share ดิส ربط on facebook
+    - share this con a facebook όμιλος
+    - compartir यह связать with mom
+    - this on my website share can i
+    - как portatu i this with reddit share
+
+- intent: travel
+  examples: |
+    - is it safe to travel now
+    - can i the bus to نوکری take
+    - should i cancel my vacation
+    - อะไร is essential travel
+    - can i take uber
+    - take is it ok if i the train
+    - travel domestically can i
+    - should i cancel my flight
+    - สามารถ we bewegt around serbestçe ora
+    - seyahat advice
+    - get through les biên to mexico can i
+    - is traveling by 自動車 safe
+    - делает crociera count as non-essential du
+    - peux i travel to go camping
+    - go با hawaii i wanna знать if i kannst still
+    - mouches to see my hijo across -a country can i
+    - is it safe to voyages on a train
+    - ανάγκη du advice
+    - can i still سفر to europe
+    - is ia safe to travel by बस
+    - 公開 transport should i stop using
+    - کاروائ in франция is -a tunnelbana still
+    - воля i be ok if i fly to neu york in la summer
+    - travel tips during der pandemi
+    - viaggio от the us right والان ezin izan i
+    - is it an to go di luar negara this ล้ม
+    - cancelled in hiri are the buses
+    - is crossing estatu lines allowed
+    - be in effect how long with سفر کرنا bans
+    - considered what is สำคัญ travel
+    - is it safe to travel by your own car
+    - is it segura to سفر کرنا out of the país
+    - my parents in california ขวา now can i ziyaret
+    - i مانگنا to know jika i can take a トリップ to la mountains
+    - ไดร์ฟ across state lines can i
+    - is it selamat to conduire to cleveland
+    - سفر by train advice for
+    - hủy हैं airport 公車 hizmet
+    - visit can i greece within ال sonraki year and menjadi okay
+    - is it vale to commute across state 線條
+    - ne is the safest mode of travel
+    - do i 需求 to a mask on hori метро ride wear
+    - welchen är the best precautions arren resande
+    - quelle are the least safe places to viatges right now
+    - an airplane on may เดอะ 15th سکنا i вземете
+    - can i go to ny after de карантина
+    - closed eftersom of covid 19 is -ak مكسيكي border
+    - operating these days is وہاں any flygbolaget
+    - can you me some travel انتباہ มอบ
+    - are taxis considered unsafe
+    - is it سالم to du right الان
+    - what's the safest transport right now
+    - are there any safe destinations
+    - какво són на safety measures за a domestic travel
+    - is it सुरक्षित to travel with kids
+    - ہے it ασφαλέστερα to travel on plane or train
+    - توصية بی travelers τι does yang cdc
+    - do i behov to my luggage when travelling désinfecter
+    - tome domèstics uçuş can i todavia
+    - when уилл travel bans lift
+    - my summer trips planned should i keep
+    - considered gì is essenziali السفر
+    - поездки safely how do i
+    - leave my state am i allowed to
+    - помисли i have to abbrechen my trip to japan in august کرنا あなた
+    - может i ταξίδι ausgehen of my city
+    - is my trip to las vegas considered non-essential
+    - travel to canada right now can i
+    - running in europe are trains still
+    - take can i the μετρό to the store
+    - กำลัง domestic flights cancelled, ebenfalls
+    - should i all my επερχόμενη voli to -ka usa cancel
+    - can i поездки to europe правилно ara
+    - izan it selamat to ride a 腳踏車
+    - give me the best opciones för travel in dc
+    - adalah it güvenli kepada get on a vol
+    - is it ακόμα possibile to go to europe
+    - should i travel by macchina
+    - zer is рассмотрел non-essential travel
+    - is it okay to travel to аляска
+    - безопасное reise opcions
+    - can i ακόμα reisen by train
+    - travel via bus μπορεί i safely
+    - where can i جانا in เดอะ العالمي that's مامون
+    - my 目的地 wedding to italy dovrebbe i annule
+    - voyages to मैक्सिको via foot can i
+    - is compra bakkal an ursäkta to be εξω
+
+- intent: what_are_symptoms
+  examples: |
+    - what là the semptomlar
+    - have a fría should i be worried i
+    - a الحمى but a headache have i dont
+    - i've had a cold for a हफ्ते сейчас
+    - is coughing a signo of the virüsten
+    - i think i have ال грипп
+    - my throat is minbera do i have the virus
+    - is vomito a symptom
+    - what sono the rètols of the virus
+    - how do i рассказать if someone is infected
+    - is öksürük a علامات
+    - influensa are the symptoms similar to имея
+    - how will i जानिये if i مالک ہونا covid-19
+    - boleh du please me der อาการ of coronavirus tell
+    - does эти symptoms lepas اسے long
+    - symptoms τι should i do mostra if i
+    - should i worry if i đã a ezegonkor sudur
+    - debería i self-isolate یدی i symptoms दिखाएँ
+    - все the símptomes can you list
+    - symptoms what is the protokolls if i show
+    - απαλλαγούμε of my husten how can i
+    - is tossire a sintoma
+    - is an upset stomach a vẽ of covid19
+    - tell if i've tenía coronva بس πώς can i
+    - is a febbre a symptom
+    - ne símptomes should we ρολόι for
+    - elenco όλες of ال κορόνα فيروس symptoms
+    - corona virus has how to tell if a família member
+    - what symptoms adalah there
+    - what являются some differences betweens covid19 dan ال common студ
+    - differences between allergies and covid19
+    - tell me all of the लक्षण of covid19
+    - looking out για to گانا if someone has it what должны i be
+    - ہے a runny nose a semptom
+    - pnumonia orsaka สา corona virus
+    - what symptoms са most biasa
+    - erran me about dem भिन्न symptômes of corona virus
+    - welche sont некоторые early symptoms
+    - is izaki a vitamin of taste a symptom
+    - is a cefalea one of the síntomas
+    - breathe is having a duro heure با a symptom
+    - is a signe of كورونا a lack of breath izaki
+    - do i allergies ala covid-19 han
+    - is coughing a symptom of на corona viren erkrankung
+    - was are कुछ sag tale signes -etatik covid-19
+    - aches a symptom of 日冕 are muskel
+    - ikusi if i have it welchen are the main ways to
+    - tra to irakurri if i hanno на disease क्या должны i
+    - sind the συμπτώματα of covid-19 similar to allergies
+    - is coughing blood a symptom of ia
+    - is a fever a symptom of corona 病毒
+    - does corona viren ultimo วิธี long
+    - comment severe do the อาการ 得到
+    - help if i โชว์ πινακίδες of corona how llarg should i wait to conseguir
+    - what являются the main symptoms of the コロナ virus
+    - anlat if someone tiene corona how boleh ni
+    - có the corona what ہن на signs εσυ قد
+    - izan a runny nose a symptom of den covid-19
+    - ne are dem symptoms of yang कोरोनावाइरस disease
+    - is shortness of breath a symptom
+    - is pneumonia a symptom
+    - is headache a symptom of the coronavirus disease
+    - avoir i a secchi cough, does that mean i have la corona virus
+    - sebab does ال covid-19 diarrhoea
+    - nasali embouteillages hace the covid-19 cause
+    - been extra letih lately does that mean u have die corona i mempunyai
+    - is 頭痛 a símptoma of il coronavirus 病
+    - is pit dolor a sign i tinguin covid-19
+    - 気圧 in my papar does the corona verursachen
+    - does السعال up phlem mean i. habe the корона
+    - cause lack. of appetite does the corona
+    - i иметь a 發燒 fa that mean i have the corona
+
+- intent: what_are_treatment_options
+  examples: |
+    - do we a θεραπεία yet eragin
+    - qué are els treatment вариантов
+    - is там a vaccine for covid
+    - fix これ do hospitals know how فی
+    - come up with what have the doctors
+    - how can i get treated
+    - what medicine should i take for covid
+    - is coronavirus treatable
+    - do in this situation qué can the hospitales
+    - where should i go за medical khuyên
+    - تخطو covid سکنا i kullanmak essential oils to
+    - ezin izan medicine دارو корона
+    - izan هناك a vaccine yet icin เดอะ covid
+    - 自己 if i'm sakit with coronavirus quoi могат i do to treat
+    - is the paludismo दवाई امنة for behandlung of covid
+    - does coronavirus have a cure
+    - utilizar at 帰宅 to treat myself if i have corona کہ peux i
+    - the coronavirus 對待 is there a vaccine to
+    - does elderberry 汁 treat covid
+    - són there ใดๆ treatments -en ordez covid
+    - behandlung for corona
+    - covid лечить करता hydroxychloroquine
+    - covid ٹیکا
+    - can i a لقاح เพื่อ covid get
+    - what treatment ہے there با covid
+    - what are my covid treatment calçots
+    - what's the best دوائ دینا for covid-19
+    - how do хора get rid of yang कोरोनावाइरस
+    - is plazma donazioni good to treat coronavirus
+    - is tamiflu effective karsi covid
+    - uso hydroxycholroquine लिये ناول virus können i
+    - does quinine membantu with covid
+    - обработка covid 19
+    - latest behandlung بی sars cov 2
+    - best รักษา लिये the corona virut
+    - is there otc лекарство that воля помочь covid
+    - qué are the rawatan options cho covid
+    - what are doctors using for covid
+    - can i използване flu medicine to merawat covid
+    - are là any المعتمدة vaccines for covid-19
+    - gliederung the current covid-19 treatments, please
+    - does hydroxycholroquine work as a 治療 for на coronavirus
+    - vad does the cdc recommend to कोरोनावाइरस treat
+    - is เดอะ coronavirus curable
+    - what treatments are there for covid rechts ahora
+    - do to cure coronavirus what can i
+    - covid θεραπεία please
+    - is there a vaccine for coronavirus yet
+    - natural remedies واستے covid-19 side auswirkungen
+    - give me treatment opciones for covid-19
+    - cure for covid-19
+    - is there ایک covid-19 vaccine in the kerja-kerja
+    - qué are 一部 лечение options เพื่อ covid-19
+    - ہونا there a vaccine para covid-19
+    - är there any natural treatments for den coronavirus
+    - son efficaces against covid-19 ne medicines
+    - coronavirus infection is ビタミン c nützliche to prevent
+    - what's das トリートメント for a coronavirus 患者
+    - coronavirus if ni پکڑ جانا it cure how nahiko izan i
+    - is there اية вакцину için covid-19
+    - at-home remedies cho covid
+    - cdc covid-19 treatment συστάσεις
+    - مزاج کی ترشی to clean my throat can i use
+    - cosa могу i use instead
+    - is on เดอะ weise เดอะ covid 19 vacciine
+    - use can i it as قريبا as it wil be delivered
+    - ما là dem treatment options -en truke covid-19
+    - is eucaliptus a treatment 選項 लिये coronavirus
+    - what can i dùng as -a traitement per covid-19
+    - get can i a vaccine icin coronavirus
+    - kendim for coronavirus comment can i behandla
+    - is là a tedavi yet untuk covid-19
+    - treatment ต่อ covid-19
+    - show me سلوک opzioni за il فيروس
+    - does hydroxychloroquine corona harrera ona egin
+    - if i nghĩ i have covid should i go to the hospital
+    - วิธี can i lindern covid symptoms
+    - как to تعامل covid at rumah
+    - is พร้อม come birçok более شهورا fino a ٹیکا
+    - where is a covid-19 vaccini وجود developed
+    - como हैं covid pazienti traitées in -a ospedale
+    - will essential oils combattimento coronavirus
+    - what are my treatment варианты per covid 19
+    - ایک remède for coronavirus ha do mana-mana countries
+    - will eating altro फल cure coronavirus
+    - is there a vaccine against coronavirus
+    - will heat therapy treat coronavirus
+    - 如何 کو meredakan coronavirus symptome
+    - covid 19 do nsaids treat
+    - how to get обработени cho corona virus
+    - covid 19 cures
+    - सर्वश्रेष्ठ sendaketa for corona فيروس öksürük
+
+- intent: what_if_i_visited_high_risk_area
+  examples: |
+    - i traveled to new йорк recently am i infected
+    - my flight de japan hadde someone test positive should i be oroade
+    - went to the hospital без a mask what should i do i
+    - do if i went kepada china what deberían i
+    - been to a lot of инфектирани places will i पाएँ the coronavirus i've
+    - كيف do i اعرف if iam in a высокий risk област
+    - κίνδυνος alanı is là a specific numero daripada cases that define 高
+    - how to 保護 myself in high risk áreas
+    - melindungi ourselves from virus in family how do we
+    - will self cuarentena ayuda if i have come back 從 a high リスク المنطقة
+    - tested after visiting a high ρίσκο رقبہ should i मिलेंगी
+    - i live dalam a elevato gefahr area อะไร are the chances i have contracted or am a transportista of 疾病
+    - what are els 高 risk areas nearby
+    - दिखाओ me локално علوی リスク areas
+    - what are höga arriskatu 地區 for coronavirus
+    - cosa is the nearest high جھونک دینا area to me
+    - list उच्च risk areas for covid-19
+    - क्या locations are نظر -ean high risk for coronavirus
+    - areas are at most risk entzat coronavirus اندلاع what
+    - what do i do if i have to visit a high riski area
+    - il 最高 coronavirus outbreaks رکھنا which états
+    - can i perjalanan to ve from a hohe liều fläche بی coronavirus
+    - what policies са in स्थान for high المخاطرة areas
+    - am i in a high riskera 領域 для covid-19
+    - what qualifies as a high 風險 علاقہ for coronavirus
+    - bilin if i have traveled tik a puntu goren риск alanı inwiefern do i
+    - coronavirus вспышка which страны are most affected by
+    - what çeşitleri of businesses are considered ऊँची risc
+    - قابو میں رکھنا to work in a high risc зона during coronavirus ausbruch what if i
+    - dovrebbero i self-quarantine in a hög arrisku coronavirus area nola
+    - kommen in связаться with norbait at els 雜貨 магазин what if i have
+    - apa зони har the quarantine restrictions in chỗ for covid-19
+    - flyg خلال coronavirus outbreak can i
+    - voyage 外 the birlik estats right now can i
+    - วิธี do i find out current quarantine restrictions لاجل my πολη
+    - जान if i have ziyaret a مرتفع risk έκταση hur do i
+    - do if i visitados a high risc منطقة อะไร چاہئے i
+    - are वहीँ любую насоки i μπορεί segueixi if ni visitada a високи risk area
+    - qué should my mom do since she works at les hospitales
+    - healthcare what should workers ہونا faisant
+    - myself if i keperluan کو go afuera for essentials vệ ازاي do i
+    - is there a list of items i چاہئے 摩耗 if i am going somewhere
+    - kendim کب entering a hisk خطرہ àmbit què are the stufen to حماية
+    - should i be beunruhigt about my girlfriend coming مکان से the hospital
+    - должен i be asustado since i was around a partie en people
+    - کن ort vicino is the υψηλότερη risiken
+    - какая shoud essential workers do to vệ people in انکا household
+    - ค้นหา a list of high risk ülkeleri on can i
+    - follow for gente kimler επισκέφτηκε 高 risk areas are là steps to
+    - follow when i need to leave my house is هناك a protokol to
+    - apa estat in the متحدة estados is at la tertinggi risk
+    - is anses a high risiko area public 運輸
+    - i απλώς посетили a high riski area, 應該 i get tested
+    - is وہاں a list of защищен gear i besoin -tean ухожу my house
+    - rend a place considered high liều какой
+    - is a tempat with hamarreko or more people considerato a علی risk eskualde
+    - considered high risiken áreas are spiagge
+    - is it 平安 -raino المشي around wuhan now
+    - is it ok to visiter a hospital 這 settimana
+    - i live κοντά the beach. sollte i ہونا kaygılı
+    - da it safe to go grocery shopping
+    - is munich germany also on lockdown
+    - vilket สภาพ has il second highest risk
+    - do ハイ risiko areas their собствени protokollet have
+    - portzelana still is considered a cao risk country
+    - evitan should i those who recently came esquena from international поездки
+    - is the company building i çalış at anses a high リスク area
+    - защитить myself in high rischi områden how do i
+    - υψηλός risc are officially is there a llista of paesi that
+    - am i in ایک high risk area
+    - which countries are masih ada in a 全国 abschalten
+    - i do if i vive with essential employees what do
+
+- intent: what_is_corona
+  examples: |
+    - τι is coronavirus
+    - what is covid 19
+    - want to biliyor about the вирусы i
+    - tell can you me about the virus
+    - where does the virus gel من
+    - how does the virus çalış
+    - qué ہ a virus
+    - is coronavirus like -ka cúm
+    - is coronavirus perillosos
+    - tldr of coronavirus
+    - is covid 19 cosa
+    - more details on covid 19 please
+    - där did the covid-19 đến from
+    - welche is the вирусы
+    - me advice परिचय covid-19 give can you
+    - ماذا is -a latest data. on the किरीट
+    - what is the science behind virus protecció
+    - me سبب covid teach can you
+    - eğitmek me ungefär corona
+    - what is la внутрь story عن the virus
+    - какво kind of guidance can toi me on covid-19 donar
+    - can you me a взаимопонимание of covid give
+    - какво 知能 do เจ้า have on la virus
+    - give me a report on corona
+    - what is the นิยาม of yang viren
+    - give me the latest laburpen on covid-19
+    - give me a сводка on corona
+    - vad adalah the narrative on the virüs
+    - give me den gerçekleri bat covid-19
+    - argitu me about ال virus
+    - educate me on covid-19
+    - is δώστε ma breakdown of what yang virus
+    - what is the истории of covid-10
+    - qué خبر do you har on 日冕
+    - give me 更 info on covid-19
+    - может i informacion on the किरीट virus udire updated
+    - i wanna सुन περισσότερα khoảng the pandemic
+    - give me a allmänt обновяване on the corona virus
+    - racconta me about corona virus
+    - what can you me about the الحالي パンデミック tell
+    - πιο infomation about corona virus, please
+    - can i entendez an actualización on the pandemic
+    - esan me अधिक about covid-19
+    - tell me kira-kira corona virus
+    - tell me more πληροφορίες on corona
+    - δώσε میں an eguneratu on the pandemic
+    - giv me an kemas kini on covid-19
+    - me cosa covid-19 is tell can you
+    - what kind -dun enfermedad is covid-19
+    - दे me a definition of corona virüs
+    - berikan me a summary on corona virus
+    - tell me परिचय covid-19
+    - please give еще info on covid-19
+    - want to udire относно argi-koroa virus i
+    - tell me yaklaşık covid-19, lütfen
+    - may i περισσότερο information on covid have
+    - elaborate on yang コロナ can you
+    - gì should i know circa covid
+    - sila elaborate on the corona
+    - ne is dort to know acerca the corona virus
+    - is orada thêm xehetasun about το corona virus
+    - is there 更 we can läs about covid-19
+    - learn about las corona virus what else can i
+    - what другой information must i learn about covid
+    - get май i gehiago details on the corona
+    - what is it kira-kira los corona virus we nên mantieni in รังเกียจ
+    - boleh вы share more information about corona
+    - 介護 to açıklayın explicit विवरण on corona
+    - anything else i should verstehe about covid
+    - details on corona i'd như to encounter anymore
+    - is there an очертае on details regarding covid
+    - corona virus, what adalah it
+    - davantage λεπτομέρειες that relate to corona virus
+    - may i know areago on the corona virus
+    - weiteres information on coronavirus otu
+    - where did corona virüs khởi
+    - is dangerous about covid-19 what
+    - can تم me on αυτο ウイルス educate
+    - come ทำ αυτοί come up กับ 名字 entzat the virus
+    - what informazioa können आपको me عطیہ دینا
+    - cualquiera baru informations pada coronavirus
+    - تحديث me on any yeni informations за covid-19 سکنا 你
+
+- intent: can_i_get_from_feces_animal_pets
+  examples: |
+    - get can i το viren de dogs
+    - ем kött 應該 i σταμάτα
+    - transmit via pets fa the virus
+    - it from animals can i alın
+    - spread через 糞便 can the virus
+    - do i need to worry hakkında wild life gustar birds, squirrels? can ihnen spread virus too
+    - devrais i manger uncooked لحم like sushi without coronavirus antsia
+    - adalah на coronavirus المرض zoonotic
+    - can pets yay covid-19
+    - the coronavirus carry μπορεί animals
+    - why coronavirus some animals, مگر not khác affects
+    - tested за coronavirus should pets be
+    - can fish sowie aquarium воду spread yang virüsten to خلق
+    - coronavirus carriers be سکنا insects
+    - coronavirus spread can mosquitoes
+    - can houseflies 傳播 covid-19
+    - how to protégez your pets จาก covid-19
+    - which pet the most at risker for das coronavirus disease is
+    - bagaimana can i बताना if my pet الحصول malade from coronavirus
+    - should i my коте too quarantine
+    - a face mascarilla when in publico should my ペット wear
+    - take my pet's ivermectin to prevent or 對待 my covid-19 infection can i
+    - what animal did covid-19 originate سے
+    - mutate над time into souches per dogs or cats konnte το coronavirus
+    - is εκεί edozer evidence that ペット other than dogs and cats could menjadi susceptible
+    - the नमूने from my pets if میرا pets jabe izan covid-19 徴候 who muốn جمع کرنا
+    - do if i σκέψου my animal ha the нова strain of coronavirus what desira adierazteko i
+    - can a pet's फर yang virus att causas covid-19 tràn
+    - ni AM helping someone yang is 病気 by walking their dog. bagaimana do i stay درست
+    - get can i تاج ウイルス from mangiare beef
+    - 獲取 can my dog the вирус
+    - море yemekler can i get corona eat if ni
+    - делает корона virus transmita from birds
+    - تاج virus จาก mosquitos puede i รับ
+    - catch เดอะ virus are my birds at risk to
+    - should i be worried circa my पालतू catching covid 19
+    - hur does corona my pets etki
+    - วิธี ezin izan ni расскажите if my cat has corona
+    - pet a cat สา i 獲得 covid 19 if i
+    - bites me can i get covid 19 if bat пес
+    - the virus from 食 pork get can ni
+    - does corona زہر transmetre from pets to humans
+    - ال virus can hönor carry
+    - do i ニーズ to worry about my หมาก obtenir корона
+    - worry about petting animals and getting the virus deberia i
+    - get covid 19 tik mice can i
+    - किरीट what animals bär
+    - tested позитивная من corona ha कोई hayvanlar
+    - getting sick and transmitting it to a human is มี any informazione -tik an animal
+    - can a dog contrato το virus
+    - coronavirus from a guinea pig contract can i
+    - how safe is it to posséder a pet ค้างคาว
+    - do cat scratches contain το virus
+    - how an are 貓咪 укусы during the pandémique
+    - can chicken vú contain the rona
+    - getting covid από eating μπριζόλες are there någon ケース of
+    - xin tell me my fish are säker from the covid-19
+    - what types of animals can spread the virus
+    - 獲得 the virus från my pet can my بنت
+    - are baby animals etkilenen more
+    - the ไวรัส are mar animals المتعاقدة
+    - can a bird ทดสอบ 積極
+    - φροντίδα per a cat ότι has contracted the virus как سکنا i
+    - den virus فی neure kids يم the blood of an infected animal spread
+    - does fågeln feces chứa the вируси
+    - kan mites the disease to rats tersebar
+    - get can a ตาย skunk on the سر راہ a hungry coyote ill
+    - how many arten of marsupiales có been infected
+    - is there a limit to how many animals могат be the rona behandelte за
+    - can humains contract coronavirus from an aimal
+    - does the coronavirus σκυλιά affect
+    - catch the 日冕 virus adalah my animals at arrisku to
+    - spread boleh pets covid19
+    - जानवर कैसे करता la سمیہ affect
+    - کرنا i need to 心配 關於 my pets during the вируси
+    - บอก if میرے пес đã ال virus 如何 boleh i
+    - are там любой symptoms for animales that the birus have
+    - give مجھ information about the virus and 動物
+    - get fera i the birus от eating گوشت
+
+- intent: can_i_get_from_packages_surfaces
+  examples: |
+    - menghantar can amazon packages the virus
+    - is it safe to मिलेंगी food delivered
+    - propre how often should i my стол
+    - get covid-19 by συγκινητικό my アイズ can ni
+    - infected if i touch something a patient έχει used سوف i получите
+    - can i get covid19 from mail entregas
+    - be inquiété واقع ہونا getting ال virus dari डिलीवरी पैकेज should i
+    - วิธี طويلة does the virus hidup on surfaces
+    - me il حُمہ eman 將 withdrawing cash from an atm
+    - can coronavirus live on the exterior of my face maske
+    - can covid19 live on 食物 items άγγιξε by an infectados persona
+    - can covid19 live on sachets from the store
+    - خذ за covid 19 to hinterlassen superfícies how lâu does it
+    - can covid 19 live پر voiture surfaces
+    - can i the virus von my телефона azal get
+    - گھیرے میں رکھنا covid19 can electonic सतहों
+    - stays on surfaces what is -ak 金額 of وقت ال corona virüs
+    - can เดอะ virus bizi on wood items
+    - utilitzant public should i be hand rails without gloves
+    - be on doors can der virus
+    - what is the timeframe for covid19 to romanen actiu on surfaces
+    - viva länge on cardboard делает covid-19
+    - can coronavirus door handles get lanean
+    - 獲得 coronavirus from tocar tangan rails will i
+    - does els विषाणु สด پر mail kaxa
+    - will covid-19 stick to my γάντια
+    - get कोरोनावाइरस from borrowing clothes can tu
+    - the virus จาก utiliser kunststoff bags from safeway skaffa can i
+    - can coronavirus get on my toilet paper
+    - propagation on my tv απομακρυσμένα can the virus
+    - get covid от my groceries will i
+    - должны i すべて my shopping измиване
+    - get covid от opening a sampah can kann تم
+    - will كورونا die fast on metalli
+    - can the virus live on my الهاتف
+    - my table every day should i disinfect
+    - can covid жив طويلا on trees
+    - am i safe to handle 塑膠 seyler
+    - touch what's на worst thing to
+    - dies on whats the best material covid-19
+    - bao long adalah covid-19 aktiv با superfici
+    - คือ allà yüzeyleri covid-19 cant يعيش on
+    - does covid-19 go away after some time
+    - vivre on is वहीँ タイプ of 素材 it cant
+    - stay on a permukaan هذا isnt touched hur long does it
+    - does mà santizer kill il вирус on パッケージ
+    - does covid-19 attach itself to the stadtmauern
+    - does covid-19 stay on books
+    - does covid-19 stay on gaming systèmes
+    - is سالم from covid-19 what επιφάνεια
+    - does covid-19 seep into the walls
+    - attach kontra does covid-19 hanno a surface it cant
+    - does covid-19 附上 onto fruit
+    - is it सुरक्षित to 利用 glassware
+    - is touching hand rails safe
+    - my mailbox do i need to clean
+    - can bleach مارنا the ιού
+    - the virus kill μπορεί alkollü
+    - which surfaces are gerta daitekeen to have virus
+    - viruset for la 最長 время gì superficie gurari มี
+    - survive on verschiedenen surfaces how does -ka 病毒
+    - stay on surfaces как long coronavirus
+    - obtenir malalt by touching a surface with вирусы kannst anh
+    - does bera stay aktive on surfaces
+    - sementara staying on surfaces does covid become stronger
+    - which surface da most likely to ukan virus за den längst 時間
+    - does вирусы thrive in water
+    - how to clean the groceries
+    - can cloth mask be a carrier of virus
+    - do you nécessité to dilute ब्लीच to clean
+    - is vinegar प्रभावी in cleaning plastics
+    - как to clean consegna packages
+    - how effective is καθάρισμα با alkohol

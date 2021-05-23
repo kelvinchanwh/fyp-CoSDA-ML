@@ -1,0 +1,175 @@
+{
+  "myths": {
+    "precision": 0.6153846153846154,
+    "recall": 0.8421052631578947,
+    "f1-score": 0.7111111111111111,
+    "support": 19,
+    "confused_with": {
+      "what_are_symptoms": 1,
+      "how_does_corona_spread": 1
+    }
+  },
+  "share": {
+    "precision": 0.8947368421052632,
+    "recall": 0.7083333333333334,
+    "f1-score": 0.7906976744186046,
+    "support": 24,
+    "confused_with": {
+      "what_is_corona": 1,
+      "what_if_i_visited_high_risk_area": 1
+    }
+  },
+  "okay_thanks": {
+    "precision": 0.85,
+    "recall": 0.8947368421052632,
+    "f1-score": 0.8717948717948718,
+    "support": 19,
+    "confused_with": {
+      "share": 1,
+      "hi": 1
+    }
+  },
+  "what_is_corona": {
+    "precision": 0.4782608695652174,
+    "recall": 0.55,
+    "f1-score": 0.5116279069767442,
+    "support": 20,
+    "confused_with": {
+      "how_does_corona_spread": 5,
+      "what_are_symptoms": 1
+    }
+  },
+  "can_i_get_from_packages_surfaces": {
+    "precision": 0.4,
+    "recall": 0.38095238095238093,
+    "f1-score": 0.3902439024390244,
+    "support": 21,
+    "confused_with": {
+      "can_i_get_from_feces_animal_pets": 5,
+      "what_if_i_visited_high_risk_area": 2
+    }
+  },
+  "donate": {
+    "precision": 0.9523809523809523,
+    "recall": 0.8695652173913043,
+    "f1-score": 0.909090909090909,
+    "support": 23,
+    "confused_with": {
+      "can_i_get_from_feces_animal_pets": 2,
+      "myths": 1
+    }
+  },
+  "how_does_corona_spread": {
+    "precision": 0.25806451612903225,
+    "recall": 0.34782608695652173,
+    "f1-score": 0.2962962962962963,
+    "support": 23,
+    "confused_with": {
+      "can_i_get_from_feces_animal_pets": 5,
+      "what_is_corona": 3
+    }
+  },
+  "protect_yourself": {
+    "precision": 0.3333333333333333,
+    "recall": 0.1875,
+    "f1-score": 0.24000000000000005,
+    "support": 16,
+    "confused_with": {
+      "what_if_i_visited_high_risk_area": 5,
+      "can_i_get_from_feces_animal_pets": 4
+    }
+  },
+  "hi": {
+    "precision": 0.7142857142857143,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.689655172413793,
+    "support": 15,
+    "confused_with": {
+      "okay_thanks": 3,
+      "what_are_treatment_options": 1
+    }
+  },
+  "news_and_press": {
+    "precision": 0.7142857142857143,
+    "recall": 0.3125,
+    "f1-score": 0.43478260869565216,
+    "support": 16,
+    "confused_with": {
+      "latest_numbers": 5,
+      "how_does_corona_spread": 2
+    }
+  },
+  "what_are_symptoms": {
+    "precision": 0.631578947368421,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6,
+    "support": 21,
+    "confused_with": {
+      "what_is_corona": 3,
+      "can_i_get_from_feces_animal_pets": 2
+    }
+  },
+  "what_are_treatment_options": {
+    "precision": 0.7692307692307693,
+    "recall": 0.5263157894736842,
+    "f1-score": 0.625,
+    "support": 19,
+    "confused_with": {
+      "what_is_corona": 2,
+      "hi": 2
+    }
+  },
+  "travel": {
+    "precision": 1.0,
+    "recall": 0.5652173913043478,
+    "f1-score": 0.7222222222222222,
+    "support": 23,
+    "confused_with": {
+      "what_if_i_visited_high_risk_area": 2,
+      "protect_yourself": 2
+    }
+  },
+  "can_i_get_from_feces_animal_pets": {
+    "precision": 0.38095238095238093,
+    "recall": 0.7619047619047619,
+    "f1-score": 0.5079365079365079,
+    "support": 21,
+    "confused_with": {
+      "what_are_symptoms": 1,
+      "protect_yourself": 1
+    }
+  },
+  "latest_numbers": {
+    "precision": 0.5238095238095238,
+    "recall": 0.5238095238095238,
+    "f1-score": 0.5238095238095238,
+    "support": 21,
+    "confused_with": {
+      "how_does_corona_spread": 4,
+      "can_i_get_from_feces_animal_pets": 2
+    }
+  },
+  "what_if_i_visited_high_risk_area": {
+    "precision": 0.5555555555555556,
+    "recall": 0.625,
+    "f1-score": 0.5882352941176471,
+    "support": 24,
+    "confused_with": {
+      "how_does_corona_spread": 4,
+      "can_i_get_from_feces_animal_pets": 2
+    }
+  },
+  "accuracy": 0.5907692307692308,
+  "macro avg": {
+    "precision": 0.6294912333991558,
+    "recall": 0.5833663642802658,
+    "f1-score": 0.5882815000826818,
+    "support": 325
+  },
+  "weighted avg": {
+    "precision": 0.633260065813887,
+    "recall": 0.5907692307692308,
+    "f1-score": 0.5945086702703353,
+    "support": 325
+  }
+}

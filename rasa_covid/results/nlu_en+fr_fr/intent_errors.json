@@ -1,0 +1,1130 @@
+[
+  {
+    "text": "montre-moi les derniers chiffres du coronavirus",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.4552203118801117
+    }
+  },
+  {
+    "text": "nombre infect\u00e9s coronavirus france",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.6420645117759705
+    }
+  },
+  {
+    "text": "nouveaux cas coronavirus californie",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.5962716341018677
+    }
+  },
+  {
+    "text": "combien de cas en am\u00e9rique du nord",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.8073015809059143
+    }
+  },
+  {
+    "text": "taux d'infection covid-19",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.7460508346557617
+    }
+  },
+  {
+    "text": "combien de r\u00e9sidents en ephad atteints du covid-19",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.890153706073761
+    }
+  },
+  {
+    "text": "donne-moi le nombre de morts en espagne",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.43683692812919617
+    }
+  },
+  {
+    "text": "c'est quoi le taux de r\u00e9infections au covid-19",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.2922438383102417
+    }
+  },
+  {
+    "text": "combien de fois se laver les mains",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.4726450443267822
+    }
+  },
+  {
+    "text": "quels produits dois-je utiliser pour d\u00e9sinfecter les objets",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.8517201542854309
+    }
+  },
+  {
+    "text": "comment \u00e9viter de faire rentrer le coronvirus dans la maison",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.8156671524047852
+    }
+  },
+  {
+    "text": "protection contre le coronavirus",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.6668858528137207
+    }
+  },
+  {
+    "text": "est-on prot\u00e9g\u00e9 avec un masque",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.18551544845104218
+    }
+  },
+  {
+    "text": "le port du masque est obligatoire",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.40721118450164795
+    }
+  },
+  {
+    "text": "comment bien mettre un masque",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.757959246635437
+    }
+  },
+  {
+    "text": "distance de s\u00e9curit\u00e9",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.32251212000846863
+    }
+  },
+  {
+    "text": "\u00e9tapes pr\u00e9cises lavage des mains organisation mondiale de la sant\u00e9",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.7616995573043823
+    }
+  },
+  {
+    "text": "a quelle fr\u00e9quence faut-il changer son masque",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.8990921974182129
+    }
+  },
+  {
+    "text": "combien de fois par jour il faut se laver les mains",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.26516467332839966
+    }
+  },
+  {
+    "text": "quels types de masques",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.870644748210907
+    }
+  },
+  {
+    "text": "pr\u00e9cautions coronavirus au quotidien",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9619868993759155
+    }
+  },
+  {
+    "text": "mille mercis",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.9139524102210999
+    }
+  },
+  {
+    "text": "merci robot top",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9617772102355957
+    }
+  },
+  {
+    "text": "cimer",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.36528563499450684
+    }
+  },
+  {
+    "text": "merci toubib",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9993644952774048
+    }
+  },
+  {
+    "text": "tu g\u00e8res doc",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9991787672042847
+    }
+  },
+  {
+    "text": "merci m\u00e9decin pour ces infos",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.29076460003852844
+    }
+  },
+  {
+    "text": "eh ben, bravo",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.8193688988685608
+    }
+  },
+  {
+    "text": "peux-tu faire un ton pour l'association",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.9890323281288147
+    }
+  },
+  {
+    "text": "je veux faire un don en faveur de la lutte contre le covid-19",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4971928298473358
+    }
+  },
+  {
+    "text": "je veux envoyer de l'argent pour aider la lutte contre le covid-19 en france",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.597459614276886
+    }
+  },
+  {
+    "text": "comment mutent les coronavirus",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.6530619859695435
+    }
+  },
+  {
+    "text": "d\u00e9finition coronavirus",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.7966886758804321
+    }
+  },
+  {
+    "text": "origine coronavirus chine",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.842449426651001
+    }
+  },
+  {
+    "text": "peut-on attraper le coronavirus deux fois",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.40539464354515076
+    }
+  },
+  {
+    "text": "quand est apparu le covid-19",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.3888033330440521
+    }
+  },
+  {
+    "text": "est-on immunis\u00e9 contre le coronavirus apr\u00e8s s'en \u00eatre gu\u00e9ri",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.8848790526390076
+    }
+  },
+  {
+    "text": "tests r\u00e9alis\u00e9s sur le coronavirus",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.5520173907279968
+    }
+  },
+  {
+    "text": "qu'est-ce qu'un coronavirus",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.49811220169067383
+    }
+  },
+  {
+    "text": "derni\u00e8res nouvelles concernant le sars cov 2",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.9998941421508789
+    }
+  },
+  {
+    "text": "pourquoi le covid 19 est-il plus contagieux que les autres virus",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.8378065228462219
+    }
+  },
+  {
+    "text": "combien de jours apr\u00e8s la contagion par le virus les premiers signes apparaissent-ils",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.5449587106704712
+    }
+  },
+  {
+    "text": "le corona fait tousser",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "share",
+      "confidence": 0.35270556807518005
+    }
+  },
+  {
+    "text": "ai-je le coronavirus",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9994636178016663
+    }
+  },
+  {
+    "text": "comment savoir si j'ai attrap\u00e9 le coronavirus",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.6416963338851929
+    }
+  },
+  {
+    "text": "est-ce que le coronavirus donne mal \u00e0 la t\u00eate",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.5149896740913391
+    }
+  },
+  {
+    "text": "sympt\u00f4mes covid-19 personnes \u00e2g\u00e9es",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.7647536993026733
+    }
+  },
+  {
+    "text": "sensations corona",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.9954560995101929
+    }
+  },
+  {
+    "text": "perte go\u00fbt et odorat covid-19",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.8290908932685852
+    }
+  },
+  {
+    "text": "si je tousse \u00e7a veut dire que j'ai le coronavirus",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.3635485768318176
+    }
+  },
+  {
+    "text": "comment reconna\u00eetre si je suis malade",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.8251744508743286
+    }
+  },
+  {
+    "text": "coronavirus autodiagnostic",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.8198854923248291
+    }
+  },
+  {
+    "text": "caract\u00e9risques porteur asymptomatique",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.33083802461624146
+    }
+  },
+  {
+    "text": "est-ce que le virus se transmet par la selle",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.6703553795814514
+    }
+  },
+  {
+    "text": "le coronavirus est dans l\u2019air",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.827102541923523
+    }
+  },
+  {
+    "text": "comment les gens sont contamin\u00e9s",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.7814606428146362
+    }
+  },
+  {
+    "text": "infection covid personne \u00e0 personne",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5111643671989441
+    }
+  },
+  {
+    "text": "je suis enceinte, y a-t-il un risque pour le b\u00e9b\u00e9 si je suis contamin\u00e9e",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.7384465932846069
+    }
+  },
+  {
+    "text": "est-ce que les enfants propagent plus facilement le coronavirus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.5067918300628662
+    }
+  },
+  {
+    "text": "combien de personnes je risque de contaminer",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.33292001485824585
+    }
+  },
+  {
+    "text": "propagation virus surfaces",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5313571095466614
+    }
+  },
+  {
+    "text": "bisou sur la joue coronavirus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.7222054600715637
+    }
+  },
+  {
+    "text": "propagation covid-19 chez les enfants",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.6870623826980591
+    }
+  },
+  {
+    "text": "est-ce qu'on a du corona sur le visage",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.5043404698371887
+    }
+  },
+  {
+    "text": "les poign\u00e9es de porte ont-elles des traces",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9530040621757507
+    }
+  },
+  {
+    "text": "a quelle distance quelqu'un peut me contaminer",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.49575817584991455
+    }
+  },
+  {
+    "text": "transmettre le coronavirus en serrant la main",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.8868105411529541
+    }
+  },
+  {
+    "text": "sur quelle surface le virus survit-il le plus longtemps",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.9648443460464478
+    }
+  },
+  {
+    "text": "quels sont les risques de contamination",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.8826445937156677
+    }
+  },
+  {
+    "text": "le covid19 est-il sexuellement transmissible",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.6420709490776062
+    }
+  },
+  {
+    "text": "le coronavirus se propage-t-il via les billets d'argent",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.4154008626937866
+    }
+  },
+  {
+    "text": "quel esl le mode de propagation le plus \u00e0 craindre du coronavirus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.7237443923950195
+    }
+  },
+  {
+    "text": "le coronavirus se propage-t-il via le fum\u00e9e de cigarettes",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.7213128805160522
+    }
+  },
+  {
+    "text": "est-ce que les mouche c'est dangereux",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.4115794897079468
+    }
+  },
+  {
+    "text": "risque de contamination en mangeant de la viande crue",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.4596830904483795
+    }
+  },
+  {
+    "text": "est-ce que le virus peut se propager dans un zoo",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.9724476337432861
+    }
+  },
+  {
+    "text": "informations contamination animale coronavirus",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.7517889142036438
+    }
+  },
+  {
+    "text": "combien d\u2019heures \u00e7a survit sur le textile",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.5030938386917114
+    }
+  },
+  {
+    "text": "coronavirus cong\u00e9lateur",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.8888561725616455
+    }
+  },
+  {
+    "text": "transmission coronavirus interphone",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.4228919744491577
+    }
+  },
+  {
+    "text": "temps de survie virus clavier",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.2419375628232956
+    }
+  },
+  {
+    "text": "coronavirus sur le courrier",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.994072437286377
+    }
+  },
+  {
+    "text": "pourquoi dit-on que le cuivre est l'ennemie du covid 19",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.7841694355010986
+    }
+  },
+  {
+    "text": "quid du cuire",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9825829863548279
+    }
+  },
+  {
+    "text": "d\u00e9sinfecter les rues est-il efficace contre l'\u00e9pid\u00e9mie",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9625461101531982
+    }
+  },
+  {
+    "text": "risques de contaminations \u00e0 cause d'emballages",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.4966665804386139
+    }
+  },
+  {
+    "text": "dois-je porter des gants dans les transports en commun",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.8773307800292969
+    }
+  },
+  {
+    "text": "italie c'est risqu\u00e9 maintenant",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.3916856348514557
+    }
+  },
+  {
+    "text": "comment faire si on \u00e9tait dans un mauvais endroit",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.7169985175132751
+    }
+  },
+  {
+    "text": "que faire si j'ai \u00e9t\u00e9 en italie",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "share",
+      "confidence": 0.5326079726219177
+    }
+  },
+  {
+    "text": "pr\u00e9cautions pour les personnes immunod\u00e9prim\u00e9es dans un pays \u00e0 risque",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.3451133966445923
+    }
+  },
+  {
+    "text": "combien de temps m'isoler apr\u00e8s mon retour de l'italie",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9994558691978455
+    }
+  },
+  {
+    "text": "je rentre d'espagne , quelles sont les mesures de s\u00e9curit\u00e9",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6437994241714478
+    }
+  },
+  {
+    "text": "a mon retour de voyage, dois-je aller chez le m\u00e9decin",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9996888637542725
+    }
+  },
+  {
+    "text": "parac\u00e9tamol coronavirus",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.43894171714782715
+    }
+  },
+  {
+    "text": "citron et coronavirus",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.41499102115631104
+    }
+  },
+  {
+    "text": "quel r\u00e9gime alimentaire adopter si on tombe malade du corona",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.5797492861747742
+    }
+  },
+  {
+    "text": "que faire pour me soigner \u00e0 domicile",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6473629474639893
+    }
+  },
+  {
+    "text": "rem\u00e8de conseill\u00e9 coronavirus",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9857587218284607
+    }
+  },
+  {
+    "text": "chloroquine et l'hydroxychloroquine \u2013 quelle est la diff\u00e9rence",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.7056005597114563
+    }
+  },
+  {
+    "text": "liens entre covid19 et laboratoires p4",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5062528848648071
+    }
+  },
+  {
+    "text": "les enfants sont-ils tous des porteurs sains",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.5927050113677979
+    }
+  },
+  {
+    "text": "les derni\u00e8res rumeurs sur le coronavirus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.966647744178772
+    }
+  },
+  {
+    "text": "y a-t-il plus d'abandons d'animaux \u00e0 cause du coronavirus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.6222965121269226
+    }
+  },
+  {
+    "text": "le cannabis aide contre le corona",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.8832759261131287
+    }
+  },
+  {
+    "text": "laboratoire d\u2019origine du coronavirus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9947490096092224
+    }
+  },
+  {
+    "text": "tu me dis si les chinois ont cr\u00e9\u00e9 le virus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9794557094573975
+    }
+  },
+  {
+    "text": "la coca\u00efne c\u2019est un traitement",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9999679327011108
+    }
+  },
+  {
+    "text": "le covid-19 est une arme biologique cr\u00e9e dans un laboratoire chinois",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.5594943761825562
+    }
+  },
+  {
+    "text": "il est possible de d\u00e9loger le virus de la gorge vers la voie digestive gr\u00e2ces aux boissons chaudes avant qu'il p\u00e9n\u00e8tre dans les voies respiratoires : vrai ou faux",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9861903190612793
+    }
+  },
+  {
+    "text": "est-ce que corona virus est un complot",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.2985323965549469
+    }
+  },
+  {
+    "text": "voyage train dangereux canada coronavirus",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.7924061417579651
+    }
+  },
+  {
+    "text": "comment se d\u00e9placer \u00e0 l'\u00eele maurice coronavirus",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.30043914914131165
+    }
+  },
+  {
+    "text": "est-ce que je peux me rendre aux etats-unis",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.713694155216217
+    }
+  },
+  {
+    "text": "quels moyens de transport apr\u00e8s le confinement",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9011491537094116
+    }
+  },
+  {
+    "text": "le covoiturage est-il d\u00e9conseill\u00e9 pendant l'\u00e9pid\u00e9mie",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.7897557616233826
+    }
+  },
+  {
+    "text": "quels sont les pays qui vont fermer leurs fronti\u00e8res pendant l\u2019\u00e9t\u00e9",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.7743188738822937
+    }
+  },
+  {
+    "text": "est-ce que la sncf a annul\u00e9 des trains",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.29315048456192017
+    }
+  },
+  {
+    "text": "la conf\u00e9rence de presse quotidienne a-t-elle d\u00e9ja eu lieu",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.5130380988121033
+    }
+  },
+  {
+    "text": "nouvelles covid19 br\u00e9sil",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.7507581114768982
+    }
+  },
+  {
+    "text": "chine derni\u00e8res infos sur le covid 19",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9851962924003601
+    }
+  },
+  {
+    "text": "comment \u00e9volue la situation en espagne concernant l'\u00e9pid\u00e9mie de covid-19",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8663669228553772
+    }
+  },
+  {
+    "text": "le journal dit quoi du virus",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.5875615477561951
+    }
+  },
+  {
+    "text": "quelles sont les nouvelles en france sur le virus",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.8337250351905823
+    }
+  },
+  {
+    "text": "bilan du jour sur le coronavirus",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.5765905976295471
+    }
+  },
+  {
+    "text": "comment \u00e9volue la situation avec le corona",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.43431150913238525
+    }
+  },
+  {
+    "text": "tiens-moi au courant sur le covid 19",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9754226803779602
+    }
+  },
+  {
+    "text": "mises \u00e0 jours urgence sanitaire en france",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.7625951766967773
+    }
+  },
+  {
+    "text": "quelle est l\u2019\u00e9volution de la situation sanitaire en tunisie",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.7378745079040527
+    }
+  },
+  {
+    "text": "fais-toi conna\u00eetre des autres",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.6292654275894165
+    }
+  },
+  {
+    "text": "tu veux pas aller sur les r\u00e9seaux",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.4583038091659546
+    }
+  },
+  {
+    "text": "poste ce service sur mon mur",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6118761301040649
+    }
+  },
+  {
+    "text": "le lien du bot doit apparaitre sur mon mur",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.35292482376098633
+    }
+  },
+  {
+    "text": "bonjour corona info",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.5047777891159058
+    }
+  },
+  {
+    "text": "salut toi",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.9964395761489868
+    }
+  },
+  {
+    "text": "bonjour docteur, comment allez-vous",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.6398035883903503
+    }
+  },
+  {
+    "text": "tu vas bien mon alli\u00e9 corona",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.9944223761558533
+    }
+  },
+  {
+    "text": "r\u00e9veille-toi combattant du covid",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.5451136231422424
+    }
+  },
+  {
+    "text": "ouvre-toi mon g\u00e9nie du virus",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.21124787628650665
+    }
+  },
+  {
+    "text": "salut, \u00e7a va docteur anti-corona",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9971221089363098
+    }
+  },
+  {
+    "text": "bonjour mon expert covid-19",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.3899880051612854
+    }
+  }
+]

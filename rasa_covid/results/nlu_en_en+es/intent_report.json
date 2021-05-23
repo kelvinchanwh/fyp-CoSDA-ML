@@ -1,0 +1,167 @@
+{
+  "okay_thanks": {
+    "precision": 0.6363636363636364,
+    "recall": 1.0,
+    "f1-score": 0.7777777777777778,
+    "support": 7,
+    "confused_with": {}
+  },
+  "news_and_press": {
+    "precision": 0.7037037037037037,
+    "recall": 0.7307692307692307,
+    "f1-score": 0.7169811320754716,
+    "support": 26,
+    "confused_with": {
+      "latest_numbers": 3,
+      "what_is_corona": 1
+    }
+  },
+  "what_is_corona": {
+    "precision": 0.6190476190476191,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.7222222222222222,
+    "support": 15,
+    "confused_with": {
+      "share": 1,
+      "hi": 1
+    }
+  },
+  "travel": {
+    "precision": 0.71875,
+    "recall": 0.8846153846153846,
+    "f1-score": 0.7931034482758621,
+    "support": 26,
+    "confused_with": {
+      "can_i_get_from_packages_surfaces": 2,
+      "myths": 1
+    }
+  },
+  "latest_numbers": {
+    "precision": 0.7272727272727273,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6956521739130435,
+    "support": 24,
+    "confused_with": {
+      "travel": 2,
+      "can_i_get_from_packages_surfaces": 2
+    }
+  },
+  "can_i_get_from_packages_surfaces": {
+    "precision": 0.43243243243243246,
+    "recall": 0.64,
+    "f1-score": 0.5161290322580645,
+    "support": 25,
+    "confused_with": {
+      "protect_yourself": 4,
+      "what_are_symptoms": 1
+    }
+  },
+  "can_i_get_from_feces_animal_pets": {
+    "precision": 0.7857142857142857,
+    "recall": 0.5238095238095238,
+    "f1-score": 0.6285714285714286,
+    "support": 21,
+    "confused_with": {
+      "what_are_treatment_options": 2,
+      "what_are_symptoms": 1
+    }
+  },
+  "what_if_i_visited_high_risk_area": {
+    "precision": 0.8421052631578947,
+    "recall": 0.64,
+    "f1-score": 0.7272727272727272,
+    "support": 25,
+    "confused_with": {
+      "what_are_treatment_options": 2,
+      "travel": 2
+    }
+  },
+  "donate": {
+    "precision": 0.9047619047619048,
+    "recall": 0.95,
+    "f1-score": 0.9268292682926829,
+    "support": 20,
+    "confused_with": {
+      "what_if_i_visited_high_risk_area": 1
+    }
+  },
+  "protect_yourself": {
+    "precision": 0.5238095238095238,
+    "recall": 0.44,
+    "f1-score": 0.4782608695652174,
+    "support": 25,
+    "confused_with": {
+      "can_i_get_from_packages_surfaces": 7,
+      "what_if_i_visited_high_risk_area": 1
+    }
+  },
+  "share": {
+    "precision": 0.9523809523809523,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.888888888888889,
+    "support": 24,
+    "confused_with": {
+      "what_is_corona": 1,
+      "news_and_press": 1
+    }
+  },
+  "myths": {
+    "precision": 0.75,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.5454545454545454,
+    "support": 21,
+    "confused_with": {
+      "what_is_corona": 5,
+      "what_are_treatment_options": 2
+    }
+  },
+  "how_does_corona_spread": {
+    "precision": 0.7142857142857143,
+    "recall": 0.4166666666666667,
+    "f1-score": 0.5263157894736842,
+    "support": 24,
+    "confused_with": {
+      "can_i_get_from_packages_surfaces": 4,
+      "protect_yourself": 3
+    }
+  },
+  "hi": {
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "f1-score": 0.8750000000000001,
+    "support": 7,
+    "confused_with": {}
+  },
+  "what_are_treatment_options": {
+    "precision": 0.7,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.8076923076923077,
+    "support": 22,
+    "confused_with": {
+      "news_and_press": 1
+    }
+  },
+  "what_are_symptoms": {
+    "precision": 0.7272727272727273,
+    "recall": 0.7619047619047619,
+    "f1-score": 0.7441860465116279,
+    "support": 21,
+    "confused_with": {
+      "okay_thanks": 2,
+      "what_is_corona": 1
+    }
+  },
+  "accuracy": 0.7027027027027027,
+  "macro avg": {
+    "precision": 0.7197298917488062,
+    "recall": 0.7335968198468199,
+    "f1-score": 0.710646103640347,
+    "support": 333
+  },
+  "weighted avg": {
+    "precision": 0.7195185939594821,
+    "recall": 0.7027027027027027,
+    "f1-score": 0.6965626895354401,
+    "support": 333
+  }
+}

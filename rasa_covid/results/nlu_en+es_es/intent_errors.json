@@ -1,0 +1,802 @@
+[
+  {
+    "text": "casos en am\u00e9rica latina a la fecha",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.4739862382411957
+    }
+  },
+  {
+    "text": "casos actualizados de covid en europa",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.9998940229415894
+    }
+  },
+  {
+    "text": "me mostr\u00e1s, por favor, la cantidad de enfermos de corona en chile",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.591530442237854
+    }
+  },
+  {
+    "text": "cu\u00e1ntos contagiados de covid tiene colombia",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9326981902122498
+    }
+  },
+  {
+    "text": "debo usar guantes cuando salga siempre de casa para prevenir contagio",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5832478404045105
+    }
+  },
+  {
+    "text": "qu\u00e9 puedo hacer para prevenir una infecci\u00f3n por covid",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9991850852966309
+    }
+  },
+  {
+    "text": "los cubrebocas funcionan para prevenir covid-19",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.98957759141922
+    }
+  },
+  {
+    "text": "c\u00f3mo evito el contagio en el transporte p\u00fablico",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.9516928195953369
+    }
+  },
+  {
+    "text": "c\u00f3mo evito contagiarme de corona virus",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.9457933306694031
+    }
+  },
+  {
+    "text": "es posible prevenir el corona virus",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.7035388946533203
+    }
+  },
+  {
+    "text": "deber\u00eda sacarme los zapatos antes de entrar a mi casa",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.9813306927680969
+    }
+  },
+  {
+    "text": "c\u00f3mo debe hacerse el lavado de manos para prevenir el coronavirus",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.5232639312744141
+    }
+  },
+  {
+    "text": "con lavarse las manos alcanza para no contagiarse",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.9182088971138
+    }
+  },
+  {
+    "text": "cu\u00e1nto tiempo debo esperar antes de tocar un paquete recibido por amazon",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.7892446517944336
+    }
+  },
+  {
+    "text": "debo usar mascarilla al estar en espacios p\u00fablicos al aire libre",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5029159784317017
+    }
+  },
+  {
+    "text": "qu\u00e9 medidas debo tener en cuenta a la hora de lidiar con personas inmunodeficientes",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.5630158185958862
+    }
+  },
+  {
+    "text": "qu\u00e9 directivas se dan para no contraer la enfermedad",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.7235590219497681
+    }
+  },
+  {
+    "text": "covid-19 y coronavirus son lo mismo",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.47378042340278625
+    }
+  },
+  {
+    "text": "por favor, dime los s\u00edntomas del coronavirus",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9985793232917786
+    }
+  },
+  {
+    "text": "dame informaci\u00f3n sobre las caracter\u00edsticas de covid 19",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9515095353126526
+    }
+  },
+  {
+    "text": "quiero entender el coronavirus",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.4980846345424652
+    }
+  },
+  {
+    "text": "profundiza en este postulado, gracias",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.9913265109062195
+    }
+  },
+  {
+    "text": "significado de coronavirus",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.8355478048324585
+    }
+  },
+  {
+    "text": "c\u00f3mo s\u00e9 si estoy contagiado de coronavirus",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.6242800951004028
+    }
+  },
+  {
+    "text": "dime qu\u00e9 afecciones provoca el coronavirus",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.599529504776001
+    }
+  },
+  {
+    "text": "es verdad que se pierde el olfato con el coronavirus",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.32132214307785034
+    }
+  },
+  {
+    "text": "si tengo el virus, \u00bfc\u00f3mo lo s\u00e9",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.4782402515411377
+    }
+  },
+  {
+    "text": "mira dime si me puedes decir los medios de contagio del corona virus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.2722223699092865
+    }
+  },
+  {
+    "text": "necesito urgentemente que me digas c\u00f3mo se contagia el corona virus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.5238039493560791
+    }
+  },
+  {
+    "text": "contagio de coronavirus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9991781115531921
+    }
+  },
+  {
+    "text": "la comida que alguien prepara contagia el virus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.6792809367179871
+    }
+  },
+  {
+    "text": "el coronavirus viaje por el aire",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.999954879283905
+    }
+  },
+  {
+    "text": "los perros pueden pegarme el coronavirus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9999864101409912
+    }
+  },
+  {
+    "text": "el corona virus, \u00bfse queda en las frutas",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.3243931829929352
+    }
+  },
+  {
+    "text": "puedo contagiarme corona virus en el ba\u00f1o",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.6032551527023315
+    }
+  },
+  {
+    "text": "si voy al parque, \u00bfest\u00e1 el corona virus en el pasto",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.42491498589515686
+    }
+  },
+  {
+    "text": "cu\u00e1nto tiempo puede sobrevivir el virus en mi ropa",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.9332272410392761
+    }
+  },
+  {
+    "text": "si me quedo en la casa me puedo contagiar de covid19",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.8731728792190552
+    }
+  },
+  {
+    "text": "si me paro a un metro de una persona contagiada, \u00bfme contagio",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.8968052268028259
+    }
+  },
+  {
+    "text": "por favor, dame ejemplos de situaciones favorables para el contagio",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.8988561630249023
+    }
+  },
+  {
+    "text": "me puede dar coronavirus por una transfuci\u00f3n",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.5970437526702881
+    }
+  },
+  {
+    "text": "me va a dar corona virus por compartir una cuchara",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.5997623205184937
+    }
+  },
+  {
+    "text": "cu\u00e1l es el vector principal de contagio del corona virus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.8667455911636353
+    }
+  },
+  {
+    "text": "este virus se contagia por sangre",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.8501734733581543
+    }
+  },
+  {
+    "text": "qu\u00e9 insectos pueden contagiar el corona virus",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9997643828392029
+    }
+  },
+  {
+    "text": "necesito saber el mecanismo de contagio",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.3747042417526245
+    }
+  },
+  {
+    "text": "las mordedura de rata te contagia con covid19",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.6449583768844604
+    }
+  },
+  {
+    "text": "yo le puedo contagiar el virus a mi gato",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5443482398986816
+    }
+  },
+  {
+    "text": "si sabes dime, por favor, cu\u00e1l es el tiempo que dura el corona virus en el cart\u00f3n",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.9105162620544434
+    }
+  },
+  {
+    "text": "puedo traer coronavirus en los zapatos",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.8027361631393433
+    }
+  },
+  {
+    "text": "el virus se muere si se queda en el carro",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9891902804374695
+    }
+  },
+  {
+    "text": "el virus se encuentra en las botellas de vidrio",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.7884517312049866
+    }
+  },
+  {
+    "text": "qu\u00e9 materiales son los m\u00e1s peligrosos para el contagio del covid19",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.5360798835754395
+    }
+  },
+  {
+    "text": "el detergente mata el virus de las telas de ropa",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.891005277633667
+    }
+  },
+  {
+    "text": "dime si el virus sobrevive en el alumninio",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.5195657014846802
+    }
+  },
+  {
+    "text": "en la superficie del celular se pega el covid19",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.6530771255493164
+    }
+  },
+  {
+    "text": "cu\u00e1ndo se muere el coronavirus en el papel",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.577441394329071
+    }
+  },
+  {
+    "text": "cu\u00e1nto tiempo debo esperar antes de tocar un objeto infectado",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.40196797251701355
+    }
+  },
+  {
+    "text": "puede el virus estar activo en la superficie de los alimentos",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.38414958119392395
+    }
+  },
+  {
+    "text": "el coronavirus permanece vivo en los objetos inertes",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9778258204460144
+    }
+  },
+  {
+    "text": "cu\u00e1les son la superficies m\u00e1s propensas a mantener al virus de forma latente",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.6319671273231506
+    }
+  },
+  {
+    "text": "se propaga el virus la porosidad del poliestireno expandido",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.9988783001899719
+    }
+  },
+  {
+    "text": "m\u00e9todo de protecci\u00f3n en pa\u00edses infectados por covid",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9960664510726929
+    }
+  },
+  {
+    "text": "qu\u00e9 precauciones debo tener si tengo que ir a un hospital",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.48997998237609863
+    }
+  },
+  {
+    "text": "cu\u00e1ndo se estima que se abrir\u00e1 fronteras en europa",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.8698754906654358
+    }
+  },
+  {
+    "text": "puedo viajar en estos momentos a brasil, qu\u00e9 tengo que hacer",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9994815587997437
+    }
+  },
+  {
+    "text": "cu\u00e1ntos d\u00edas de cuarentena si estuve en espa\u00f1a recientemente",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.7536889314651489
+    }
+  },
+  {
+    "text": "qu\u00e9 medidas hay en pa\u00edses con alerta roja de coronavirus",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6667912006378174
+    }
+  },
+  {
+    "text": "recomendaciones en zonas de emergencia por coronavirus",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.8751558661460876
+    }
+  },
+  {
+    "text": "que hago si he viajado recientemente, por si tengo el virus",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.6254710555076599
+    }
+  },
+  {
+    "text": "qu\u00e9 tengo que hacer si fui a nueva york",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.4507126212120056
+    }
+  },
+  {
+    "text": "c\u00f3mo puedo proceder despu\u00e9s de haber estado en long island",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.896694540977478
+    }
+  },
+  {
+    "text": "c\u00f3mo reforzar el sistema inmunol\u00f3gico y evitar infectarse de covid",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.9782752990722656
+    }
+  },
+  {
+    "text": "hay novedades sobre tratamientos para el corona virus",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.9858472943305969
+    }
+  },
+  {
+    "text": "el coronavirus fue fabricado por las farmac\u00e9uticas",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9982179999351501
+    }
+  },
+  {
+    "text": "dime qu\u00e9 tan cierto es que los j\u00f3venes se contagian menos",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.5306859016418457
+    }
+  },
+  {
+    "text": "s cierto que el coronavirus muere a m\u00e1s de 25 grados",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8693080544471741
+    }
+  },
+  {
+    "text": "es verdad que los sobreviviventes de covid tienen da\u00f1o pulmonar de por vida",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.5563293695449829
+    }
+  },
+  {
+    "text": "qu\u00e9 creencias hay sobre el coronavirus en animales",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.7555537819862366
+    }
+  },
+  {
+    "text": "necestio informaci\u00f3n sobre los mitos del corona virus",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.9977845549583435
+    }
+  },
+  {
+    "text": "tienes informaci\u00f3n sobre si los taxis a\u00fan pueden utilizarse con esto del corona virus",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.5609793066978455
+    }
+  },
+  {
+    "text": "quisiera saber si con el corona virus a\u00fan se pueden coger autobuses",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8981252312660217
+    }
+  },
+  {
+    "text": "recibir\u00e9 un reembolso de mis pasajes a cuba por el coronavirus",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.78031986951828
+    }
+  },
+  {
+    "text": "despliega un resumen del n\u00famero de muertos seg\u00fan las cifras oficiales",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.9999604821205139
+    }
+  },
+  {
+    "text": "mu\u00e9strame el discurso que dio pi\u00f1era sobre la econom\u00eda en pandemia",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.5071105360984802
+    }
+  },
+  {
+    "text": "cu\u00e9ntame qu\u00e9 localidades siguen en cuarentena seg\u00fan el ministro de salud",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.7399247288703918
+    }
+  },
+  {
+    "text": "quiero oir qu\u00e9 dice el govierno sobre el virus",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.5106981992721558
+    }
+  },
+  {
+    "text": "qu\u00e9 hay de nuevo sobre los respiradores para la gente con covid-19",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.6349141001701355
+    }
+  },
+  {
+    "text": "p\u00e1sale el asistente del coronavirus a mis amigos",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.9308095574378967
+    }
+  },
+  {
+    "text": "qu\u00e9 tal",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.9479292035102844
+    }
+  },
+  {
+    "text": "qu\u00e9 tal estamos",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "share",
+      "confidence": 0.9406792521476746
+    }
+  },
+  {
+    "text": "qu\u00e9 tal tu d\u00eda",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "share",
+      "confidence": 0.43767786026000977
+    }
+  },
+  {
+    "text": "c\u00f3mo amenece",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.719097375869751
+    }
+  },
+  {
+    "text": "eres muy amable",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.36421841382980347
+    }
+  },
+  {
+    "text": "le agradezco, doctor corona",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.891326367855072
+    }
+  },
+  {
+    "text": "es muy amable de su parte, m\u00e9dico corona",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.9879919290542603
+    }
+  },
+  {
+    "text": "c\u00f3mo puedo ayudar a las regiones m\u00e1s afectadas de ecuador",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.979282021522522
+    }
+  },
+  {
+    "text": "c\u00f3mo podemos donar mascarillas en hospitales p\u00fablicos",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.32596781849861145
+    }
+  },
+  {
+    "text": "la situaci\u00f3n econ\u00f3mica es muy complicada, \u00bfc\u00f3mo puedo ayudar a la gente que se qued\u00f3 sin dinero en esta pandemia",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.9036625623703003
+    }
+  },
+  {
+    "text": "haz una inversi\u00f3n de dinero en lima",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.6436587572097778
+    }
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "what_are_treatment_options": {
+    "precision": 0.35294117647058826,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.49315068493150693,
+    "support": 22,
+    "confused_with": {
+      "okay_thanks": 2,
+      "what_are_symptoms": 1
+    }
+  },
+  "donate": {
+    "precision": 0.8888888888888888,
+    "recall": 0.47058823529411764,
+    "f1-score": 0.6153846153846153,
+    "support": 17,
+    "confused_with": {
+      "okay_thanks": 5,
+      "what_are_treatment_options": 2
+    }
+  },
+  "myths": {
+    "precision": 0.75,
+    "recall": 0.2,
+    "f1-score": 0.31578947368421056,
+    "support": 15,
+    "confused_with": {
+      "latest_numbers": 5,
+      "what_are_treatment_options": 3
+    }
+  },
+  "what_is_corona": {
+    "precision": 0.5,
+    "recall": 0.29411764705882354,
+    "f1-score": 0.37037037037037035,
+    "support": 17,
+    "confused_with": {
+      "what_are_treatment_options": 3,
+      "news_and_press": 2
+    }
+  },
+  "hi": {
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4,
+    "support": 18,
+    "confused_with": {
+      "okay_thanks": 7,
+      "what_are_treatment_options": 2
+    }
+  },
+  "latest_numbers": {
+    "precision": 0.3829787234042553,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.5217391304347826,
+    "support": 22,
+    "confused_with": {
+      "what_are_symptoms": 2,
+      "travel": 2
+    }
+  },
+  "protect_yourself": {
+    "precision": 0.5,
+    "recall": 0.35,
+    "f1-score": 0.4117647058823529,
+    "support": 20,
+    "confused_with": {
+      "travel": 4,
+      "what_are_treatment_options": 2
+    }
+  },
+  "what_if_i_visited_high_risk_area": {
+    "precision": 0.75,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.4137931034482759,
+    "support": 21,
+    "confused_with": {
+      "latest_numbers": 5,
+      "travel": 4
+    }
+  },
+  "travel": {
+    "precision": 0.48484848484848486,
+    "recall": 0.8421052631578947,
+    "f1-score": 0.6153846153846154,
+    "support": 19,
+    "confused_with": {
+      "how_does_corona_spread": 2,
+      "what_are_treatment_options": 1
+    }
+  },
+  "what_are_symptoms": {
+    "precision": 0.5,
+    "recall": 0.47058823529411764,
+    "f1-score": 0.48484848484848486,
+    "support": 17,
+    "confused_with": {
+      "okay_thanks": 4,
+      "what_are_treatment_options": 3
+    }
+  },
+  "okay_thanks": {
+    "precision": 0.24444444444444444,
+    "recall": 0.6875,
+    "f1-score": 0.360655737704918,
+    "support": 16,
+    "confused_with": {
+      "hi": 2,
+      "what_is_corona": 1
+    }
+  },
+  "share": {
+    "precision": 1.0,
+    "recall": 0.2962962962962963,
+    "f1-score": 0.45714285714285713,
+    "support": 27,
+    "confused_with": {
+      "okay_thanks": 12,
+      "travel": 2
+    }
+  },
+  "how_does_corona_spread": {
+    "precision": 0.6,
+    "recall": 0.23076923076923078,
+    "f1-score": 0.33333333333333337,
+    "support": 26,
+    "confused_with": {
+      "what_are_treatment_options": 5,
+      "latest_numbers": 5
+    }
+  },
+  "can_i_get_from_feces_animal_pets": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.6956521739130435,
+    "support": 22,
+    "confused_with": {
+      "what_are_treatment_options": 2,
+      "latest_numbers": 2
+    }
+  },
+  "can_i_get_from_packages_surfaces": {
+    "precision": 0.5,
+    "recall": 0.4,
+    "f1-score": 0.4444444444444445,
+    "support": 20,
+    "confused_with": {
+      "what_are_treatment_options": 4,
+      "hi": 2
+    }
+  },
+  "news_and_press": {
+    "precision": 0.5,
+    "recall": 0.25,
+    "f1-score": 0.3333333333333333,
+    "support": 16,
+    "confused_with": {
+      "latest_numbers": 5,
+      "what_are_treatment_options": 4
+    }
+  },
+  "accuracy": 0.46984126984126984,
+  "macro avg": {
+    "precision": 0.5700480240452079,
+    "recall": 0.467165555659654,
+    "f1-score": 0.45417419151507155,
+    "support": 315
+  },
+  "weighted avg": {
+    "precision": 0.5799722155500212,
+    "recall": 0.46984126984126984,
+    "f1-score": 0.4577413323398754,
+    "support": 315
+  }
+}

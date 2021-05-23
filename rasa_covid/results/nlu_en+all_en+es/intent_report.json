@@ -1,0 +1,164 @@
+{
+  "what_are_treatment_options": {
+    "precision": 0.875,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9130434782608695,
+    "support": 22,
+    "confused_with": {
+      "how_does_corona_spread": 1
+    }
+  },
+  "protect_yourself": {
+    "precision": 0.7,
+    "recall": 0.56,
+    "f1-score": 0.6222222222222222,
+    "support": 25,
+    "confused_with": {
+      "can_i_get_from_packages_surfaces": 6,
+      "what_if_i_visited_high_risk_area": 1
+    }
+  },
+  "okay_thanks": {
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1-score": 0.8235294117647058,
+    "support": 7,
+    "confused_with": {}
+  },
+  "hi": {
+    "precision": 0.6363636363636364,
+    "recall": 1.0,
+    "f1-score": 0.7777777777777778,
+    "support": 7,
+    "confused_with": {}
+  },
+  "what_if_i_visited_high_risk_area": {
+    "precision": 0.76,
+    "recall": 0.76,
+    "f1-score": 0.76,
+    "support": 25,
+    "confused_with": {
+      "travel": 2,
+      "latest_numbers": 2
+    }
+  },
+  "myths": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 21,
+    "confused_with": {
+      "what_are_symptoms": 2,
+      "okay_thanks": 2
+    }
+  },
+  "can_i_get_from_packages_surfaces": {
+    "precision": 0.5666666666666667,
+    "recall": 0.68,
+    "f1-score": 0.6181818181818183,
+    "support": 25,
+    "confused_with": {
+      "protect_yourself": 2,
+      "can_i_get_from_feces_animal_pets": 2
+    }
+  },
+  "latest_numbers": {
+    "precision": 0.7916666666666666,
+    "recall": 0.7916666666666666,
+    "f1-score": 0.7916666666666666,
+    "support": 24,
+    "confused_with": {
+      "what_if_i_visited_high_risk_area": 1,
+      "what_are_symptoms": 1
+    }
+  },
+  "donate": {
+    "precision": 0.8636363636363636,
+    "recall": 0.95,
+    "f1-score": 0.9047619047619048,
+    "support": 20,
+    "confused_with": {
+      "what_if_i_visited_high_risk_area": 1
+    }
+  },
+  "what_is_corona": {
+    "precision": 0.8461538461538461,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.7857142857142856,
+    "support": 15,
+    "confused_with": {
+      "hi": 2,
+      "share": 1
+    }
+  },
+  "share": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 24,
+    "confused_with": {}
+  },
+  "how_does_corona_spread": {
+    "precision": 0.5555555555555556,
+    "recall": 0.4166666666666667,
+    "f1-score": 0.4761904761904762,
+    "support": 24,
+    "confused_with": {
+      "can_i_get_from_packages_surfaces": 6,
+      "can_i_get_from_feces_animal_pets": 3
+    }
+  },
+  "what_are_symptoms": {
+    "precision": 0.7647058823529411,
+    "recall": 0.6190476190476191,
+    "f1-score": 0.6842105263157895,
+    "support": 21,
+    "confused_with": {
+      "myths": 3,
+      "how_does_corona_spread": 2
+    }
+  },
+  "news_and_press": {
+    "precision": 0.8636363636363636,
+    "recall": 0.7307692307692307,
+    "f1-score": 0.7916666666666666,
+    "support": 26,
+    "confused_with": {
+      "latest_numbers": 3,
+      "what_is_corona": 1
+    }
+  },
+  "can_i_get_from_feces_animal_pets": {
+    "precision": 0.72,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.782608695652174,
+    "support": 21,
+    "confused_with": {
+      "what_is_corona": 1,
+      "how_does_corona_spread": 1
+    }
+  },
+  "travel": {
+    "precision": 0.9130434782608695,
+    "recall": 0.8076923076923077,
+    "f1-score": 0.8571428571428572,
+    "support": 26,
+    "confused_with": {
+      "what_if_i_visited_high_risk_area": 1,
+      "share": 1
+    }
+  },
+  "accuracy": 0.7597597597597597,
+  "macro avg": {
+    "precision": 0.755014873943902,
+    "recall": 0.7829706751581752,
+    "f1-score": 0.7611537735663627,
+    "support": 333
+  },
+  "weighted avg": {
+    "precision": 0.7613018270563027,
+    "recall": 0.7597597597597597,
+    "f1-score": 0.7550805678750221,
+    "support": 333
+  }
+}

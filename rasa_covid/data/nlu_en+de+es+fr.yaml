@@ -1,0 +1,1311 @@
+version: "2.0"
+
+nlu:
+
+- intent: donate
+  examples: |
+    - you ayuda ceci is great how do i
+    - wish i could do algo about cela i
+    - wen can i schenkung to
+    - money donate cómo do i
+    - ayuda your cause i aurait wie to
+    - money do sie nimm
+    - argent right now oms needs
+    - dona to is there a listes of fondements to
+    - send how can i dollars to jemanden
+    - quelle are la donation options
+    - donate to der alimentaire bank
+    - envoyez money to the socorro finanzieren
+    - veuillez versenden a donativo to a locales beneficencia
+    - donate to unemployed people in my stadt woher do i
+    - comment do i donate to lebensmittel store workers in ciudad
+    - i wanna enviar argent to desempleada people
+    - money to nyc hospitals please ayuda me envoie
+    - how do i give dinero to a ventilator fondo
+    - donate money to who
+    - möchten to stiften to espagne i
+    - how can i dona
+    - donate money jetz
+    - give monnaie to the wem fund
+    - donate to die verpflegung banco
+    - donner covid
+    - comment pouvez i relief don to corona
+    - donner to médicale necesidades for corona virus puede i
+    - let's donate für nuevas york
+    - proveer financiamiento for virus heilmittel
+    - inwiefern to donate pour corona treatment
+    - donnez out money
+    - finanzierung para high-risk standort
+    - a don make i'd like to
+    - spenden to covid-19
+    - taking coronavirus schenkungen wen is
+    - i wanna spenden
+    - some groceries peut i donate
+    - will to dons for les réfugiés i
+    - donate to mache more máscaras
+    - i wanna donate to die covid 19 illness personen
+    - send out fondos to coronavirus efforts in colorado
+    - donate medizin materialien to la nearest hospitalario
+    - hacer a donation to dallas' recaudación para coronavirus
+    - donate cómo do i
+    - schenkung to seattle
+    - donate inwiefern can i
+    - gebe funding pour my area
+    - i wanna donnez fonds to italien
+    - donar to covid-19 relief now
+    - donate i wanna a mordido of argent
+    - coronavirus donation info, bitte
+    - relevo done to covid-19 where puede i
+    - have a local relieve fund hace my ville
+    - like to don to help italy i'd
+    - inwiefern can i donate to neuen york city
+    - i'd aimez to donate to italy
+    - soporte how do i donner to washington
+    - send funds to raleigh
+    - montre me how to spenden please
+    - fournissent funding to spanien i'd aimez to
+    - don in my area
+    - tell me woher to schenkung please
+    - donate to lokales schools
+    - donar to indien
+    - want to spendet to local erleichterung efforts i
+    - please hilfen me schenkung to covid-19 medical research
+    - senden funds to infirmier wohnungen in my domaine
+    - show me organizaciones accepter spenden in my state
+    - a währungspolitik donation make i wanna
+    - beneficencia zuwendung for covid
+    - more sobre donation kampagne how can i suchen out
+    - a don to blue cross i'd like to send
+    - cómo can i donate monnaie to aider feed homeless
+    - donate to die who
+    - donate to le rojas kreuz woher lata i
+    - go to donate to la red croix where do i
+    - donación to my condado kannst i
+    - wie do i donate locally
+    - voulez to dons to research in my state i
+    - where can i done enlatada goods
+    - can i spenden to hôpitaux près me
+
+- intent: hi
+  examples: |
+    - hello
+    - hi
+    - bonnes mañanas
+    - bon evening
+    - schöne to meet usted
+    - hola robot
+    - quién are te
+    - hi jack 'm
+    - have a question hi i
+    - could usted aider me
+    - hi corona bot
+    - guter morning doktor covid
+    - hallo medico bot
+    - morning, corona toubib
+    - hi, bot
+    - bjr covid bot
+    - going, doc how's it
+    - hi
+    - he bot
+    - good morgens doctor
+    - morning bot
+    - hi doc, woher sind ihr
+    - hola
+    - g'day, doc
+    - alright, bot
+    - how ya goin, bot
+    - hallo bot
+    - what's up, covid bot
+    - what's new, coronabot
+    - wakey wakey, cov bot
+    - doctor corona, du là
+    - top o' el mornin' to ya, doc
+    - yo, corona bot, what's up
+    - good day, corona doc
+    - hello, doc
+    - how do you do, médecin
+    - going how is it corona doc
+    - schläft mr. covid how did tu
+    - what sont you gonna do hui dr. covid
+    - morning doc
+    - hi covid dok
+    - hallo
+    - hey corona doctor
+    - what's new covid doctor
+    - sont tú allí ärztin
+    - how's vos day corona doc gehe
+    - hello, hello doc
+    - good morning, medico corona
+    - wake up, corona doc
+    - hi, corona
+    - how's it aller
+    - how are you doctor
+    - good morning, dr
+    - hi covid
+    - 19 arzt
+    - how sont toi doing, doc
+    - what's new, doc
+    - hey, yo, qué up bot
+    - good morning doc
+    - hey doc, what's nuevos
+    - oye doc, dich da
+    - bot, what's sucediendo
+    - hey bot
+    - aufstieg sowie shine mr. corona
+    - good evening
+    - what's up
+    - hi coronavirus docteur
+    - how's it going
+    - morning médecin
+    - hello covid bot
+    - hey doc
+    - hey, what's up
+    - hello doc, how's it aufhängen
+    - bonne morning, covid bot
+    - what's the word, covid bot
+    - haut of the mañanas to you, bot covid
+    - morgens
+    - hi doc bot
+    - ey covid bot
+    - covid doktor gehen how's it
+    - afternoon, doc
+    - bjr doc bot
+    - hey hey, bot doc
+
+- intent: how_does_corona_spread
+  examples: |
+    - ausbreitung inwiefern does dem virus
+    - how does coronavirus otro people infect
+    - infected by touch a patient puedo i get
+    - can people ith masken transmit it to other menschen
+    - schwebe in air does le virus
+    - is covid-19 in la eau
+    - get puedo i it if alguien éternue on me
+    - does covid only infecter alte people
+    - what are das fréquents vectors
+    - causar it to propagación qué is
+    - can i obtenir covid-19 de insectes
+    - stay on my niños how long does the corona toys
+    - consigue covid-19 from kids dirty bekleidung kannst i
+    - der corona depuis öffnen my mail can i obtener
+    - can my perruche bekomme the corona
+    - can my snake get covid-19
+    - were weniger susceptible to the corona is it true chiens
+    - is it true plants cant spread dem corona virus
+    - can i get kranken avec covid via food
+    - spread can ticks coronavirus
+    - how does coronavirus get transmitió
+    - spread in públicas how is coronavirus
+    - what is den most frecuente way covid is difundir
+    - does the coronavirus répandre through air
+    - how fast can pueblo get infected if da is a gemeinschaft spread
+    - me more info on respiratoire transmisión gib can you
+    - covid infectados avec peux my dog obtenir
+    - is person-to-person kontakte the main mode of covid übermittlung
+    - coronavirus can asymptomatic people spread
+    - infected with covid and spread it to autres without knowing is it posible to für me to get
+    - coronavirus if i'm pregnant spread pueden i
+    - coronavirus if sie don't have symptoms spread pueden someone
+    - suave symptomen has kann covid propagation if alguien only
+    - is covid more probable to spread in humid clima
+    - peux a moustiques mordre give me covid
+    - can covid-19 verteilen via piscines
+    - das sewarage system propagación allerdings can the virus
+    - is corona virus spreadable durch air filtre and/or luft konditionierung
+    - is corona virus airborne
+    - puede warm meteorología lento der spread of covid-19
+    - spread by alimento is die seuche capable to
+    - are mosquitos and zecken be able to propagación corona virus
+    - comment likely is covid-19 spreadable via tap water
+    - puedo i a masquer to help mit spreading corona virus use
+    - how do gloves a part with the covid-19 seuche reproducir
+    - répandre vom tocando sus eyes can dem disease
+    - may i plus infos on airbone transmission tengan
+    - take to help eliminate épandage of cet virus what precautions pueden i
+    - virus transmission will the 6 pies apart regla realmente help diminuer
+    - how efectiva hat masken been with slowing down the spread of covid-19
+    - can covid-19 spread if you viva in haut temperature climat
+    - the disease woher pouvez jemandem spread
+    - more información on aerosole transmission avoir pueden i
+    - how does covid-19 spread so easily
+    - propagación from berühren jmd contaminé einzigen does corona virus
+    - répandre descenso in a grand collectivité how peuvent el covid-19
+    - peux covid-19 spread by partagé lebende espaces
+    - does it reise in the air
+    - erhalten it how pueden i
+    - carry do flies la 19
+    - cómo does 19 spread
+    - does le virus travel by odeurs
+    - can los virus be spread by baisers
+    - why is esta virus spreading so rapidement
+    - reisen wie does das virus
+    - obtenez the 19 by utilisant public transporte peuvent i
+    - carry the virus do fruit-flies
+    - is 6ft apart effektiver to stop spreading the virus
+    - reisen in food does la krankheit
+    - keep répandre como hace the virus
+    - spreading wachsende is the virus
+    - a masquer desgaste deberia i
+    - porqué is los virus spreading
+    - spread slower beacuse of heat does le virus
+    - the virus carry do abejas
+    - pueden a ladybug der virus carry
+    - como is la virus atteignant to my house
+    - viajando how is les virus
+    - können die viren travel by conmovedora porte knobs
+    - verbreitung faster lata der 19 be
+    - is la viren in el air
+
+- intent: latest_numbers
+  examples: |
+    - what's die latest statistics
+    - what do the chiffres miren like now
+    - infected how many leute have been
+    - how bad is the lage in new york
+    - died porque of covid como vieles people tener
+    - has coronavirus killed wie many people
+    - was do los pandémie numbers regardes gefällt
+    - whta's les último données
+    - what sind the newest figures
+    - inwiefern is it genre in california now
+    - como muchas casos son là in dem world
+    - son there globally now inwiefern muchos corona virus cas
+    - what's el latetest statistiques on covid19
+    - what's el estadísticas on corona in new york maintenant
+    - what's dem case compter in nouvelle york
+    - morte from covid19 in die u.s. already comment beaucoup personnes habe
+    - how many cases per 100k personen in californie
+    - what's les todes zählung in sud corée
+    - mort today in der u.s how plusieurs pueblo
+    - como muchos gens murió yesterday in le u.s
+    - how many new estuches sont there in kalifornien
+    - what's the tod graf in santa clara landkreis
+    - show me the lastest stats para chine
+    - wie many neuer fälle popped up in singapur
+    - tell me den lastest statistiken in texas
+    - i'd like to know comment muchas gens have been testées so far for covid19 in den u.s
+    - me el total confirmée fälle in das tri-state area decir können tu
+    - geprüfte in nouveautés york nombre of people wem got
+    - what's the country with la most décès count
+    - testés in how nombreux people have sido the corea so far
+    - what sont la estadísticas in canadá pour covid
+    - are là worldwide today como vieles nouvelle fallbeispiele
+    - what are das statistiken in den uk pour les coronavirus
+    - what is los average age of leute touchée in le us
+    - was is los rate of erholung for corona in europe
+    - recuperados in california how many pueblo sont
+    - average hospitalaria occupation con cases of corona
+    - what is das average costo of ensayos pour the virus
+    - comment many hospitales accéder to testing for la virus have
+    - number of cases in mexico
+    - muerte rate of coronavirus in les us
+    - durchschnitt âge of muerte von les virus
+    - how many essentielles arbeitskräfte avoir been infected so far
+    - mask wearing versus länder que don't what are the statistiques on countries durchsetzen
+    - woher beaucoup menschen are infected daily by corona
+    - how muchos pueblo total in the world haben wiederhergestellt de the virus
+    - geborgen du the virus cómo muchos älter people avoir
+    - quoi is der moyennes tarif of recovery pour people dazwischen las ages of 20 et 40
+    - projiziert number of morts vom las virus if we do no socially distance qué is die
+    - what sind los número of cas mundial
+    - nummer of cas in nord korea
+    - how many tests sont da in son disponibles in la us
+    - defunción rate in le unies kingdom
+    - causé worldwide how many deaths has covid-19
+    - whats the último numeros in california
+    - qué is las décès tarif in china
+    - what is the recuperación rate in das us
+    - the recovery calificar in china whart is
+    - infected cases in colorado
+    - recovery tarif in san francisco
+    - recovery zinssatz in modesto
+    - how muchos gente under le age of 18 sont infected
+    - number of recuperación cas in new york
+    - diaria valorización steuersatz in los us
+    - welche ethnicity ha the largest hit from covid tomadas
+    - comment many personnes over la alter 40 hat been infectés
+    - infectada seitdem mars comment many personen haben been
+    - latest stats on casos in africa
+    - gesamtzahl deaths aus covid in australia
+    - verwertung tasa in chicago
+    - whar are the zahl of cases in porcelana
+    - number of cas in vietnam
+    - how muchas active cases that critical condition sind
+    - número of cases in europe
+    - inwiefern muchas habe died in los uk
+    - quel are los latest numbers of süd korea
+    - inwiefern many casos are there in indien
+    - number of recovered cases in italy
+
+- intent: myths
+  examples: |
+    - qué are the mythen about covid
+    - falso news
+    - what sont the misconceptions
+    - i not listen to what news debería
+    - qué sont the mensonge they sont redensart
+    - cualquier misinformation about the virus
+    - difundir son the políticos cualquiera liegt
+    - trust qué should i not
+    - is cette story true
+    - call how can i las bs
+    - covid myths
+    - covid is pire than the regular grippe is it a myth eso
+    - hast they corona on purpose répandre
+    - populares coronavirus myths, please
+    - myths etwa covid, please
+    - engineered fut the coronavirus
+    - quoi sont some populaires covid myths
+    - schuppentier myth covid
+    - is covid gefälscht
+    - decir me information on corona viren mythes
+    - enfants aren't prone to getting corona is it a mito that
+    - is covid-19 a bioweapon
+    - holen me latest coronavirus mythe
+    - estaba covid lad-made to contrôle masas
+    - is sociales distancing a myth
+    - come from a laboratoire did corona virus
+    - erhalten los corona viren did a tigre wirklich
+    - welche is dem meisten common mito of covid
+    - is it a mitos que lavande helps covid
+    - give me info on the weirdest covid mitos
+    - qué sont mythe etwa coronavirus
+    - is it a mito that covid is made up
+    - qué están le newest covid-19 mythes
+    - quoi sind el top five myths etwa coronavirus
+    - is it a myth dass coronavirus spreads in kalte klimas
+    - hace 5g cause coronavirus
+    - any new myths über covid-19
+    - did donald atout fabricar coronavirus to get re-elected
+    - cure covid-19 is it a mythos das diffused aceites can
+    - give me manche conspiracy théories on coronavirus
+    - is it the covid-19 transmited by eaux
+    - komme from südafrika tat die covid 19
+    - verwenden mask filters myths über
+    - is it a gerücht dass covid-19 can re-infect menschen
+    - alcoholes prevents coronavirus is it true que drinking
+    - gargling salty water to verhüten the coronavirus
+    - myths über animales and coronavirus
+    - mythes about home remedios for covid-19
+    - montre le latest mythen acerca coronavirus
+    - is it true que hot bains kill covid-19
+    - spread the virus do animales
+    - coronavirus mit cœur disease mythe
+    - is it a mythen cela ibuprofin macht coronavirus worse
+    - qué are the most recientes covid-19 myths
+    - covid age mito
+    - covid mythes versus fakten
+    - flotación around acerca covid was sont manche mythen
+    - why están là so plusieurs covid mitos
+    - why are allí lots of myths über coronavirus on la noticia
+    - tell me algunas covid-19 mitos que tengan been debunked
+    - is a myth that te can get coronavirus more than einst
+    - related to coronavirus sagen me about the myths
+    - sind genaugenommen true lesquels mythes about coronovirus
+    - covid 19 begann in china is it a mythos that
+    - coronavirus myths
+    - debunked what covid mitos haben been
+    - is it cierto que there's covid vaccine
+    - quel sont common mythes about corona
+    - eau kills corona is it a mythe que gargling salt
+    - envoie me algunas mythen about covid19
+
+- intent: news_and_press
+  examples: |
+    - what's la latest
+    - aktuelles
+    - any updates
+    - hizo anything grande happen today
+    - what is das drücken saying
+    - annoncer welchen did the präsidentin
+    - what are today's actualizaciones
+    - decir me der nouveautés
+    - quoi neue happened today
+    - give me quotidien updates
+    - is allí any reliable neuheiten on corona
+    - the aktuellste updates for covid in az can i get
+    - fue in la last presione release about covid welche
+    - coronavirus actualité please
+    - zeige all el neuheiten on corona in my county
+    - can i a aktuelles briefing about covid get
+    - favor show me aktuelles acerca the coronavirus in the us
+    - welchen sind les current evolución about corona worldwide
+    - quel is the latest covid news
+    - welchen is the news on corona virus in my état
+    - what's le latest on the pandémique in puerto rico
+    - how's die virus situation in italie nun
+    - corona virus news depuis bbc
+    - vois today's noticias on covid 19 i können
+    - see can i reportagen on infection preise
+    - enviar me neuheiten updates from the last heure
+    - what's der lastest nouveautés desde italie
+    - any noticia on a vacuna
+    - today's coronavirus update, please
+    - what is the most recent new ab kanaren
+    - are there cualquiera económicos updates
+    - abschicken me the dernier news desde germany, porfavor
+    - welche does the cft etwa the economic wirtschaftskrise
+    - welchen does el presse say about the vacuna development
+    - tell me die best news about das covid 19 kur process
+    - any news about covid
+    - what's die latest on coronavirus in dc
+    - covid-19 actualité from south corée
+    - bekommen me today's press release about el virus
+    - please envoyer me the dernière coronavirus nouveautés
+    - show me the latest about covid-19 in mexique
+    - quoi sind die meisten wichtige updates on coronavirus in the world
+    - abschicken me all aktuell beiträge about coronavirus in californie
+    - covid-19 updates
+    - updates für my area
+    - news on covid-19 où can i consigue
+    - coronavirus news subscription
+    - what's the most recent aktuell sobre covid-19
+    - recent neuentwicklungen in my city
+    - will there be a prensa konferenzen hoy
+    - what are les most recent coronavirus numbers
+    - dame the quotidiens corona update
+    - what uhrzeit fera dem presse release be aujourdhui
+    - what's nueva mit coronavirus in floride
+    - bitte give me la latest updates on covid-19
+    - coronavirus news in spain heute
+    - liberaciones on covid-19 this semana welchen son the who press
+    - sido any updates on coronavirus from der cdc puisque last week tienen dort
+    - corona updates, please
+    - covid-19 prensas veröffentlichungen
+    - me about covid-19 what updates peuvent you dar
+    - are ahí jeden recientes covid-19 presse releases
+    - what's el most neueste novedades from australie
+    - show me yesterday's drücken release depuis trump
+    - what's the dernière aktuell on le situation in inde
+    - bekommen me nachrichten from my hometown
+    - what's el latest news etwa covid
+    - any nouvelles about le virus in italy
+    - are there jede nouveautés about coronavirus in my fläche
+    - cualquiera updates on the corona situation aujourdhui
+    - zeige me les últimas aktuelles in washington can dich
+    - updates du italy
+    - most recent noticia from sur korea
+    - covid 19 updates
+    - latest on corona virus
+    - current développements fromthe who
+    - updates any corona virus
+    - was did cuomo do regarding covid today
+    - welchen has who said etwa covid19
+    - regarding covid 19 cualquier aktuell über quedo at home bestellungen
+
+- intent: okay_thanks
+  examples: |
+    - este tun dankes für
+    - construida omg so contenta someone diese
+    - this is increíble
+    - tú are so useful
+    - gracias you very much
+    - ok
+    - hm dankeschön for the info
+    - darf allah bless you
+    - thnx bro
+    - ty
+    - gracias, i aprecia it
+    - super info, gracias doctor bot
+    - interesting, gracias
+    - gracias, bot
+    - thank you very much, corona doc
+    - ok gracias
+    - dankeschön you para the renseignements
+    - remerciement doktor
+    - alright thanks
+    - merci para der ayudar
+    - cool, dankeschön
+    - aprecia i it
+    - thank you pour vos aider
+    - gracias you dok
+    - dankes bot
+    - gracias pour checking eso up, médecin bot
+    - dankbar für la feedback, covid doc
+    - really appreciate this, médecin
+    - gratitude, corona doktor
+    - thanks a million, doctora
+    - i appreciate the info, doc
+    - danke you pour your assistance
+    - remerciement for dem help
+    - dankeschön you for su intérêts
+    - gracias te for todo la help you've dado me dok
+    - be so gratefull to usted mr covid i'll
+    - okay, thank you so much coronabot
+    - alright, remerciement
+    - apprise über covid-19 symptoms. thanks a bunch, dok i simplement
+    - danken you doc for enseñando about rostro masks
+    - dankes für all your ayudar
+    - remerciement so mucho doc
+    - i apprécie it, thank vous
+    - ok, thanks a lot
+    - thank vos für die help heutigen
+    - i echt apprécie sie für hilft me
+    - you're literally a life saver, thanks doc
+    - thank sie so so vieles
+    - thanks pour the aide, doc
+    - that's exactamente what i erforderlich to know
+    - dankes bot
+    - danken you for todas the informationen
+    - great, thanks a bunch
+    - gracias para die info, doktor
+    - okay, thanks covid doc
+    - danke you so mucho para all la help
+    - dankeschön pour die help, bot
+    - remercier sie
+    - gracias you so much for la info
+    - mucho appreciated, bot
+    - you're such a big help, dok
+    - thank you para sharing cette informacion con me
+    - dankeschön pour everything
+    - much appreciated, corona bot
+    - dank for sharing this con me
+    - danke you, doc
+    - thanks bot
+    - danke pour les info doc
+    - doc thanks much, bot
+    - rightio, thank dir covid toubib
+    - thanks a bunch bot doktor
+    - remerciements für all this, covid bot
+
+- intent: protect_yourself
+  examples: |
+    - estancia sicher how can i
+    - quel devraient i do to prevent
+    - preventive massnahmen
+    - nehme pour what vorsorge deberia i covid
+    - 'm scared quel do i do
+    - my family comment can i beschützen
+    - my parents sont vieux what do i do
+    - i don't wanna muera
+    - qué können i do to avoid consiguiendo sick
+    - protege myself how devrait i
+    - protect myself aus coronavirus como peux i
+    - be enough will tragen a schablone
+    - does regular erkältung vaccine aidez kämpfe le virus
+    - helps what aimable of face masquer
+    - does disinfecting ropas after grocery shopping aidez
+    - how to evitan obteniendo the viren
+    - my fresh groceries devrais i need to wash
+    - ways to protect myself de les virus
+    - disinfect deberia i my grocery bags
+    - top precauciones for the virus
+    - sollte i vitaminen to protect myself take
+    - como effektiv are guantes
+    - tomar should different age agrupaciones different prevention maßnahmen
+    - are cloth máscaras as efficient as quirúrgica masks
+    - reinigen produkten deberia i utilización quoi
+    - prenant qué maßnahmen should ältere particuliers be
+    - empêcher my ninos du getting das virus how do i
+    - a cloth mask lavage how often sollte i
+    - coffre ab getting virus cómo do i behalten
+    - my face maske schalter fuera como often sollte i
+    - tienda for produce at the grocery geschäft comment should i
+    - stand desde autre people comment far apart devraient i
+    - cash deberían i stop using
+    - my einkäufe wiping abwärts sollte i be
+    - sollen i be packages online bestellungen
+    - waschen my hands con heiss or rhume water devrait i
+    - qué puedo i do to schützen andere de obtenir las viren
+    - i not get woher can coronavirus
+    - i not get sick vom coronavirus how do
+    - how can i séjour safe desde covid-19
+    - help me stay sécuritaire what fera
+    - avoid coronavirus tell me algunas ways to
+    - tell me quelques astuces to quedarse safe
+    - avoid covid-19 what están einigen steps to
+    - coronavirus prevent what methods wille ayudar
+    - donne me information to éviter covid-19
+    - my family from covid-19 protéger wie can i
+    - in what wege can we schützen ourselves depuis coronavirus
+    - in quel ways can i proteger my kindern
+    - welchen are some caminos to bleibe safe from covid-19
+    - face masks to verhüten covid-19 wear should i
+    - aide arrêt coronavirus wille gloves
+    - aidez me avoid covid-19 testamento wearing gloves
+    - help me reste safe du covid-19 hace portant gants
+    - devrait i stand sechs feet apart ab otros
+    - me protect will coton facemasks
+    - a n95 masquer do i need
+    - will hand sanitizers beschützen me from the virus
+    - evitan deberían i large überfüllt endroits
+    - do face masks ayuda
+    - do kids need to cara masks verschleiß
+    - protect dagegen la virus how can i
+    - a face mask to spazieren outdoors do i need to wear
+    - the difundir do stoff gesicht mask aide empêcher
+    - hace boisson wasserversorgung verringern obtenir la viren
+    - der virus best place to avoid getting
+    - bekommen le virus best façon to verhinderung
+    - how can i my dog protect
+    - do nourrisson benötigt a face mask
+    - protègent against the virus do any medications
+    - do i need to tout my groceries limpio
+    - wipe down should i my stamm après going grocery shopping
+    - should i my habillement after gehen außerhalb sanitize
+    - vistiendo joyas when tiendas soll i avoid
+    - réutilisation my rostro maske can i
+    - protégez my abuelos como can i
+
+- intent: share
+  examples: |
+    - share esto with jack
+    - send this infos to my amis
+    - partagez chatten
+    - publication to amis
+    - tell todos acerca this comment do i
+    - tell my familie über this i'll
+    - send this to eltern
+    - share avec mom
+    - diffusion este chat
+    - senden this to jedem
+    - please share dieser service
+    - share a link to this
+    - please send a lien pour this service
+    - comparta este dienstleistung
+    - teilen la chat service, please
+    - share den link para this
+    - comparta verknüpfung
+    - this bot comparta can you
+    - share this dienstleistung how can i
+    - compartan servicio svp
+    - share this bot on twitter
+    - verbindung this to my profile
+    - anteil la welt gesundheit bot
+    - share bot to my fil
+    - share esta to amigos
+    - share this lien
+    - share this story
+    - how do i compartan esta avec my famille
+    - anteil this enlazar with my contactos
+    - kannst you share the oms bot
+    - go on y forward this rasgo
+    - comparta cómo can i this verlinkung
+    - send a bericht to ce link
+    - enlazar diese publicación to my amt
+    - share esto informations
+    - inwiefern do i this share
+    - share lien
+    - share i want to this info
+    - share cette favor can te
+    - share this publicar now
+    - send out cela information
+    - forward los neuigkeiten
+    - beitrag diese bot
+    - ce service teilen i want to
+    - shareable link
+    - you with personas anteil how can i
+    - dieser on instagram i wanna share
+    - partage this service online i'm gonna
+    - let me share esta chatten
+    - partagez this link with my amies solo
+    - partage this on my story
+    - send das to my spouse
+    - beitrag esto on my journal
+    - share this servicio avec alles my followers
+    - este link con my familia teile i wanna
+    - share this, please
+    - could i this on my facebook share
+    - teilen anzeigen me how i kannst this, svp
+    - share info about this service
+    - please compartan this on my page
+    - compartir this info over text
+    - comparta on my sociales speichermedien
+    - this link share can i
+    - anzeigen me how to share this to my famille
+    - teile ce i'd like to
+    - this information peuvent i share
+    - share esto with my friends, porfa
+    - share el link with my family
+    - share comment do i this lien
+    - i want to part this on my page
+    - share this lien to my twitter adeptes
+    - link how do i part ce to my kontaktaufnahme lista
+    - share este link to non creyentes
+    - envíe this article to my eltern
+    - share link with friends on facebook
+    - partage los article
+    - is partager permitidos
+    - share cela lien on facebook
+    - share esto with a facebook group
+    - comparte este vínculo with mom
+    - pouvez i share cet on my sitio
+    - how do i this with reddit teile
+
+- intent: travel
+  examples: |
+    - is it sichere to travel now
+    - den autobus to trabajar prends can i
+    - devrais i my vacation cancel
+    - what is essential travel
+    - uber can i nehme
+    - is it okay if i la trenes take
+    - travel domestically puedo i
+    - my flight should i absagen
+    - move around libremente nun can we
+    - reisen rat
+    - erhalten through the border to mexico can i
+    - is traveling by autovermietung safe
+    - does crucero recuento as non-essential voyage
+    - travel to go campings can i
+    - go to hawaii i wanna know if i kannst still
+    - mosca to see my hijo across das land can i
+    - is it safe to reisen on a train
+    - necesidad travel advice
+    - can i encore viaje to europe
+    - is it safe to reise by bus
+    - öffentlichen verkehrswesen utiliser should i stop
+    - is the metro still working in france
+    - be ok if i fly to novedades york in el summer will i
+    - travel tips during den pandemie
+    - travel du les us right now can i
+    - is it safe to go extranjero diese fall
+    - sont les buslinien cancelled in town
+    - is crossing state líneas permitido
+    - be in efecto wie long with reise verbot
+    - berücksichtigt qué is essential travel
+    - is it sicher to travel by votre propre pkw
+    - is it sicher to reisen out of den land
+    - can i visite my parents in california droite maintenant
+    - i want to conozca if i können take a trip to las mountains
+    - drive across state líneas pueden i
+    - is it safe to conducir to cleveland
+    - consejos para viajar by train
+    - gestrichen sind airport bus services
+    - greece binnen den nächsten año et be ok can i visit
+    - is it okey to commute across state lines
+    - quoi is the safest mode of voyage
+    - usure a masken on my metro ride do i need to
+    - quelle are the best précautions while voyager
+    - what are der least segura places to travel droite désormais
+    - take an airplane on may las 15th can i
+    - go to ny nach das quarantine can i
+    - is the mexikaner border fermée porque of covid 19
+    - is ahi any aerolínea operating these days
+    - me some travel conseils dar peuvent you
+    - are taxis considerado dangereux
+    - is it safe to travel right now
+    - what's the safest transport right ahora
+    - sont there any coffre destinations
+    - what are les sicherheit measures for a domésticos reise
+    - is it safe to viajes con kindern
+    - is it safer to travel on avion or zug
+    - recommend para reisenden welchen does los cdc
+    - do i need to my equipaje cuando voyager disinfect
+    - can i todavía nimm inländischen vols
+    - wann will viaje verbote élévateur
+    - my summer adpic planned devrait i garder
+    - essential travel considérée was is
+    - viaje safely comment do i
+    - leave am i permitida to my state
+    - do you think i have to annuler my trip to japan in august
+    - kann i travel afuera of my stadt
+    - is my trip to las vegas considerados non-essential
+    - reise to canada droit désormais peut i
+    - are trains toujours laufen in europe
+    - can i the subway to den store prenez
+    - cancelled, too are domestiques vuelos
+    - soll i annule todo my upcoming vols to the usa
+    - can i reisen to europe right désormais
+    - is it safe to reiten a bike
+    - donnez me the meilleur options for travel in dc
+    - is it safe to get on a vuelo
+    - is it still possible to go to europe
+    - reisen by car should i
+    - was is considérées non-essential reisen
+    - is it okay to travel to alaska
+    - safe travel options
+    - pouvez i still voyage by train
+    - travel über bus peut i safely
+    - wo can i go in dem welt that's segura
+    - annuler sollen i my destination bodas to italy
+    - pueden i voyage to mexico via foot
+    - be außerhalb is comprar víveres an excusez to
+
+- intent: what_are_symptoms
+  examples: |
+    - what sont the symptome
+    - i avoir a cold devrait i be inquiète
+    - a fieber jedoch a headache have i dont
+    - i've a cold for a week now had
+    - is husten a signez of den virus
+    - i denke i have den flu
+    - my throat is sore do i the viren have
+    - is erbrechen a symptom
+    - what are the signs of dem virus
+    - how do i decir if alguien is infecté
+    - is toux a symptome
+    - sont den síntomas vergleichbar to having flu
+    - como wird i know if i have covid-19
+    - me den symptômes of coronavirus tell can dich please
+    - comment longs does éstas symptôme last
+    - show symptome what debería i do if i
+    - worry if i have a runny nase sollen i
+    - síntomas devrais i self-isolate if i show
+    - list all the symptômes can tú
+    - montrer what is dem protocol if i symptomen
+    - how can i rid of my cough
+    - is coughing a symptom
+    - is an bouleversé stomach a unterzeichnen of covid19
+    - tell if i've avait coronva virus how can i
+    - is a fièvre a symptom
+    - anschauen for what symptômes should we
+    - listes alles of las corona virus symptomen
+    - has how to decir if a familles miembro corona virus
+    - was síntomas están there
+    - quelle sind some différences betweens covid19 and the fréquents kalte
+    - diferencias entre alergia und covid19
+    - tell me all of les symptomen of covid19
+    - it qué soll i be looking sortie para to tell if someone ha
+    - is a runny nez a symptome
+    - peut corona virus cause pnumonia
+    - was symptomen are most common
+    - tell me about the différente síntomas of corona virus
+    - what sind certaines early síntomas
+    - is having a mangel of taste a síntoma
+    - is a migraine un of las symptoms
+    - a síntoma breathe is having a hard tiempo to
+    - avoir a lack of breath is a panneau of corona
+    - have do i allergies or covid-19
+    - is coughing a síntoma of the corona virus disease
+    - what sind algunas tell tale signs of covid-19
+    - a síntoma of corona aches sont muscle
+    - see if i han it qué sind las main ways to
+    - check to see if i have the maladies qué sollten i
+    - are las síntomas of covid-19 similar to allergies
+    - is coughing sang a síntoma of it
+    - is a fiebre a symptom of corona virus
+    - does corona virus last inwiefern long
+    - how schweren do el síntomas obtenir
+    - ayuda if i afficher signs of corona woher long should i wait to bekomme
+    - qué are the wichtigste symptômes of the corona virus
+    - sag if jmd hat corona how puede i
+    - den corona what are der panneaux vos mayo han
+    - is a runny nose a symptom of the covid-19
+    - quelle are los symptomen of the coronavirus maladie
+    - is shortness of haleine a symptom
+    - is pneumonia a symptom
+    - is cefalea a symptome of the coronavirus seuche
+    - have a dry cough, does que mean i haben the corona virus i
+    - does la covid-19 diarrhoea verursachen
+    - cause nasal congestion does la covid-19
+    - been extra cansancio lately does cela mittelwert u avoir das corona i haben
+    - is headache a symptom of the coronavirus enfermedad
+    - habe covid-19 is chest peine a signez i
+    - cause presión in my truhe does le corona
+    - hace coughing up phlem mean i. have the corona
+    - cause lack. of appetit does las corona
+    - ont a fiebre does that mean i ont the corona i
+
+- intent: what_are_treatment_options
+  examples: |
+    - a heilmittel doch have do we
+    - qué son the traitement options
+    - is da a vacunas for covid
+    - do krankenhaus know how to cet fijar
+    - venir up avec what haben den doctors
+    - inwiefern can i get treated
+    - what medikament deberia i take for covid
+    - is coronavirus treatable
+    - do in this situation what can the hospitals
+    - go für medical advice donde devrais i
+    - tread covid can i use imprescindible oils to
+    - cure corona can medicine
+    - is there a vaccine yet pour the covid
+    - myself if i'm sick with coronavirus what pueden i do to treat
+    - is the malaria medicine sécuritaire für behandlungen of covid
+    - a cure does coronavirus han
+    - what peuvent i use at home to treat myself if i han corona
+    - is there a vacunas to treat den coronavirus
+    - does elderberry säfte gönnen covid
+    - are là any tratamientos für covid
+    - treatments for corona
+    - traiter covid does hydroxychloroquine
+    - covid vaccine
+    - a impfstoff for covid obtenir can i
+    - what tratamiento is ahi pour covid
+    - what are my covid behandlung options
+    - what's la best cure für covid-19
+    - how do people get rid of the coronavirus
+    - is plasma donativo gute to tratar coronavirus
+    - is tamiflu efectiva against covid
+    - hydroxycholroquine for novel virus benutzen can i
+    - does chinin help with covid
+    - treatment covid 19
+    - latest tratamiento pour sars cov 2
+    - best cure pour el corona virus
+    - help covid is dort otc medikament cela will
+    - quoi are la treatment options for covid
+    - was sind medicos mit for covid
+    - grippe medicine to puede i use treat covid
+    - están ahi any approved vaccins for covid-19
+    - outline the aktuell covid-19 treatments, svp
+    - does hydroxycholroquine work as a treatment für das coronavirus
+    - what does las cdc recommend to treat coronavirus
+    - is los coronavirus heilbar
+    - welche tratamientos are there für covid right now
+    - welche can i do to heilen coronavirus
+    - covid cure please
+    - is allí a vaccin für coronavirus pourtant
+    - natural remedios para covid-19 lado effets
+    - give me behandlungen options for covid-19
+    - guérir für covid-19
+    - is là a covid-19 vaccine in den works
+    - welche son einige tratamiento options pour covid-19
+    - is dorthin a vacunas für covid-19
+    - are there any natural traitements pour the coronavirus
+    - what medicamentos sind effective against covid-19
+    - prevent is vitamines c useful to coronavirus infecciones
+    - what's the traitement for a coronavirus patient
+    - coronavirus if i caught it how do i guérir
+    - is there any vaccine for covid-19
+    - at-home recours for covid
+    - cdc covid-19 treatment recomendaciones
+    - vinegar to can i benutzen limpios my throat
+    - benutzen instead what kannst i
+    - is on el weise la covid 19 vacciine
+    - benutzen peuvent i it as soon as it wil be delivered
+    - welchen are the treatment options para covid-19
+    - is eucaliptus a behandlungen option für coronavirus
+    - use as a treatment für covid-19 what kann i
+    - a vaccine für coronavirus bekommen can i
+    - how can i tratar myself für coronavirus
+    - is there a kur trotzdem para covid-19
+    - traitement against covid-19
+    - montrer me behandlung options pour the virus
+    - corona does hydroxychloroquine behandeln
+    - think i ont covid should i go to die hopital if i
+    - covid symptômes alleviate how can i
+    - how to gönnen covid at home
+    - is preparados wie many mehr mois until a impfstoffe
+    - where is a covid-19 vaccins being entwickelte
+    - wie are covid patients soigné in les hospitalaria
+    - kampf testamento essential oils coronavirus
+    - what are my treatment options pour covid 19
+    - tienen do jedes länder a kur für coronavirus
+    - will eating more fruit cure coronavirus
+    - is allí a impfstoffe gegen coronavirus
+    - will heat thérapie tratarlo coronavirus
+    - how to alleviate coronavirus symptomen
+    - do nsaids covid 19 treat
+    - how to get behandelt pour corona virus
+    - covid 19 cures
+    - best traitement für corona virus cough
+
+- intent: what_if_i_visited_high_risk_area
+  examples: |
+    - traveled to new york recently am i infizierte i
+    - tenido jemand test positiva should i be worried my vuelo desde japan
+    - i gingen to den hospital without a masque welchen should i do
+    - was should i do if i went to chine
+    - i've been to a lot of infizierten plazas will i get la coronavirus
+    - sais if iam in a high risiken bereich how do i
+    - is there a spezifisch number of cases that definieren high arriesgar région
+    - how to beschützen myself in high risk areas
+    - comment do we ourselves from virus in famille protect
+    - will self quarantine aidez if i han come retour from a high risk gebiet
+    - tested after visita a hohe risk area should i obtener
+    - i live in a high risque area welche are the chancen i habe vertraglich or am a carrier of enfermedad
+    - welchen sind das haut risk zones proche
+    - show me local hohe risk zones
+    - what son alta gefahr flächen para coronavirus
+    - what is the nearest hohen risk superficie to me
+    - liste high risk areas für covid-19
+    - erwogen at high risk for coronavirus what localidades are
+    - most risiko for coronavirus outbreak qué areas are at
+    - i do if i habe to visiter a hohe riesgos zone what do
+    - cuáles states han los highest coronavirus outbreaks
+    - reisen to y aus a high risk area for coronavirus can i
+    - welche policies are in place para high risk domaines
+    - am i in a high risk domaine for covid-19
+    - quelle qualifies as a hohe risk fläche for coronavirus
+    - know if i have reiste du a hoch risques fläche how do i
+    - affected by lequel countries are most coronavirus éclosion
+    - considerada élevée risiken what tipos of businesses son
+    - habe to travaux in a high risques domaine während coronavirus outbreak what if i
+    - how should i self-quarantine in a elevada risque coronavirus gebiet
+    - come in kontaktieren con jemanden at the comestibles almacenar welche if i han
+    - what flächen have the quarantäne restrictions in place für covid-19
+    - can i volar during coronavirus outbreak
+    - voyage outside la united estados correcto now can i
+    - hallazgo out how do i aktuelles quarantine restrictions for my city
+    - how do i know if i habe visited a high riesgo superficie
+    - do if i visited a hohe risk domaine welchen should i
+    - are là any richtlinien i can follow if i visited a high riesgo superficie
+    - qué should my mama do since ella arbeiten at le hospital
+    - workers be tun healthcare qué sollte
+    - beschützen mich if i need to go out para imprescindibles how do i
+    - desgaste if i am aller somewhere is there a list of items i sollte
+    - mich wenn ingresando a hisk risk area proteger quel are la steps to
+    - should i be inquiets etwa my girlfriend coming startseite from das hospital
+    - devrais i be erschreckt since i estaba around a partie of personen
+    - what ciudad nearby is the highest riesgos
+    - do to protect people in ihre household what shoud essential workers
+    - donde peuvent i find a list of alto risk länder
+    - sigue para people who besuchte haut risk áreas están there peldaños to
+    - follow when i besoin to congé my maison is there a protocolos to
+    - qué state in la vereinigten etats is at the highest risques
+    - is considered a hoch risk area öffentlichen verkehr
+    - i simplemente visited a alto risk area, deberia i get getestet
+    - artes i besoins wenn verlassen my house is dorthin a list of geschützte
+    - macht a stelle considerado high risques was
+    - is a endroit with 10 or more people betrachtet a élevé risiken area
+    - considéré élevée son beaches risiko bereiche
+    - is it coffre to spazieren around wuhan now
+    - is it ok to besichtigung a hospital this wochen
+    - i live near la beach. sollte i be concerné
+    - is it safe to go lebensmittel einkaufen
+    - is munich allemagne egalement on lockdown
+    - which state tiene the seconde highest risk
+    - su propio protocole do hoch arriesgar areas have
+    - porzellan still is considered a haut riesgos country
+    - avoid esas who recently vint revenir from internationaler travel deberia i
+    - is immeuble i travail at considered a alta arriesgar area la compañía
+    - comment do i protect myself in high risk flächen
+    - sind officially high riesgo is allí a list of countries that
+    - am i in a high gefährdung area
+    - are still in a nationwide shutdown cual países
+    - i do if i vive with essential employés was do
+
+- intent: what_is_corona
+  examples: |
+    - what is coronavirus
+    - was is covid 19
+    - i want to weiß etwa the virus
+    - tell can du me about las virus
+    - dónde does la virus come de
+    - how hace der virus travaux
+    - quel is a virus
+    - is coronavirus gustar the flu
+    - is coronavirus peligroso
+    - tldr of coronavirus
+    - what is covid 19
+    - más details on covid 19 please
+    - come depuis where did die covid-19
+    - what is the virus
+    - give kann ihr me advice about covid-19
+    - what is el dernier data. on la corona
+    - quelle is les wissenschaft hinter virus protection
+    - können you teach me about covid
+    - instruire me etwa corona
+    - quel is the inside story about the virus
+    - gebe qué amable of guidance können tu me on covid-19
+    - give me a entendiendo of covid können you
+    - what intelligence do toi han on the virus
+    - donne me a report on corona
+    - quel is den definition of das virus
+    - geben me los latest rundown on covid-19
+    - give me a summary on corona
+    - qué is la narrative on der virus
+    - donner me die faits about covid-19
+    - enlighten me about the virus
+    - erziehen me on covid-19
+    - donne ma desglose of was the virus is
+    - quel is el history of covid-10
+    - have on corona what info do you
+    - dar me more informationen on covid-19
+    - can i entendez actualizado info on les corona virus
+    - i wanna hear weiteres about las pandemic
+    - geben me a allgemeines actualisation on le corona virus
+    - sagen me about corona virus
+    - tell what can you me about the actuels pandemic
+    - more infomation about corona virus, bitte
+    - anhören puedo i an actualización on the pandemic
+    - tell me more etwa covid-19
+    - tell me about corona virus
+    - tell me more informacion on corona
+    - give me an aktualisierung on the pandemia
+    - donner me an update on covid-19
+    - me welche covid-19 is sag pueden tu
+    - what amable of erkrankungen is covid-19
+    - schenken me a definition of corona virus
+    - give me a überblick on corona virus
+    - decir me about covid-19
+    - svp give weiteres info on covid-19
+    - envie to hear about corona virus i
+    - tell me über covid-19, svp
+    - more information on covid may i have
+    - can you elaborate on las corona
+    - kennen about covid qué should i
+    - bitte elaborate on the corona
+    - was is there to weiß etwa das corona virus
+    - is là mehr détail about la corona virus
+    - erlernen about covid-19 is là davantage we can
+    - learn about the corona virus what else peut i
+    - what other information must i apprendre about covid
+    - plus details on le corona mayo i conseguir
+    - quoi is it about the corona virus we deberia keep in mind
+    - podrían you more renseignements acerca corona comparta
+    - care to explain ausdrücklich détails on corona
+    - anything else i devrait entiende about covid
+    - détails on corona i'd like to encounter anymore
+    - regarding covid is allí an outline on details
+    - corona virus, what is it
+    - mehr detalles eso relate to corona virus
+    - davantage on la corona virus peut i sachez
+    - more auskunft on coronavirus svp
+    - where tat corona viren start
+    - is dangerous about covid-19 welche
+    - erziehung me on das virus can dich
+    - how did they come up with name para les virus
+    - me what information peut dich donne
+    - jedes new informations on coronavirus
+    - can you me on jedes nouvelles auskunft for covid-19 update
+
+- intent: can_i_get_from_feces_animal_pets
+  examples: |
+    - obtenga peut i den virus depuis chiens
+    - devraient i arrête fleisch comer
+    - transmit via mascota does die virus
+    - it from animaux peuvent i bekomme
+    - can the virus spread through fèces
+    - bedarf to sorge about wild vida like birds, squirrels? peux them ausbreitung virus too do i
+    - essen devrait i uncooked viandes like sushi without coronavirus préoccupation
+    - is the coronavirus enfermedad zoonotic
+    - can pets propagación covid-19
+    - the coronavirus llevar can tieren
+    - pourquoi coronavirus afecta some animals, but not otras
+    - should mascotas be coronavirus probado para
+    - can fish et aquarium wasserwirtschaft propagación the virus to pueblo
+    - can insects coronavirus carriers be
+    - coronavirus can moustiques propagación
+    - can houseflies spread covid-19
+    - how to protect your mascotas de covid-19
+    - laquelle mascota the meist at gefährdung pour la coronavirus maladie is
+    - how can i tell if my pet erhalte enferma from coronavirus
+    - quarantine my chats trop devrais i
+    - usure a face mask when in public should my mascotas
+    - i take my pet's ivermectin to impedir or tratarlo my covid-19 infection können
+    - qué tierisches did covid-19 originate de
+    - könnte dem coronavirus mutar over time into strains for perros or chats
+    - is dort jedes pruebas das tiere otros than dogs and gatos podrían be sensibles
+    - wem will sammeln the samples aus my mascotas if my pets tengan covid-19 symptôme
+    - do if i pense my tier has the nouveau strain of coronavirus qué should i
+    - the virus that causas covid-19 können a pet's fourrures spread
+    - i am someone who is sick by walking their dog. inwiefern do i bleiben safe aidant
+    - can i corona viren from manger beef holen
+    - el virus pouvez my chiens get
+    - if i eat sea food puede i erhalte corona
+    - does corona virus transmit de vögel
+    - peuvent i corona virus depuis mosquitos obtenir
+    - are my birds at risques to attrape the virus
+    - should i be inquiète about my pets attraper covid 19
+    - effect how does corona my mascotas
+    - como can i sag if my katze has corona
+    - a chat peux i holen covid 19 if i haustier
+    - me puede i obtener covid 19 if a dog beißt
+    - das virus from esse pork get can i
+    - übermitteln de animaux to humans hace corona virus
+    - llevar peut chickens the virus
+    - bedarf to inquiétude about my hund getting corona do i
+    - should i inquiétude sobre acariciar animaux y getting the virus
+    - can i get covid 19 from mice
+    - corona carry what animals
+    - has jeden animales erprobt positive de corona
+    - bekommen malade and transmettant it to a human is there any information from an animal
+    - peuvent a dog contract la virus
+    - coronavirus du a guinea cerda contrat can i
+    - wie safe is it to eigene a pet bat
+    - contain do cat scratches the virus
+    - how sûr are katze bites während the pandemia
+    - can poulet breasts contengan the rona
+    - getting covid from eating steaks are là cualquiera cas of
+    - please tell me my fische are safe de the covid-19
+    - las virus spread welche types of animales pouvez
+    - can my hija the virus depuis my pet obtenez
+    - affected more are bebe animals
+    - las virus contracting are mer animals
+    - puede a bird test positive
+    - care for a cat that has contracted les virus how can i
+    - the virus to my kids can le blood of an infectée animal spread
+    - the viren hace bird excréments enthält
+    - the disease to ratas peut milben propagación
+    - can a dead skunk on le road consigue a affamée coyote ill
+    - how zahlreiche tipos of marsupials tienen sido infected
+    - is da a limite to how many animals peux be der rona tratadas for
+    - coronavirus depuis an aimal arbeitsvertrag kann mensch
+    - beeinflussen does the coronavirus dogs
+    - atrapar das corona virus are my tieren at gefährdung to
+    - covid19 can mascota ausbreitung
+    - animales affect how does the virus
+    - do i need to inquiétude about my mascota durante la virus
+    - woher kannst i tell if my chienne has the virus
+    - the virus have sind there any síntomas for animals dass
+    - donnez me auskunft about the virus and animals
+    - erhalten les virus from isst carnes will i
+
+- intent: can_i_get_from_packages_surfaces
+  examples: |
+    - die virus can amazon paquetes transmit
+    - delivered is it safe to obtenez food
+    - how frecuentemente soll i my mesa clean
+    - get covid-19 by anfassen my yeux can i
+    - infecté if i touch something a patient has used voluntad i obtenez
+    - kannst i conseguir covid19 du mail deliveries
+    - soll i be worried about getting las virus from entrega pauschalen
+    - comment larga does les virus vive on surfaces
+    - werden withdrawing cash desde an cajero me den virus give
+    - can coronavirus vive on the exterior of my cara mask
+    - can covid19 live on essen items berührte by an infectée person
+    - can covid19 live on bags from the store
+    - nimm for covid 19 to leave surfaces comment langen hace it
+    - peuvent covid 19 vivre on car surfaces
+    - the virus from my téléphone surface consigue puedo i
+    - kannst electonic surfaces covid19 contenir
+    - what is the montant of zeit the corona viren stays on surfaces
+    - live on wood positionen can the virus
+    - using publico sollen i be main rampes without handschuhe
+    - be on türen can los virus
+    - qué is the zeitraum pour covid19 to remain active on surfaces
+    - lebend langen on pappe does covid-19
+    - obtenga on haustür henkel can coronavirus
+    - get will i coronavirus from touching mano rails
+    - does der virus live on mail casillas
+    - will covid-19 stick to my gloves
+    - pueden you coronavirus von empréstitos ropas obtenir
+    - erhalte pouvez i dem virus depuis usando plastic bags from safeway
+    - consigue on my körperpflege paper can coronavirus
+    - lata the virus spread on my tv fernsteuerung
+    - bekomme covid ab my groceries will i
+    - todo my shoppen lavar devrais i
+    - can you get covid from opening a ordures lata
+    - will corona die fast on métalliques
+    - vivir on my teléfonos können the viren
+    - soll i disinfect my table every day
+    - can covid live long on trees
+    - am i sicher to handle plastique things
+    - touch what's le worst chose to
+    - stirbt on whats le best matériau covid-19
+    - wie long is covid-19 active on surfaces
+    - sind there surfaces covid-19 cant lebend on
+    - does covid-19 go away after some time
+    - is da escriba of material it cant vivant on
+    - estadía on a superficial das isnt touched how long does it
+    - does hand santizer mata la virus on forfaits
+    - does covid-19 beimessen soi to el walls
+    - hace covid-19 reste on libros
+    - hace covid-19 bleiben on jeux systèmes
+    - is safe from covid-19 what surface
+    - does covid-19 seep into the paredes
+    - does covid-19 have a oberflächen it cant attach to
+    - hace covid-19 attach onto fruit
+    - is it sicher to uso glassware
+    - is tocar main schienen sûr
+    - limpio my mailbox do i besoin to
+    - pouvez bleach mata the virus
+    - kill can alcohol the virus
+    - welches surfaces sind likely to habe viren
+    - han virus pour la longest time what superficie will
+    - survive on distinto surfaces how does le virus
+    - comment long coronavirus quedo on surfaces
+    - peux vos conseguir sick by toucher a superficie con virus
+    - stay aktive on surfaces does it
+    - deviennent stronger while staying on surfaces does covid
+    - lequel superficial is most probable to have virus para los longest time
+    - thrive in eau does virus
+    - wie to nettoyer the víveres
+    - mascara be a träger of virus can cloth
+    - verdünnt javel to clean do you need to
+    - is vinegar effective in limpieza kunststoff
+    - packages how to clean livraisons
+    - inwiefern effektive is limpiar avec alcohol

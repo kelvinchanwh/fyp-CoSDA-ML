@@ -1,0 +1,1474 @@
+[
+  {
+    "text": "b'sag mir die neuesten statistiken zum corona virus'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.748241662979126
+    }
+  },
+  {
+    "text": "b'wie viele f\\xc3\\xa4lle gibt es in deutschland'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6124212741851807
+    }
+  },
+  {
+    "text": "b'wie viele menschen sind von covid-19 betroffen'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9750050902366638
+    }
+  },
+  {
+    "text": "b'aktuelle fallzahlen f\\xc3\\xbcr deutschland'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4908006191253662
+    }
+  },
+  {
+    "text": "b'die corona todesf\\xc3\\xa4lle in deutschland'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.6035849452018738
+    }
+  },
+  {
+    "text": "b'erz\\xc3\\xa4hl mir die neuesten statistiken in deutschland'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.4995884597301483
+    }
+  },
+  {
+    "text": "b'ich m\\xc3\\xb6chte mir die sterberate f\\xc3\\xbcr deutschland anschauen'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.7923744916915894
+    }
+  },
+  {
+    "text": "b'kannst du mir die fallzahlen in deutschland sagen'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.8742777705192566
+    }
+  },
+  {
+    "text": "b'nenne mir die coronafakten aus deutschland'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.5173723101615906
+    }
+  },
+  {
+    "text": "b'wie hoch ist die corona-sterberate in deutschland'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.5859031081199646
+    }
+  },
+  {
+    "text": "b'wie sind die infizierten zahlen in deutschland heute'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.7214839458465576
+    }
+  },
+  {
+    "text": "b'wie sind die neuesten infektionszahlen'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.820342481136322
+    }
+  },
+  {
+    "text": "b'wie viele menschen sind vom corona virus wieder genesen'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9893220663070679
+    }
+  },
+  {
+    "text": "b'wie viele personen in sachsen sind infiziert'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.9239283800125122
+    }
+  },
+  {
+    "text": "b'zeig mir die aktuellen statistiken bitte'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.5550901889801025
+    }
+  },
+  {
+    "text": "b'zeig mir die corona f\\xc3\\xa4lle in deutschland'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8301568031311035
+    }
+  },
+  {
+    "text": "b'zeig mir die letzten fallzahlen von corona in deutschland'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.6598490476608276
+    }
+  },
+  {
+    "text": "b'zeige die gestrigen fallzahlen weltweit'",
+    "intent": "latest_numbers",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.8926956057548523
+    }
+  },
+  {
+    "text": "b'helfen gesichtsmasken dabei, eine ansteckung mit dem coronavirus zu verhindern'",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.6004279255867004
+    }
+  },
+  {
+    "text": "b'sind handschuhe sinnvoll, um sich nicht mit corona anzustecken'",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.8263536095619202
+    }
+  },
+  {
+    "text": "b'worauf muss ich achten, wenn ich mich an \\xc3\\xb6ffentlichen pl\\xc3\\xa4tzen aufhalte'",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.4646761417388916
+    }
+  },
+  {
+    "text": "b'an welche hygieneregeln soll ich mich halten um mich vor corona zu sch\\xc3\\xbctzen'",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.3242364525794983
+    }
+  },
+  {
+    "text": "b'was ist hilfreich um eine ansteckung des coronaviruses zu vermeiden'",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.8678995966911316
+    }
+  },
+  {
+    "text": "b'welche art von mundnasenschutz ist zu empfehlen um eine ansteckung zu vermeiden'",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.8444423675537109
+    }
+  },
+  {
+    "text": "b'welche vorkehrungen zur verhinderung des coronavirus sind zu treffen'",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.4050368666648865
+    }
+  },
+  {
+    "text": "b'wie kann man sich am besten vor dem coronavirus sch\\xc3\\xbctzen'",
+    "intent": "protect_yourself",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.4231100082397461
+    }
+  },
+  {
+    "text": "b'erz\\xc3\\xa4hle mir bitte, was das coronavirus ist'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.48178789019584656
+    }
+  },
+  {
+    "text": "b'ich m\\xc3\\xb6chte mehr \\xc3\\xbcber das coronavirus erfahren'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.25709065794944763
+    }
+  },
+  {
+    "text": "b'was passiert, wenn man corona hat'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9545612335205078
+    }
+  },
+  {
+    "text": "b'kannst du mir etwas \\xc3\\xbcber das coronavirus erz\\xc3\\xa4hlen'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.4562816917896271
+    }
+  },
+  {
+    "text": "b'sammle alle informationen \\xc3\\xbcber corona'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.6869108080863953
+    }
+  },
+  {
+    "text": "b'wann has das coronavirus zum ersten mal aufgetaucht und wo'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9894400238990784
+    }
+  },
+  {
+    "text": "b'wann wurde das coronavirus zum ersten mal endteckt'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.8901259303092957
+    }
+  },
+  {
+    "text": "b'was ist die definition vom coronavirus'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.573533833026886
+    }
+  },
+  {
+    "text": "b'was wei\\xc3\\x9f man \\xc3\\xbcber das coronavirus'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.30525878071784973
+    }
+  },
+  {
+    "text": "b'welche symptome verursacht das coronavirus'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.9864967465400696
+    }
+  },
+  {
+    "text": "b'wie ist der forschungsstand beim coronavirus'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.8973377346992493
+    }
+  },
+  {
+    "text": "b'wie kam das coronavirus nach europa'",
+    "intent": "what_is_corona",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.6216168403625488
+    }
+  },
+  {
+    "text": "b'wie erkenne ich, dass ich corona habe'",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.5228881239891052
+    }
+  },
+  {
+    "text": "b'woran erkenne ich, dass ich an corona erkrankt bin'",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.5248998999595642
+    }
+  },
+  {
+    "text": "b'was f\\xc3\\xbcr arten an symptomenf\\xc3\\xbcr corona gibt es'",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8157976865768433
+    }
+  },
+  {
+    "text": "b'was passiert bei corona'",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.466939777135849
+    }
+  },
+  {
+    "text": "b'welche indizien weisen auf eine coronainfektion hin'",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4641754925251007
+    }
+  },
+  {
+    "text": "b'wie kann man testen ob man sich mit dem virus angesteckt hat'",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.6337062120437622
+    }
+  },
+  {
+    "text": "b'woher wei\\xc3\\x9f ich ob ich mich mit corona angesteckt habe'",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4320465326309204
+    }
+  },
+  {
+    "text": "b'zeige mir eine liste von coronavirussymptomen'",
+    "intent": "what_are_symptoms",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.8445484638214111
+    }
+  },
+  {
+    "text": "b'auf welchem wege verbreitet sich das virus'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9802097678184509
+    }
+  },
+  {
+    "text": "b'\\xc3\\xbcber welche wege verbreitet sich das coronavirus'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6862263083457947
+    }
+  },
+  {
+    "text": "b'auf welche weise kann man sich mit corona anstecken'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.40074607729911804
+    }
+  },
+  {
+    "text": "b'auf welchen materialien bleibt das coronavirus lange ansteckend'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.39142271876335144
+    }
+  },
+  {
+    "text": "b'gibt es eine vaccinef\\xc3\\xbcr covid-19 zurzeit'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.7369316816329956
+    }
+  },
+  {
+    "text": "b'h\\xc3\\xa4lt sich das virus an t\\xc3\\xbcrklinken'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.6775929927825928
+    }
+  },
+  {
+    "text": "b'ist das coronavirus \\xc3\\xbcber die luft \\xc3\\xbcbertragbar'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.5533683896064758
+    }
+  },
+  {
+    "text": "b'kann corona auf oberfl\\xc3\\xa4chen \\xc3\\xbcberleben'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4878848195075989
+    }
+  },
+  {
+    "text": "b'kann das virus \\xc3\\xbcber oberfl\\xc3\\xa4chen \\xc3\\xbcbertragen werden'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.2785371243953705
+    }
+  },
+  {
+    "text": "b'kann das virus \\xc3\\xbcber schuhsohlen \\xc3\\xbcbertragen werden'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.43165308237075806
+    }
+  },
+  {
+    "text": "b'kann meine katze den coronavirus auf mich \\xc3\\xbcbertragen'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9977076053619385
+    }
+  },
+  {
+    "text": "b'verbeitet sich das virus \\xc3\\xbcber die atemwege'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.39821943640708923
+    }
+  },
+  {
+    "text": "b'welche verbreitungswege nutzt das virus'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.8966803550720215
+    }
+  },
+  {
+    "text": "b'wie kann sich das coronavirus verbreiten'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.3147181570529938
+    }
+  },
+  {
+    "text": "b'wie lange h\\xc3\\xa4lt sich das coronavirus auf oberfl\\xc3\\xa4chen'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.46193617582321167
+    }
+  },
+  {
+    "text": "b'wie lange sind m\\xc3\\xbcnzen von infizierten gef\\xc3\\xa4hrlich'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.4915751516819
+    }
+  },
+  {
+    "text": "b'wie stecken sich die meisten menschen mit dem coronavirus an'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9952414631843567
+    }
+  },
+  {
+    "text": "b'wie verbreitet sich das coronavirus'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.5736203789710999
+    }
+  },
+  {
+    "text": "b'wird die krankheit auch\\xc3\\xbcber die luft \\xc3\\xbcbertragen'",
+    "intent": "how_does_corona_spread",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4477090835571289
+    }
+  },
+  {
+    "text": "b'k\\xc3\\xb6nnen haustiere das coronavirus \\xc3\\xbcbertragen'",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.8701962828636169
+    }
+  },
+  {
+    "text": "b'kann ich corona durch die \\xc3\\xbcbertragung mit meiner katze bekommen'",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8738290667533875
+    }
+  },
+  {
+    "text": "b'kann ich fleisch ohne bedenken essen'",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.7855571508407593
+    }
+  },
+  {
+    "text": "b'kann ich meine haustiere gegen das virus sch\\xc3\\xbctzen'",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9428569674491882
+    }
+  },
+  {
+    "text": "b'kann ich mich \\xc3\\xbcber verarbeitet tierprodukte anstecken'",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.5415673851966858
+    }
+  },
+  {
+    "text": "b'kann ich mich bei meinem haustier mit dem virus infizieren'",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.8068075180053711
+    }
+  },
+  {
+    "text": "b'kann mein haustier das virus \\xc3\\xbcbertragen'",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.8341219425201416
+    }
+  },
+  {
+    "text": "b'kann mein haustier mich mit corona anstecken'",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.8412941694259644
+    }
+  },
+  {
+    "text": "b'welche rolle spielen tiere bei der verbreitung des covid-19'",
+    "intent": "can_i_get_from_feces_animal_pets",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.5114827752113342
+    }
+  },
+  {
+    "text": "b'wie lange sollte ich keine oberfl\\xc3\\xa4che anfassen, um eine ansteckung mit corona zu vermeiden'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.36723756790161133
+    }
+  },
+  {
+    "text": "b'auf welche arten von oberfl\\xc3\\xa4che kann das coronavirus \\xc3\\xbcberleben'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "can_i_get_from_feces_animal_pets",
+      "confidence": 0.9943602085113525
+    }
+  },
+  {
+    "text": "b'bei welchen oberfl\\xc3\\xa4chen ist das virus resistent'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.9636600613594055
+    }
+  },
+  {
+    "text": "b'bleibt der coronavirus auf oberfl\\xc3\\xa4chen am leben'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.4694800078868866
+    }
+  },
+  {
+    "text": "b'coronavirus oberfl\\xc3\\xa4chen\\xc3\\xbcbertragung m\\xc3\\xb6glich'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6981098055839539
+    }
+  },
+  {
+    "text": "b'darf man die oberfl\\xc3\\xa4chen ohne handschuhe anfassen'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9553483724594116
+    }
+  },
+  {
+    "text": "b'in welche temperatur \\xc3\\xbcberlebt das virus noch'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.557900071144104
+    }
+  },
+  {
+    "text": "b'ist das virus auf oberfl\\xc3\\xa4chen lange \\xc3\\xbcberlebensf\\xc3\\xa4hig'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.30634868144989014
+    }
+  },
+  {
+    "text": "b'ist der virus  auch durch den versand von paketen  ansteckend'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.4984871447086334
+    }
+  },
+  {
+    "text": "b'ist eine ansteckung durch mein paket m\\xc3\\xb6glich'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9891664981842041
+    }
+  },
+  {
+    "text": "b'kann das corona durch m\\xc3\\xbcnzen oder geldscheine \\xc3\\xbcbertragen werden'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8510534167289734
+    }
+  },
+  {
+    "text": "b'kann das coronavirus auf\\xc3\\xbcrinkflaschen aus glas \\xc3\\xbcberleben'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.48713552951812744
+    }
+  },
+  {
+    "text": "b'kann ich mich \\xc3\\xbcber ein ausgeliehenes buch aus der bibliothek anstecken'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6407698392868042
+    }
+  },
+  {
+    "text": "b'kann ich mich beim anfassen von t\\xc3\\xbcrklinken anstecken'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9306869506835938
+    }
+  },
+  {
+    "text": "b'spielt die art der oberfl\\xc3\\xa4che eine rolle f\\xc3\\xbcr die \\xc3\\xbcberlebensdauer des virus'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.42973577976226807
+    }
+  },
+  {
+    "text": "b'verbreitet sich corona \\xc3\\xbcber die bel\\xc3\\xbcftungssysteme'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.4474472105503082
+    }
+  },
+  {
+    "text": "b'wie hoch ist das risiko sich \\xc3\\xbcber t\\xc3\\xbcrklinken anzustecken'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.37624436616897583
+    }
+  },
+  {
+    "text": "b'wie lang \\xc3\\xbcberlebt das virus auf edelstahl'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.3480079472064972
+    }
+  },
+  {
+    "text": "b'wie lange \\xc3\\xbcberlebt das virus auf obst und gem\\xc3\\xbcse'",
+    "intent": "can_i_get_from_packages_surfaces",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.37296298146247864
+    }
+  },
+  {
+    "text": "b'was kann ich machen, wenn ich in italien urlaub gemacht habe'",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.4569132626056671
+    }
+  },
+  {
+    "text": "b'welche konkreten ma\\xc3\\x9fnahmen muss ich beachten, wenn ich in einer roten zone war'",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6668782234191895
+    }
+  },
+  {
+    "text": "b'welche ma\\xc3\\x9fnahmen muss ich ergreifen, wenn ich mich in einem hochrisikogebiet befunden habe'",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.888235867023468
+    }
+  },
+  {
+    "text": "b'wie soll ich mich in hinblick auf die coronapandemie verhalten, wenn ich in spanien war'",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.4791768491268158
+    }
+  },
+  {
+    "text": "b'ma\\xc3\\x9fnahmen bei r\\xc3\\xbcckreise aus risikogebiet'",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4897449314594269
+    }
+  },
+  {
+    "text": "b'muss ich mich in selbstquarant\\xc3\\xa4ne begeben'",
+    "intent": "what_if_i_visited_high_risk_area",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.3913857042789459
+    }
+  },
+  {
+    "text": "b'braucht man bei corona infusionen'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.41864895820617676
+    }
+  },
+  {
+    "text": "b'gibt es ein medikament, die das coronavirus verlangsamen kann'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6788287162780762
+    }
+  },
+  {
+    "text": "b'gibt es schon eine impfung gegen corona'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.8090749979019165
+    }
+  },
+  {
+    "text": "b'hilft ingwer wirklich gegen coronavirus'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.5225684642791748
+    }
+  },
+  {
+    "text": "b'reicht ein starkes immunsystem aus, um nicht angesteckt zu werden'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.9650499224662781
+    }
+  },
+  {
+    "text": "b'wie wird man behandelt, wenn man corona hat'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.8836585283279419
+    }
+  },
+  {
+    "text": "b'gib mir behandlungsoptionen'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9219133853912354
+    }
+  },
+  {
+    "text": "b'gibt es andere heilmethoden als nur die beatmung'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.7818875908851624
+    }
+  },
+  {
+    "text": "b'gibt es bereits bekannte medikamente die bei diesem virus wirksam eingesetzt wurden'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.5168906450271606
+    }
+  },
+  {
+    "text": "b'gibt es schon anti-virale medikamente gegen corona'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6256449222564697
+    }
+  },
+  {
+    "text": "b'heilmethode f\\xc3\\xbcr coronavirus'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.23616397380828857
+    }
+  },
+  {
+    "text": "b'lassen sich die coronavirus-krankheit mit antibiotika behandeln'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.6812812089920044
+    }
+  },
+  {
+    "text": "b'was sind die ma\\xc3\\x9fnahmen zur heilung vom coronavirus'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4456007778644562
+    }
+  },
+  {
+    "text": "b'welche medikamente bekommt man nach einer infektion mit dem virus'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.7225469350814819
+    }
+  },
+  {
+    "text": "b'wie heilt man schnell das coronavirus'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.3152407109737396
+    }
+  },
+  {
+    "text": "b'wie kann man eine erkrankung mit corona behandeln'",
+    "intent": "what_are_treatment_options",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.7201507687568665
+    }
+  },
+  {
+    "text": "b'stimmt es, dass bill gates hinter allem steckt'",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.19989338517189026
+    }
+  },
+  {
+    "text": "b'stimmt es, dass flederm\\xc3\\xa4use corona \\xc3\\xbcbertragen'",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.33011478185653687
+    }
+  },
+  {
+    "text": "b'was sind die beliebtesten verschw\\xc3\\xb6rungstheorien im zusammenhang mit der coronapandemie'",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.4547657370567322
+    }
+  },
+  {
+    "text": "b'wer kann mir die wahrheit zu corona sagen'",
+    "intent": "myths",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.7310046553611755
+    }
+  },
+  {
+    "text": "b'kann ich meine familie mit dem auto besuchen'",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.5240402221679688
+    }
+  },
+  {
+    "text": "b'alle infos zu ausgangssperren und einschr\\xc3\\xa4nkungen'",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.20940151810646057
+    }
+  },
+  {
+    "text": "b'ich wollte im sommer urlaub in china machen. ist dies noch zu empfehlen'",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.3600178062915802
+    }
+  },
+  {
+    "text": "b'ist es sinnvoll keinen sommerurlaub zu buchen'",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.9803046584129333
+    }
+  },
+  {
+    "text": "b'ist mein flug nach amerika storniert worden'",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.6055477857589722
+    }
+  },
+  {
+    "text": "b'ist sylt noch immer f\\xc3\\xbcr besucher gesperrt'",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.7115567326545715
+    }
+  },
+  {
+    "text": "b'kann ich mein deutsche bahn sparpreis ticket stornieren'",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "donate",
+      "confidence": 0.6572698950767517
+    }
+  },
+  {
+    "text": "b'muss ich mir gedanken \\xc3\\xbcber meinen sommerurlaub machen'",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9647653102874756
+    }
+  },
+  {
+    "text": "b'wann darf man wieder in die usa einreisen'",
+    "intent": "travel",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.9589160084724426
+    }
+  },
+  {
+    "text": "b'bitte schick mir corona-nachrichten f\\xc3\\xbcr berlin'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.7364895939826965
+    }
+  },
+  {
+    "text": "b'die letzten nachrichten \\xc3\\xbcber corona bitte'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5712538957595825
+    }
+  },
+  {
+    "text": "b'erz\\xc3\\xa4hl mir die neuigkeiten in taiwan bitte'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.3556872606277466
+    }
+  },
+  {
+    "text": "b'gibt es ein update \\xc3\\xbcber die lage in new york'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.22645622491836548
+    }
+  },
+  {
+    "text": "b'gibt es entwicklungen bez\\xc3\\xbcglich des coronavirus in deutschland'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.3471556007862091
+    }
+  },
+  {
+    "text": "b'gibt es etwas neues \\xc3\\xbcber den coronavirus'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.6376421451568604
+    }
+  },
+  {
+    "text": "b'gibt es irgendwelche neuigkeiten \\xc3\\xbcber corona'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.7666860818862915
+    }
+  },
+  {
+    "text": "b'gibt es neuigkeiten bez\\xc3\\xbcglich der lockerung der schutzma??nahmen'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.8918531537055969
+    }
+  },
+  {
+    "text": "b'nenne mir aktuelle nachrichten \\xc3\\xbcber die weltweite coronaentwicklung'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.31724631786346436
+    }
+  },
+  {
+    "text": "b'wie ist die aktuelle lage bez\\xc3\\xbcglich des coronavirus in deutschland'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.33512017130851746
+    }
+  },
+  {
+    "text": "b'wie sind die aktuellen corona entwicklungen in deutschland'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.5308646559715271
+    }
+  },
+  {
+    "text": "b'zeig mir alle neuigkeiten aus den nachrichten zum virus'",
+    "intent": "news_and_press",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.3713653087615967
+    }
+  },
+  {
+    "text": "b'bitte diesen bot nicht teilen, er ist nicht aktuell und sehr dumm'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.6232773065567017
+    }
+  },
+  {
+    "text": "b'erkl\\xc3\\xa4re mir, wie es m\\xc3\\xb6glich ist, den service zu teilen'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.2734866142272949
+    }
+  },
+  {
+    "text": "b'bitte information \\xc3\\xbcber meine corona-erkarankung auf fb posten'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9108229875564575
+    }
+  },
+  {
+    "text": "b'bitte verteile diesen bot'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5367089509963989
+    }
+  },
+  {
+    "text": "b'den link weiterschicken'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.6106261610984802
+    }
+  },
+  {
+    "text": "b'die symptome des coronavirus auf facebook teilen'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "latest_numbers",
+      "confidence": 0.2772478759288788
+    }
+  },
+  {
+    "text": "b'ich m\\xc3\\xb6chte diesen who service teilen auf facebook'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.8441145420074463
+    }
+  },
+  {
+    "text": "b'leite diesen chat an andere weiter'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.23761434853076935
+    }
+  },
+  {
+    "text": "b'teile diese infos mit meiner freundesliste'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.442772775888443
+    }
+  },
+  {
+    "text": "b'teile diesen bot mit meinen whatsapp kontakten'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.5212835073471069
+    }
+  },
+  {
+    "text": "b'teile diesen link auf facebook mit all meinen freunden'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.48137423396110535
+    }
+  },
+  {
+    "text": "b'teilen sie die aktualisierten statistiken des coronavirus in der whatsapp-story'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.36100083589553833
+    }
+  },
+  {
+    "text": "b'wie kann ich diese information teilen'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "what_is_corona",
+      "confidence": 0.6793333888053894
+    }
+  },
+  {
+    "text": "b'wie kann ich diesen service mit meinen freunden teilen'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.4346267580986023
+    }
+  },
+  {
+    "text": "b'zeige das coronavirus update von worldometer.info auf meinem facebook'",
+    "intent": "share",
+    "intent_prediction": {
+      "name": "news_and_press",
+      "confidence": 0.9332847595214844
+    }
+  },
+  {
+    "text": "b'hallo blechdose'",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "okay_thanks",
+      "confidence": 0.7412598133087158
+    }
+  },
+  {
+    "text": "b'hey coronahilfe'",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "what_are_treatment_options",
+      "confidence": 0.32165849208831787
+    }
+  },
+  {
+    "text": "b'hey l\\xc3\\xbcgner'",
+    "intent": "hi",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.322815477848053
+    }
+  },
+  {
+    "text": "b'bot, du bist der beste'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.5177249312400818
+    }
+  },
+  {
+    "text": "b'danke doc, das hat mir sehr geholfen'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.4723477065563202
+    }
+  },
+  {
+    "text": "b'danke, dass du mir hilfst, corona doktor'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.24024124443531036
+    }
+  },
+  {
+    "text": "b'danke, jetzt f\\xc3\\xbchle ich mich sicherer'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.7492824792861938
+    }
+  },
+  {
+    "text": "b'du hast mir sehr geholfen bot, danke'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.9052319526672363
+    }
+  },
+  {
+    "text": "b'ich bedanke mich sehr, corona'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.6847319602966309
+    }
+  },
+  {
+    "text": "b'ich danke dir, corona doc'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "hi",
+      "confidence": 0.8756591081619263
+    }
+  },
+  {
+    "text": "b'danke f\\xc3\\xbcr alle diese n\\xc3\\xbctzliche informationen bot'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "what_if_i_visited_high_risk_area",
+      "confidence": 0.4383966326713562
+    }
+  },
+  {
+    "text": "b'danke f\\xc3\\xbcr deine unterst\\xc3\\xbctzung'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.9506088495254517
+    }
+  },
+  {
+    "text": "b'danke f\\xc3\\xbcr die antwort'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.3691251575946808
+    }
+  },
+  {
+    "text": "b'danke f\\xc3\\xbcr die neue informationen'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.2710900604724884
+    }
+  },
+  {
+    "text": "b'danke f\\xc3\\xbcr die tipps'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "myths",
+      "confidence": 0.6961952447891235
+    }
+  },
+  {
+    "text": "b'danke und bis zur n\\xc3\\xa4chsten sprechstunde'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "how_does_corona_spread",
+      "confidence": 0.5537211298942566
+    }
+  },
+  {
+    "text": "b'herzlichen dank doktor'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4871702492237091
+    }
+  },
+  {
+    "text": "b'ich m\\xc3\\xb6chte ihnen f\\xc3\\xbcr ihre hilfe danken'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.8441444039344788
+    }
+  },
+  {
+    "text": "b'vielen dank f\\xc3\\xbcr deine vielen informationen'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "donate",
+      "confidence": 0.3626214563846588
+    }
+  },
+  {
+    "text": "b'vielen dank f\\xc3\\xbcr die infos'",
+    "intent": "okay_thanks",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4905521273612976
+    }
+  },
+  {
+    "text": "b'in der covid-19 krise arme l\\xc3\\xa4nder finanziell unterscht\\xc3\\xbctzen'",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.3605234622955322
+    }
+  },
+  {
+    "text": "b'gibt es einen spendenfond f\\xc3\\xbcr lokale unternehmen in frankfurt'",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.2878292500972748
+    }
+  },
+  {
+    "text": "b'ich m\\xc3\\xb6chte die bek\\xc3\\xa4mpfung des virus f\\xc3\\xbcrdern'",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.4772811233997345
+    }
+  },
+  {
+    "text": "b'ich w\\xc3\\xbcrde gerne f\\xc3\\xbcr die betroffenen in italien spenden'",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "what_are_symptoms",
+      "confidence": 0.3285405933856964
+    }
+  },
+  {
+    "text": "b'ich will eine spende f\\xc3\\xbcr das deutsche rote kreuz taetigen'",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.606894850730896
+    }
+  },
+  {
+    "text": "b'sind auch sachspenden m\\xc3\\xb6glich'",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "protect_yourself",
+      "confidence": 0.98647540807724
+    }
+  },
+  {
+    "text": "b'wie kann ich f\\xc3\\xbcr die leute in italien spenden'",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "can_i_get_from_packages_surfaces",
+      "confidence": 0.24736672639846802
+    }
+  },
+  {
+    "text": "b'wie spende ich an die who'",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.6032877564430237
+    }
+  },
+  {
+    "text": "b'wie viel geld sollte man jetzt spenden'",
+    "intent": "donate",
+    "intent_prediction": {
+      "name": "travel",
+      "confidence": 0.5861945152282715
+    }
+  }
+]
